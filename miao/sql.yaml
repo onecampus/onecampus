@@ -57,3 +57,9 @@ Message:  # 待定, 是否需要
   to_uid: 接收者id
   content: 消息内容
   msg_type: 消息类型(系统消息, 其他人关注了你的消息提醒, 留言)
+
+Twitter:  # 发推
+  user_id: 用户id(users表外键, 非uid)
+  content: 内容
+  source: 内容来源(owner/forward)
+  url: 地址
