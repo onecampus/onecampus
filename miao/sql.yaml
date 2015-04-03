@@ -1,0 +1,58 @@
+
+User:
+  last_name: 姓
+  first_name: 名
+  uid: 用户ID
+  salt: 加密盐值
+  pass: 密码
+  avatar: 头像
+  email: 邮箱
+  age: 年龄
+  university: 大学
+  address_current: 当前位置, 包括{longitude, latitude}
+  birthday: 生日
+  # tel: 电话
+  mobile: 手机号
+  gender: male/female
+  access_token: access token
+  expiration_time: access token 过期时间
+  last_ip: 最后登录ip
+  register_status: active/deactive
+  last_sign_in_at: 最后登录时间
+  language: 语言
+  register_type: 注册方式(email/mobile/qq/wechat/sina/github/facebook/twitter)
+  # mobile_code: 手机注册码(是否放redis)
+  personalized_signature: 个性签名
+  country: 国家
+  province: 省
+  city: 市
+  region: 区
+  postcode: 邮编
+
+ThirdLogin:  # one to many
+  user_id: 用户id(users表外键, 非uid)
+  uname: 用户名
+  auth_token: auth token
+  refresh_token: refresh token
+  open_id: open id
+  site: auth站点(qq, wechat, sina, github)
+  expiration_time: auth token 过期时间
+  version: auth 版本
+
+Address:  # one to many
+  user_id: 用户id(users表外键, 非uid)
+  longitude: 经度
+  latitude: 纬度
+
+Collection:  # 收藏
+  user_id: 用户id(users表外键, 非uid)
+
+Follow:  # 使用acts_as_follower实现
+  user_id: 用户id(users表外键, 非uid)
+
+
+Message:  # 待定, 是否需要
+  from_uid: 发送者id
+  to_uid: 接收者id
+  content: 消息内容
+  msg_type: 消息类型(系统消息, 其他人关注了你的消息提醒, 留言)
