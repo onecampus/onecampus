@@ -2,6 +2,7 @@
 User:
   last_name: 姓
   first_name: 名
+  nickname: 昵称
   uid: 用户ID
   salt: 加密盐值
   pass: 密码
