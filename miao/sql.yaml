@@ -2,7 +2,7 @@
 User:
   last_name: 姓
   first_name: 名
-  nickname: 昵称
+  nick_name: 昵称
   uid: 用户ID
   salt: 加密盐值
   pass: 密码
@@ -17,7 +17,7 @@ User:
   gender: male/female
   access_token: access token
   expiration_time: access token 过期时间
-  last_ip: 最后登录ip
+  last_login_ip: 最后登录ip
   register_status: active/deactive
   last_sign_in_at: 最后登录时间
   language: 语言
@@ -63,3 +63,8 @@ Twitter:  # 发推
   content: 内容
   source: 内容来源(owner/forward)
   url: 地址
+
+TwitterVote:
+  twitter_id: twitter id(外键)
+  user_id: 用户id(users表外键, 非uid)
+  vote_type: forward/star/tree_hole
