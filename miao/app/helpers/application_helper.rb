@@ -2,34 +2,30 @@
 #
 module ApplicationHelper
 
-  # Returns true if the user is logged in, false otherwise.
-  def logged_in?
-    !current_user.nil?
-  end
-
-  def require_login
-    unauthenticated unless current_user
-  end
-
-  def unauthenticated
-    render text: 'unauthenticated', status: :unauthorized
-  end
-
-  def http_auth_content
-    return @http_auth_token if defined? @http_auth_token
-    @http_auth_token = begin
-      if params[:auth_token].present?
-        params[:auth_token]
+  def http_access_content
+    return @http_access_token if defined? @http_access_token
+    @http_access_token = begin
+      if params[:access_token].present?
+        params[:access_token]
       elsif request.headers['Authorization'].present?
         request.headers['Authorization'].split(' ').last
       else
-        # fail NoAuthTokenError
-        nil
+        fail NoAuthTokenError
       end
     end
   end
 
   def set_locale
     I18n.locale = params[:locale] || I18n.default_locale
+  end
+
+  def access_token_expired?
+    unless @current_user.blank?
+      unless @current_user.expiration_time.blank?
+        @current_user.expiration_time.to_i <= Time.now.to_i
+      end
+    else
+      fail NotAuthenticatedError
+    end
   end
 end

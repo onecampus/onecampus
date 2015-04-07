@@ -10,59 +10,72 @@ class ApplicationController < ActionController::Base
 	before_action :authenticate_request
 
 	rescue_from NotAuthenticatedError do
-	  render json: { error: 'Not Authorized' }, status: :unauthorized
+	  render json:  {
+					  status: 'error',
+					  code: 401,
+					  msg: 'Not Authorized.',
+					  data: nil,
+					  links: {}
+					}, status: :unauthorized
 	end
 
 	rescue_from AuthenticationTimeoutError do
-	  render json: { error: 'Auth token is expired' }, status: 419
+	  render json:  {
+					  status: 'error',
+					  code: 419,
+					  msg: 'Access token is expired.',
+					  data: nil,
+					  links: {}
+					}, status: 419
 	end
 
 	rescue_from NoAuthTokenError do
-	  render json: { error: 'Auth token is not sent' }, status: 418
+	  render json:  {
+					  status: 'error',
+					  code: 418,
+					  msg: 'Access token is not sent.',
+					  data: nil,
+					  links: {}
+					}, status: 418
 	end
 
 	rescue_from ActiveRecord::RecordNotFound do
-	  render json: { error: 'Record not found' }, status: :not_found
+	  render json:  {
+					  status: 'error',
+					  code: 404,
+					  msg: 'Record not found.',
+					  data: nil,
+					  links: {}
+					}, status: :not_found
 	end
 
 	layout false
 
 	def method_missing
-	  render json: { error: '404' }, status: :not_found
-	end
-
-	protected
-
-	# In Rails 4.2 and above for angular X-XSRF-TOKEN
-	def verified_request?
-	  super || valid_authenticity_token?(session, request.headers['X-XSRF-TOKEN'])
+	  render json:  {
+					  status: 'error',
+					  code: 404,
+					  msg: 'Not found.',
+					  data: nil,
+					  links: {}
+					}, status: :not_found
 	end
 
 	private
 
 	# Based on the user_id inside the token payload, find the user.
 	def set_current_user
-	  @auth_token = http_auth_content
-	  unless @auth_token.blank?
-	    @current_user ||= User.where(auth_token: @auth_token).first
+	  @access_token = http_access_content
+	  unless @access_token.blank?
+	    @current_user ||= User.where(access_token: @access_token).first
 	  end
 	end
 
 	def authenticate_request
 	  if !@current_user
 	    fail NotAuthenticatedError
-	  elsif auth_token_expired?
+	  elsif access_token_expired?
 		fail AuthenticationTimeoutError
-	  end
-	end
-
-	def auth_token_expired?
-	  unless @current_user.blank?
-		unless @current_user.expiration_time.blank?
-		  @current_user.expiration_time.to_i <= Time.now.to_i
-		end
-	  else
-		fail NotAuthenticatedError
 	  end
 	end
 end
