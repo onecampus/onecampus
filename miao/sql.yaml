@@ -12,7 +12,7 @@ User:
   university: 大学
   address_current: 当前位置, 包括{longitude, latitude}
   birthday: 生日
-  # tel: 电话
+  tel: 电话
   mobile: 手机号
   gender: male/female
   access_token: access token

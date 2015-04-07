@@ -1,0 +1,2 @@
+class NoAuthTokenError < StandardError
+end

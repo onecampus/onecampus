@@ -1,0 +1,61 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  last_name: MyString
+  first_name: MyString
+  nick_name: MyString
+  uid: MyString
+  salt: MyString
+  pass: MyString
+  avatar: MyString
+  email: MyString
+  age: 1
+  university: MyString
+  address_current: MyString
+  birthday: 2015-04-07 16:24:48
+  mobile: MyString
+  gender: MyString
+  access_token: MyString
+  expiration_time: 2015-04-07 16:24:48
+  last_login_ip: MyString
+  register_status: MyString
+  last_sign_in_at: 2015-04-07 16:24:48
+  language: MyString
+  register_type: MyString
+  personalized_signature: MyText
+  country: MyString
+  province: MyString
+  city: MyString
+  region: MyString
+  postcode: MyString
+  tel: MyString
+
+two:
+  last_name: MyString
+  first_name: MyString
+  nick_name: MyString
+  uid: MyString
+  salt: MyString
+  pass: MyString
+  avatar: MyString
+  email: MyString
+  age: 1
+  university: MyString
+  address_current: MyString
+  birthday: 2015-04-07 16:24:48
+  mobile: MyString
+  gender: MyString
+  access_token: MyString
+  expiration_time: 2015-04-07 16:24:48
+  last_login_ip: MyString
+  register_status: MyString
+  last_sign_in_at: 2015-04-07 16:24:48
+  language: MyString
+  register_type: MyString
+  personalized_signature: MyText
+  country: MyString
+  province: MyString
+  city: MyString
+  region: MyString
+  postcode: MyString
+  tel: MyString
