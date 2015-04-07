@@ -63,8 +63,17 @@ Twitter:  # 发推
   content: 内容
   source: 内容来源(owner/forward)
   url: 地址
+  anonymous: 是否匿名
 
 TwitterVote:
   twitter_id: twitter id(外键)
   user_id: 用户id(users表外键, 非uid)
-  vote_type: forward/star/tree_hole
+  vote_type: forward/star/tree_hole()
+
+Comment:  # acts_as_commentable_with_threading 实现
+
+TreeHole:  # 树洞
+  name: 树洞名称
+  intro: 树洞简介
+  created_by: 树洞创建者
+  avatar: 树洞logo
