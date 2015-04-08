@@ -10,25 +10,25 @@ class ApplicationController < ActionController::Base
 	before_action :authenticate_request
 
 	rescue_from NotAuthenticatedError do
-    render_fail_json(401, 'Not Authorized.')
+    render_fail_json('Not Authorized.')
 	end
 
 	rescue_from AuthenticationTimeoutError do
-    render_fail_json(419, 'Access token is expired.')
+    render_fail_json('Access token is expired.', 419, :token_expired)
 	end
 
 	rescue_from NoAuthTokenError do
-    render_fail_json(418, 'Access token is not sent.')
+    render_fail_json('Access token is not sent.', 418, :none_token)
 	end
 
 	rescue_from ActiveRecord::RecordNotFound do
-    render_fail_json(404, 'Record not found.')
+    render_fail_json('Record not found.', 404, :not_found)
 	end
 
 	layout false
 
 	def method_missing
-    render_fail_json(404, 'Not found.')
+    render_fail_json('Not found.', 404, :not_found)
 	end
 
 	private

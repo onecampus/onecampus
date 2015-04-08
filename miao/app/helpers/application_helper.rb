@@ -29,35 +29,35 @@ module ApplicationHelper
     end
   end
 
-  def render_success_json(msg = '', data = nil, links = nil)
+  def render_success_json(msg = '', code = 200, status = :ok, data = nil, links = nil)
     render  json: {
               status: 'success',
-              code: 200,
+              code: code,
               msg: msg,
               data: data,
               links: links
-            }, status: 200
+            }, status: status
   end
 
   # 400 - 500
-  def render_fail_json(code = 401, msg = '', data = nil, links = nil)
+  def render_fail_json(msg = '', code = 401, status = :unauthorized, data = nil, links = nil)
     render  json: {
               status: 'fail',
               code: code,
               msg: msg,
               data: data,
               links: links
-            }, status: code
+            }, status: status
   end
 
   # 500 +
-  def render_error_json(code = 500, msg = '', data = nil, links = nil)
+  def render_error_json(msg = '', code = 500, status = :internal_server_error, data = nil, links = nil)
     render  json: {
               status: 'error',
               code: code,
               msg: msg,
               data: data,
               links: links
-            }, status: code
+            }, status: status
   end
 end

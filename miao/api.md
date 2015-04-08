@@ -19,14 +19,16 @@
 }
 ```
 
-### 错误码
+### 错误码, 参考[rails render](http://guides.rubyonrails.org/layouts_and_rendering.html)
 
-HTTP返回码 | 描述
----|---
-200 | ok
-404 | 数据库记录404
-404 | url404
-401 | 未授权
-418 | access_token未发送
-419 | access_token已过期
-501 | 退出失败
+HTTP返回码 | 描述 | 符号
+---|---|---
+200 | 成功 | :ok
+201 | 数据新建成功 | :created
+404 | 数据库记录404 | :not_found
+404 | url404 | :not_found
+401 | 未授权 | :unauthorized
+418 | access_token未发送(自定义) | :none_token
+419 | access_token已过期(自定义) | :token_expired
+500 | 服务器内部错误 | :internal_server_error
+501 | 未实现 | :not_implemented

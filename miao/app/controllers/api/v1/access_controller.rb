@@ -12,9 +12,9 @@ class Api::V1::AccessController < ApplicationController
       data = { access_token: user.access_token,
                expiration_time: user.expiration_time,
                current_user: user }
-      render_success_json('Login success.', data)
+      render_success_json('Login success.', 200, :ok, data)
 		else
-      render_fail_json(401, 'Invalid mobile or password.')
+      render_fail_json('Invalid mobile or password.')
 		end
 	end
 
@@ -23,7 +23,7 @@ class Api::V1::AccessController < ApplicationController
     if @current_user.save!
       render_success_json('Logout success.')
     else
-      render_error_json(501, 'Logout fail.')
+      render_error_json('Logout fail.')
     end
 	end
 

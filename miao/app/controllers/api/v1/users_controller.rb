@@ -4,7 +4,7 @@
 # License:: Distributes under the same terms as Ruby
 # Api of users
 class Api::V1::UsersController < ApplicationController
-	# skip_before_action :authenticate_request, only: [:ajax_img_upload]
+	skip_before_action :authenticate_request
 	before_action :set_user, only: [:show, :update_avatar, :update_pass, :destroy]
 
 	def index
@@ -12,13 +12,8 @@ class Api::V1::UsersController < ApplicationController
 		per_page = params[:per_page]
 		offset = params[:offset]
 		@users = User.page(page).per(per_page).padding(offset).order('id DESC')
-    render  json: {
-              status: 'success',
-              code: 200,
-              msg: 'User list.',
-              data: { users: @users, total_count: User.all.count },
-              links: {}
-            }, status: 200
+    data = { users: @users, total_count: User.all.count }
+    render_success_json('User list.', data)
 	end
 
 	def show
@@ -30,9 +25,9 @@ class Api::V1::UsersController < ApplicationController
 		@user.password = User.hash_password @user.password
 		@user.auth_token = User.generate_auth_token
 		if @user.save
-			render json: { status: :created }, status: :ok
+			render json: { status: :created }, status: 201
 		else
-			render json: @user.errors, status: :unprocessable_entity
+			render json: @user.errors, status: 201
 		end
 	end
 
