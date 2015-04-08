@@ -10,60 +10,59 @@ class ApplicationController < ActionController::Base
 	before_action :authenticate_request
 
 	rescue_from NotAuthenticatedError do
-	  render json:  {
-					  status: 'error',
-					  code: 401,
-					  msg: 'Not Authorized.',
-					  data: nil,
-					  links: {}
-					}, status: :unauthorized
+	  render  json: {
+  					  status: 'error',
+  					  code: 401,
+  					  msg: 'Not Authorized.',
+  					  data: nil,
+  					  links: {}
+  					}, status: :unauthorized
 	end
 
 	rescue_from AuthenticationTimeoutError do
-	  render json:  {
-					  status: 'error',
-					  code: 419,
-					  msg: 'Access token is expired.',
-					  data: nil,
-					  links: {}
-					}, status: 419
+	  render  json: {
+  					  status: 'error',
+  					  code: 419,
+  					  msg: 'Access token is expired.',
+  					  data: nil,
+  					  links: {}
+  					}, status: 419
 	end
 
 	rescue_from NoAuthTokenError do
-	  render json:  {
-					  status: 'error',
-					  code: 418,
-					  msg: 'Access token is not sent.',
-					  data: nil,
-					  links: {}
-					}, status: 418
+	  render  json: {
+  					  status: 'error',
+  					  code: 418,
+  					  msg: 'Access token is not sent.',
+  					  data: nil,
+  					  links: {}
+  					}, status: 418
 	end
 
 	rescue_from ActiveRecord::RecordNotFound do
-	  render json:  {
-					  status: 'error',
-					  code: 404,
-					  msg: 'Record not found.',
-					  data: nil,
-					  links: {}
-					}, status: :not_found
+	  render  json: {
+  					  status: 'error',
+  					  code: 404,
+  					  msg: 'Record not found.',
+  					  data: nil,
+  					  links: {}
+  					}, status: :not_found
 	end
 
 	layout false
 
 	def method_missing
-	  render json:  {
-					  status: 'error',
-					  code: 404,
-					  msg: 'Not found.',
-					  data: nil,
-					  links: {}
-					}, status: :not_found
+	  render  json: {
+  					  status: 'error',
+  					  code: 404,
+  					  msg: 'Not found.',
+  					  data: nil,
+  					  links: {}
+  					}, status: :not_found
 	end
 
 	private
 
-	# Based on the user_id inside the token payload, find the user.
 	def set_current_user
 	  @access_token = http_access_content
 	  unless @access_token.blank?
@@ -75,7 +74,7 @@ class ApplicationController < ActionController::Base
 	  if !@current_user
 	    fail NotAuthenticatedError
 	  elsif access_token_expired?
-		fail AuthenticationTimeoutError
+		  fail AuthenticationTimeoutError
 	  end
 	end
 end

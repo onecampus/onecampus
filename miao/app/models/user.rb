@@ -10,15 +10,16 @@ class User < ActiveRecord::Base
   validates :uid, :pass, :mobile, presence: true
   validates :pass, length: { in: 4..128 }
   validates :uid, length: { in: 4..20 }
-  validates :uid, :mobile, uniqueness: true
+  validates :uid, :mobile, :email, uniqueness: true
+  validates :email, email: true
 
-  def self.hash_password(pass, salt)
+  def self.hash_password(pass, salt = 'flowerwrong')
     Digest::SHA256.hexdigest(pass + salt)
   end
 
-  def self.authentication(email, pass, salt)
-    user = User.where(email: email).first
-    if user && Digest::SHA256.hexdigest(pass + salt) == user.password
+  def self.authentication(mobile, pass, salt = 'flowerwrong')
+    user = User.where(mobile: mobile).first
+    if user && Digest::SHA256.hexdigest(pass + salt) == user.pass
       return user
     end
     nil

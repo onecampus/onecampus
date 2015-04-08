@@ -237,3 +237,63 @@ user_with_pass_length_less_4:
   region: MyString
   postcode: MyString
   tel: MyString
+
+flowerwrong:
+  last_name: 杨
+  first_name: 浮生
+  nick_name: 浮生
+  uid: flowerwrong
+  salt: flowerwrong
+  pass: 8d078cde66d2efc5984a09906bb5517175cd65b3c65e0e22ea87b51e1178c5fa
+  avatar: test.png
+  email: yk@gmail.com
+  age: 22
+  university: MyString
+  address_current: MyString
+  birthday: 2015-04-07 16:24:48
+  mobile: 13560474456
+  gender: MyString
+  access_token: O4K4EGheju926VhH67KXOQ
+  expiration_time: <%= DateTime.now + 10.days %>
+  last_login_ip: MyString
+  register_status: active
+  last_sign_in_at: 2015-04-07 16:24:48
+  language: zh_CN
+  register_type: mobile
+  personalized_signature: MyText
+  country: MyString
+  province: MyString
+  city: MyString
+  region: MyString
+  postcode: MyString
+  tel: MyString
+
+user_with_invilde_email:
+  last_name: MyString
+  first_name: MyString
+  nick_name: MyString
+  uid: struid
+  salt: MyString
+  pass: MyString
+  avatar: MyString
+  email: MyString
+  age: 1
+  university: MyString
+  address_current: MyString
+  birthday: 2015-04-07 16:24:48
+  mobile: 136
+  gender: MyString
+  access_token: MyString
+  expiration_time: 2015-04-07 16:24:48
+  last_login_ip: MyString
+  register_status: MyString
+  last_sign_in_at: 2015-04-07 16:24:48
+  language: MyString
+  register_type: MyString
+  personalized_signature: MyText
+  country: MyString
+  province: MyString
+  city: MyString
+  region: MyString
+  postcode: MyString
+  tel: MyString

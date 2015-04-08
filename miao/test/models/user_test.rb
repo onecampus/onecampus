@@ -41,4 +41,12 @@ class UserTest < ActiveSupport::TestCase
   test "should not save user with pass length less" do
     assert_not @user_with_pass_length_less_4.save
   end
+
+  test "should not save user with invilde email address" do
+    assert_not @user_with_invilde_email.save
+  end
+
+  test "hash password" do
+    assert_equal '8d078cde66d2efc5984a09906bb5517175cd65b3c65e0e22ea87b51e1178c5fa', User.hash_password('123456')
+  end
 end
