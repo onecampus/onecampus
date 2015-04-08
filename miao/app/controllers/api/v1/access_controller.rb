@@ -67,9 +67,7 @@ class Api::V1::AccessController < ApplicationController
 
   # 延长用户token存活期
 	def touch_exp_time(user)
-		if user.expiration_time.to_i <= Time.now.to_i
-  		user.expiration_time = DateTime.now + 10.days
-    end
+		user.expiration_time = (DateTime.now + 10.days) if user.expiration_time.to_i <= Time.now.to_i
 	end
 
   # 更新用户最后一次登录的资料
