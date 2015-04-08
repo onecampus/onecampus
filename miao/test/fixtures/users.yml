@@ -4,7 +4,96 @@ one:
   last_name: MyString
   first_name: MyString
   nick_name: MyString
+  uid: struid
+  salt: MyString
+  pass: MyString
+  avatar: MyString
+  email: MyString
+  age: 1
+  university: MyString
+  address_current: MyString
+  birthday: 2015-04-07 16:24:48
+  mobile: 136
+  gender: MyString
+  access_token: MyString
+  expiration_time: 2015-04-07 16:24:48
+  last_login_ip: MyString
+  register_status: MyString
+  last_sign_in_at: 2015-04-07 16:24:48
+  language: MyString
+  register_type: MyString
+  personalized_signature: MyText
+  country: MyString
+  province: MyString
+  city: MyString
+  region: MyString
+  postcode: MyString
+  tel: MyString
+
+two:
+  last_name: MyString
+  first_name: MyString
+  nick_name: MyString
+  uid: struid
+  salt: MyString
+  pass: MyString
+  avatar: MyString
+  email: MyString
+  age: 1
+  university: MyString
+  address_current: MyString
+  birthday: 2015-04-07 16:24:48
+  mobile: 135
+  gender: MyString
+  access_token: MyString
+  expiration_time: 2015-04-07 16:24:48
+  last_login_ip: MyString
+  register_status: MyString
+  last_sign_in_at: 2015-04-07 16:24:48
+  language: MyString
+  register_type: MyString
+  personalized_signature: MyText
+  country: MyString
+  province: MyString
+  city: MyString
+  region: MyString
+  postcode: MyString
+  tel: MyString
+
+three:
+  last_name: MyString
+  first_name: MyString
+  nick_name: MyString
   uid: MyString
+  salt: MyString
+  pass: MyString
+  avatar: MyString
+  email: MyString
+  age: 1
+  university: MyString
+  address_current: MyString
+  birthday: 2015-04-07 16:24:48
+  mobile: 136
+  gender: MyString
+  access_token: MyString
+  expiration_time: 2015-04-07 16:24:48
+  last_login_ip: MyString
+  register_status: MyString
+  last_sign_in_at: 2015-04-07 16:24:48
+  language: MyString
+  register_type: MyString
+  personalized_signature: MyText
+  country: MyString
+  province: MyString
+  city: MyString
+  region: MyString
+  postcode: MyString
+  tel: MyString
+
+user_without_uid:
+  last_name: MyString
+  first_name: MyString
+  nick_name: MyString
   salt: MyString
   pass: MyString
   avatar: MyString
@@ -30,13 +119,102 @@ one:
   postcode: MyString
   tel: MyString
 
-two:
+user_without_pass:
   last_name: MyString
   first_name: MyString
   nick_name: MyString
-  uid: MyString
+  uid: struid
+  salt: MyString
+  avatar: MyString
+  email: MyString
+  age: 1
+  university: MyString
+  address_current: MyString
+  birthday: 2015-04-07 16:24:48
+  mobile: 136
+  gender: MyString
+  access_token: MyString
+  expiration_time: 2015-04-07 16:24:48
+  last_login_ip: MyString
+  register_status: MyString
+  last_sign_in_at: 2015-04-07 16:24:48
+  language: MyString
+  register_type: MyString
+  personalized_signature: MyText
+  country: MyString
+  province: MyString
+  city: MyString
+  region: MyString
+  postcode: MyString
+  tel: MyString
+
+user_without_mobile:
+  last_name: MyString
+  first_name: MyString
+  nick_name: MyString
+  uid: struid
   salt: MyString
   pass: MyString
+  avatar: MyString
+  email: MyString
+  age: 1
+  university: MyString
+  address_current: MyString
+  birthday: 2015-04-07 16:24:48
+  gender: MyString
+  access_token: MyString
+  expiration_time: 2015-04-07 16:24:48
+  last_login_ip: MyString
+  register_status: MyString
+  last_sign_in_at: 2015-04-07 16:24:48
+  language: MyString
+  register_type: MyString
+  personalized_signature: MyText
+  country: MyString
+  province: MyString
+  city: MyString
+  region: MyString
+  postcode: MyString
+  tel: MyString
+
+user_with_uid_length_less_4:
+  last_name: MyString
+  first_name: MyString
+  nick_name: MyString
+  uid: a
+  salt: MyString
+  pass: MyString
+  avatar: MyString
+  email: MyString
+  age: 1
+  university: MyString
+  address_current: MyString
+  birthday: 2015-04-07 16:24:48
+  mobile: MyString
+  gender: MyString
+  access_token: MyString
+  expiration_time: 2015-04-07 16:24:48
+  last_login_ip: MyString
+  register_status: MyString
+  last_sign_in_at: 2015-04-07 16:24:48
+  language: MyString
+  register_type: MyString
+  personalized_signature: MyText
+  country: MyString
+  province: MyString
+  city: MyString
+  region: MyString
+  postcode: MyString
+  tel: MyString
+
+
+user_with_pass_length_less_4:
+  last_name: MyString
+  first_name: MyString
+  nick_name: MyString
+  uid: a
+  salt: MyString
+  pass: a
   avatar: MyString
   email: MyString
   age: 1

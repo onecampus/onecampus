@@ -4,7 +4,7 @@ class Api::V1::UsersControllerTest < ActionController::TestCase
   self.use_instantiated_fixtures = true
 
   def setup
-    @request.headers['Authorization'] = 'Basic 848dpYnHGcw9xon8Q3K_Eg'
+    @request.headers['Authorization'] = 'Basic O4K4EGheju926VhH67KXOQ'
   end
 
   def teardown
