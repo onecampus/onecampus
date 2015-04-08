@@ -1,7 +1,7 @@
 # All app helper
 #
 module ApplicationHelper
-
+  # 活取用户发送的access_token
   def http_access_content
     return @http_access_token if defined? @http_access_token
     @http_access_token = begin
@@ -15,10 +15,12 @@ module ApplicationHelper
     end
   end
 
+  # 设置本地化
   def set_locale
     I18n.locale = params[:locale] || I18n.default_locale
   end
 
+  # 判断token是否过期
   def access_token_expired?
     unless @current_user.blank?
       unless @current_user.expiration_time.blank?

@@ -5,6 +5,8 @@
 # Api of access
 class Api::V1::AccessController < ApplicationController
 	skip_before_action :authenticate_request, only: [:create]
+
+  # 用户登录
 	def create
 		user = User.authentication(login_params[:mobile], login_params[:pass])
 		if user
@@ -18,6 +20,7 @@ class Api::V1::AccessController < ApplicationController
 		end
 	end
 
+  # 用户退出
 	def destroy
     @current_user.access_token = User.generate_access_token
     if @current_user.save!
@@ -33,6 +36,7 @@ class Api::V1::AccessController < ApplicationController
 		params.require(:login).permit(:mobile, :pass)
 	end
 
+  # 延长用户token存活期
 	def touch_exp_time(user)
 		if user.expiration_time.to_i <= Time.now.to_i
   		user.expiration_time = DateTime.now + 10.days

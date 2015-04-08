@@ -7,6 +7,7 @@ class Api::V1::UsersController < ApplicationController
 	# skip_before_action :authenticate_request
 	before_action :set_user, only: [:show, :update_avatar, :update_pass, :destroy]
 
+  # 用户列表
 	def index
 		page = params[:page]
 		per_page = params[:per_page]
@@ -16,10 +17,12 @@ class Api::V1::UsersController < ApplicationController
     render_success_json('User list.', :ok, data)
 	end
 
+  # 获取用户资料
 	def show
     render_success_json('One user.', :ok, { user: @user })
 	end
 
+  # 创建用户
 	def create
 		@user = User.new(user_params)
 		@user.pass = User.hash_password @user.pass
@@ -31,29 +34,32 @@ class Api::V1::UsersController < ApplicationController
 		end
 	end
 
-	def ajax_img_upload
+  # 上传用户头像, no test
+	def avatar_uploader
 		image = AvatarUploader.new
-		image.store!(params[:file])
-		return_hash = {
+		image.store!(params[:avatar])
+		data = {
 			state: 'success',
 			url: image.url,
 			title: image.filename
 		}
-    render_success_json('User create success.', :created, return_hash)
+    render_success_json('User avatar create success.', :created, data)
 	end
 
+  # 更新用户头像, no test
 	def update_avatar
 		if @current_user.id != @user.id
       render_fail_json('Not current user.', :forbidden)
 		else
 			if @user.update user_params
-				render json: { status: :avatar_updated }, status: :ok
+        render_success_json('User avatar success.', :ok)
 			else
-				render json: @user.errors, status: :unprocessable_entity
+        render_fail_json('User avatar update fail.', :unprocessable_entity, { errors: @user.errors})
 			end
 		end
 	end
 
+  # 更新用户密码
 	def update_pass
 		if @current_user.id != @user.id
       render_fail_json('Not current user.', :forbidden)
@@ -67,6 +73,7 @@ class Api::V1::UsersController < ApplicationController
 		end
 	end
 
+  # 删除用户
 	def destroy
 		if @user.destroy
       render_success_json('User destroied success.')
