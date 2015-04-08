@@ -27,6 +27,7 @@ class Api::V1::UsersController < ApplicationController
 		@user = User.new(user_params)
 		@user.pass = User.hash_password @user.pass
 		@user.access_token = User.generate_access_token
+    @user.expiration_time = DateTime.now + 10.days
 		if @user.save
       render_success_json('User create success.', :created, { user: @user })
 		else

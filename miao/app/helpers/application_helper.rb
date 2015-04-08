@@ -41,6 +41,7 @@ module ApplicationHelper
       none_token: 418,
       token_expired: 419,
       unprocessable_entity: 422,
+      already_registered: 451,
       internal_server_error: 500,
       not_implemented: 501
     }

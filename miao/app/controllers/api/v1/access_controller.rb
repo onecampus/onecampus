@@ -4,10 +4,10 @@
 # License:: Distributes under the same terms as Ruby
 # Api of access
 class Api::V1::AccessController < ApplicationController
-	skip_before_action :authenticate_request, only: [:create]
+	skip_before_action :authenticate_request, only: [:login, :register]
 
   # 用户登录
-	def create
+	def login
 		user = User.authentication(login_params[:mobile], login_params[:pass])
 		if user
 			touch_exp_time user
@@ -20,8 +20,26 @@ class Api::V1::AccessController < ApplicationController
 		end
 	end
 
+  # 用户注册
+  def register
+    u_flag = already_exist_user?(register_params[:mobile])
+    if u_flag
+      render_fail_json('Already registered.', :already_registered)
+    else
+      u = User.new(register_params)
+      u.pass = User.hash_password u.pass
+      u.access_token = User.generate_access_token
+      u.expiration_time = DateTime.now + 10.days
+      if u.save
+        render_success_json('User registered success.', :created, { user: u })
+      else
+        render_fail_json('User registered fail.', :unprocessable_entity, { errors: u.errors})
+      end
+    end
+  end
+
   # 用户退出
-	def destroy
+	def logout
     @current_user.access_token = User.generate_access_token
     if @current_user.save!
       render_success_json('Logout success.')
@@ -32,9 +50,22 @@ class Api::V1::AccessController < ApplicationController
 
 	private
 
+  def already_exist_user?(mobile)
+    already_exist_user = User.where(mobile: mobile)
+    if already_exist_user.blank?
+      false
+    else
+      true
+    end
+  end
+
 	def login_params
 		params.require(:login).permit(:mobile, :pass)
 	end
+
+  def register_params
+    params.require(:register).permit(:mobile, :pass)
+  end
 
   # 延长用户token存活期
 	def touch_exp_time(user)

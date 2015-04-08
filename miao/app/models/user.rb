@@ -8,11 +8,11 @@ end
 
 class User < ActiveRecord::Base
 
-  validates :uid, :pass, :mobile, presence: true
+  validates :pass, :mobile, presence: true
   validates :pass, length: { in: 4..128 }
-  validates :uid, length: { in: 4..20 }
-  validates :uid, :mobile, :email, uniqueness: true
-  validates :email, email: true
+  validates :uid, length: { in: 4..20, allow_blank: true }, uniqueness: { allow_blank: true, case_sensitive: false }
+  validates :mobile, uniqueness: true
+  validates :email, email: { allow_blank: true }, uniqueness: { allow_blank: true, case_sensitive: false }
 
   def self.hash_password(pass, salt = 'flowerwrong')
     Digest::SHA256.hexdigest(pass + salt)
