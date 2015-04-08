@@ -4,7 +4,7 @@
 # License:: Distributes under the same terms as Ruby
 # Api of users
 class Api::V1::UsersController < ApplicationController
-	skip_before_action :authenticate_request
+	# skip_before_action :authenticate_request
 	before_action :set_user, only: [:show, :update_avatar, :update_pass, :destroy]
 
 	def index
@@ -22,8 +22,8 @@ class Api::V1::UsersController < ApplicationController
 
 	def create
 		@user = User.new(user_params)
-		@user.password = User.hash_password @user.password
-		@user.auth_token = User.generate_auth_token
+		@user.pass = User.hash_password @user.pass
+		@user.access_token = User.generate_access_token
 		if @user.save
       render_success_json('User create success.', :created, { user: @user })
 		else
@@ -56,13 +56,13 @@ class Api::V1::UsersController < ApplicationController
 
 	def update_pass
 		if @current_user.id != @user.id
-			render json: { error: 'Not current user' }
+      render_fail_json('Not current user.', :forbidden)
 		else
-			@user.password = User.hash_password user_params[:password]
+			@user.pass = User.hash_password user_params[:pass]
 			if @user.save
-				render json: { status: :password_updated }, status: :ok
+        render_success_json('User pass update success.')
 			else
-				render json: @user.errors, status: :unprocessable_entity
+        render_fail_json('User pass update fail.', :unprocessable_entity, { errors: @user.errors})
 			end
 		end
 	end
@@ -71,7 +71,7 @@ class Api::V1::UsersController < ApplicationController
 		if @user.destroy
       render_success_json('User destroied success.')
 		else
-			render json: @user.errors, status: :unprocessable_entity
+      render_fail_json('User destroy fail.', :unprocessable_entity, { errors: @user.errors})
 		end
 	end
 
@@ -82,6 +82,28 @@ class Api::V1::UsersController < ApplicationController
 	end
 
 	def user_params
-		params.require(:user).permit(:uid, :mobile, :email, :pass, :avatar)
+		params.require(:user).permit(
+      :last_name,
+      :first_name,
+      :nick_name,
+      :uid,
+      :pass,
+      :avatar,
+      :email,
+      :age,
+      :university,
+      :address_current,
+      :birthday,
+      :tel,
+      :mobile,
+      :gender,
+      :language,
+      :personalized_signature,
+      :country,
+      :province,
+      :city,
+      :region,
+      :postcode
+    )
 	end
 end
