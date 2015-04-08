@@ -1,5 +1,5 @@
 ## Onecampus app design
 
-Rails
-Mysql
-Redis
+* Rails
+* Mysql
+* Redis
