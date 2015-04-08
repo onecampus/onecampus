@@ -7,7 +7,7 @@ gem 'rails', '4.2.1'
 gem 'mysql2'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
-gem 'jbuilder', '~> 2.2'
+# gem 'jbuilder', '~> 2.2'
 # gem 'rack-cors'
 # gem 'rails-api'
 
@@ -18,6 +18,10 @@ gem 'jbuilder', '~> 2.2'
 
 # Use Unicorn as the app server
 # gem 'unicorn'
+
+# image upload and magick
+gem 'carrierwave'
+gem 'mini_magick'
 
 gem 'kaminari'
 

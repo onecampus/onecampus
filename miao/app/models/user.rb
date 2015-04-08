@@ -7,6 +7,8 @@ class EmailValidator < ActiveModel::EachValidator
 end
 
 class User < ActiveRecord::Base
+  mount_uploader :avatar, AvatarUploader
+
   validates :uid, :pass, :mobile, presence: true
   validates :pass, length: { in: 4..128 }
   validates :uid, length: { in: 4..20 }
