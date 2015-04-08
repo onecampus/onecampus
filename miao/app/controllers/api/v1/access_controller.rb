@@ -10,7 +10,9 @@ class Api::V1::AccessController < ApplicationController
 	def login
 		user = User.authentication(login_params[:mobile], login_params[:pass])
 		if user
-			touch_exp_time user
+			touch_exp_time user  # 更新token过期时间
+      touch_last_login user, request.remote_ip  # 更新最后一次登录的ip和时间
+      user.save!
       data = { access_token: user.access_token,
                expiration_time: user.expiration_time,
                current_user: user }
@@ -30,6 +32,7 @@ class Api::V1::AccessController < ApplicationController
       u.pass = User.hash_password u.pass
       u.access_token = User.generate_access_token
       u.expiration_time = DateTime.now + 10.days
+      u.salt = 'flowerwrong'
       if u.save
         render_success_json('User registered success.', :created, { user: u })
       else
@@ -52,11 +55,7 @@ class Api::V1::AccessController < ApplicationController
 
   def already_exist_user?(mobile)
     already_exist_user = User.where(mobile: mobile)
-    if already_exist_user.blank?
-      false
-    else
-      true
-    end
+    already_exist_user.blank? ? false : true
   end
 
 	def login_params
@@ -71,7 +70,12 @@ class Api::V1::AccessController < ApplicationController
 	def touch_exp_time(user)
 		if user.expiration_time.to_i <= Time.now.to_i
   		user.expiration_time = DateTime.now + 10.days
-  		user.save!
     end
 	end
+
+  # 更新用户最后一次登录的资料
+  def touch_last_login(user, ip)
+    user.last_login_ip = ip
+    user.last_sign_in_at = DateTime.now
+  end
 end
