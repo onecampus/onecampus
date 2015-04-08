@@ -12,7 +12,7 @@ class Api::V1::AccessController < ApplicationController
       data = { access_token: user.access_token,
                expiration_time: user.expiration_time,
                current_user: user }
-      render_success_json('Login success.', 200, :ok, data)
+      render_success_json('Login success.', :ok, data)
 		else
       render_fail_json('Invalid mobile or password.')
 		end

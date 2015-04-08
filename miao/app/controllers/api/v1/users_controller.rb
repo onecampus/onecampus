@@ -13,11 +13,11 @@ class Api::V1::UsersController < ApplicationController
 		offset = params[:offset]
 		@users = User.page(page).per(per_page).padding(offset).order('id DESC')
     data = { users: @users, total_count: User.all.count }
-    render_success_json('User list.', data)
+    render_success_json('User list.', :ok, data)
 	end
 
 	def show
-    render_success_json('One user.', { user: @user })
+    render_success_json('One user.', :ok, { user: @user })
 	end
 
 	def create
@@ -25,9 +25,9 @@ class Api::V1::UsersController < ApplicationController
 		@user.password = User.hash_password @user.password
 		@user.auth_token = User.generate_auth_token
 		if @user.save
-			render json: { status: :created }, status: 201
+      render_success_json('User create success.', :created, { user: @user })
 		else
-			render json: @user.errors, status: 201
+      render_fail_json('User create fail.', :unprocessable_entity, { errors: @user.errors})
 		end
 	end
 
@@ -39,12 +39,12 @@ class Api::V1::UsersController < ApplicationController
 			url: image.url,
 			title: image.filename
 		}
-		render json: return_hash, status: :ok
+    render_success_json('User create success.', :created, return_hash)
 	end
 
 	def update_avatar
 		if @current_user.id != @user.id
-			render json: { error: 'Not current user' }
+      render_fail_json('Not current user.', :forbidden)
 		else
 			if @user.update user_params
 				render json: { status: :avatar_updated }, status: :ok
@@ -69,7 +69,7 @@ class Api::V1::UsersController < ApplicationController
 
 	def destroy
 		if @user.destroy
-			render json: { status: :destroied }
+      render_success_json('User destroied success.')
 		else
 			render json: @user.errors, status: :unprocessable_entity
 		end

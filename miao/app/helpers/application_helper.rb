@@ -29,10 +29,25 @@ module ApplicationHelper
     end
   end
 
-  def render_success_json(msg = '', code = 200, status = :ok, data = nil, links = nil)
+  def self.code_status
+    {
+      ok: 200,
+      created: 201,
+      unauthorized: 401,
+      forbidden: 403,
+      not_found: 404,
+      none_token: 418,
+      token_expired: 419,
+      unprocessable_entity: 422,
+      internal_server_error: 500,
+      not_implemented: 501
+    }
+  end
+
+  def render_success_json(msg = '', status = :ok, data = nil, links = nil)
     render  json: {
               status: 'success',
-              code: code,
+              code: ApplicationHelper.code_status[status],
               msg: msg,
               data: data,
               links: links
@@ -40,10 +55,10 @@ module ApplicationHelper
   end
 
   # 400 - 500
-  def render_fail_json(msg = '', code = 401, status = :unauthorized, data = nil, links = nil)
+  def render_fail_json(msg = '', status = :unauthorized, data = nil, links = nil)
     render  json: {
               status: 'fail',
-              code: code,
+              code: ApplicationHelper.code_status[status],
               msg: msg,
               data: data,
               links: links
@@ -51,10 +66,10 @@ module ApplicationHelper
   end
 
   # 500 +
-  def render_error_json(msg = '', code = 500, status = :internal_server_error, data = nil, links = nil)
+  def render_error_json(msg = '', status = :internal_server_error, data = nil, links = nil)
     render  json: {
               status: 'error',
-              code: code,
+              code: ApplicationHelper.code_status[status],
               msg: msg,
               data: data,
               links: links
