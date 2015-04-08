@@ -54,8 +54,7 @@ class Api::V1::AccessController < ApplicationController
 	private
 
   def already_exist_user?(mobile)
-    already_exist_user = User.where(mobile: mobile)
-    already_exist_user.blank? ? false : true
+    User.where(mobile: mobile).first.blank? ? false : true
   end
 
 	def login_params
