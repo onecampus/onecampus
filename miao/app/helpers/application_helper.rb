@@ -28,4 +28,36 @@ module ApplicationHelper
       fail NotAuthenticatedError
     end
   end
+
+  def render_success_json(msg = '', data = nil, links = nil)
+    render  json: {
+              status: 'success',
+              code: 200,
+              msg: msg,
+              data: data,
+              links: links
+            }, status: 200
+  end
+
+  # 400 - 500
+  def render_fail_json(code = 401, msg = '', data = nil, links = nil)
+    render  json: {
+              status: 'fail',
+              code: code,
+              msg: msg,
+              data: data,
+              links: links
+            }, status: code
+  end
+
+  # 500 +
+  def render_error_json(code = 500, msg = '', data = nil, links = nil)
+    render  json: {
+              status: 'error',
+              code: code,
+              msg: msg,
+              data: data,
+              links: links
+            }, status: code
+  end
 end
