@@ -1,6 +1,6 @@
 ## Api
 
-```json
+```ruby
 {
   status: 'success/fail/error',
   code: 404,
@@ -25,7 +25,7 @@ HTTP返回码 | 描述 | 符号
 ---|---|---
 200 | 成功 | :ok
 201 | 数据新建成功 | :created
-403 | 禁止访问 | forbidden
+403 | 禁止访问 | :forbidden
 404 | 数据库记录404 | :not_found
 404 | url404 | :not_found
 401 | 未授权 | :unauthorized
