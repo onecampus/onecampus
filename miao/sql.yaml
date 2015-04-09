@@ -44,6 +44,8 @@ ThirdLogin:  # one to many
   site: auth站点(qq, wechat, sina, github)
   expiration_time: auth token 过期时间
   version: auth 版本
+  longitude: 经度
+  latitude: 纬度
 
 Collection:  # 收藏, 针对twitter
   user_id: 用户id(users表外键, 非uid)
