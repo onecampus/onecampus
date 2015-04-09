@@ -1,3 +1,9 @@
 == README
 
-#### miao
+nodoc
+
+#### miao question
+
+* 玩法
+* 评论模块
+* 群聊模块
