@@ -9,6 +9,7 @@ class CreateTwitters < ActiveRecord::Migration
       t.integer :anonymous
       t.string :longitude
       t.string :latitude
+      t.integer :status
 
       t.timestamps null: false
     end

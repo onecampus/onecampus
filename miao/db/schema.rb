@@ -43,6 +43,7 @@ ActiveRecord::Schema.define(version: 20150409151843) do
     t.integer  "anonymous",  limit: 4
     t.string   "longitude",  limit: 255
     t.string   "latitude",   limit: 255
+    t.integer  "status",     limit: 4
     t.datetime "created_at",               null: false
     t.datetime "updated_at",               null: false
   end

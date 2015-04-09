@@ -3,19 +3,65 @@
 one:
   user_id: 1
   content: MyText
-  source: MyString
-  url: MyString
-  parent_id: MyString
-  anonymous: MyString
+  source: owner
+  url: https://github.com/presidentbeef/brakeman
+  parent_id: 0
+  anonymous: 0
   longitude: MyString
   latitude: MyString
+  status: 1
 
 two:
   user_id: 1
   content: MyText
-  source: MyString
-  url: MyString
-  parent_id: MyString
-  anonymous: MyString
+  source: owner
+  url: https://github.com/presidentbeef/brakeman
+  parent_id: 0
+  anonymous: 0
   longitude: MyString
   latitude: MyString
+  status: 1
+
+twitter_in_140:
+  user_id: 1
+  content: MyText
+  source: owner
+  url: https://github.com/presidentbeef/brakeman
+  parent_id: 0
+  anonymous: 0
+  longitude: MyString
+  latitude: MyString
+  status: 1
+
+twitter_out_140:
+  user_id: 1
+  content: <%= (0...250).map{ ('a'..'z').to_a[rand(26)] }.join %>
+  source: owner
+  url: https://github.com/presidentbeef/brakeman
+  parent_id: 0
+  anonymous: 0
+  longitude: MyString
+  latitude: MyString
+  status: 1
+
+twitter_chinese_140:
+  user_id: 1
+  content: <%= (1..140).map{ '我' }.join %>
+  source: owner
+  url: https://github.com/presidentbeef/brakeman
+  parent_id: 0
+  anonymous: 0
+  longitude: MyString
+  latitude: MyString
+  status: 1
+
+twitter_chinese_141:
+  user_id: 1
+  content: <%= (1..141).map{ '我' }.join %>
+  source: owner
+  url: https://github.com/presidentbeef/brakeman
+  parent_id: 0
+  anonymous: 0
+  longitude: MyString
+  latitude: MyString
+  status: 1

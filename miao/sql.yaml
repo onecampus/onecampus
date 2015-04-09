@@ -44,20 +44,22 @@ Twitter:  # 发推
   source: 内容来源(owner/forward/webpage)
   url: 地址
   parent_id: 转了哪个twitter
-  anonymous: 是否匿名
+  anonymous: 是否匿名(1: 匿名, 0:不是匿名)
   longitude: 经度
   latitude: 纬度
+  status: 状态(1: ok, 0:deleted)
 
 Picture:  # twitter picture
   url: 图片地址
-  ower_id: 拥有者id
-  ower_model: 拥有者模型 Twitter
+  twitter_id: twitter id
   user_id: 用户id(users表外键, 非uid)
+  status: 状态(1: ok, 0:deleted)
 
 Collection:  # 收藏, 针对twitter
   twitter_id: twitter id(外键)
   user_id: 用户id(users表外键, 非uid)
   collection_model: Twitter
+  status: 状态(1: ok, 0:deleted)
 
 # 收藏, 关注
 Message:  # mailboxer | notification | public_activity | unread | https://github.com/railscasts/406-public-activity/blob/master/cookbook-after/db/schema.rb
@@ -71,6 +73,7 @@ Message:  # mailboxer | notification | public_activity | unread | https://github
   trackable_id: 活动的id, 例如 1
   trackable_model: 活动的类型, 例如 Collection, Follow
   key: 例如 comment.create, comment.update
+  status: 状态(1: ok, 0:deleted)
 
 ThirdLogin:  # one to many
   user_id: 用户id(users表外键, 非uid)
@@ -86,18 +89,21 @@ TwitterVote:  # 点赞，是否需要
   twitter_id: twitter id(外键)
   user_id: 用户id(users表外键, 非uid)
   vote_type: forward/star/tree_hole()
+  status: 状态(1: ok, 0:deleted)
 
 Comment:  # 评论，是否需要
   title: 评论标题
   content: 评论内容
   user_id: 用户id(users表外键, 非uid)
   twitter_id: twitter id(twitter表外键)
+  status: 状态(1: ok, 0:deleted)
 
 TreeHole:  # 树洞，是否合并到user
   name: 树洞名称
   intro: 树洞简介
   created_by: 树洞创建者
   avatar: 树洞logo
+  status: 状态(1: ok, 0:deleted)
 
 Friendship:  # no, 放redis 好友关系(https://github.com/railscasts/406-public-activity/blob/master/cookbook-after/db/schema.rb)
   user_id: 用户id(users表外键, 非uid)

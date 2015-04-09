@@ -23,6 +23,7 @@ zh-CN:
         anonymous: 是否匿名
         longitude: 经度
         latitude: 纬度
+        status: 状态
 
       user:
         last_name: 姓
