@@ -11,8 +11,6 @@ gem 'mysql2'
 # gem 'rack-cors'
 # gem 'rails-api'
 
-# gem 'active_model_serializers'
-
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
@@ -28,6 +26,7 @@ gem 'kaminari'
 gem 'active_model_serializers'
 
 # gem 'exception_notification'
+# gem 'unread'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
