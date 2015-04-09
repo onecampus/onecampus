@@ -14,6 +14,8 @@ class User < ActiveRecord::Base
   validates :mobile, uniqueness: true
   validates :email, email: { allow_blank: true }, uniqueness: { allow_blank: true, case_sensitive: false }
 
+  has_many :addrs
+
   def self.hash_password(pass, salt = 'flowerwrong')
     Digest::SHA256.hexdigest(pass + salt)
   end

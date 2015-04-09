@@ -40,7 +40,7 @@ ThirdLogin:  # one to many
   expiration_time: auth token 过期时间
   version: auth 版本
 
-Address:  # one to many
+Addr:  # one to many
   user_id: 用户id(users表外键, 非uid)
   longitude: 经度
   latitude: 纬度
