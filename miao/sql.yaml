@@ -30,6 +30,11 @@ User:
   region: 区
   postcode: 邮编
 
+Addr:  # one to many
+  user_id: 用户id(users表外键, 非uid)
+  longitude: 经度
+  latitude: 纬度
+
 ThirdLogin:  # one to many
   user_id: 用户id(users表外键, 非uid)
   uname: 用户名
@@ -40,11 +45,6 @@ ThirdLogin:  # one to many
   expiration_time: auth token 过期时间
   version: auth 版本
 
-Addr:  # one to many
-  user_id: 用户id(users表外键, 非uid)
-  longitude: 经度
-  latitude: 纬度
-
 Collection:  # 收藏
   user_id: 用户id(users表外键, 非uid)
 
@@ -52,7 +52,7 @@ Follow:  # 使用acts_as_follower实现
   user_id: 用户id(users表外键, 非uid)
 
 
-Message:  # 待定, 是否需要
+Message:  # mailboxer | notification | public_activity | unread
   from_uid: 发送者id
   to_uid: 接收者id
   content: 消息内容
