@@ -25,6 +25,8 @@ gem 'kaminari'
 
 gem 'active_model_serializers'
 
+gem 'acts_as_follower'
+
 # gem 'exception_notification'
 # gem 'unread'
 
