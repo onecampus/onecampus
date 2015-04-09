@@ -83,6 +83,70 @@ class Api::V1::UsersController < ApplicationController
 		end
 	end
 
+  # 关注某人
+  # user_id
+  def follow_user
+    user_id = params[:user_id]
+    if user_id && @current_user.id != user_id
+      followabler = User.find user_id
+      if @current_user.following? followabler
+        render_fail_json('Already followed by current_user.', :unprocessable_entity)
+      else
+        @current_user.follow followabler
+        render_success_json('User followed success.')
+      end
+    else
+      render_fail_json('No user_id or can not follow self.', :unprocessable_entity)
+    end
+  end
+
+  # 取消关注
+  # user_id
+  def un_follow
+    user_id = params[:user_id]
+    if user_id && @current_user.id != user_id
+      follower = User.find user_id
+      @current_user.stop_following follower
+      render_success_json('User un followed success.')
+    else
+      render_fail_json('No user_id or can not un follow self.', :unprocessable_entity)
+    end
+  end
+
+  # 同时关注一群人
+  # user_ids
+  def follow_users
+    user_ids = params[:user_ids]
+    user_ids.each do |user_id|
+      follower = User.find user_id
+      @current_user.stop_following follower
+    end
+    render_success_json('Users followed success.')
+  end
+
+  # 同时取消关注一群人
+  # user_ids
+  def follow_users
+    user_ids = params[:user_ids]
+    user_ids.each do |user_id|
+      followabler = User.find user_id
+      @current_user.follow followabler
+    end
+    render_success_json('Users followed success.')
+  end
+
+  # 获取所有我关注的人
+  def follower_index
+    my_followings = @current_user.all_follows
+    render_success_json('User following.', :ok, { my_followings: my_followings })
+  end
+
+  # 获取所有关注我的人
+  def followed_index
+    my_followers = @current_user.followers
+    render_success_json('User follower.', :ok, { my_followers: my_followers })
+  end
+
 	private
 
 	def set_user
