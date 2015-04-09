@@ -38,15 +38,16 @@ module ApplicationHelper
       unauthorized: 401,
       forbidden: 403,
       not_found: 404,
-      none_token: 418,
-      token_expired: 419,
       unprocessable_entity: 422,
-      already_registered: 451,
       internal_server_error: 500,
-      not_implemented: 501
+      not_implemented: 501,
+      already_registered: 1201,
+      none_token: 1401,
+      token_expired: 1402
     }
   end
 
+  # 200 - 300 and 1200 - 1300
   def render_success_json(msg = '', status = :ok, data = nil, links = nil)
     render  json: {
               status: 'success',
@@ -57,7 +58,7 @@ module ApplicationHelper
             }, status: status
   end
 
-  # 400 - 500
+  # 400 - 500 and 1400 - 1500
   def render_fail_json(msg = '', status = :unauthorized, data = nil, links = nil)
     render  json: {
               status: 'fail',
@@ -68,7 +69,7 @@ module ApplicationHelper
             }, status: status
   end
 
-  # 500 +
+  # 500 - 600 and 1500 - 1600
   def render_error_json(msg = '', status = :internal_server_error, data = nil, links = nil)
     render  json: {
               status: 'error',

@@ -6,7 +6,7 @@ class Api::V1::AccessControllerTest < ActionController::TestCase
   test 'should not register a new user with already_registered mobile' do
     post :register, register: { mobile: '13560474456', pass: '123456' }
     json = JSON.parse(response.body)
-    assert_equal(451, json['code'])
+    assert_equal(1201, json['code'])
   end
 
   test 'should register a new user' do

@@ -29,8 +29,9 @@ HTTP返回码 | 描述 | 符号
 404 | 数据库记录404 | :not_found
 404 | url404 | :not_found
 401 | 未授权 | :unauthorized
-418 | access_token未发送(自定义) | :none_token
-419 | access_token已过期(自定义) | :token_expired
 422 | 数据更新(包括新建，更新，删除)失败 | :unprocessable_entity
 500 | 服务器内部错误 | :internal_server_error
 501 | 未实现 | :not_implemented
+1201| 已注册(自定义) | :already_registered
+1401| access_token未发送(自定义) | :none_token
+1402| access_token已过期(自定义) | :token_expired
