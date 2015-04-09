@@ -35,25 +35,31 @@ Addr:  # one to many
   longitude: 经度
   latitude: 纬度
 
-ThirdLogin:  # one to many
-  user_id: 用户id(users表外键, 非uid)
-  uname: 用户名
-  auth_token: auth token
-  refresh_token: refresh token
-  open_id: open id
-  site: auth站点(qq, wechat, sina, github)
-  expiration_time: auth token 过期时间
-  version: auth 版本
-  longitude: 经度
-  latitude: 纬度
-
-Collection:  # 收藏, 针对twitter
-  user_id: 用户id(users表外键, 非uid)
-
 Follow:  # 使用acts_as_follower实现, 针对用户
   user_id: 用户id(users表外键, 非uid)
 
+Twitter:  # 发推
+  user_id: 用户id(users表外键, 非uid)
+  content: 内容(140汉字或者英文字母)
+  source: 内容来源(owner/forward/webpage)
+  url: 地址
+  parent_id: 转了哪个twitter
+  anonymous: 是否匿名
+  longitude: 经度
+  latitude: 纬度
 
+Picture:  # twitter picture
+  url: 图片地址
+  ower_id: 拥有者id
+  ower_model: 拥有者模型 Twitter
+  user_id: 用户id(users表外键, 非uid)
+
+Collection:  # 收藏, 针对twitter
+  twitter_id: twitter id(外键)
+  user_id: 用户id(users表外键, 非uid)
+  collection_model: Twitter
+
+# 收藏, 关注
 Message:  # mailboxer | notification | public_activity | unread | https://github.com/railscasts/406-public-activity/blob/master/cookbook-after/db/schema.rb
   ower_uid: 发送者id, 谁做了什么(谁)
   ower_model: 谁做了什么(谁的model类型)
@@ -63,33 +69,36 @@ Message:  # mailboxer | notification | public_activity | unread | https://github
   content: 消息内容
   msg_type: 消息类型(系统消息, 其他人关注了你的消息提醒, 留言)
   trackable_id: 活动的id, 例如 1
-  trackable_model: 活动的类型, 例如 Comment
+  trackable_model: 活动的类型, 例如 Collection, Follow
   key: 例如 comment.create, comment.update
 
-Twitter:  # 发推
+ThirdLogin:  # one to many
   user_id: 用户id(users表外键, 非uid)
-  content: 内容
-  source: 内容来源(owner/forward)
-  url: 地址
-  anonymous: 是否匿名
+  uname: 用户名
+  auth_token: auth token
+  refresh_token: refresh token
+  open_id: open id
+  site: auth站点(qq, wechat, sina, github)
+  expiration_time: auth token 过期时间
+  version: auth 版本
 
-TwitterVote:
+TwitterVote:  # 点赞，是否需要
   twitter_id: twitter id(外键)
   user_id: 用户id(users表外键, 非uid)
   vote_type: forward/star/tree_hole()
 
-Comment:  # 评论
+Comment:  # 评论，是否需要
   title: 评论标题
   content: 评论内容
   user_id: 用户id(users表外键, 非uid)
   twitter_id: twitter id(twitter表外键)
 
-TreeHole:  # 树洞
+TreeHole:  # 树洞，是否合并到user
   name: 树洞名称
   intro: 树洞简介
   created_by: 树洞创建者
   avatar: 树洞logo
 
-Friendship:  # no 好友关系(https://github.com/railscasts/406-public-activity/blob/master/cookbook-after/db/schema.rb)
+Friendship:  # no, 放redis 好友关系(https://github.com/railscasts/406-public-activity/blob/master/cookbook-after/db/schema.rb)
   user_id: 用户id(users表外键, 非uid)
   friend_id: 用户id

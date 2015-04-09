@@ -1,12 +1,26 @@
 zh-CN:
+  errors:
+    messages:
+      url: URL格式有误
+
   activerecord:
     models:
       user: 用户
       addr: 地址
+      twitter: 推文
 
     attributes:
       addr:
         user_id: 用户
+        longitude: 经度
+        latitude: 纬度
+      twitter:  # 发推
+        user_id: 用户id(users表外键, 非uid)
+        content: 内容(140汉字或者英文字母)
+        source: 内容来源(owner/forward/webpage)
+        url: 地址
+        parent_id: 转了哪个twitter
+        anonymous: 是否匿名
         longitude: 经度
         latitude: 纬度
 

@@ -5,5 +5,5 @@ rails g model User last_name first_name nick_name uid salt pass avatar email age
 
 rails g model Addr user_id:integer longitude latitude
 
-rails g model Twitter user_id:integer content:text source url anonymous
+rails g model Twitter user_id:integer content:text source url parent_id:integer anonymous:integer longitude latitude
 ```

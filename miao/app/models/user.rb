@@ -19,6 +19,8 @@ class User < ActiveRecord::Base
   acts_as_followable  # Make your model(s) that you want to allow to be followed acts_as_followable
   acts_as_follower  # Make your model(s) that can follow other models acts_as_follower
 
+  has_many :twitters
+
   def self.hash_password(pass, salt = 'flowerwrong')
     Digest::SHA256.hexdigest(pass + salt)
   end
