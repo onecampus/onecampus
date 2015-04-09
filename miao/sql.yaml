@@ -90,6 +90,6 @@ TreeHole:  # 树洞
   created_by: 树洞创建者
   avatar: 树洞logo
 
-Friendship:  # 好友关系(https://github.com/railscasts/406-public-activity/blob/master/cookbook-after/db/schema.rb)
+Friendship:  # no 好友关系(https://github.com/railscasts/406-public-activity/blob/master/cookbook-after/db/schema.rb)
   user_id: 用户id(users表外键, 非uid)
   friend_id: 用户id
