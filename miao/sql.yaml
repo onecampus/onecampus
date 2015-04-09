@@ -47,7 +47,7 @@ Twitter:  # 发推
   anonymous: 是否匿名(1: 匿名, 0:不是匿名)
   longitude: 经度
   latitude: 纬度
-  status: 状态(1: ok, 0:deleted)
+  status: 状态(1: ok, 0:deleted) # http://zhaowen.me/blog/2014/04/09/whats-new-in-rails-4-dot-1/
 
 Picture:  # twitter picture
   url: 图片地址
