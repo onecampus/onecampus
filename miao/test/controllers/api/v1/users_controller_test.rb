@@ -30,7 +30,7 @@ class Api::V1::UsersControllerTest < ActionController::TestCase
         avatar: '/test.png',
         email: 'yk2@gmail.com',
         age: 22,
-        university: '中山大学',
+        university_id: 1,
         address_current: '12.089, 72.569',
         birthday: (DateTime.now - 22.years),
         tel: '88888888',

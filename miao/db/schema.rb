@@ -67,7 +67,7 @@ ActiveRecord::Schema.define(version: 20150410023550) do
     t.string   "avatar",                 limit: 255
     t.string   "email",                  limit: 255
     t.integer  "age",                    limit: 4
-    t.string   "university",             limit: 255
+    t.integer  "university_id",          limit: 4
     t.string   "address_current",        limit: 255
     t.datetime "birthday"
     t.string   "mobile",                 limit: 255

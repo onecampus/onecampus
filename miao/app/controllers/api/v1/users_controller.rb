@@ -163,7 +163,7 @@ class Api::V1::UsersController < ApplicationController
       :avatar,
       :email,
       :age,
-      :university,
+      :university_id,
       :address_current,
       :birthday,
       :tel,

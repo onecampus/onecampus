@@ -8,9 +8,9 @@ one:
   salt: MyString
   pass: MyString
   avatar: MyString
-  email: MyString
+  email: 145@gmail.com
   age: 1
-  university: MyString
+  university_id: 1
   address_current: MyString
   birthday: 2015-04-07 16:24:48
   mobile: 136
@@ -38,9 +38,9 @@ two:
   salt: MyString
   pass: MyString
   avatar: MyString
-  email: MyString
+  email: 1453@gmail.com
   age: 1
-  university: MyString
+  university_id: 1
   address_current: MyString
   birthday: 2015-04-07 16:24:48
   mobile: 135
@@ -68,9 +68,9 @@ three:
   salt: MyString
   pass: MyString
   avatar: MyString
-  email: MyString
+  email: 123@gmail.com
   age: 1
-  university: MyString
+  university_id: 1
   address_current: MyString
   birthday: 2015-04-07 16:24:48
   mobile: 136
@@ -99,7 +99,7 @@ user_without_uid:
   avatar: MyString
   email: MyString
   age: 1
-  university: MyString
+  university_id: 1
   address_current: MyString
   birthday: 2015-04-07 16:24:48
   mobile: MyString
@@ -128,7 +128,7 @@ user_without_pass:
   avatar: MyString
   email: MyString
   age: 1
-  university: MyString
+  university_id: 1
   address_current: MyString
   birthday: 2015-04-07 16:24:48
   mobile: 136
@@ -158,7 +158,7 @@ user_without_mobile:
   avatar: MyString
   email: MyString
   age: 1
-  university: MyString
+  university_id: 1
   address_current: MyString
   birthday: 2015-04-07 16:24:48
   gender: MyString
@@ -187,7 +187,7 @@ user_with_uid_length_less_4:
   avatar: MyString
   email: MyString
   age: 1
-  university: MyString
+  university_id: 1
   address_current: MyString
   birthday: 2015-04-07 16:24:48
   mobile: MyString
@@ -218,7 +218,7 @@ user_with_pass_length_less_4:
   avatar: MyString
   email: MyString
   age: 1
-  university: MyString
+  university_id: 1
   address_current: MyString
   birthday: 2015-04-07 16:24:48
   mobile: MyString
@@ -248,7 +248,7 @@ flowerwrong:
   avatar: test.png
   email: yk@gmail.com
   age: 22
-  university: MyString
+  university_id: 1
   address_current: MyString
   birthday: 2015-04-07 16:24:48
   mobile: 13560474456
@@ -278,7 +278,7 @@ user_with_invilde_email:
   avatar: MyString
   email: MyString
   age: 1
-  university: MyString
+  university_id: 1
   address_current: MyString
   birthday: 2015-04-07 16:24:48
   mobile: 136

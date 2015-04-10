@@ -28,11 +28,6 @@ class UserTest < ActiveSupport::TestCase
     assert_not @user_with_uid_length_less_4.save
   end
 
-  test "should not save user with uid uniqueness" do
-    @one.save
-    assert_not @two.save, 'cat not save user two with same uid'
-  end
-
   test "should not save user with mobile uniqueness" do
     @one.save
     assert_not @three.save, 'cat not save user two with same mobile'
@@ -61,7 +56,7 @@ class UserTest < ActiveSupport::TestCase
       avatar: '/test.png',
       email: 'yk3',  # 邮件格式有误
       age: 22,
-      university: '中山大学',
+      university_id: 1,
       address_current: '12.089, 72.569',
       birthday: (DateTime.now - 22.years),
       tel: '88888888',

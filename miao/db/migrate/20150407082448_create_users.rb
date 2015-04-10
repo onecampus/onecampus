@@ -10,7 +10,7 @@ class CreateUsers < ActiveRecord::Migration
       t.string :avatar
       t.string :email
       t.integer :age
-      t.string :university
+      t.integer :university_id
       t.string :address_current
       t.datetime :birthday
       t.string :mobile
