@@ -9,10 +9,13 @@
 * [pry](https://github.com/pry/pry)
 * [pry-rails](https://github.com/rweng/pry-rails)
 * [did_you_mean](https://github.com/yuki24/did_you_mean)
-* [awesome_print](https://github.com/michaeldv/awesome_print)
 * [capistrano](https://github.com/capistrano/capistrano)
 * [byebug](https://github.com/deivid-rodriguez/byebug)
 * [spring](https://github.com/rails/spring)
+* [simplecov](https://github.com/colszowka/simplecov)
+* [factory_girl](https://github.com/thoughtbot/factory_girl)
+* [database_cleaner](https://github.com/DatabaseCleaner/database_cleaner)
+* [seed-fu](https://github.com/mbleigh/seed-fu)
 
 ###### Gem list for production
 
@@ -25,18 +28,19 @@
 * [bcrypt](https://github.com/codahale/bcrypt-ruby)
 * [rack-cors](https://github.com/cyu/rack-cors)
 * [rails-api](https://github.com/rails-api/rails-api)
+* [grape](https://github.com/intridea/grape)
 * [mailboxer](https://github.com/mailboxer/mailboxer)
 * [acts_as_follower](https://github.com/tcocca/acts_as_follower)
+* [devise](https://github.com/plataformatec/devise)
+* [cancancan](https://github.com/CanCanCommunity/cancancan)
 * [rolify](https://github.com/RolifyCommunity/rolify)
 * [vines](https://github.com/negativecode/vines)
 * [foreman](https://github.com/ddollar/foreman)
-* [factory_girl](https://github.com/thoughtbot/factory_girl)
-* [database_cleaner](https://github.com/DatabaseCleaner/database_cleaner)
-* [seed-fu](https://github.com/mbleigh/seed-fu)
 * [ruby-jwt](https://github.com/progrium/ruby-jwt)
 * [acts_as_tree](https://github.com/amerine/acts_as_tree)
 * [exception_notification](https://github.com/smartinez87/exception_notification)
 * [acts_as_list](https://github.com/swanandp/acts_as_list)
+* [br_star](https://github.com/radar/by_star)
 * [backup](https://github.com/backup/backup)
 * [validates_url](https://github.com/perfectline/validates_url)
 * [slanger](https://github.com/stevegraham/slanger)
@@ -44,8 +48,13 @@
 * [acts_as_commentable_with_threading](https://github.com/elight/acts_as_commentable_with_threading)
 * [rubocop](https://github.com/bbatsov/rubocop)
 * [sidekiq](https://github.com/mperham/sidekiq)
+* [resque](https://github.com/resque/resque)
 * [social_stream](https://github.com/ging/social_stream)
 * [unread](https://github.com/ledermann/unread)
+* [whenever](https://github.com/javan/whenever)
+* [god](http://godrb.com/)
+* [redis-objects](https://github.com/nateware/redis-objects)
+
 
 ###### Gem list for test
 
