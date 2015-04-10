@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  college_code: 1
+  name: MyString
+  intro: MyText
+  university_code: 1
+
+two:
+  college_code: 1
+  name: MyString
+  intro: MyText
+  university_code: 1

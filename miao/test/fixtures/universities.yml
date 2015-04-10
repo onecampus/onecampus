@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  university_code: 1
+  name: MyString
+  intro: MyText
+  province_code: 1
+  english_name: MyString
+  longitude: MyString
+  latitude: MyString
+
+two:
+  university_code: 1
+  name: MyString
+  intro: MyText
+  province_code: 1
+  english_name: MyString
+  longitude: MyString
+  latitude: MyString

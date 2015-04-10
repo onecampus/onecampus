@@ -10,13 +10,31 @@ zh-CN:
       twitter: 推文
       picture: 图片
       china_city: 中国省市区
+      university: 大学
+      college: 学院
 
     attributes:
+      college:  # 学院
+        college_code: 学院码
+        name: 学院名称
+        intro: 学院简介
+        university_code: 大学码
+
+      university:  # 大学
+        university_code: 大学码
+        name: 大学名称
+        intro: 大学简介
+        province_code: 省
+        english_name: 英文简称
+        longitude: 经度
+        latitude: 纬度
+
       china_city:
         area_code: 地区码
         area: 地区名称
         parent_code: 区->市->省->国家
         level: 层级
+
       picture:
         url: 图片地址
         twitter_id: 推文

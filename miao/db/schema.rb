@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150410064247) do
+ActiveRecord::Schema.define(version: 20150410113737) do
 
   create_table "addrs", force: :cascade do |t|
     t.integer  "user_id",    limit: 4
@@ -28,6 +28,15 @@ ActiveRecord::Schema.define(version: 20150410064247) do
     t.integer  "level",       limit: 4
     t.datetime "created_at",              null: false
     t.datetime "updated_at",              null: false
+  end
+
+  create_table "colleges", force: :cascade do |t|
+    t.integer  "college_code",    limit: 4
+    t.string   "name",            limit: 255
+    t.text     "intro",           limit: 65535
+    t.integer  "university_code", limit: 4
+    t.datetime "created_at",                    null: false
+    t.datetime "updated_at",                    null: false
   end
 
   create_table "follows", force: :cascade do |t|
@@ -64,6 +73,18 @@ ActiveRecord::Schema.define(version: 20150410064247) do
     t.integer  "status",     limit: 4
     t.datetime "created_at",               null: false
     t.datetime "updated_at",               null: false
+  end
+
+  create_table "universities", force: :cascade do |t|
+    t.integer  "university_code", limit: 4
+    t.string   "name",            limit: 255
+    t.text     "intro",           limit: 65535
+    t.integer  "province_code",   limit: 4
+    t.string   "english_name",    limit: 255
+    t.string   "longitude",       limit: 255
+    t.string   "latitude",        limit: 255
+    t.datetime "created_at",                    null: false
+    t.datetime "updated_at",                    null: false
   end
 
   create_table "users", force: :cascade do |t|

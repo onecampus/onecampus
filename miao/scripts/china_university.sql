@@ -1,7 +1,7 @@
 
 
 /*!40000 ALTER TABLE `universities` DISABLE KEYS */;
-INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_code`) VALUES 
  (1001,'清华大学',110000),
  (1002,'北京大学',110000),
  (1003,'中国人民大学',110000),
@@ -28,7 +28,7 @@ INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES
  (1024,'首都经济贸易大学',110000),
  (1025,'中央财经大学',110000),
  (1026,'北方工业大学',110000);
-INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_code`) VALUES 
  (1027,'中国石油大学（北京）',110000),
  (1028,'外交学院',110000),
  (1029,'首都师范大学',110000),
@@ -54,7 +54,7 @@ INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES
  (1049,'北京农学院',110000),
  (1050,'首都体育学院',110000),
  (1051,'北京第二外国语学院',110000);
-INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_code`) VALUES 
  (1052,'北京物资学院',110000),
  (1053,'北京警察学院',110000),
  (1054,'中央音乐学院',110000),
@@ -78,7 +78,7 @@ INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES
  (1072,'北京锡华国际经贸职业学院',110000),
  (1073,'北京盛基艺术学校',110000),
  (1074,'北京培黎职业学院',110000);
-INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_code`) VALUES 
  (1075,'北京农业职业学院',110000),
  (1076,'北京科技职业学院',110000),
  (1077,'北京科技经营管理学院',110000),
@@ -102,7 +102,7 @@ INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES
  (1095,'中国信息大学',110000),
  (1096,'北京青年政治学院',110000),
  (1097,'北京财经专修学院',110000);
-INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_code`) VALUES 
  (1098,'北京经济管理职业学院',110000),
  (1099,'北京美国英语语言学院',110000),
  (1100,'中国管理软件学院',110000),
@@ -132,7 +132,7 @@ INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES
  (2019,'上海电机',310000),
  (2020,'上海二工大',310000),
  (2021,'上海应用技术学院',310000);
-INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_code`) VALUES 
  (2022,'上海电力',310000),
  (2023,'上海外贸',310000),
  (2024,'上海金融',310000),
@@ -157,7 +157,7 @@ INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES
  (2043,'上海电影艺术职业学院',310000),
  (2044,'上海电子信息职业技术学院',310000),
  (2045,'上海东海职业技术学院',310000);
-INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_code`) VALUES 
  (2046,'上海工会管理职业学院',310000),
  (2047,'上海工商外国语学院',310000),
  (2048,'上海工艺美术职业学院',310000),
@@ -179,7 +179,7 @@ INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES
  (2064,'上海行健职业学院',310000),
  (2065,'上海医疗器械高等专科学校',310000),
  (2066,'上海医药高等专科学校',310000);
-INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_code`) VALUES 
  (2067,'上海震旦职业学院',310000),
  (2068,'上海中华职业技术学院',310000),
  (2069,'上海中侨职业技术学院',310000),
@@ -207,7 +207,7 @@ INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES
  (3021,'天津滨海职业技术学院',120000),
  (3022,'天津渤海职业技术学院',120000),
  (3023,'天津城市建设管理职业技术学院',120000);
-INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_code`) VALUES 
  (3024,'天津城市职业学院',120000),
  (3025,'天津电子信息职业技术学院',120000),
  (3026,'天津对外经济贸易职业学院',120000),
@@ -229,7 +229,7 @@ INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES
  (3042,'天津冶金职业技术学院',120000),
  (3043,'天津医学高等专科学校',120000),
  (3044,'天津艺术职业学院',120000);
-INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_code`) VALUES 
  (3045,'天津职业大学',120000),
  (3046,'天津中德职业技术学院',120000),
  (3047,'天津市工会管理干部学院',120000),
@@ -254,7 +254,7 @@ INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES
  (4009,'重庆科技学院',500000),
  (4010,'重庆工学院',500000),
  (4011,'长江师范学院',500000);
-INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_code`) VALUES 
  (4012,'四川外国语',500000),
  (4013,'四川美院',500000),
  (4014,'重庆三峡学院',500000),
@@ -277,7 +277,7 @@ INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES
  (4031,'重庆水利电力职业技术学院',500000),
  (4032,'重庆信息技术职业学院',500000),
  (4033,'重庆医药高等专科学校',500000);
-INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_code`) VALUES 
  (4034,'重庆正大软件职业技术学院',500000),
  (4035,'重庆职业技术学院',500000),
  (4036,'重庆教育学院',500000),
@@ -301,7 +301,7 @@ INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES
  (5007,'黑工程',230000),
  (5008,'黑龙江科技大学',230000),
  (5009,'哈尔滨学院',230000);
-INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_code`) VALUES 
  (5010,'哈尔滨体院',230000),
  (5011,'东方学院',230000),
  (5012,'黑龙江大学',230000),
@@ -327,7 +327,7 @@ INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES
  (5032,'哈尔滨铁道职业技术学院',230000),
  (5033,'哈尔滨现代公共关系职业学院',230000),
  (5034,'哈尔滨职业技术学院',230000);
-INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_code`) VALUES 
  (5035,'鹤岗师范高等专科学校',230000),
  (5036,'黑龙江北开职业技术学院',230000),
  (5037,'黑龙江工商职业技术学院',230000),
@@ -348,7 +348,7 @@ INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES
  (5052,'黑龙江生态工程职业学院',230000),
  (5053,'黑龙江生物科技职业学院',230000),
  (5054,'黑龙江司法警官职业学院',230000);
-INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_code`) VALUES 
  (5055,'黑龙江信息技术职业学院',230000),
  (5056,'黑龙江畜牧兽医职业学院',230000),
  (5057,'黑龙江艺术职业学院',230000),
@@ -370,7 +370,7 @@ INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES
  (5073,'哈尔滨商业大学德强商务学院',230000),
  (5074,'大庆石油学院华瑞学院',230000),
  (5075,'东北农业大学成栋学院',230000);
-INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_code`) VALUES 
  (5076,'黑龙江大学剑桥学院',230000),
  (5077,'哈尔滨商业大学广厦学院',230000),
  (5078,'哈尔滨工业大学华德应用技术学院',230000),
@@ -397,7 +397,7 @@ INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES
  (6016,'长春工大',220000),
  (6017,'长春理工',220000),
  (6018,'延边大学',220000);
-INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_code`) VALUES 
  (6019,'北华大学',220000),
  (6020,'吉林农业科技学院',220000),
  (6021,'吉林医药学院',220000),
@@ -420,7 +420,7 @@ INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES
  (6038,'吉林公安高等专科学校',220000),
  (6039,'吉林交通职业技术学院',220000),
  (6040,'吉林工商学院—工程校区',220000);
-INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_code`) VALUES 
  (6041,'吉林农业工程职业技术学院',220000),
  (6042,'吉林工商学院—商贸校区',220000),
  (6043,'吉林司法警官职业学院',220000),
@@ -442,7 +442,7 @@ INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES
  (6059,'吉林建筑工程学院建筑装饰学院',220000),
  (6060,'吉林建筑工程学院城建学院',220000),
  (7001,'大连理工',210000);
-INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_code`) VALUES 
  (7002,'东北大学',210000),
  (7003,'辽宁大学',210000),
  (7004,'大连海事',210000),
@@ -473,7 +473,7 @@ INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES
  (7029,'鲁迅美院',210000),
  (7030,'沈阳音乐学院',210000),
  (7031,'中国医科大',210000);
-INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_code`) VALUES 
  (7032,'辽宁工大',210000),
  (7033,'辽宁石化',210000),
  (7034,'鞍山科大',210000),
@@ -499,7 +499,7 @@ INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES
  (7054,'阜新高等专科学校',210000),
  (7055,'锦州商务职业学院',210000),
  (7056,'锦州师范高等专科学校',210000);
-INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_code`) VALUES 
  (7057,'辽宁广播电视大学',210000),
  (7058,'辽宁广告职业学院',210000),
  (7059,'辽宁机电职业技术学院',210000),
@@ -522,7 +522,7 @@ INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES
  (7076,'沈阳航空职业技术学院',210000),
  (7077,'沈阳职业技术学院',210000),
  (7078,'辽宁职业学院',210000);
-INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_code`) VALUES 
  (7079,'铁岭师范高等专科学校',210000),
  (7080,'营口职业技术学院',210000),
  (7081,'沈阳广播电视大学',210000),
@@ -543,7 +543,7 @@ INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES
  (7096,'辽宁医学院医疗学院',210000),
  (7097,'辽宁中医药大学杏林学院',210000),
  (7098,'沈阳医学院何氏视觉科学学院',210000);
-INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_code`) VALUES 
  (7099,'辽宁师范大学海华学院',210000),
  (7100,'东北财经大学津桥商学院',210000),
  (7101,'沈阳师范大学渤海学院',210000),
@@ -569,7 +569,7 @@ INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES
  (8014,'曲阜师大',370000),
  (8015,'烟台大学',370000),
  (8016,'鲁东大学',370000);
-INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_code`) VALUES 
  (8017,'山东工商',370000),
  (8018,'南山学院',370000),
  (8019,'青岛大学',370000),
@@ -600,7 +600,7 @@ INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES
  (8044,'东营职业学院',370000),
  (8045,'哈工大(威海)',370000),
  (8046,'菏泽医学专科学校',370000);
-INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_code`) VALUES 
  (8047,'济南工程职业技术学院',370000),
  (8048,'济南铁道职业技术学院',370000),
  (8049,'济南职业学院',370000),
@@ -624,7 +624,7 @@ INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES
  (8067,'山东电子职业技术学院',370000),
  (8068,'山东纺织职业学院',370000),
  (8069,'山东服装职业学院',370000);
-INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_code`) VALUES 
  (8070,'山东工业职业学院',370000),
  (8071,'山东华宇职业技术学院',370000),
  (8072,'山东化工职业学院',370000),
@@ -647,7 +647,7 @@ INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES
  (8089,'山东水利专科学校',370000),
  (8090,'山东丝绸纺织职业学院',370000),
  (8091,'山东外国语职业学院',370000);
-INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_code`) VALUES 
  (8092,'山东外贸职业学院',370000),
  (8093,'山东外事翻译学院威海分校',370000),
  (8094,'山东外事翻译职业学院',370000),
@@ -669,7 +669,7 @@ INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES
  (8110,'万杰科技学院',370000),
  (8111,'威海市广播电视大学',370000),
  (8112,'威海市交通学校',370000);
-INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_code`) VALUES 
  (8113,'威海职业(技术)学院',370000),
  (8114,'威海中加国际工商学院',370000),
  (8115,'潍坊工商职业学院',370000),
@@ -694,7 +694,7 @@ INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES
  (8134,'山东商务职业学院',370000),
  (8135,'烟台汽车工程职业学院',370000),
  (8136,'山东省农业管理干部学院',370000);
-INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_code`) VALUES 
  (8137,'山东省青年管理干部学院',370000),
  (8138,'山东省工会管理干部学院',370000),
  (8139,'山东广播电视大学',370000),
@@ -717,7 +717,7 @@ INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES
  (8156,'滨州技术学院',370000),
  (8157,'山东省贸易职工大学',370000),
  (8158,'山东冶金技术学院',370000);
-INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_code`) VALUES 
  (8159,'山东省济宁市技术学院',370000),
  (8160,'济南广播电视大学',370000),
  (9001,'山西大学',140000),
@@ -745,7 +745,7 @@ INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES
  (9023,'吕梁高等专科学校',140000),
  (9024,'山西财贸职业技术学院',140000),
  (9025,'山西财政税务专科学校',140000);
-INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_code`) VALUES 
  (9026,'山西电力职业技术学院',140000),
  (9027,'山西工程职业技术学院',140000),
  (9028,'山西工商职业学院',140000),
@@ -767,7 +767,7 @@ INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES
  (9044,'山西同文外语职业学院',140000),
  (9045,'山西戏剧职业学院',140000),
  (9046,'山西信息职业技术学院',140000);
-INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_code`) VALUES 
  (9047,'山西兴华职业学院',140000),
  (9048,'山西艺术职业学院',140000),
  (9049,'山西运城农业职业技术学院',140000),
@@ -790,7 +790,7 @@ INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES
  (9066,'山西农业大学太原畜牧兽医学院',140000),
  (9067,'山西农业大学太原园艺学院（太原农业学校）',140000),
  (9068,'山西农业大学原平农学院（原平农业学校）',140000);
-INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_code`) VALUES 
  (9069,'太原科技大学运城工学院（运城工学院）',140000),
  (9070,'山西财经大学运城学院',140000),
  (9071,'山西医科大学汾阳分院',140000),
@@ -814,7 +814,7 @@ INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES
  (10009,'西安工大',610000),
  (10010,'西外',610000),
  (10011,'西邮',610000);
-INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_code`) VALUES 
  (10012,'西安医学院',610000),
  (10013,'西安财经',610000),
  (10014,'西北政法',610000),
@@ -841,7 +841,7 @@ INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES
  (10035,'宝鸡文理学院',610000),
  (10036,'渭南师范',610000),
  (10037,'陕西理工',610000);
-INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_code`) VALUES 
  (10038,'榆林学院',610000),
  (10039,'商洛学院',610000),
  (10040,'安康学院',610000),
@@ -864,7 +864,7 @@ INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES
  (10057,'陕西旅游烹饪职业学院',610000),
  (10058,'陕西能源职业技术学院',610000),
  (10059,'陕西青年职业学院',610000);
-INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_code`) VALUES 
  (10060,'陕西铁路工程职业技术学院',610000),
  (10061,'陕西邮电职业技术学院',610000),
  (10062,'陕西职业技术学院',610000),
@@ -886,7 +886,7 @@ INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES
  (10078,'西安职业技术学院',610000),
  (10079,'咸阳职业技术学院',610000),
  (10080,'延安职业技术学院',610000);
-INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_code`) VALUES 
  (10081,'杨凌职业技术学院',610000),
  (10082,'陕西银行学校',610000),
  (10083,'西安机电信息技术学院',610000),
@@ -909,7 +909,7 @@ INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES
  (11002,'河北农大',130000),
  (11003,'中央司法警官学院',130000),
  (11004,'石家庄铁院',130000);
-INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_code`) VALUES 
  (11005,'石家庄经院',130000),
  (11006,'河北师大',130000),
  (11007,'河北科技',130000),
@@ -939,7 +939,7 @@ INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES
  (11031,'河北金融学院',130000),
  (11032,'保定学院',130000),
  (11033,'保定职业技术学院',130000);
-INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_code`) VALUES 
  (11034,'渤海石油职业学院',130000),
  (11035,'沧州师范专科学校',130000),
  (11036,'沧州医学高等专科学校',130000),
@@ -961,7 +961,7 @@ INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES
  (11052,'河北京都高尔夫职业学院',130000),
  (11053,'河北农业大学',130000),
  (11054,'河北农业大学海洋学院',130000);
-INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_code`) VALUES 
  (11055,'河北女子职业技术学院',130000),
  (11056,'河北软件职业技术学院',130000),
  (11057,'河北省艺术职业学院',130000),
@@ -981,7 +981,7 @@ INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES
  (11071,'廊坊东方大学城北京传媒学院',130000),
  (11072,'廊坊东方大学城北京经济技术职业学院',130000),
  (11073,'廊坊东方大学城北京经贸职业学院航空服务学院',130000);
-INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_code`) VALUES 
  (11074,'廊坊东方大学城北京联合大学',130000),
  (11075,'廊坊东方大学城北京中医药大学中专部',130000),
  (11076,'廊坊东方大学城河北体育学院',130000),
@@ -1001,7 +1001,7 @@ INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES
  (11090,'石家庄外语翻译职业学院',130000),
  (11091,'石家庄信息工程职业学院',130000),
  (11092,'石家庄医学高等专科学校',130000);
-INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_code`) VALUES 
  (11093,'河北传媒学院',130000),
  (11094,'石家庄邮电职业技术学院',130000),
  (11095,'石家庄职业技术学院',130000),
@@ -1023,7 +1023,7 @@ INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES
  (11111,'华北煤炭医学院冀唐学院',130000),
  (11112,'河北医科大学临床学院',130000),
  (11113,'河北农业大学现代科技学院',130000);
-INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_code`) VALUES 
  (11114,'石家庄铁道学院四方学院',130000),
  (11115,'燕山大学里仁学院',130000),
  (11116,'河北工程大学科信学院',130000),
@@ -1050,7 +1050,7 @@ INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES
  (12018,'平顶山工学院',410000),
  (12019,'平顶山学院',410000),
  (12020,'新乡医学院',410000);
-INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_code`) VALUES 
  (12021,'河南科技学院',410000),
  (12022,'河南师大',410000),
  (12023,'信阳师院',410000),
@@ -1075,7 +1075,7 @@ INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES
  (12042,'河南省工商行政管理广播电视大学',410000),
  (12043,'河南省政法管理干部学院',410000),
  (12044,'河南司法警官职业学院',410000);
-INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_code`) VALUES 
  (12045,'河南新华电脑学院',410000),
  (12046,'河南职业技术学院',410000),
  (12047,'河南质量工程职业学院',410000),
@@ -1099,7 +1099,7 @@ INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES
  (12065,'商丘科技职业学院',410000),
  (12066,'商丘医学高等专科学校',410000),
  (12067,'商丘职业技术学院',410000);
-INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_code`) VALUES 
  (12068,'嵩山少林武术职业学院',410000),
  (12069,'铁道警官高等专科学校',410000),
  (12070,'新乡师范高等专科学校',410000),
@@ -1121,7 +1121,7 @@ INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES
  (12086,'郑州师范高等专科学校',410000),
  (12087,'郑州澍青医学高等专科学校',410000),
  (12088,'郑州铁路职业技术学院',410000);
-INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_code`) VALUES 
  (12089,'郑州信息科技职业学院',410000),
  (12090,'郑州职业技术学院',410000),
  (12091,'中州大学',410000),
@@ -1143,7 +1143,7 @@ INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES
  (12107,'河南大学民生学院',410000),
  (12108,'河南师范大学新联学院',410000),
  (12109,'新乡医学院三全学院',410000);
-INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_code`) VALUES 
  (12110,'信阳师范学院华锐学院',410000),
  (13001,'武汉大学',420000),
  (13002,'华中科大',420000),
@@ -1172,7 +1172,7 @@ INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES
  (13025,'湖北汽院',420000),
  (13026,'郧阳医学院',420000),
  (13027,'孝感学院',420000);
-INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_code`) VALUES 
  (13028,'湖北师范学院',420000),
  (13029,'黄石理工',420000),
  (13030,'黄冈师院',420000),
@@ -1196,7 +1196,7 @@ INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES
  (13048,'湖北开放职业学院',420000),
  (13049,'湖北民族学院科技学院',420000),
  (13050,'湖北轻工职业技术学院',420000);
-INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_code`) VALUES 
  (13051,'湖北三峡职业技术学院',420000),
  (13052,'湖北生态工程职业技术学院',420000),
  (13053,'湖北生物科技职业学院',420000),
@@ -1218,7 +1218,7 @@ INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES
  (13069,'武汉电力职业技术学院',420000),
  (13070,'武汉工程职业技术学院',420000),
  (13071,'武汉工业职业技术学院',420000);
-INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_code`) VALUES 
  (13072,'武汉航海职业技术学院',420000),
  (13073,'武汉交通职业学院',420000),
  (13074,'武汉警官职业学院',420000),
@@ -1241,7 +1241,7 @@ INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES
  (13091,'中南民族大学工商学院',420000),
  (13092,'黄冈广播电视大学',420000),
  (13093,'华中科技大学文华学院',420000);
-INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_code`) VALUES 
  (13094,'华中师范大学汉口分校',420000),
  (13095,'湖北大学知行学院',420000),
  (13096,'三峡大学科技学院',420000),
@@ -1262,7 +1262,7 @@ INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES
  (13111,'华中师范大学武汉影视工程学院',420000),
  (13112,'武汉大学东湖分校',420000),
  (13113,'中南财经政法武汉学院',420000);
-INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_code`) VALUES 
  (13114,'华中科技大学武昌分校　',420000),
  (14001,'湖南师大',430000),
  (14002,'中南大学',430000),
@@ -1292,7 +1292,7 @@ INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES
  (14026,'邵阳学院',430000),
  (14027,'保险职业学院',430000),
  (14028,'长沙电力职业技术学院',430000);
-INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_code`) VALUES 
  (14029,'长沙航空职业学院',430000),
  (14030,'长沙环境保护职业技术学院',430000),
  (14031,'长沙民政职业技术学院',430000),
@@ -1314,7 +1314,7 @@ INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES
  (14047,'湖南工程职业技术学院',430000),
  (14048,'湖南工学院',430000),
  (14049,'湖南工业职业技术学院',430000);
-INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_code`) VALUES 
  (14050,'湖南工艺美术职业学院',430000),
  (14051,'湖南公安高等专科学校',430000),
  (14052,'湖南广播电视大学',430000),
@@ -1336,7 +1336,7 @@ INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES
  (14068,'湖南软件职业技术学院',430000),
  (14069,'湖南商务职业技术学院',430000),
  (14070,'湖南生物环境职业技术学院',430000);
-INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_code`) VALUES 
  (14071,'湖南生物机电职业技术学院',430000),
  (14072,'湖南省水利水电职业技术学院',430000),
  (14073,'湖南石油化工职业技术学院',430000),
@@ -1357,7 +1357,7 @@ INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES
  (14088,'怀化医学高等专科学校',430000),
  (14089,'怀化职业技术学院',430000),
  (14090,'娄底理工学院',430000);
-INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_code`) VALUES 
  (14091,'娄底市卫生学校',430000),
  (14092,'娄底职业技术学院',430000),
  (14093,'邵阳医学高等专科学校',430000),
@@ -1380,7 +1380,7 @@ INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES
  (14110,'湖南农业大学东方科技学院',430000),
  (14111,'中南林业科技大学涉外学院',430000),
  (14112,'湖南文理学院芙蓉学院',430000);
-INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_code`) VALUES 
  (14113,'湖南理工学院南湖学院',430000),
  (14114,'衡阳师范学院南岳学院',430000),
  (14115,'湖南工程学院应用技术学院',430000),
@@ -1403,7 +1403,7 @@ INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES
  (15011,'海南政法职业学院',460000),
  (15012,'海南职业技术学院',460000),
  (15013,'琼台师范高等专科学校',460000);
-INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_code`) VALUES 
  (15014,'三亚航空旅游职业学院',460000),
  (15015,'三亚卓达旅游职业学院',460000),
  (15016,'海南大学三亚学院',460000),
@@ -1432,7 +1432,7 @@ INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES
  (16023,'中国药科大',320000),
  (16024,'苏州大学',320000),
  (16025,'江南大学',320000);
-INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_code`) VALUES 
  (16026,'中国矿大（徐州）',320000),
  (16027,'徐州师大',320000),
  (16028,'徐州工程',320000),
@@ -1459,7 +1459,7 @@ INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES
  (16049,'河海大学常州校区',320000),
  (16050,'淮安信息职业技术学院',320000),
  (16051,'建东职业技术学院',320000);
-INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_code`) VALUES 
  (16052,'健雄职业技术学院',320000),
  (16053,'江海职业技术学院',320000),
  (16054,'江南影视艺术职业学院',320000),
@@ -1481,7 +1481,7 @@ INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES
  (16070,'民办明达职业技术学院',320000),
  (16071,'南京动力高等专科学校',320000),
  (16072,'南京工业职业技术学院',320000);
-INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_code`) VALUES 
  (16073,'南京化工职业技术学院',320000),
  (16074,'南京交通职业技术学院',320000),
  (16075,'南京人口管理干部学院',320000),
@@ -1502,7 +1502,7 @@ INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES
  (16090,'苏州工艺美术职业技术学院',320000),
  (16091,'苏州经贸职业技术学院',320000),
  (16092,'苏州科技大学',320000);
-INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_code`) VALUES 
  (16093,'苏州农业职业技术学院',320000),
  (16094,'苏州托普信息职业技术学院',320000),
  (16095,'苏州职业大学',320000),
@@ -1525,7 +1525,7 @@ INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES
  (16112,'盐城纺织职业技术学院',320000),
  (16113,'扬州工业职业技术学院',320000),
  (16114,'扬州环境资源管理学院',320000);
-INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_code`) VALUES 
  (16115,'扬州环境资源职业技术学院',320000),
  (16116,'扬州教育学院',320000),
  (16117,'扬州职业大学',320000),
@@ -1549,7 +1549,7 @@ INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES
  (17003,'华东交通大学',360000),
  (17004,'南昌航空大学',360000),
  (17005,'南昌工程',360000);
-INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_code`) VALUES 
  (17006,'南昌理工',360000),
  (17007,'江西中医学院',360000),
  (17008,'江西科技师范学院',360000),
@@ -1576,7 +1576,7 @@ INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES
  (17029,'江西赣江职业技术学院',360000),
  (17030,'江西工程职业学院',360000),
  (17031,'江西工业工程职业技术学院',360000);
-INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_code`) VALUES 
  (17032,'江西工业贸易职业技术学院',360000),
  (17033,'江西工业职业技术学院',360000),
  (17034,'江西公安专科学校',360000),
@@ -1598,7 +1598,7 @@ INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES
  (17050,'江西生物科技职业学院',360000),
  (17051,'江西省广播电视大学',360000),
  (17052,'江西司法警官职业学院',360000);
-INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_code`) VALUES 
  (17053,'江西陶瓷工艺美术职业学院',360000),
  (17054,'江西外语外贸职业学院',360000),
  (17055,'江西先锋软件职业技术学院',360000),
@@ -1620,7 +1620,7 @@ INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES
  (17071,'萍乡高等专科学校',360000),
  (17072,'上饶职业技术学院',360000),
  (17073,'新余钢铁有限责任公司职工大学',360000);
-INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_code`) VALUES 
  (17074,'新余高等专科学校',360000),
  (17075,'宜春职业技术学院',360000),
  (17076,'鹰潭职业技术学院',360000),
@@ -1642,7 +1642,7 @@ INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES
  (18002,'中山大学',440000),
  (18003,'暨南大学',440000),
  (18004,'华南师范大学',440000);
-INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_code`) VALUES 
  (18005,'广东工业大学',440000),
  (18006,'华南农业大学',440000),
  (18007,'广州大学',440000),
@@ -1670,7 +1670,7 @@ INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES
  (18029,'广东医学院',440000),
  (18030,'湛江师范',440000),
  (18031,'广东海洋',440000);
-INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_code`) VALUES 
  (18032,'韶关学院',440000),
  (18033,'韩山师范',440000),
  (18034,'嘉应学院',440000),
@@ -1693,7 +1693,7 @@ INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES
  (18051,'广东工贸职业技术学院',440000),
  (18052,'广东工业大学华立学院',440000),
  (18053,'广东海洋大学寸金学院',440000);
-INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_code`) VALUES 
  (18054,'广东海洋大学海滨学院',440000),
  (18055,'广东化工制药职业技术学院',440000),
  (18056,'广东机电职业技术学院',440000),
@@ -1714,7 +1714,7 @@ INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES
  (18071,'广东松山职业技术学院',440000),
  (18072,'广东体育职业技术学院',440000),
  (18073,'广东外语外贸大学公开学院',440000);
-INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_code`) VALUES 
  (18074,'广东外语艺术职业学院',440000),
  (18075,'广东文艺职业学院',440000),
  (18076,'广东新安职业技术学院',440000),
@@ -1736,7 +1736,7 @@ INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES
  (18092,'广州科技职业技术学院',440000),
  (18093,'广州民航职业技术学院',440000),
  (18094,'广州南洋理工职业学院',440000);
-INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_code`) VALUES 
  (18095,'广州涉外经济职业技术学院',440000),
  (18096,'广州体育职业技术学院',440000),
  (18097,'广州铁路职业技术学院',440000),
@@ -1758,7 +1758,7 @@ INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES
  (18113,'汕尾职业技术学院',440000),
  (18114,'深圳信息职业技术学院',440000),
  (18115,'深圳振西科技学院',440000);
-INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_code`) VALUES 
  (18116,'深圳职业技术学院',440000),
  (18117,'顺德职业技术学院',440000),
  (18118,'私立华联学院',440000),
@@ -1781,7 +1781,7 @@ INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES
  (18135,'广东商学院华商学院',440000),
  (18136,'南开大学深圳金融工程学院',440000),
  (18137,'北京师范大学－香港浸会大学联合国际学院',440000);
-INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_code`) VALUES 
  (18138,'广州金桥管理干部学院',440000),
  (18139,'广州大学纺织服装学院',440000),
  (18140,'华南师范大学南海校区',440000),
@@ -1808,7 +1808,7 @@ INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES
  (19019,'梧州学院',450000),
  (19020,'广西大学行健文理学院',450000),
  (19021,'广西师范大学漓江学院',450000);
-INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_code`) VALUES 
  (19022,'桂林电子科技大学信息科技学院',450000),
  (19023,'桂林工学院博文管理学院',450000),
  (19024,'广西工学院鹿山学院',450000),
@@ -1829,7 +1829,7 @@ INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES
  (19039,'广西交通职业技术学院',450000),
  (19040,'广西经济管理干部学院',450000),
  (19041,'广西经贸职业技术学院',450000);
-INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_code`) VALUES 
  (19042,'广西警管高等专科学校',450000),
  (19043,'广西农业职业技术学院',450000),
  (19044,'广西轻工高级技工学校',450000),
@@ -1851,7 +1851,7 @@ INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES
  (19060,'柳州医学高等专科学校',450000),
  (19061,'柳州运输职业技术学院',450000),
  (19062,'柳州职业技术学院',450000);
-INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_code`) VALUES 
  (19063,'南宁师范高等专科学校',450000),
  (19064,'南宁职业技术学院',450000),
  (19065,'南宁地区教育学院',450000),
@@ -1878,7 +1878,7 @@ INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES
  (20018,'保山中医药高等专科学校',530000),
  (20019,'楚雄医药高等专科学校',530000),
  (20020,'德宏师范高等专科学校',530000);
-INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_code`) VALUES 
  (20021,'云南大学滇池学院',530000),
  (20022,'昆明大学',530000),
  (20023,'昆明工业职业技术学院',530000),
@@ -1900,7 +1900,7 @@ INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES
  (20039,'云南机电职业技术学院',530000),
  (20040,'云南交通职业技术学院',530000),
  (20041,'云南经济管理职业学院',530000);
-INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_code`) VALUES 
  (20042,'云南科技信息职业技术学院',530000),
  (20043,'云南林业职业技术学院',530000),
  (20044,'云南能源职业技术学院',530000),
@@ -1922,7 +1922,7 @@ INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES
  (20060,'云南艺术学院文华学院',530000),
  (20061,'云南大学旅游文化学院',530000),
  (20062,'临沧师范高等专科学校',530000);
-INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_code`) VALUES 
  (21001,'贵州大学',520000),
  (21002,'贵阳医学院',520000),
  (21003,'贵阳中医学院',520000),
@@ -1948,7 +1948,7 @@ INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES
  (21023,'贵州理工职业技术学院',520000),
  (21024,'贵州轻工职业技术学院',520000),
  (21025,'贵州商业高等专科学校',520000);
-INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_code`) VALUES 
  (21026,'六盘水师范高等专科学校',520000),
  (21027,'六盘水职业技术学院',520000),
  (21028,'黔东南民族职业技术学院',520000),
@@ -1969,7 +1969,7 @@ INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES
  (21043,'贵州大学科技学院',520000),
  (21044,'贵阳护理职业学院',520000),
  (21045,'贵州亚泰职业学院',520000);
-INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_code`) VALUES 
  (21046,'贵州教育学院',520000),
  (22001,'四川大学',510000),
  (22002,'四川农大',510000),
@@ -1999,7 +1999,7 @@ INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES
  (22026,'绵阳师范',510000),
  (22027,'西南科大',510000),
  (22028,'西昌学院',510000);
-INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_code`) VALUES 
  (22029,'宜宾学院',510000),
  (22030,'攀枝花学院',510000),
  (22031,'阿坝师范高等专科学校',510000),
@@ -2022,7 +2022,7 @@ INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES
  (22048,'绵阳职业技术学院',510000),
  (22049,'民办四川天一学院',510000),
  (22050,'内江职业技术学院',510000);
-INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_code`) VALUES 
  (22051,'南充职业技术学院',510000),
  (22052,'四川大学龙泉校区',510000),
  (22053,'四川电力职业技术学院',510000),
@@ -2044,7 +2044,7 @@ INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES
  (22069,'四川师范大学绵阳初等教育学院',510000),
  (22070,'四川水利职业技术学院',510000),
  (22071,'四川司法警官职业学院',510000);
-INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_code`) VALUES 
  (22072,'四川托普信息技术职业学院',510000),
  (22073,'四川外语学院成都学院',510000),
  (22074,'四川文化传媒职业学院',510000),
@@ -2066,7 +2066,7 @@ INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES
  (22090,'四川文化产业职业学院',510000),
  (22091,'四川科技职业学院',510000),
  (22092,'西南科技大学城市学院',510000);
-INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_code`) VALUES 
  (22093,'四川音乐学院绵阳艺术学院',510000),
  (22094,'西南财经大学天府学院',510000),
  (23001,'内蒙古大学',150000),
@@ -2091,7 +2091,7 @@ INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES
  (23020,'内蒙古青城大学',150000),
  (23021,'内蒙古化工职业学院',150000),
  (23022,'内蒙古机电职业技术学院',150000);
-INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_code`) VALUES 
  (23023,'内蒙古建筑职业技术学院',150000),
  (23024,'内蒙古交通职业技术学院',150000),
  (23025,'内蒙古民族高等专科学校',150000),
@@ -2115,7 +2115,7 @@ INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES
  (24005,'宁夏师范',640000),
  (24006,'吴忠职业技术学院',640000),
  (24007,'宁夏职业技术学院',640000);
-INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_code`) VALUES 
  (24008,'宁夏财经职业技术学院',640000),
  (24009,'宁夏司法警官职业学院',640000),
  (24010,'宁夏师范学院',640000),
@@ -2141,7 +2141,7 @@ INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES
  (25015,'甘肃工业职业技术学院',620000),
  (25016,'甘肃警察职业学院',620000),
  (25017,'兰州理工大学技术工程学院',620000);
-INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_code`) VALUES 
  (25018,'兰州职业技术学院',620000),
  (25019,'武威职业学院',620000),
  (25020,'张掖医学高等专科学校',620000),
@@ -2163,7 +2163,7 @@ INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES
  (25036,'甘肃钢铁职业技术学院',620000),
  (26001,'青海大学',630000),
  (26002,'青海师大',630000);
-INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_code`) VALUES 
  (26003,'青海民院',630000),
  (26004,'青海民族师范高等专科学校',630000),
  (26005,'青海财经职业学院',630000),
@@ -2188,7 +2188,7 @@ INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES
  (28007,'石河子大学',650000),
  (28008,'塔里木大学',650000),
  (28009,'喀什师院',650000);
-INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_code`) VALUES 
  (28010,'伊犁师院',650000),
  (28011,'昌吉学院',650000),
  (28012,'阿克苏职业技术学院',650000),
@@ -2210,7 +2210,7 @@ INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES
  (28028,'新疆天山职业技术学院',650000),
  (28029,'新疆维吾尔医学专科学校',650000),
  (28030,'新疆现代职业技术学院',650000);
-INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_code`) VALUES 
  (28031,'伊犁职业技术学院',650000),
  (28032,'新疆科信学院',650000),
  (28033,'新疆职业大学',650000),
@@ -2237,7 +2237,7 @@ INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES
  (29015,'安徽财经',340000),
  (29016,'阜阳师范',340000),
  (29017,'淮南师范',340000);
-INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_code`) VALUES 
  (29018,'安徽理工',340000),
  (29019,'淮北煤炭师范',340000),
  (29020,'安庆师范',340000),
@@ -2262,7 +2262,7 @@ INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES
  (29039,'安徽国际商务职业学院',340000),
  (29040,'安徽机电职业技术学院',340000),
  (29041,'安徽交通职业技术学院',340000);
-INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_code`) VALUES 
  (29042,'安徽教育学院',340000),
  (29043,'安徽经济管理学院',340000),
  (29044,'安徽警官职业学院',340000),
@@ -2284,7 +2284,7 @@ INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES
  (29060,'安徽中医药高等专科学校',340000),
  (29061,'安庆职业技术学院',340000),
  (29062,'蚌埠高等专科学校',340000);
-INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_code`) VALUES 
  (29063,'蚌埠职业教育专修学院',340000),
  (29064,'亳州师范高等专科学校',340000),
  (29065,'亳州职业技术学院',340000),
@@ -2307,7 +2307,7 @@ INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES
  (29082,'铜陵职业技术学院',340000),
  (29083,'芜湖信息技术职业学院',340000),
  (29084,'芜湖职业技术学院',340000);
-INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_code`) VALUES 
  (29085,'宣城职业技术学院',340000),
  (29086,'安徽师范大学皖江学院',340000),
  (29087,'合肥师范学院',340000),
@@ -2335,7 +2335,7 @@ INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES
  (30018,'诺丁汉大学',330000),
  (30019,'嘉兴学院',330000),
  (30020,'浙江海洋',330000);
-INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_code`) VALUES 
  (30021,'温州大学',330000),
  (30022,'温州医学院',330000),
  (30023,'湖州师范',330000),
@@ -2360,7 +2360,7 @@ INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES
  (30042,'衢州职业技术学院',330000),
  (30043,'绍兴托普信息职业技术学院',330000),
  (30044,'绍兴越秀外国语职业学院',330000);
-INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_code`) VALUES 
  (30045,'台州职业技术学院',330000),
  (30046,'温州职业技术学院',330000),
  (30047,'义乌工商职业技术学院',330000),
@@ -2382,7 +2382,7 @@ INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES
  (30063,'浙江经贸职业技术学院',330000),
  (30064,'浙江警官职业学院',330000),
  (30065,'浙江旅游职业学院',330000);
-INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_code`) VALUES 
  (30066,'浙江商业职业技术学院',330000),
  (30067,'浙江水利水电专科学校',330000),
  (30068,'浙江医学高等专科学校',330000),
@@ -2406,7 +2406,7 @@ INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES
  (31010,'闽江学院',350000),
  (31011,'华侨大学',350000),
  (31012,'仰恩大学',350000);
-INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_code`) VALUES 
  (31013,'泉州师范学院',350000),
  (31014,'漳州师范',350000),
  (31015,'莆田学院',350000),
@@ -2430,7 +2430,7 @@ INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES
  (31033,'福建教育学院',350000),
  (31034,'福建金融职业技术学院',350000),
  (31035,'福建警官职业学院',350000);
-INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_code`) VALUES 
  (31036,'福建林业职业技术学院',350000),
  (31037,'福建农业职业技术学院',350000),
  (31038,'福建商业高等专科学校',350000),
@@ -2452,7 +2452,7 @@ INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES
  (31054,'闽北职业技术学院',350000),
  (31055,'闽西职业技术学院',350000),
  (31056,'武夷学院',350000);
-INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_code`) VALUES 
  (31057,'宁德师范高等专科学校',350000),
  (31058,'泉州纺织服装职业学院',350000),
  (31059,'泉州光电信息职业学院',350000),
@@ -2474,7 +2474,7 @@ INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES
  (31075,'厦门城市职业学院',350000),
  (31076,'漳州卫生职业学院',350000),
  (32001,'国立台湾大学',710000);
-INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_code`) VALUES 
  (32002,'国立中正大学',710000),
  (32003,'国立台湾艺术大学',710000),
  (32004,'国立清华大学',710000),
@@ -2500,7 +2500,7 @@ INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES
  (32024,'国立台北科技大学',710000),
  (32025,'国立台东大学',710000),
  (32026,'国立宜蓝大学',710000);
-INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_code`) VALUES 
  (32027,'国立台北艺术大学',710000),
  (32028,'国立云林科技大学',710000),
  (32029,'国立台南大学',710000),
@@ -2525,7 +2525,7 @@ INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES
  (33007,'香港岭南大学',810000),
  (33008,'香港国际工商管理学院',810000),
  (33009,'香港珠海学院',810000);
-INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_code`) VALUES 
  (33010,'香港教育学院',810000),
  (33011,'香港树仁大学',810000),
  (33012,'香港演艺学院',810000),
