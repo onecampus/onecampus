@@ -65,6 +65,24 @@ user2 = User.new(
 )
 user2.save!
 
+# ChinaCity import
+File.open(Rails.root.to_s + '/scripts/china_city_han.txt', 'r') do |file|
+  while line  = file.gets
+    if line[0] != "\n" && line[0] != "\r"
+      tmp_arr = line.split(' ')
+      if tmp_arr.length == 4
+        cc = ChinaCity.new(
+          area_code: tmp_arr[0].to_i,
+          area: tmp_arr[1],
+          parent_id: tmp_arr[2].to_i,
+          level: tmp_arr[3].to_i
+        )
+        cc.save!
+      end
+    end
+  end
+end
+
 time_end = Time.now
 time = time_end - time_start
 puts time.to_s

@@ -9,8 +9,14 @@ zh-CN:
       addr: 地址
       twitter: 推文
       picture: 图片
+      china_city: 中国省市区
 
     attributes:
+      china_city:
+        area_code: 地区码
+        area: 地区名称
+        parent_id: 区->市->省->国家
+        level: 层级
       picture:
         url: 图片地址
         twitter_id: 推文
@@ -41,7 +47,7 @@ zh-CN:
         avatar: 头像
         email: 邮箱
         age: 年龄
-        university: 大学
+        university_id: 大学
         address_current: 当前位置
         birthday: 生日
         tel: 电话
