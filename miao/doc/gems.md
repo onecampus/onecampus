@@ -45,6 +45,7 @@
 * [rubocop](https://github.com/bbatsov/rubocop)
 * [sidekiq](https://github.com/mperham/sidekiq)
 * [social_stream](https://github.com/ging/social_stream)
+* [unread](https://github.com/ledermann/unread)
 
 ###### Gem list for test
 
