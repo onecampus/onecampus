@@ -26,6 +26,7 @@ group :development, :test do
 
   gem 'brakeman', require: false
   gem 'rails_best_practices', require: false
+  gem 'rubocop', require: false
 end
 
 group :doc do

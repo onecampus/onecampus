@@ -13,4 +13,5 @@ nodoc
 ```ruby
 brakeman
 bundle exec rails_best_practices .
+rubocop -R
 ```
