@@ -20,6 +20,7 @@ class User < ActiveRecord::Base
   acts_as_follower  # Make your model(s) that can follow other models acts_as_follower
 
   has_many :twitters
+  has_many :pictures
 
   def self.hash_password(pass, salt = 'flowerwrong')
     Digest::SHA256.hexdigest(pass + salt)

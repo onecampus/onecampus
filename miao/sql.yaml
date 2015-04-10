@@ -49,6 +49,10 @@ Twitter:  # 发推
   latitude: 纬度
   status: 状态(1: ok, 0:deleted) # http://zhaowen.me/blog/2014/04/09/whats-new-in-rails-4-dot-1/
 
+  picture_count: 图片数量(放redis)
+  forward_count: 转推数量(放redis)
+  collection_count: 收藏数量(放redis)
+
 Picture:  # twitter picture
   url: 图片地址
   twitter_id: twitter id

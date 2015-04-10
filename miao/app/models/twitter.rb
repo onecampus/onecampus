@@ -4,4 +4,5 @@ class Twitter < ActiveRecord::Base
   validates :url, :url => { allow_blank: true }
 
   belongs_to :user
+  has_many :pictures
 end
