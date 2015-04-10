@@ -1,11 +1,18 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
-one:
+area_code_less_100000:
   area_code: 1
   area: MyString
-  parent_id: 1
+  parent_id: 0
+  level: 1
 
-two:
+level_more_3:
   area_code: 1
   area: MyString
-  parent_id: 1
+  parent_id: 0
+  level: 4
+
+without_area:
+  area_code: 1
+  parent_id: 0
+  level: 2
