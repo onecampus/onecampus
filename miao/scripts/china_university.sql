@@ -1,7 +1,7 @@
 
 
-/*!40000 ALTER TABLE `university` DISABLE KEYS */;
-INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES 
+/*!40000 ALTER TABLE `universities` DISABLE KEYS */;
+INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
  (1001,'清华大学',110000),
  (1002,'北京大学',110000),
  (1003,'中国人民大学',110000),
@@ -28,7 +28,7 @@ INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES
  (1024,'首都经济贸易大学',110000),
  (1025,'中央财经大学',110000),
  (1026,'北方工业大学',110000);
-INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
  (1027,'中国石油大学（北京）',110000),
  (1028,'外交学院',110000),
  (1029,'首都师范大学',110000),
@@ -54,7 +54,7 @@ INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES
  (1049,'北京农学院',110000),
  (1050,'首都体育学院',110000),
  (1051,'北京第二外国语学院',110000);
-INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
  (1052,'北京物资学院',110000),
  (1053,'北京警察学院',110000),
  (1054,'中央音乐学院',110000),
@@ -78,7 +78,7 @@ INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES
  (1072,'北京锡华国际经贸职业学院',110000),
  (1073,'北京盛基艺术学校',110000),
  (1074,'北京培黎职业学院',110000);
-INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
  (1075,'北京农业职业学院',110000),
  (1076,'北京科技职业学院',110000),
  (1077,'北京科技经营管理学院',110000),
@@ -102,7 +102,7 @@ INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES
  (1095,'中国信息大学',110000),
  (1096,'北京青年政治学院',110000),
  (1097,'北京财经专修学院',110000);
-INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
  (1098,'北京经济管理职业学院',110000),
  (1099,'北京美国英语语言学院',110000),
  (1100,'中国管理软件学院',110000),
@@ -132,7 +132,7 @@ INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES
  (2019,'上海电机',310000),
  (2020,'上海二工大',310000),
  (2021,'上海应用技术学院',310000);
-INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
  (2022,'上海电力',310000),
  (2023,'上海外贸',310000),
  (2024,'上海金融',310000),
@@ -157,7 +157,7 @@ INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES
  (2043,'上海电影艺术职业学院',310000),
  (2044,'上海电子信息职业技术学院',310000),
  (2045,'上海东海职业技术学院',310000);
-INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
  (2046,'上海工会管理职业学院',310000),
  (2047,'上海工商外国语学院',310000),
  (2048,'上海工艺美术职业学院',310000),
@@ -179,7 +179,7 @@ INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES
  (2064,'上海行健职业学院',310000),
  (2065,'上海医疗器械高等专科学校',310000),
  (2066,'上海医药高等专科学校',310000);
-INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
  (2067,'上海震旦职业学院',310000),
  (2068,'上海中华职业技术学院',310000),
  (2069,'上海中侨职业技术学院',310000),
@@ -207,7 +207,7 @@ INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES
  (3021,'天津滨海职业技术学院',120000),
  (3022,'天津渤海职业技术学院',120000),
  (3023,'天津城市建设管理职业技术学院',120000);
-INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
  (3024,'天津城市职业学院',120000),
  (3025,'天津电子信息职业技术学院',120000),
  (3026,'天津对外经济贸易职业学院',120000),
@@ -229,7 +229,7 @@ INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES
  (3042,'天津冶金职业技术学院',120000),
  (3043,'天津医学高等专科学校',120000),
  (3044,'天津艺术职业学院',120000);
-INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
  (3045,'天津职业大学',120000),
  (3046,'天津中德职业技术学院',120000),
  (3047,'天津市工会管理干部学院',120000),
@@ -254,7 +254,7 @@ INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES
  (4009,'重庆科技学院',500000),
  (4010,'重庆工学院',500000),
  (4011,'长江师范学院',500000);
-INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
  (4012,'四川外国语',500000),
  (4013,'四川美院',500000),
  (4014,'重庆三峡学院',500000),
@@ -277,7 +277,7 @@ INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES
  (4031,'重庆水利电力职业技术学院',500000),
  (4032,'重庆信息技术职业学院',500000),
  (4033,'重庆医药高等专科学校',500000);
-INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
  (4034,'重庆正大软件职业技术学院',500000),
  (4035,'重庆职业技术学院',500000),
  (4036,'重庆教育学院',500000),
@@ -301,7 +301,7 @@ INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES
  (5007,'黑工程',230000),
  (5008,'黑龙江科技大学',230000),
  (5009,'哈尔滨学院',230000);
-INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
  (5010,'哈尔滨体院',230000),
  (5011,'东方学院',230000),
  (5012,'黑龙江大学',230000),
@@ -327,7 +327,7 @@ INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES
  (5032,'哈尔滨铁道职业技术学院',230000),
  (5033,'哈尔滨现代公共关系职业学院',230000),
  (5034,'哈尔滨职业技术学院',230000);
-INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
  (5035,'鹤岗师范高等专科学校',230000),
  (5036,'黑龙江北开职业技术学院',230000),
  (5037,'黑龙江工商职业技术学院',230000),
@@ -348,7 +348,7 @@ INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES
  (5052,'黑龙江生态工程职业学院',230000),
  (5053,'黑龙江生物科技职业学院',230000),
  (5054,'黑龙江司法警官职业学院',230000);
-INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
  (5055,'黑龙江信息技术职业学院',230000),
  (5056,'黑龙江畜牧兽医职业学院',230000),
  (5057,'黑龙江艺术职业学院',230000),
@@ -370,7 +370,7 @@ INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES
  (5073,'哈尔滨商业大学德强商务学院',230000),
  (5074,'大庆石油学院华瑞学院',230000),
  (5075,'东北农业大学成栋学院',230000);
-INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
  (5076,'黑龙江大学剑桥学院',230000),
  (5077,'哈尔滨商业大学广厦学院',230000),
  (5078,'哈尔滨工业大学华德应用技术学院',230000),
@@ -397,7 +397,7 @@ INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES
  (6016,'长春工大',220000),
  (6017,'长春理工',220000),
  (6018,'延边大学',220000);
-INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
  (6019,'北华大学',220000),
  (6020,'吉林农业科技学院',220000),
  (6021,'吉林医药学院',220000),
@@ -420,7 +420,7 @@ INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES
  (6038,'吉林公安高等专科学校',220000),
  (6039,'吉林交通职业技术学院',220000),
  (6040,'吉林工商学院—工程校区',220000);
-INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
  (6041,'吉林农业工程职业技术学院',220000),
  (6042,'吉林工商学院—商贸校区',220000),
  (6043,'吉林司法警官职业学院',220000),
@@ -442,7 +442,7 @@ INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES
  (6059,'吉林建筑工程学院建筑装饰学院',220000),
  (6060,'吉林建筑工程学院城建学院',220000),
  (7001,'大连理工',210000);
-INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
  (7002,'东北大学',210000),
  (7003,'辽宁大学',210000),
  (7004,'大连海事',210000),
@@ -473,7 +473,7 @@ INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES
  (7029,'鲁迅美院',210000),
  (7030,'沈阳音乐学院',210000),
  (7031,'中国医科大',210000);
-INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
  (7032,'辽宁工大',210000),
  (7033,'辽宁石化',210000),
  (7034,'鞍山科大',210000),
@@ -499,7 +499,7 @@ INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES
  (7054,'阜新高等专科学校',210000),
  (7055,'锦州商务职业学院',210000),
  (7056,'锦州师范高等专科学校',210000);
-INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
  (7057,'辽宁广播电视大学',210000),
  (7058,'辽宁广告职业学院',210000),
  (7059,'辽宁机电职业技术学院',210000),
@@ -522,7 +522,7 @@ INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES
  (7076,'沈阳航空职业技术学院',210000),
  (7077,'沈阳职业技术学院',210000),
  (7078,'辽宁职业学院',210000);
-INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
  (7079,'铁岭师范高等专科学校',210000),
  (7080,'营口职业技术学院',210000),
  (7081,'沈阳广播电视大学',210000),
@@ -543,7 +543,7 @@ INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES
  (7096,'辽宁医学院医疗学院',210000),
  (7097,'辽宁中医药大学杏林学院',210000),
  (7098,'沈阳医学院何氏视觉科学学院',210000);
-INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
  (7099,'辽宁师范大学海华学院',210000),
  (7100,'东北财经大学津桥商学院',210000),
  (7101,'沈阳师范大学渤海学院',210000),
@@ -569,7 +569,7 @@ INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES
  (8014,'曲阜师大',370000),
  (8015,'烟台大学',370000),
  (8016,'鲁东大学',370000);
-INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
  (8017,'山东工商',370000),
  (8018,'南山学院',370000),
  (8019,'青岛大学',370000),
@@ -600,7 +600,7 @@ INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES
  (8044,'东营职业学院',370000),
  (8045,'哈工大(威海)',370000),
  (8046,'菏泽医学专科学校',370000);
-INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
  (8047,'济南工程职业技术学院',370000),
  (8048,'济南铁道职业技术学院',370000),
  (8049,'济南职业学院',370000),
@@ -624,7 +624,7 @@ INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES
  (8067,'山东电子职业技术学院',370000),
  (8068,'山东纺织职业学院',370000),
  (8069,'山东服装职业学院',370000);
-INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
  (8070,'山东工业职业学院',370000),
  (8071,'山东华宇职业技术学院',370000),
  (8072,'山东化工职业学院',370000),
@@ -647,7 +647,7 @@ INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES
  (8089,'山东水利专科学校',370000),
  (8090,'山东丝绸纺织职业学院',370000),
  (8091,'山东外国语职业学院',370000);
-INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
  (8092,'山东外贸职业学院',370000),
  (8093,'山东外事翻译学院威海分校',370000),
  (8094,'山东外事翻译职业学院',370000),
@@ -669,7 +669,7 @@ INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES
  (8110,'万杰科技学院',370000),
  (8111,'威海市广播电视大学',370000),
  (8112,'威海市交通学校',370000);
-INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
  (8113,'威海职业(技术)学院',370000),
  (8114,'威海中加国际工商学院',370000),
  (8115,'潍坊工商职业学院',370000),
@@ -694,7 +694,7 @@ INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES
  (8134,'山东商务职业学院',370000),
  (8135,'烟台汽车工程职业学院',370000),
  (8136,'山东省农业管理干部学院',370000);
-INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
  (8137,'山东省青年管理干部学院',370000),
  (8138,'山东省工会管理干部学院',370000),
  (8139,'山东广播电视大学',370000),
@@ -717,7 +717,7 @@ INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES
  (8156,'滨州技术学院',370000),
  (8157,'山东省贸易职工大学',370000),
  (8158,'山东冶金技术学院',370000);
-INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
  (8159,'山东省济宁市技术学院',370000),
  (8160,'济南广播电视大学',370000),
  (9001,'山西大学',140000),
@@ -745,7 +745,7 @@ INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES
  (9023,'吕梁高等专科学校',140000),
  (9024,'山西财贸职业技术学院',140000),
  (9025,'山西财政税务专科学校',140000);
-INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
  (9026,'山西电力职业技术学院',140000),
  (9027,'山西工程职业技术学院',140000),
  (9028,'山西工商职业学院',140000),
@@ -767,7 +767,7 @@ INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES
  (9044,'山西同文外语职业学院',140000),
  (9045,'山西戏剧职业学院',140000),
  (9046,'山西信息职业技术学院',140000);
-INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
  (9047,'山西兴华职业学院',140000),
  (9048,'山西艺术职业学院',140000),
  (9049,'山西运城农业职业技术学院',140000),
@@ -790,7 +790,7 @@ INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES
  (9066,'山西农业大学太原畜牧兽医学院',140000),
  (9067,'山西农业大学太原园艺学院（太原农业学校）',140000),
  (9068,'山西农业大学原平农学院（原平农业学校）',140000);
-INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
  (9069,'太原科技大学运城工学院（运城工学院）',140000),
  (9070,'山西财经大学运城学院',140000),
  (9071,'山西医科大学汾阳分院',140000),
@@ -814,7 +814,7 @@ INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES
  (10009,'西安工大',610000),
  (10010,'西外',610000),
  (10011,'西邮',610000);
-INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
  (10012,'西安医学院',610000),
  (10013,'西安财经',610000),
  (10014,'西北政法',610000),
@@ -841,7 +841,7 @@ INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES
  (10035,'宝鸡文理学院',610000),
  (10036,'渭南师范',610000),
  (10037,'陕西理工',610000);
-INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
  (10038,'榆林学院',610000),
  (10039,'商洛学院',610000),
  (10040,'安康学院',610000),
@@ -864,7 +864,7 @@ INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES
  (10057,'陕西旅游烹饪职业学院',610000),
  (10058,'陕西能源职业技术学院',610000),
  (10059,'陕西青年职业学院',610000);
-INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
  (10060,'陕西铁路工程职业技术学院',610000),
  (10061,'陕西邮电职业技术学院',610000),
  (10062,'陕西职业技术学院',610000),
@@ -886,7 +886,7 @@ INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES
  (10078,'西安职业技术学院',610000),
  (10079,'咸阳职业技术学院',610000),
  (10080,'延安职业技术学院',610000);
-INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
  (10081,'杨凌职业技术学院',610000),
  (10082,'陕西银行学校',610000),
  (10083,'西安机电信息技术学院',610000),
@@ -909,7 +909,7 @@ INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES
  (11002,'河北农大',130000),
  (11003,'中央司法警官学院',130000),
  (11004,'石家庄铁院',130000);
-INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
  (11005,'石家庄经院',130000),
  (11006,'河北师大',130000),
  (11007,'河北科技',130000),
@@ -939,7 +939,7 @@ INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES
  (11031,'河北金融学院',130000),
  (11032,'保定学院',130000),
  (11033,'保定职业技术学院',130000);
-INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
  (11034,'渤海石油职业学院',130000),
  (11035,'沧州师范专科学校',130000),
  (11036,'沧州医学高等专科学校',130000),
@@ -961,7 +961,7 @@ INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES
  (11052,'河北京都高尔夫职业学院',130000),
  (11053,'河北农业大学',130000),
  (11054,'河北农业大学海洋学院',130000);
-INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
  (11055,'河北女子职业技术学院',130000),
  (11056,'河北软件职业技术学院',130000),
  (11057,'河北省艺术职业学院',130000),
@@ -981,7 +981,7 @@ INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES
  (11071,'廊坊东方大学城北京传媒学院',130000),
  (11072,'廊坊东方大学城北京经济技术职业学院',130000),
  (11073,'廊坊东方大学城北京经贸职业学院航空服务学院',130000);
-INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
  (11074,'廊坊东方大学城北京联合大学',130000),
  (11075,'廊坊东方大学城北京中医药大学中专部',130000),
  (11076,'廊坊东方大学城河北体育学院',130000),
@@ -1001,7 +1001,7 @@ INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES
  (11090,'石家庄外语翻译职业学院',130000),
  (11091,'石家庄信息工程职业学院',130000),
  (11092,'石家庄医学高等专科学校',130000);
-INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
  (11093,'河北传媒学院',130000),
  (11094,'石家庄邮电职业技术学院',130000),
  (11095,'石家庄职业技术学院',130000),
@@ -1023,7 +1023,7 @@ INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES
  (11111,'华北煤炭医学院冀唐学院',130000),
  (11112,'河北医科大学临床学院',130000),
  (11113,'河北农业大学现代科技学院',130000);
-INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
  (11114,'石家庄铁道学院四方学院',130000),
  (11115,'燕山大学里仁学院',130000),
  (11116,'河北工程大学科信学院',130000),
@@ -1050,7 +1050,7 @@ INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES
  (12018,'平顶山工学院',410000),
  (12019,'平顶山学院',410000),
  (12020,'新乡医学院',410000);
-INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
  (12021,'河南科技学院',410000),
  (12022,'河南师大',410000),
  (12023,'信阳师院',410000),
@@ -1075,7 +1075,7 @@ INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES
  (12042,'河南省工商行政管理广播电视大学',410000),
  (12043,'河南省政法管理干部学院',410000),
  (12044,'河南司法警官职业学院',410000);
-INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
  (12045,'河南新华电脑学院',410000),
  (12046,'河南职业技术学院',410000),
  (12047,'河南质量工程职业学院',410000),
@@ -1099,7 +1099,7 @@ INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES
  (12065,'商丘科技职业学院',410000),
  (12066,'商丘医学高等专科学校',410000),
  (12067,'商丘职业技术学院',410000);
-INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
  (12068,'嵩山少林武术职业学院',410000),
  (12069,'铁道警官高等专科学校',410000),
  (12070,'新乡师范高等专科学校',410000),
@@ -1121,7 +1121,7 @@ INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES
  (12086,'郑州师范高等专科学校',410000),
  (12087,'郑州澍青医学高等专科学校',410000),
  (12088,'郑州铁路职业技术学院',410000);
-INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
  (12089,'郑州信息科技职业学院',410000),
  (12090,'郑州职业技术学院',410000),
  (12091,'中州大学',410000),
@@ -1143,7 +1143,7 @@ INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES
  (12107,'河南大学民生学院',410000),
  (12108,'河南师范大学新联学院',410000),
  (12109,'新乡医学院三全学院',410000);
-INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
  (12110,'信阳师范学院华锐学院',410000),
  (13001,'武汉大学',420000),
  (13002,'华中科大',420000),
@@ -1172,7 +1172,7 @@ INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES
  (13025,'湖北汽院',420000),
  (13026,'郧阳医学院',420000),
  (13027,'孝感学院',420000);
-INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
  (13028,'湖北师范学院',420000),
  (13029,'黄石理工',420000),
  (13030,'黄冈师院',420000),
@@ -1196,7 +1196,7 @@ INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES
  (13048,'湖北开放职业学院',420000),
  (13049,'湖北民族学院科技学院',420000),
  (13050,'湖北轻工职业技术学院',420000);
-INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
  (13051,'湖北三峡职业技术学院',420000),
  (13052,'湖北生态工程职业技术学院',420000),
  (13053,'湖北生物科技职业学院',420000),
@@ -1218,7 +1218,7 @@ INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES
  (13069,'武汉电力职业技术学院',420000),
  (13070,'武汉工程职业技术学院',420000),
  (13071,'武汉工业职业技术学院',420000);
-INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
  (13072,'武汉航海职业技术学院',420000),
  (13073,'武汉交通职业学院',420000),
  (13074,'武汉警官职业学院',420000),
@@ -1241,7 +1241,7 @@ INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES
  (13091,'中南民族大学工商学院',420000),
  (13092,'黄冈广播电视大学',420000),
  (13093,'华中科技大学文华学院',420000);
-INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
  (13094,'华中师范大学汉口分校',420000),
  (13095,'湖北大学知行学院',420000),
  (13096,'三峡大学科技学院',420000),
@@ -1262,7 +1262,7 @@ INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES
  (13111,'华中师范大学武汉影视工程学院',420000),
  (13112,'武汉大学东湖分校',420000),
  (13113,'中南财经政法武汉学院',420000);
-INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
  (13114,'华中科技大学武昌分校　',420000),
  (14001,'湖南师大',430000),
  (14002,'中南大学',430000),
@@ -1292,7 +1292,7 @@ INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES
  (14026,'邵阳学院',430000),
  (14027,'保险职业学院',430000),
  (14028,'长沙电力职业技术学院',430000);
-INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
  (14029,'长沙航空职业学院',430000),
  (14030,'长沙环境保护职业技术学院',430000),
  (14031,'长沙民政职业技术学院',430000),
@@ -1314,7 +1314,7 @@ INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES
  (14047,'湖南工程职业技术学院',430000),
  (14048,'湖南工学院',430000),
  (14049,'湖南工业职业技术学院',430000);
-INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
  (14050,'湖南工艺美术职业学院',430000),
  (14051,'湖南公安高等专科学校',430000),
  (14052,'湖南广播电视大学',430000),
@@ -1336,7 +1336,7 @@ INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES
  (14068,'湖南软件职业技术学院',430000),
  (14069,'湖南商务职业技术学院',430000),
  (14070,'湖南生物环境职业技术学院',430000);
-INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
  (14071,'湖南生物机电职业技术学院',430000),
  (14072,'湖南省水利水电职业技术学院',430000),
  (14073,'湖南石油化工职业技术学院',430000),
@@ -1357,7 +1357,7 @@ INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES
  (14088,'怀化医学高等专科学校',430000),
  (14089,'怀化职业技术学院',430000),
  (14090,'娄底理工学院',430000);
-INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
  (14091,'娄底市卫生学校',430000),
  (14092,'娄底职业技术学院',430000),
  (14093,'邵阳医学高等专科学校',430000),
@@ -1380,7 +1380,7 @@ INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES
  (14110,'湖南农业大学东方科技学院',430000),
  (14111,'中南林业科技大学涉外学院',430000),
  (14112,'湖南文理学院芙蓉学院',430000);
-INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
  (14113,'湖南理工学院南湖学院',430000),
  (14114,'衡阳师范学院南岳学院',430000),
  (14115,'湖南工程学院应用技术学院',430000),
@@ -1403,7 +1403,7 @@ INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES
  (15011,'海南政法职业学院',460000),
  (15012,'海南职业技术学院',460000),
  (15013,'琼台师范高等专科学校',460000);
-INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
  (15014,'三亚航空旅游职业学院',460000),
  (15015,'三亚卓达旅游职业学院',460000),
  (15016,'海南大学三亚学院',460000),
@@ -1432,7 +1432,7 @@ INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES
  (16023,'中国药科大',320000),
  (16024,'苏州大学',320000),
  (16025,'江南大学',320000);
-INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
  (16026,'中国矿大（徐州）',320000),
  (16027,'徐州师大',320000),
  (16028,'徐州工程',320000),
@@ -1459,7 +1459,7 @@ INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES
  (16049,'河海大学常州校区',320000),
  (16050,'淮安信息职业技术学院',320000),
  (16051,'建东职业技术学院',320000);
-INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
  (16052,'健雄职业技术学院',320000),
  (16053,'江海职业技术学院',320000),
  (16054,'江南影视艺术职业学院',320000),
@@ -1481,7 +1481,7 @@ INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES
  (16070,'民办明达职业技术学院',320000),
  (16071,'南京动力高等专科学校',320000),
  (16072,'南京工业职业技术学院',320000);
-INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
  (16073,'南京化工职业技术学院',320000),
  (16074,'南京交通职业技术学院',320000),
  (16075,'南京人口管理干部学院',320000),
@@ -1502,7 +1502,7 @@ INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES
  (16090,'苏州工艺美术职业技术学院',320000),
  (16091,'苏州经贸职业技术学院',320000),
  (16092,'苏州科技大学',320000);
-INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
  (16093,'苏州农业职业技术学院',320000),
  (16094,'苏州托普信息职业技术学院',320000),
  (16095,'苏州职业大学',320000),
@@ -1525,7 +1525,7 @@ INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES
  (16112,'盐城纺织职业技术学院',320000),
  (16113,'扬州工业职业技术学院',320000),
  (16114,'扬州环境资源管理学院',320000);
-INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
  (16115,'扬州环境资源职业技术学院',320000),
  (16116,'扬州教育学院',320000),
  (16117,'扬州职业大学',320000),
@@ -1549,7 +1549,7 @@ INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES
  (17003,'华东交通大学',360000),
  (17004,'南昌航空大学',360000),
  (17005,'南昌工程',360000);
-INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
  (17006,'南昌理工',360000),
  (17007,'江西中医学院',360000),
  (17008,'江西科技师范学院',360000),
@@ -1576,7 +1576,7 @@ INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES
  (17029,'江西赣江职业技术学院',360000),
  (17030,'江西工程职业学院',360000),
  (17031,'江西工业工程职业技术学院',360000);
-INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
  (17032,'江西工业贸易职业技术学院',360000),
  (17033,'江西工业职业技术学院',360000),
  (17034,'江西公安专科学校',360000),
@@ -1598,7 +1598,7 @@ INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES
  (17050,'江西生物科技职业学院',360000),
  (17051,'江西省广播电视大学',360000),
  (17052,'江西司法警官职业学院',360000);
-INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
  (17053,'江西陶瓷工艺美术职业学院',360000),
  (17054,'江西外语外贸职业学院',360000),
  (17055,'江西先锋软件职业技术学院',360000),
@@ -1620,7 +1620,7 @@ INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES
  (17071,'萍乡高等专科学校',360000),
  (17072,'上饶职业技术学院',360000),
  (17073,'新余钢铁有限责任公司职工大学',360000);
-INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
  (17074,'新余高等专科学校',360000),
  (17075,'宜春职业技术学院',360000),
  (17076,'鹰潭职业技术学院',360000),
@@ -1642,7 +1642,7 @@ INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES
  (18002,'中山大学',440000),
  (18003,'暨南大学',440000),
  (18004,'华南师范大学',440000);
-INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
  (18005,'广东工业大学',440000),
  (18006,'华南农业大学',440000),
  (18007,'广州大学',440000),
@@ -1670,7 +1670,7 @@ INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES
  (18029,'广东医学院',440000),
  (18030,'湛江师范',440000),
  (18031,'广东海洋',440000);
-INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
  (18032,'韶关学院',440000),
  (18033,'韩山师范',440000),
  (18034,'嘉应学院',440000),
@@ -1693,7 +1693,7 @@ INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES
  (18051,'广东工贸职业技术学院',440000),
  (18052,'广东工业大学华立学院',440000),
  (18053,'广东海洋大学寸金学院',440000);
-INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
  (18054,'广东海洋大学海滨学院',440000),
  (18055,'广东化工制药职业技术学院',440000),
  (18056,'广东机电职业技术学院',440000),
@@ -1714,7 +1714,7 @@ INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES
  (18071,'广东松山职业技术学院',440000),
  (18072,'广东体育职业技术学院',440000),
  (18073,'广东外语外贸大学公开学院',440000);
-INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
  (18074,'广东外语艺术职业学院',440000),
  (18075,'广东文艺职业学院',440000),
  (18076,'广东新安职业技术学院',440000),
@@ -1736,7 +1736,7 @@ INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES
  (18092,'广州科技职业技术学院',440000),
  (18093,'广州民航职业技术学院',440000),
  (18094,'广州南洋理工职业学院',440000);
-INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
  (18095,'广州涉外经济职业技术学院',440000),
  (18096,'广州体育职业技术学院',440000),
  (18097,'广州铁路职业技术学院',440000),
@@ -1758,7 +1758,7 @@ INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES
  (18113,'汕尾职业技术学院',440000),
  (18114,'深圳信息职业技术学院',440000),
  (18115,'深圳振西科技学院',440000);
-INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
  (18116,'深圳职业技术学院',440000),
  (18117,'顺德职业技术学院',440000),
  (18118,'私立华联学院',440000),
@@ -1781,7 +1781,7 @@ INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES
  (18135,'广东商学院华商学院',440000),
  (18136,'南开大学深圳金融工程学院',440000),
  (18137,'北京师范大学－香港浸会大学联合国际学院',440000);
-INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
  (18138,'广州金桥管理干部学院',440000),
  (18139,'广州大学纺织服装学院',440000),
  (18140,'华南师范大学南海校区',440000),
@@ -1808,7 +1808,7 @@ INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES
  (19019,'梧州学院',450000),
  (19020,'广西大学行健文理学院',450000),
  (19021,'广西师范大学漓江学院',450000);
-INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
  (19022,'桂林电子科技大学信息科技学院',450000),
  (19023,'桂林工学院博文管理学院',450000),
  (19024,'广西工学院鹿山学院',450000),
@@ -1829,7 +1829,7 @@ INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES
  (19039,'广西交通职业技术学院',450000),
  (19040,'广西经济管理干部学院',450000),
  (19041,'广西经贸职业技术学院',450000);
-INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
  (19042,'广西警管高等专科学校',450000),
  (19043,'广西农业职业技术学院',450000),
  (19044,'广西轻工高级技工学校',450000),
@@ -1851,7 +1851,7 @@ INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES
  (19060,'柳州医学高等专科学校',450000),
  (19061,'柳州运输职业技术学院',450000),
  (19062,'柳州职业技术学院',450000);
-INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
  (19063,'南宁师范高等专科学校',450000),
  (19064,'南宁职业技术学院',450000),
  (19065,'南宁地区教育学院',450000),
@@ -1878,7 +1878,7 @@ INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES
  (20018,'保山中医药高等专科学校',530000),
  (20019,'楚雄医药高等专科学校',530000),
  (20020,'德宏师范高等专科学校',530000);
-INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
  (20021,'云南大学滇池学院',530000),
  (20022,'昆明大学',530000),
  (20023,'昆明工业职业技术学院',530000),
@@ -1900,7 +1900,7 @@ INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES
  (20039,'云南机电职业技术学院',530000),
  (20040,'云南交通职业技术学院',530000),
  (20041,'云南经济管理职业学院',530000);
-INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
  (20042,'云南科技信息职业技术学院',530000),
  (20043,'云南林业职业技术学院',530000),
  (20044,'云南能源职业技术学院',530000),
@@ -1922,7 +1922,7 @@ INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES
  (20060,'云南艺术学院文华学院',530000),
  (20061,'云南大学旅游文化学院',530000),
  (20062,'临沧师范高等专科学校',530000);
-INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
  (21001,'贵州大学',520000),
  (21002,'贵阳医学院',520000),
  (21003,'贵阳中医学院',520000),
@@ -1948,7 +1948,7 @@ INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES
  (21023,'贵州理工职业技术学院',520000),
  (21024,'贵州轻工职业技术学院',520000),
  (21025,'贵州商业高等专科学校',520000);
-INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
  (21026,'六盘水师范高等专科学校',520000),
  (21027,'六盘水职业技术学院',520000),
  (21028,'黔东南民族职业技术学院',520000),
@@ -1969,7 +1969,7 @@ INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES
  (21043,'贵州大学科技学院',520000),
  (21044,'贵阳护理职业学院',520000),
  (21045,'贵州亚泰职业学院',520000);
-INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
  (21046,'贵州教育学院',520000),
  (22001,'四川大学',510000),
  (22002,'四川农大',510000),
@@ -1999,7 +1999,7 @@ INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES
  (22026,'绵阳师范',510000),
  (22027,'西南科大',510000),
  (22028,'西昌学院',510000);
-INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
  (22029,'宜宾学院',510000),
  (22030,'攀枝花学院',510000),
  (22031,'阿坝师范高等专科学校',510000),
@@ -2022,7 +2022,7 @@ INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES
  (22048,'绵阳职业技术学院',510000),
  (22049,'民办四川天一学院',510000),
  (22050,'内江职业技术学院',510000);
-INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
  (22051,'南充职业技术学院',510000),
  (22052,'四川大学龙泉校区',510000),
  (22053,'四川电力职业技术学院',510000),
@@ -2044,7 +2044,7 @@ INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES
  (22069,'四川师范大学绵阳初等教育学院',510000),
  (22070,'四川水利职业技术学院',510000),
  (22071,'四川司法警官职业学院',510000);
-INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
  (22072,'四川托普信息技术职业学院',510000),
  (22073,'四川外语学院成都学院',510000),
  (22074,'四川文化传媒职业学院',510000),
@@ -2066,7 +2066,7 @@ INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES
  (22090,'四川文化产业职业学院',510000),
  (22091,'四川科技职业学院',510000),
  (22092,'西南科技大学城市学院',510000);
-INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
  (22093,'四川音乐学院绵阳艺术学院',510000),
  (22094,'西南财经大学天府学院',510000),
  (23001,'内蒙古大学',150000),
@@ -2091,7 +2091,7 @@ INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES
  (23020,'内蒙古青城大学',150000),
  (23021,'内蒙古化工职业学院',150000),
  (23022,'内蒙古机电职业技术学院',150000);
-INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
  (23023,'内蒙古建筑职业技术学院',150000),
  (23024,'内蒙古交通职业技术学院',150000),
  (23025,'内蒙古民族高等专科学校',150000),
@@ -2115,7 +2115,7 @@ INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES
  (24005,'宁夏师范',640000),
  (24006,'吴忠职业技术学院',640000),
  (24007,'宁夏职业技术学院',640000);
-INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
  (24008,'宁夏财经职业技术学院',640000),
  (24009,'宁夏司法警官职业学院',640000),
  (24010,'宁夏师范学院',640000),
@@ -2141,7 +2141,7 @@ INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES
  (25015,'甘肃工业职业技术学院',620000),
  (25016,'甘肃警察职业学院',620000),
  (25017,'兰州理工大学技术工程学院',620000);
-INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
  (25018,'兰州职业技术学院',620000),
  (25019,'武威职业学院',620000),
  (25020,'张掖医学高等专科学校',620000),
@@ -2163,7 +2163,7 @@ INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES
  (25036,'甘肃钢铁职业技术学院',620000),
  (26001,'青海大学',630000),
  (26002,'青海师大',630000);
-INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
  (26003,'青海民院',630000),
  (26004,'青海民族师范高等专科学校',630000),
  (26005,'青海财经职业学院',630000),
@@ -2188,7 +2188,7 @@ INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES
  (28007,'石河子大学',650000),
  (28008,'塔里木大学',650000),
  (28009,'喀什师院',650000);
-INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
  (28010,'伊犁师院',650000),
  (28011,'昌吉学院',650000),
  (28012,'阿克苏职业技术学院',650000),
@@ -2210,7 +2210,7 @@ INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES
  (28028,'新疆天山职业技术学院',650000),
  (28029,'新疆维吾尔医学专科学校',650000),
  (28030,'新疆现代职业技术学院',650000);
-INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
  (28031,'伊犁职业技术学院',650000),
  (28032,'新疆科信学院',650000),
  (28033,'新疆职业大学',650000),
@@ -2237,7 +2237,7 @@ INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES
  (29015,'安徽财经',340000),
  (29016,'阜阳师范',340000),
  (29017,'淮南师范',340000);
-INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
  (29018,'安徽理工',340000),
  (29019,'淮北煤炭师范',340000),
  (29020,'安庆师范',340000),
@@ -2262,7 +2262,7 @@ INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES
  (29039,'安徽国际商务职业学院',340000),
  (29040,'安徽机电职业技术学院',340000),
  (29041,'安徽交通职业技术学院',340000);
-INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
  (29042,'安徽教育学院',340000),
  (29043,'安徽经济管理学院',340000),
  (29044,'安徽警官职业学院',340000),
@@ -2284,7 +2284,7 @@ INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES
  (29060,'安徽中医药高等专科学校',340000),
  (29061,'安庆职业技术学院',340000),
  (29062,'蚌埠高等专科学校',340000);
-INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
  (29063,'蚌埠职业教育专修学院',340000),
  (29064,'亳州师范高等专科学校',340000),
  (29065,'亳州职业技术学院',340000),
@@ -2307,7 +2307,7 @@ INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES
  (29082,'铜陵职业技术学院',340000),
  (29083,'芜湖信息技术职业学院',340000),
  (29084,'芜湖职业技术学院',340000);
-INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
  (29085,'宣城职业技术学院',340000),
  (29086,'安徽师范大学皖江学院',340000),
  (29087,'合肥师范学院',340000),
@@ -2335,7 +2335,7 @@ INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES
  (30018,'诺丁汉大学',330000),
  (30019,'嘉兴学院',330000),
  (30020,'浙江海洋',330000);
-INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
  (30021,'温州大学',330000),
  (30022,'温州医学院',330000),
  (30023,'湖州师范',330000),
@@ -2360,7 +2360,7 @@ INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES
  (30042,'衢州职业技术学院',330000),
  (30043,'绍兴托普信息职业技术学院',330000),
  (30044,'绍兴越秀外国语职业学院',330000);
-INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
  (30045,'台州职业技术学院',330000),
  (30046,'温州职业技术学院',330000),
  (30047,'义乌工商职业技术学院',330000),
@@ -2382,7 +2382,7 @@ INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES
  (30063,'浙江经贸职业技术学院',330000),
  (30064,'浙江警官职业学院',330000),
  (30065,'浙江旅游职业学院',330000);
-INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
  (30066,'浙江商业职业技术学院',330000),
  (30067,'浙江水利水电专科学校',330000),
  (30068,'浙江医学高等专科学校',330000),
@@ -2406,7 +2406,7 @@ INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES
  (31010,'闽江学院',350000),
  (31011,'华侨大学',350000),
  (31012,'仰恩大学',350000);
-INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
  (31013,'泉州师范学院',350000),
  (31014,'漳州师范',350000),
  (31015,'莆田学院',350000),
@@ -2430,7 +2430,7 @@ INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES
  (31033,'福建教育学院',350000),
  (31034,'福建金融职业技术学院',350000),
  (31035,'福建警官职业学院',350000);
-INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
  (31036,'福建林业职业技术学院',350000),
  (31037,'福建农业职业技术学院',350000),
  (31038,'福建商业高等专科学校',350000),
@@ -2452,7 +2452,7 @@ INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES
  (31054,'闽北职业技术学院',350000),
  (31055,'闽西职业技术学院',350000),
  (31056,'武夷学院',350000);
-INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
  (31057,'宁德师范高等专科学校',350000),
  (31058,'泉州纺织服装职业学院',350000),
  (31059,'泉州光电信息职业学院',350000),
@@ -2474,7 +2474,7 @@ INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES
  (31075,'厦门城市职业学院',350000),
  (31076,'漳州卫生职业学院',350000),
  (32001,'国立台湾大学',710000);
-INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
  (32002,'国立中正大学',710000),
  (32003,'国立台湾艺术大学',710000),
  (32004,'国立清华大学',710000),
@@ -2500,7 +2500,7 @@ INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES
  (32024,'国立台北科技大学',710000),
  (32025,'国立台东大学',710000),
  (32026,'国立宜蓝大学',710000);
-INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
  (32027,'国立台北艺术大学',710000),
  (32028,'国立云林科技大学',710000),
  (32029,'国立台南大学',710000),
@@ -2525,7 +2525,7 @@ INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES
  (33007,'香港岭南大学',810000),
  (33008,'香港国际工商管理学院',810000),
  (33009,'香港珠海学院',810000);
-INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES 
+INSERT INTO `universities` (`university_code`,`name`,`province_id`) VALUES 
  (33010,'香港教育学院',810000),
  (33011,'香港树仁大学',810000),
  (33012,'香港演艺学院',810000),
@@ -2535,13 +2535,13 @@ INSERT INTO `university` (`university_code`,`name`,`province_id`) VALUES
  (34004,'澳门旅游学院',820000),
  (34005,'澳门镜湖护理学院',820000),
  (34006,'澳门国际公开大学',820000);
-/*!40000 ALTER TABLE `university` ENABLE KEYS */;
+/*!40000 ALTER TABLE `universities` ENABLE KEYS */;
 
 
 
 
-/*!40000 ALTER TABLE `college` DISABLE KEYS */;
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+/*!40000 ALTER TABLE `colleges` DISABLE KEYS */;
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (1001001,'中国语言文学系',1001),
  (1001002,'人文社会科学学院',1001),
  (1001003,'企业管理系',1001),
@@ -2570,7 +2570,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (1001026,'工程物理系',1001),
  (1001027,'应用技术学院',1001),
  (1001028,'建筑技术科学系',1001);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (1001029,'建筑系',1001),
  (1001030,'建设管理系',1001),
  (1001031,'微电子与纳电子学系',1001),
@@ -2598,7 +2598,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (1001053,'环境艺术设计系',1001),
  (1001054,'理学院',1001),
  (1001055,'生物医学工程系',1001);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (1001056,'生物科学与技术系',1001),
  (1001057,'电子工程系',1001),
  (1001058,'电子系',1001),
@@ -2623,7 +2623,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (1001077,'美术学院（雕塑系）',1001),
  (1001078,'自动化系',1001),
  (1001079,'航天航空学院',1001);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (1001080,'艺术教育中心',1001),
  (1001081,'药学系',1001),
  (1001082,'计算器应用与维修',1001),
@@ -2651,7 +2651,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (1002018,'北京大学第三医院',1002),
  (1002019,'医学部',1002),
  (1002020,'医学部公共卫生学院',1002);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (1002021,'医学部公共教学部',1002),
  (1002022,'医学部基础医学院',1002),
  (1002023,'医学部护理学院',1002),
@@ -2679,7 +2679,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (1002045,'技术物理系',1002),
  (1002046,'政府管理学院',1002),
  (1002047,'教育学院',1002);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (1002048,'数字艺术',1002),
  (1002049,'数学科学学院',1002),
  (1002050,'新闻与传播学院',1002),
@@ -2706,7 +2706,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (1002071,'考古文博学院',1002),
  (1002072,'艺术学系',1002),
  (1002073,'药学院',1002);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (1002074,'计算机科学与技术系',1002),
  (1002075,'计算机系',1002),
  (1002076,'资源学院',1002),
@@ -2736,7 +2736,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (1003021,'外国语学院',1003),
  (1003022,'对外语言文化学院',1003),
  (1003023,'工商管理',1003);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (1003024,'徐悲鸿艺术学院',1003),
  (1003025,'文学院',1003),
  (1003026,'新闻学院',1003),
@@ -2765,7 +2765,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (1004010,'北海外国语学院',1004),
  (1004011,'北海学院',1004),
  (1004012,'土木工程系',1004);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (1004013,'外语系12系',1004),
  (1004014,'宇航学院15系',1004),
  (1004015,'小熊学院',1004),
@@ -2790,7 +2790,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (1004034,'计算机',1004),
  (1004035,'计算机',1004),
  (1004036,'软件学院21系',1004);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (1004037,'飞行学院',1004),
  (1004038,'高等工程学院23系',1004),
  (1005001,'体育部',1005),
@@ -2817,7 +2817,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (1006005,'化学学院',1006),
  (1006006,'北京文化发展研究院',1006),
  (1006007,'历史学院',1006);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (1006008,'古籍研究所',1006),
  (1006009,'哲学与社会学学院',1006),
  (1006010,'商学院',1006),
@@ -2846,7 +2846,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (1006033,'管理学院',1006),
  (1006034,'经济与工商管理学院',1006),
  (1006035,'经济与资源管理研究所',1006);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (1006036,'继续教育与教师培训学院',1006),
  (1006037,'艺术与传媒学院',1006),
  (1006038,'计算机',1006),
@@ -2873,7 +2873,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (1007018,'导演表演系－导演专业',1007),
  (1007019,'导演表演系－表演专业',1007),
  (1007020,'工学院',1007);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (1007021,'广告学系',1007),
  (1007022,'广告设计系',1007),
  (1007023,'广播电视工程系',1007),
@@ -2902,7 +2902,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (1007046,'管理科学与工程系',1007),
  (1007047,'经济管理系',1007),
  (1007048,'编辑出版系',1007);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (1007049,'美术系',1007),
  (1007050,'自动化系',1007),
  (1007051,'艺术传播系',1007),
@@ -2929,7 +2929,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (1008013,'国际商学院（会计学）',1008),
  (1008014,'国际商学院（金融学）',1008),
  (1008015,'外国语言学及应用语言学',1008);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (1008016,'对外汉语',1008),
  (1008017,'对外汉语研究中心',1008),
  (1008018,'对外汉语系',1008),
@@ -2957,7 +2957,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (1009011,'土木工程系',1009),
  (1009012,'外国语学院',1009),
  (1009013,'天津学院',1009);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (1009014,'天津学院',1009),
  (1009015,'天津学院',1009),
  (1009016,'学报编辑部',1009),
@@ -2984,7 +2984,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (1009037,'材料加工工程系',1009),
  (1009038,'材料学系',1009),
  (1009039,'材料学院',1009);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (1009040,'材料物理与化学系',1009),
  (1009041,'材料科学与工程',1009),
  (1009042,'法律系',1009),
@@ -3011,7 +3011,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (1009063,'自动控制研究所',1009),
  (1009064,'艺术教育中心',1009),
  (1009065,'艺术设计系',1009);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (1009066,'计算机科学与技术',1009),
  (1009067,'设备工程系',1009),
  (1009068,'财务与会计系',1009),
@@ -3039,7 +3039,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (1010012,'园林系',1010),
  (1010013,'国际学院',1010),
  (1010014,'媒体传播系',1010);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (1010015,'工业设计',1010),
  (1010016,'工商企业管理',1010),
  (1010017,'工学院',1010),
@@ -3067,7 +3067,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (1011003,'信息科学技术学院',1011),
  (1011004,'光电工程系（四系）',1011),
  (1011005,'公共事务管理',1011);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (1011006,'化工与环境学院五院',1011),
  (1011007,'外国语学院',1011),
  (1011008,'宇航科学技术学院',1011),
@@ -3093,7 +3093,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (1011028,'设计艺术学院十院',1011),
  (1012001,'人文学院心理系',1012),
  (1012002,'人文社会科学学院',1012);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (1012003,'信息学院',1012),
  (1012004,'北林疯人院',1012),
  (1012005,'园林学院',1012),
@@ -3121,7 +3121,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (1013004,'土建学院艺术设计',1013),
  (1013005,'土木建筑工程学院',1013),
  (1013006,'工商管理',1013);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (1013007,'建筑系',1013),
  (1013008,'旅游英语',1013),
  (1013009,'机械与电子控制工程学院',1013),
@@ -3149,7 +3149,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (1014004,'建筑系',1014),
  (1014005,'成人教育学院',1014),
  (1014006,'文法学院',1014);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (1014007,'机电与信息工程学院',1014),
  (1014008,'理学院',1014),
  (1014009,'管理学院',1014),
@@ -3177,7 +3177,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (1015021,'计算机信息系统系',1015),
  (1015022,'计算机及自动化系',1015),
  (1015023,'计算机科学与工程系',1015);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (1015024,'计算机科学与技术系',1015),
  (1015025,'高职部',1015),
  (1016001,'中加工商',1016),
@@ -3202,7 +3202,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (1016020,'继续教育学院',1016),
  (1016021,'耿丹学院',1016),
  (1016022,'艺术设计学院',1016);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (1016023,'计算机学院',1016),
  (1016024,'软件学院',1016),
  (1016025,'通州分校',1016),
@@ -3231,7 +3231,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (1018008,'外国语学院',1018),
  (1018009,'政治与公共管理学院',1018),
  (1018010,'民商经济法学院',1018);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (1018011,'法学院',1018),
  (1018012,'法律硕士学院',1018),
  (1018013,'研究生院',1018),
@@ -3259,7 +3259,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (1019019,'外语学院俄语系',1019),
  (1019020,'外语学院意大利语系',1019),
  (1019021,'外语学院法语系',1019);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (1019022,'外语学院西班牙语系',1019),
  (1019023,'外语学院阿拉伯语系',1019),
  (1019024,'外语学院韩语系',1019),
@@ -3287,7 +3287,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (1020011,'教育学院',1020),
  (1020012,'数学与计算机科学学院',1020),
  (1020013,'文学与新闻传播学院',1020);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (1020014,'民族学与社会学学院',1020),
  (1020015,'法学院',1020),
  (1020016,'物理与电子工程学院',1020),
@@ -3315,7 +3315,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (1021014,'研究生院',1021),
  (1021015,'网络学院',1021),
  (1021016,'能源学院',1021);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (1021017,'艺术与传媒学院',1021),
  (1021018,'软件学院',1021),
  (1021019,'长城学院',1021),
@@ -3340,7 +3340,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (1022019,'光电研究院',1022),
  (1022020,'兰州分院',1022),
  (1022021,'兰州化学物理研究所',1022);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (1022022,'兰州地质研究所',1022),
  (1022023,'冶金自动化研究设计院',1022),
  (1022024,'力学研究所',1022),
@@ -3366,7 +3366,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (1022044,'地球科学学院',1022),
  (1022045,'地理科学与资源研究所',1022),
  (1022046,'地质与地球物理研究所',1022);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (1022047,'基因组所',1022),
  (1022048,'声学研究所',1022),
  (1022049,'声学研究所东海研究站',1022),
@@ -3391,7 +3391,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (1022068,'成都有机化学有限公司',1022),
  (1022069,'成都生物研究所',1022),
  (1022070,'成都计算所',1022);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (1022071,'数学与系统科学研究院',1022),
  (1022072,'文献中心',1022),
  (1022073,'文献情报中心',1022),
@@ -3416,7 +3416,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (1022092,'测量与地球物理研究所',1022),
  (1022093,'渗流流体力学研究所',1022),
  (1022094,'物理研究所',1022);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (1022095,'理化技术研究所',1022),
  (1022096,'理论物理研究所',1022),
  (1022097,'生态中心',1022),
@@ -3441,7 +3441,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (1022116,'西双版纳热带植物园',1022),
  (1022117,'西安光学精密机械研究所',1022),
  (1022118,'西安分院',1022);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (1022119,'计算与通信工程学院',1022),
  (1022120,'计算技术研究所',1022),
  (1022121,'计算机网络信息中心',1022),
@@ -3467,7 +3467,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (1023001,'东方学院',1023),
  (1023002,'东直门医院',1023),
  (1023003,'中药制药',1023);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (1023004,'中药学院',1023),
  (1023005,'中药系',1023),
  (1023006,'台港澳中医学部',1023),
@@ -3497,7 +3497,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (1024014,'工商管理学院',1024),
  (1024015,'法学系',1024),
  (1024016,'经济学院',1024);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (1024017,'统计学系',1024),
  (1024018,'统计学院',1024),
  (1024019,'财政税务学院',1024),
@@ -3525,7 +3525,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (1025019,'税务学院',1025),
  (1025020,'管理工程学院',1025),
  (1025021,'经济学院',1025);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (1025022,'经济数学系',1025),
  (1025023,'统计学院',1025),
  (1025024,'财政与公共管理学院',1025),
@@ -3552,7 +3552,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (1027009,'土木工程专业',1027),
  (1027010,'地质工程专业',1027),
  (1027011,'外语系',1027);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (1027012,'工商管理专业',1027),
  (1027013,'工商管理学院',1027),
  (1027014,'市场营销专业',1027),
@@ -3579,7 +3579,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (1028004,'国际经济系',1028),
  (1028005,'基础教学部',1028),
  (1028006,'外交学系',1028);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (1028007,'外语系',1028),
  (1028008,'成教学院',1028),
  (1028009,'研究生部',1028),
@@ -3609,7 +3609,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (1029023,'经济管理学院',1029),
  (1029024,'美术学院',1029),
  (1029025,'艺术与传媒学院',1029);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (1029026,'资环学院',1029),
  (1029027,'音乐学院',1029),
  (1030001,'导演系',1030),
@@ -3638,7 +3638,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (1031016,'计算机教学与应用中心',1031),
  (1031017,'计算机系',1031),
  (1031018,'财政金融系',1031);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (1031019,'青少年工作系',1031),
  (1032001,'中国外语教育研究中心',1032),
  (1032002,'亚非学院东南亚语系马来语',1032),
@@ -3667,7 +3667,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (1032025,'阿拉伯语系',1032),
  (1032026,'高级翻译学院',1032),
  (1032027,'日语系',1032);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (1033001,'人文与社会科学学院',1033),
  (1033002,'人文学院',1033),
  (1033003,'体育教学部',1033),
@@ -3695,7 +3695,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (1033025,'科技学院',1033),
  (1033026,'能源与动力工程学院',1033),
  (1033027,'自动化',1033);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (1033028,'计算机科学与技术学院',1033),
  (1034001,'交通管理工程系',1034),
  (1034002,'侦查系',1034),
@@ -3723,7 +3723,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (1035002,'公共卫生学院',1035),
  (1035003,'医药生物技术研究所',1035),
  (1035004,'基础医学院',1035);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (1035005,'护理学院',1035),
  (1035006,'生物医学工程研究所',1035),
  (1035007,'药物所',1035),
@@ -3751,7 +3751,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (1037004,'化学与环境工程学院',1037),
  (1037005,'商学院',1037),
  (1037006,'嘉华学院',1037);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (1037007,'基础部',1037),
  (1037008,'塑料研究所材料科学与工程系',1037),
  (1037009,'外语部',1037),
@@ -3780,7 +3780,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (1038012,'旅游学院',1038),
  (1038013,'机电学院',1038),
  (1038014,'特殊教育学院',1038);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (1038015,'生物化学工程学院',1038),
  (1038016,'管理学院',1038),
  (1038017,'继续教育学院',1038),
@@ -3807,7 +3807,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (1039018,'第九临床医学院',1039),
  (1039019,'第二临床医学院',1039),
  (1039020,'第五临床医学院',1039);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (1039021,'第八临床医学院',1039),
  (1039022,'第六临床医学院',1039),
  (1039023,'第四临床医学院',1039),
@@ -3837,7 +3837,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (1041011,'继续教育学院',1041),
  (1041012,'美术史系',1041),
  (1041013,'艺术管理系',1041);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (1041014,'设计学院',1041),
  (1041015,'造型学院',1041),
  (1041016,'雕塑系',1041),
@@ -3866,7 +3866,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (1043012,'经济管理系',1043),
  (1043013,'英桥学院',1043),
  (1044001,'中华高丽学院',1044);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (1044002,'中文系',1044),
  (1044003,'人力资源管理系',1044),
  (1044004,'会计系',1044),
@@ -3897,7 +3897,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (1045011,'机电工程系',1045),
  (1045012,'测绘与城市空间信息学院',1045),
  (1045013,'测绘工程系',1045);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (1045014,'环境与能源工程学院',1045),
  (1045015,'电气与信息工程学院',1045),
  (1045016,'电气工程与自动化系',1045),
@@ -3924,7 +3924,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (1047005,'国际教育学院',1047),
  (1047006,'外语系',1047),
  (1047007,'工程教育中心',1047);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (1047008,'数理系',1047),
  (1047009,'机械工程学院',1047),
  (1047010,'材料科学与工程系',1047),
@@ -3953,7 +3953,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (1050003,'成人教育部',1050),
  (1050004,'技术学科部',1050),
  (1050005,'民族传统体育系',1050);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (1050006,'理论学科部',1050),
  (1050007,'研究生部',1050),
  (1050008,'社会体育系',1050),
@@ -3983,7 +3983,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (1051021,'财务管理',1051),
  (1051022,'阿拉伯语系',1051),
  (1051023,'国际传播学院',1051);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (1052001,'会计系',1052),
  (1052002,'体育教学部',1052),
  (1052003,'信息学院',1052),
@@ -4013,7 +4013,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (1053012,'装甲兵工程学院',1053),
  (1053013,'警体教研部',1053),
  (1053014,'道路交通管理',1053);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (1054001,'作曲系',1054),
  (1054002,'基础教育部',1054),
  (1054003,'声歌系',1054),
@@ -4043,7 +4043,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (1056004,'社会舞蹈系',1056),
  (1056005,'继续教育学院',1056),
  (1056006,'舞蹈学系',1056);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (1056007,'舞蹈编导系',1056),
  (1056008,'艺术传播系',1056),
  (1056009,'艺术设计系',1056),
@@ -4073,7 +4073,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (1058005,'录音系',1058),
  (1058006,'影视技术系',1058),
  (1058007,'技术研究所',1058);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (1058008,'摄影学院',1058),
  (1058009,'摄影系',1058),
  (1058010,'文学系',1058),
@@ -4103,7 +4103,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (1060001,'基础教学部',1060),
  (1060002,'语言与传播系',1060),
  (1060003,'语言与传播系',1060);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (1060004,'财务与管理系',1060),
  (1061001,'应用外语学院',1061),
  (1061002,'艺术与传媒学院',1061),
@@ -4133,7 +4133,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (1066003,'公共卫生学院',1066),
  (1066004,'基础医学院',1066),
  (1066005,'护理学院',1066);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (1066006,'网络学院',1066),
  (1066007,'药学院',1066),
  (1067001,'人文系',1067),
@@ -4163,7 +4163,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (1070007,'流行演唱学院',1070),
  (1070008,'爵士乐系',1070),
  (1070009,'舞蹈系',1070);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (1070010,'艺术管理系',1070),
  (1070011,'表演系',1070),
  (1070012,'说唱艺术系',1070),
@@ -4194,7 +4194,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (1075010,'水利与建筑工程系',1075),
  (1075011,'畜牧兽医系',1075),
  (1075012,'社区管理系',1075);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (1075013,'经济管理系',1075),
  (1075014,'经济贸易系',1075),
  (1075015,'财会金融系',1075),
@@ -4223,7 +4223,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (1076022,'日语学院',1076),
  (1076023,'昊月国际学院',1076),
  (1076024,'机电工程学院',1076);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (1076025,'汽车工程学院',1076),
  (1076026,'法学院',1076),
  (1076027,'现代教育学院',1076),
@@ -4251,7 +4251,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (1077008,'文法系',1077),
  (1077009,'旅游管理系',1077),
  (1077010,'汽车商务系',1077);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (1077011,'生物技术',1077),
  (1077012,'电子商务',1077),
  (1077013,'经营管理系',1077),
@@ -4280,7 +4280,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (1078017,'环境艺术设计系',1078),
  (1078018,'电子商务系',1078),
  (1078019,'综合教育学院',1078);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (1078020,'网络工程系',1078),
  (1078021,'航空服务学院',1078),
  (1078022,'装潢艺术设计系',1078),
@@ -4310,7 +4310,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (1082003,'动漫与游戏学院',1082),
  (1082004,'北京欧美外语中学',1082),
  (1082005,'商学院',1082);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (1082006,'国际管理学院',1082),
  (1082007,'应用心理学院',1082),
  (1082008,'文学院',1082),
@@ -4340,7 +4340,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (1085002,'工商管理',1085),
  (1085003,'工商系',1085),
  (1085004,'工程系',1085);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (1085005,'法律系',1085),
  (1085006,'艺术系',1085),
  (1085007,'英语系',1085),
@@ -4370,7 +4370,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (1088006,'计算机网络技术系',1088),
  (1088007,'计算机软件技术系',1088),
  (1089001,'ʷ��ϵ',1089);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (1089002,'��ѧԺ',1089),
  (1089003,'����ϵ',1089),
  (1089004,'��������ϵ',1089),
@@ -4399,7 +4399,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (1090018,'计算机学院',1090),
  (1091001,'剑桥秘书学院',1091),
  (1091002,'商务秘书',1091);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (1091003,'涉外学院',1091),
  (1091004,'现代管理学院',1091),
  (1091005,'现代高等秘书系',1091),
@@ -4430,7 +4430,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (1094002,'声乐歌剧',1094),
  (1094003,'成人教育部',1094),
  (1094004,'指挥',1094);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (1094005,'民族器乐',1094),
  (1094006,'社会科学部',1094),
  (1094007,'管弦乐',1094),
@@ -4460,7 +4460,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (1097004,'外语学院',1097),
  (1097005,'工商管理学院',1097),
  (1097006,'文法艺术学院',1097);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (1097007,'物流学院',1097),
  (1097008,'经济管理学院',1097),
  (1097009,'计算机',1097),
@@ -4490,7 +4490,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (1100005,'现代物流管理专业',1100),
  (1100006,'现代经济管理系',1100),
  (1100007,'生命科学与技术系',1100);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (1100008,'社会科学系',1100),
  (1100009,'自动化系',1100),
  (1100010,'计算机信息管理专业',1100),
@@ -4519,7 +4519,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (2001009,'光源与照明工程系',2001),
  (2001010,'光科学与工程系',2001),
  (2001011,'公共卫生学院',2001);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (2001012,'公共经济学系',2001),
  (2001013,'公共行政系',2001),
  (2001014,'内科学系',2001),
@@ -4548,7 +4548,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (2001037,'数学科学学院',2001),
  (2001038,'文物和博物馆学系',2001),
  (2001039,'新闻学系',2001);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (2001040,'旅游系',2001),
  (2001041,'日语语言文学',2001),
  (2001042,'材料科学系',2001),
@@ -4575,7 +4575,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (2001063,'经济学系',2001),
  (2001064,'统计学系',2001),
  (2001065,'网络学院',2001);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (2001066,'网络教育学院',2001),
  (2001067,'艺术系',2001),
  (2001068,'英语语言文学',2001),
@@ -4602,7 +4602,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (2002013,'外国语学院',2002),
  (2002014,'媒体与设计学院',2002),
  (2002015,'安泰经济与管理学院',2002);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (2002016,'工商管理',2002),
  (2002017,'建筑系',2002),
  (2002018,'微电子学院',2002),
@@ -4629,7 +4629,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (2002039,'船舶海洋与建筑工程学院',2002),
  (2002040,'药学院',2002),
  (2002041,'计算机科学与技术',2002);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (2002042,'软件学院',2002),
  (2003001,'CDHK',2003),
  (2003002,'CIMS中心',2003),
@@ -4657,7 +4657,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (2003024,'地球信息科学与技术系',2003),
  (2003025,'地球物理系',2003),
  (2003026,'城市规划系',2003);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (2003027,'基础医学院',2003),
  (2003028,'声学研究所',2003),
  (2003029,'女子学院',2003),
@@ -4685,7 +4685,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (2003051,'海洋地质系',2003),
  (2003052,'澳洲高等技术学院',2003),
  (2003053,'物流管理',2003);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (2003054,'物理系',2003),
  (2003055,'环境科学与工程学院',2003),
  (2003056,'理论经济学系',2003),
@@ -4712,7 +4712,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (2003077,'铁道与城市轨道交通研究院',2003),
  (2003078,'高等技术学院',2003),
  (2004001,'东方房地产学院',2004);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (2004002,'中国语言文学系',2004),
  (2004003,'中澳班',2004),
  (2004004,'人文社会科学学院',2004),
@@ -4740,7 +4740,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (2004026,'心理学系',2004),
  (2004027,'教育信息技术系',2004),
  (2004028,'教育管理系华夏学院',2004);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (2004029,'教育系',2004),
  (2004030,'数学系',2004),
  (2004031,'旅游学系',2004),
@@ -4770,7 +4770,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (2004055,'计算机科学与技术系',2004),
  (2004056,'设计学院',2004),
  (2004057,'课程与教学系',2004);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (2004058,'资环学院',2004),
  (2004059,'软件学院',2004),
  (2004060,'金融学系',2004),
@@ -4799,7 +4799,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (2005021,'统计学院',2005),
  (2005022,'职业技术学院',2005),
  (2005023,'金融学院',2005);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (2005024,'马克思主义研究院',2005),
  (2006001,'中德工学院',2006),
  (2006002,'人文科学研究院',2006),
@@ -4826,7 +4826,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (2006023,'网络教育学院',2006),
  (2006024,'艺术设计与传媒学院',2006),
  (2006025,'药学院',2006);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (2006026,'计算机科学与技术',2006),
  (2006027,'资源与环境工程学院',2006),
  (2006028,'软件与信息管理学院',2006),
@@ -4853,7 +4853,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (2008009,'旅游系',2008),
  (2008010,'旭日工商管理学院',2008),
  (2008011,'服装学院',2008);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (2008012,'机械工程学院',2008),
  (2008013,'材料科学与工程学院',2008),
  (2008014,'环境科学与工程学院',2008),
@@ -4880,7 +4880,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (2009015,'继续教育学院',2009),
  (2009016,'艺术设计学院',2009),
  (2009017,'计算机工程学院',2009);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (2009018,'高等职业技术学院',2009),
  (2010001,'中欧工程技术学院',2010),
  (2010002,'国际工商管理学院',2010),
@@ -4907,7 +4907,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (2010023,'理学院 数学系',2010),
  (2010024,'生命科学学院',2010),
  (2010025,'社会学',2010);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (2010026,'社会科学学院',2010),
  (2010027,'纳米中心',2010),
  (2010028,'经济管理系',2010),
@@ -4935,7 +4935,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (2011015,'立泰语言文化学院',2011),
  (2011016,'继续教育学院',2011),
  (2011017,'网络学院',2011);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (2011018,'英语学院',2011),
  (2011019,'西方语系',2011),
  (2011020,'贤达经济人文学院',2011),
@@ -4961,7 +4961,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (2013003,'化学化工学院',2013),
  (2013004,'城市轨道交通学院',2013),
  (2013005,'基础教学学院',2013);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (2013006,'成人教育学院',2013),
  (2013007,'服装学院',2013),
  (2013008,'机械工程学院',2013),
@@ -4989,7 +4989,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (2015003,'国际教育学院',2015),
  (2015004,'基础医学院',2015),
  (2015005,'岳阳临床医学院',2015);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (2015006,'护理学院',2015),
  (2015007,'曙光临床医学院',2015),
  (2015008,'研究生院',2015),
@@ -5018,7 +5018,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (2016018,'美术学院',2016),
  (2016019,'行政学院',2016),
  (2016020,'谢晋影视艺术学院',2016);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (2016021,'金融学院',2016),
  (2016022,'音乐学院',2016),
  (2017001,'信息技术系',2017),
@@ -5048,7 +5048,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (2019009,'经济管理学院',2019),
  (2019010,'继续教育学院',2019),
  (2020001,'人文学院',2020);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (2020002,'体育部',2020),
  (2020003,'国际交流学院',2020),
  (2020004,'外国语学院',2020),
@@ -5075,7 +5075,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (2021012,'艺术设计系',2021),
  (2021013,'计算机科学与信息工程系',2021),
  (2021014,'香精香料技术与工程学院',2021);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (2022001,'信息与控制工程系',2022),
  (2022002,'动力工程系',2022),
  (2022003,'国际交流学院',2022),
@@ -5101,7 +5101,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (2023005,'国际经贸学院',2023),
  (2023006,'国际经贸研究所',2023),
  (2023007,'基础部',2023);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (2023008,'成人教育学院',2023),
  (2023009,'教育技术部',2023),
  (2023010,'法学院',2023),
@@ -5130,7 +5130,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (2025004,'信息科学系',2025),
  (2025005,'国际贸易与经济系',2025),
  (2025006,'外语系',2025);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (2025007,'大专部',2025),
  (2025008,'审计学系',2025),
  (2025009,'工商管理系',2025),
@@ -5160,7 +5160,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (2027006,'现代器乐系',2027),
  (2027007,'管弦系',2027),
  (2027008,'艺术管理系',2027);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (2027009,'钢琴系',2027),
  (2027010,'音乐剧系',2027),
  (2027011,'音乐学系',2027),
@@ -5190,7 +5190,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (2029007,'胜祥商学院',2029),
  (2029008,'计算机与科学技术学院',2029),
  (2030001,'人文学院',2030);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (2030002,'信息科学技术学院',2030),
  (2030003,'刑事司法学院',2030),
  (2030004,'商学院',2030),
@@ -5218,7 +5218,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (2038002,'国际经济与贸易',2038),
  (2038003,'新闻系',2038),
  (2038004,'经济系',2038);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (2038005,'金融学',2038),
  (2038006,'金融服务系',2038),
  (2038007,'金融管理系',2038),
@@ -5248,7 +5248,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (2045004,'经管一系',2045),
  (2045005,'经管二系',2045),
  (2046001,'人文艺术系',2046);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (2046002,'公共管理系',2046),
  (2046003,'经济管理系',2046),
  (2047001,'商务系',2047),
@@ -5280,7 +5280,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (2052001,'建筑系',2052),
  (2052002,'护理系',2052),
  (2052003,'经管系',2052);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (2053001,'土木系',2053),
  (2053002,'外语系',2053),
  (2053003,'外语系',2053),
@@ -5310,7 +5310,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (2061007,'报关与国际货运',2061),
  (2061008,'机电工程学院',2061),
  (2061009,'材料工程学院',2061);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (2061010,'汽车工程学院',2061),
  (2061011,'美术设计学院',2061),
  (2062001,'信息管理学院',2062),
@@ -5340,7 +5340,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (2068002,'机电一体化',2068),
  (2068003,'模具设计与制造',2068),
  (2068004,'物流管理',2068);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (2068005,'环境',2068),
  (2068006,'电气自动化',2068),
  (2068007,'营销与策划',2068),
@@ -5369,7 +5369,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (3001012,'法学院',3001),
  (3001013,'泰达学院',3001),
  (3001014,'泰达生物技术学院',3001);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (3001015,'深圳金融工程学院',3001),
  (3001016,'滨海学院',3001),
  (3001017,'物理学院',3001),
@@ -5397,7 +5397,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (3002015,'法学',3002),
  (3002016,'环境科学与工程学院',3002),
  (3002017,'理学院',3002);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (3002018,'电子信息工程学院',3002),
  (3002019,'电气与自动化工程学院',3002),
  (3002020,'研究生院',3002),
@@ -5424,7 +5424,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (3003010,'廊坊分院',3003),
  (3003011,'廊坊校区',3003),
  (3003012,'建筑与艺术设计',3003);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (3003013,'建筑与艺术设计学院',3003),
  (3003014,'机械学院',3003),
  (3003015,'材料学院',3003),
@@ -5451,7 +5451,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (3004013,'数学科学学院',3004),
  (3004014,'文学院',3004),
  (3004015,'新闻传播学院',3004);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (3004016,'法学院',3004),
  (3004017,'津沽学院',3004),
  (3004018,'物理与电子信息学院',3004),
@@ -5479,7 +5479,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (3005017,'软件学院',3005),
  (3006001,'体育教学部',3006),
  (3006002,'包装与印刷工程学院',3006);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (3006003,'国际学院',3006),
  (3006004,'外国语学院',3006),
  (3006005,'成人教育学院',3006),
@@ -5505,7 +5505,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (3007008,'国际工商学院',3007),
  (3007009,'国际教育学院',3007),
  (3007010,'图书馆',3007);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (3007011,'外国语学院',3007),
  (3007012,'文学与法政学院',3007),
  (3007013,'日语系',3007),
@@ -5531,7 +5531,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (3008001,'中西医结合国际学院',3008),
  (3008002,'临床七年',3008),
  (3008003,'体育部',3008);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (3008004,'公共卫生学院',3008),
  (3008005,'医学人文科学系',3008),
  (3008006,'医学影像系',3008),
@@ -5560,7 +5560,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (3009008,'护理系',3009),
  (3009009,'文理部',3009),
  (3009010,'涉外护理',3009);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (3009011,'研究生处',3009),
  (3009012,'社会科学部',3009),
  (3009013,'继续教育学院',3009),
@@ -5590,7 +5590,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (3011007,'机电工程学院',3011),
  (3011008,'民航安全技术管理',3011),
  (3011009,'理学院',3011);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (3011010,'电子信息工程学院',3011),
  (3011011,'研究生院',3011),
  (3011012,'空中交通管理学院',3011),
@@ -5618,7 +5618,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (3012011,'热能工程系',3012),
  (3012012,'环境与市政工程系',3012),
  (3012013,'环境工程系',3012);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (3012014,'电子与信息工程系',3012),
  (3012015,'社科部',3012),
  (3012016,'管理工程系',3012),
@@ -5650,7 +5650,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (3014005,'汽车工程系',3014),
  (3014006,'电子工程系',3014),
  (3014007,'职业教育管理系',3014);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (3014008,'自动化工程系',3014),
  (3014009,'艺术系',3014),
  (3014010,'计算机系',3014),
@@ -5679,7 +5679,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (3015022,'计算机',3015),
  (3015023,'韩语系',3015),
  (3016001,'中国语言文学院',3016);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (3016002,'会计系',3016),
  (3016003,'信息工程学院',3016),
  (3016004,'公共管理学院',3016),
@@ -5707,7 +5707,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (3016026,'经济学院',3016),
  (3016027,'经贸学院',3016),
  (3016028,'能源动力学院',3016);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (3016029,'艺术学院',3016),
  (3016030,'轻工纺织食品学院',3016),
  (3016031,'高职学院',3016),
@@ -5736,7 +5736,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (3018010,'舞蹈系',3018),
  (3018011,'艺术管理系',3018),
  (3018012,'键盘系',3018);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (3018013,'音乐学系',3018),
  (3018014,'音乐教育系',3018),
  (3019001,'中国画系',3019),
@@ -5765,7 +5765,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (3021010,'电子科学',3021),
  (3021011,'经济管理系',3021),
  (3021012,'艺术系',3021);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (3021013,'计算机工程系',3021),
  (3022001,'信息工程系',3022),
  (3022002,'基础部',3022),
@@ -5796,7 +5796,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (3027004,'石油与化学工程系',3027),
  (3027005,'管理工程系',3027),
  (3027006,'艺术系',3027);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (3028001,'国际贸易系',3028),
  (3028002,'外语系',3028),
  (3028003,'工商系',3028),
@@ -5829,7 +5829,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (3033005,'计算机',3033),
  (3034001,'基础教学部',3034),
  (3034002,'汽车工程系',3034);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (3034003,'物流工程系',3034),
  (3034004,'经济管理系',3034),
  (3034005,'航运工程系',3034),
@@ -5858,7 +5858,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (3039004,'电气工程系',3039),
  (3039005,'石油化工系',3039),
  (3039006,'管理工程系',3039);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (3040001,'土木工程',3040),
  (3040002,'电信系',3040),
  (3040003,'运输',3040),
@@ -5888,7 +5888,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (3045006,'社会管理系',3045),
  (3045007,'经济与管理学院',3045),
  (3045008,'经管学院',3045);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (3045009,'艺术工程学院',3045),
  (3045010,'视光工程系',3045),
  (3046001,'信息工程系',3046),
@@ -5917,7 +5917,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (4001011,'城市科技学院',4001),
  (4001012,'城市科技学院',4001),
  (4001013,'外国语学院',4001);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (4001014,'工程造价',4001),
  (4001015,'建筑城规学院',4001),
  (4001016,'建筑系',4001),
@@ -5944,7 +5944,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (4001037,'贸易与行政学院',4001),
  (4001038,'资源及环境科学学院',4001),
  (4001039,'软件学院',4001);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (4001040,'通信工程学院',4001),
  (4002001,'人文学院',4002),
  (4002002,'体育学院',4002),
@@ -5972,7 +5972,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (4002024,'数学与统计学院',4002),
  (4002025,'数学与财经学院',4002),
  (4002026,'文化与社会发展学院',4002);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (4002027,'文学院',4002),
  (4002028,'新闻传媒学院',4002),
  (4002029,'材料科学与工程学院',4002),
@@ -5999,7 +5999,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (4002050,'计算机与信息科学学院',4002),
  (4002051,'资源环境学院',4002),
  (4002052,'音乐学院',4002);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (4002053,'预科部',4002),
  (4002054,'食品科学学院',4002),
  (4002055,'高等职业技术学院',4002),
@@ -6027,7 +6027,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (4003022,'社会工作系',4003),
  (4003023,'管理学院',4003),
  (4003024,'经济与政治学院',4003);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (4003025,'经济与管理学院',4003),
  (4003026,'美术学院',4003),
  (4003027,'职业技术学院',4003),
@@ -6057,7 +6057,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (4005006,'外国语学院',4005),
  (4005007,'实验教学部',4005),
  (4005008,'应用技术学院',4005);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (4005009,'机电与汽车工程学院',4005),
  (4005010,'机电学院',4005),
  (4005011,'河海学院',4005),
@@ -6086,7 +6086,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (4006014,'软件学院',4006),
  (4006015,'通信与信息工程学院',4006),
  (4007001,'中医药学院',4007);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (4007002,'临床学院',4007),
  (4007003,'体育工作部',4007),
  (4007004,'儿科学院',4007),
@@ -6116,7 +6116,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (4008006,'外语学院',4008),
  (4008007,'应用技术学院',4008),
  (4008008,'应用经济系',4008);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (4008009,'思想政治理论课教研部',4008),
  (4008010,'成人教育学院',4008),
  (4008011,'政治与社会发展学院',4008),
@@ -6143,7 +6143,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (4009006,'后勤工程学院',4009),
  (4009007,'外语系',4009),
  (4009008,'安全工程学院',4009);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (4009009,'建筑工程学院',4009),
  (4009010,'成人教育学院',4009),
  (4009011,'数理系',4009),
@@ -6171,7 +6171,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (4010014,'电子信息与自动化学院',4010),
  (4010015,'经济与贸易学院',4010),
  (4010016,'计算机科学与工程学院',4010);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (4010017,'通信与电子工程学院',4010),
  (4010018,'重庆汽车学院',4010),
  (4011001,'中国语言文学系',4011),
@@ -6199,7 +6199,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (4012004,'俄语系',4012),
  (4012005,'出国培训部',4012),
  (4012006,'南方翻译学院',4012);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (4012007,'国际文化交流学院',4012),
  (4012008,'国际文化交流学院(英二系)',4012),
  (4012009,'国际法商学院',4012),
@@ -6228,7 +6228,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (4013002,'工业设计系',4013),
  (4013003,'建筑艺术系',4013),
  (4013004,'影视艺术系',4013);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (4013005,'油画系',4013),
  (4013006,'版画系',4013),
  (4013007,'继续教育学院',4013),
@@ -6257,7 +6257,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (4015002,'体育系',4015),
  (4015003,'化学与环境科学系',4015),
  (4015004,'基础学院',4015);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (4015005,'外国语系',4015),
  (4015006,'应用技术学院',4015),
  (4015007,'教育科学系',4015),
@@ -6286,7 +6286,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (4019001,'传媒系',4019),
  (4019002,'工商系',4019),
  (4019003,'建筑工程',4019);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (4019004,'技师学院',4019),
  (4019005,'电子信息系',4019),
  (4019006,'计算机系',4019),
@@ -6315,7 +6315,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (4022007,'环境与生物工程学院',4022),
  (4022008,'管理学院',4022),
  (4022009,'经济贸易学院',4022);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (4022010,'统计学院',4022),
  (4022011,'融智学院',4022),
  (4022012,'设计艺术学院',4022),
@@ -6344,7 +6344,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (4032001,'工商管理',4032),
  (4032002,'教育学院',4032),
  (4032003,'机电学院',4032);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (4032004,'机电系',4032),
  (4032005,'科技学院',4032),
  (4032006,'经贸学院',4032),
@@ -6376,7 +6376,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (4035005,'电子系',4035),
  (4035006,'经济政法系',4035),
  (4035007,'计算机系',4035);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (4035008,'车辆工程系',4035),
  (4036001,'中文系',4036),
  (4036002,'体育系',4036),
@@ -6406,7 +6406,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (5001005,'信息科学与工程学院',5001),
  (5001006,'光信息科学与技术学院',5001),
  (5001007,'光电科学系',5001);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (5001008,'军体部',5001),
  (5001009,'国际经贸学院',5001),
  (5001010,'土木工程学院',5001),
@@ -6434,7 +6434,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (5001032,'理学院',5001),
  (5001033,'理学院生命科学与工程系',5001),
  (5001034,'电信院',5001);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (5001035,'电子与信息技术研究院',5001),
  (5001036,'电气学院',5001),
  (5001037,'研究生院',5001),
@@ -6461,7 +6461,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (5002009,'工程训练中心',5002),
  (5002010,'建筑工程学院',5002),
  (5002011,'成人教育学院',5002);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (5002012,'机电工程学院',5002),
  (5002013,'材化学院',5002),
  (5002014,'材料科学与化学工程学院',5002),
@@ -6488,7 +6488,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (5003009,'成人教育学院',5003),
  (5003010,'机电工程学院',5003),
  (5003011,'材料科学与工程学院',5003);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (5003012,'林学院',5003),
  (5003013,'理学院',5003),
  (5003014,'生命科学学院',5003),
@@ -6517,7 +6517,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (5004018,'研究生学院',5004),
  (5004019,'经济管理学院',5004),
  (5004020,'继续教育中心',5004);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (5004021,'艺术学院',5004),
  (5004022,'规划与发展学院',5004),
  (5004023,'资源与环境学院',5004),
@@ -6547,7 +6547,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (5005022,'生物信息系',5005),
  (5005023,'研究生学院',5005),
  (5005024,'第一临床医学院',5005);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (5005025,'第二临床医学院',5005),
  (5005026,'第四临床医学院',5005),
  (5005027,'药学系',5005),
@@ -6577,7 +6577,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (5007006,'成教学院',5007),
  (5007007,'数学系',5007),
  (5007008,'旅游管理',5007);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (5007009,'昆仑旅游学院',5007),
  (5007010,'机电工程系',5007),
  (5007011,'材料工程系',5007),
@@ -6607,7 +6607,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (5008014,'材料系',5008),
  (5008015,'电子信息工程',5008),
  (5008016,'电气与信息工程学院',5008);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (5008017,'经济管理学院',5008),
  (5008018,'计算机与信息工程学院',5008),
  (5008019,'计算机网络',5008),
@@ -6635,7 +6635,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (5009018,'财经与管理学院',5009),
  (5010001,'体育系',5010),
  (5010002,'民族传统体育系',5010);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (5010003,'社会体育系',5010),
  (5010004,'运动人体科学系',5010),
  (5010005,'运动系',5010),
@@ -6663,7 +6663,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (5012010,'农学院',5012),
  (5012011,'化学化工与材料学院',5012),
  (5012012,'北戴河学院',5012);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (5012013,'历史文化旅游学院',5012),
  (5012014,'哲学与公共管理学院',5012),
  (5012015,'国防教育学院',5012),
@@ -6691,7 +6691,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (5012037,'研究生学院',5012),
  (5012038,'经济与工商管理学院',5012),
  (5012039,'职业技术学院',5012);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (5012040,'艺术学院',5012),
  (5012041,'英语',5012),
  (5012042,'西语学院',5012),
@@ -6721,7 +6721,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (5013019,'研究生院',5013),
  (5013020,'社会工作',5013),
  (5013021,'社会科学教学部',5013);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (5013022,'经济学院',5013),
  (5013023,'继续教育学院',5013),
  (5013024,'艺术设计',5013),
@@ -6750,7 +6750,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (5014017,'数学与应用数学',5014),
  (5014018,'数学与计算机科学学院',5014),
  (5014019,'数学系',5014);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (5014020,'日语系',5014),
  (5014021,'物理系',5014),
  (5014022,'理化学院',5014),
@@ -6779,7 +6779,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (5015013,'法学院',5015),
  (5015014,'测控技术与通信工程学院',5015),
  (5015015,'电子信息工程',5015);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (5015016,'电气与电子工程学院',5015),
  (5015017,'研究生部',5015),
  (5015018,'经济管理学院',5015),
@@ -6808,7 +6808,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (5016015,'机械工程学院',5016),
  (5016016,'材料科学与工程学院',5016),
  (5016017,'理学院',5016);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (5016018,'生命科学学院',5016),
  (5016019,'经济管理学院',5016),
  (5016020,'继续教育学院',5016),
@@ -6835,7 +6835,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (5017018,'轻工纺织学院',5017),
  (5017019,'通信与电子工程学院',5017),
  (5018001,'临床医学',5018);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (5018002,'体育部',5018),
  (5018003,'公共卫生系',5018),
  (5018004,'医学技术系',5018),
@@ -6863,7 +6863,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (5019010,'植物科学技术学院',5019),
  (5019011,'现代教育技术中心',5019),
  (5019012,'生命科学技术学院',5019);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (5019013,'经济管理学院',5019),
  (5019014,'继续教育学院',5019),
  (5019015,'食品学院',5019),
@@ -6889,7 +6889,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (5020019,'研究生院',5020),
  (5020020,'秦皇岛应用技术学院',5020),
  (5020021,'经济管理学院',5020);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (5020022,'继续教育学院',5020),
  (5020023,'艺术学院',5020),
  (5020024,'计算机与信息技术学院',5020),
@@ -6917,7 +6917,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (5022006,'卫生经济管理学院',5022),
  (5022007,'图书馆',5022),
  (5022008,'基础医学部',5022);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (5022009,'外语部',5022),
  (5022010,'成人教育学院',5022),
  (5022011,'护理系',5022),
@@ -6949,7 +6949,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (5024004,'史地系',5024),
  (5024005,'地理与旅游管理系',5024),
  (5024006,'基础部',5024);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (5024007,'外语系',5024),
  (5024008,'实验中心',5024),
  (5024009,'成人教育部',5024),
@@ -6978,7 +6978,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (5025012,'政史',5025),
  (5025013,'教育心理',5025),
  (5025014,'教育科学与技术系',5025);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (5025015,'数学与应用数学系',5025),
  (5025016,'汉语言文学系',5025),
  (5025017,'物理与电子信息工程系',5025),
@@ -7007,7 +7007,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (5028002,'师范教育系',5028),
  (5028003,'林管系',5028),
  (5028004,'电子工程系',5028);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (5029001,'供热通风与空调工程技术',5029),
  (5029002,'供用电技术',5029),
  (5029003,'动力系',5029),
@@ -7036,7 +7036,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (5031006,'法律系',5031),
  (5031007,'管理系',5031),
  (5031008,'计算机',5031);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (5031009,'金融系',5031),
  (5032001,'城市建设系',5032),
  (5032002,'城市轨道交通工程技术',5032),
@@ -7064,7 +7064,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (5034008,'广告设计与制作',5034),
  (5034009,'建筑工程技术',5034),
  (5034010,'建筑工程管理',5034);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (5034011,'影视动画',5034),
  (5034012,'数控技术',5034),
  (5034013,'旅游管理',5034),
@@ -7093,7 +7093,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (5034036,'计算机应用技术',5034),
  (5034037,'财务信息管理',5034),
  (5034038,'软件技术',5034);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (5034039,'连锁经营管理',5034),
  (5034040,'金融管理与实物',5034),
  (5034041,'高级护理',5034),
@@ -7122,7 +7122,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (5037016,'数控技术',5037),
  (5037017,'文秘与办公自动化',5037),
  (5037018,'旅游与酒店管理',5037);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (5037019,'旅游英语',5037),
  (5037020,'机械制造与自动化',5037),
  (5037021,'机械工程系',5037),
@@ -7150,7 +7150,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (5038002,'公共安全管理',5038),
  (5038003,'公安特警',5038),
  (5038004,'刑事技术',5038);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (5038005,'刑侦',5038),
  (5038006,'安全管理与现代文秘',5038),
  (5038007,'文秘',5038),
@@ -7179,7 +7179,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (5039016,'建筑水电技术',5039),
  (5039017,'建筑电气工程技术',5039),
  (5039018,'建筑经济管理',5039);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (5039019,'建筑装潢',5039),
  (5039020,'建筑装潢工程技术',5039),
  (5039021,'建筑设备',5039),
@@ -7207,7 +7207,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (5039043,'艺术设计系',5039),
  (5039044,'计算机应用技术',5039),
  (5039045,'通风空调与制冷',5039);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (5039046,'道路桥梁工程技术',5039),
  (5040001,'信息工程系',5040),
  (5040002,'师范部',5040),
@@ -7238,7 +7238,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (5045001,'农学系',5045),
  (5045002,'医学系',5045),
  (5045003,'师范系',5045);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (5045004,'机电工程系',5045),
  (5045005,'牧医系',5045),
  (5045006,'管理工程系',5045),
@@ -7269,7 +7269,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (5048006,'机电系',5048),
  (5048007,'社会人文学院',5048),
  (5048008,'经济贸易',5048);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (5048009,'财务管理学院',5048),
  (5049001,'信息工程系',5049),
  (5049002,'农学系',5049),
@@ -7301,7 +7301,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (5052001,'应用技术系',5052),
  (5052002,'生态工程',5052),
  (5052003,'生态经济系',5052);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (5052004,'生物技术系',5052),
  (5052005,'资源环境系',5052),
  (5053001,'信息工程系',5053),
@@ -7332,7 +7332,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (5058002,'体育学院',5058),
  (5058003,'外语',5058),
  (5058004,'安全与环境工程系',5058);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (5058005,'室内设计',5058),
  (5058006,'师范学院',5058),
  (5058007,'文法系',5058),
@@ -7365,7 +7365,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (5061010,'普师',5061),
  (5061011,'理工系',5061),
  (5061012,'电脑艺术设计',5061);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (5061013,'社会科学',5061),
  (5061014,'美术系',5061),
  (5061015,'计算机系',5061),
@@ -7398,7 +7398,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (5064011,'汉语言文学',5064),
  (5064012,'法律事务',5064),
  (5064013,'物理教育',5064);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (5064014,'现代教育技术',5064),
  (5064015,'生物教育',5064),
  (5064016,'生物科学',5064),
@@ -7427,7 +7427,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (5065017,'材料与化学工程系',5065),
  (5065018,'汽车工程系',5065),
  (5065019,'汽车运用技术',5065);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (5065020,'测绘工程系',5065),
  (5065021,'测量工程技术',5065),
  (5065022,'电子工程系',5065),
@@ -7457,7 +7457,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (5067007,'计算机工程系',5067),
  (5067008,'运输管理系',5067),
  (5067009,'铁道工程系',5067);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (5069001,'商务英语',5069),
  (5069002,'学前教育',5069),
  (5069003,'学前英语',5069),
@@ -7491,7 +7491,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (5074001,'石油工程',5074),
  (5077001,'经济系',5077),
  (5078001,'建筑服装艺术系',5078);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (5078002,'计算机',5078),
  (6001001,'交通学院',6001),
  (6001002,'人兽共患病研究所',6001),
@@ -7518,7 +7518,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (6001023,'护理学院',6001),
  (6001024,'数学学院',6001),
  (6001025,'文学院',6001);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (6001026,'机械科学与工程学院',6001),
  (6001027,'材料科学与工程学院',6001),
  (6001028,'植物科学学院',6001),
@@ -7545,7 +7545,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (6001049,'软件学院',6001),
  (6001050,'远程教育学院',6001),
  (6001051,'通信工程学院',6001);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (6001052,'马克思主义学院',6001),
  (6002001,'人文学院',6002),
  (6002002,'传媒科学学院',6002),
@@ -7573,7 +7573,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (6002024,'计算机科学技术系',6002),
  (6002025,'软件学院',6002),
  (6002026,'音乐学院',6002);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (6003001,'e部落',6003),
  (6003002,'人文学院',6003),
  (6003003,'光华',6003),
@@ -7602,7 +7602,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (6004002,'人文学院',6004),
  (6004003,'信息技术学院',6004),
  (6004004,'农学院',6004);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (6004005,'动物科学技术学院',6004),
  (6004006,'发展学院',6004),
  (6004007,'园艺学院',6004),
@@ -7630,7 +7630,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (6005013,'针灸推拿学院',6005),
  (6006001,'体育部',6006),
  (6006002,'信息工程学院',6006);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (6006003,'化学工程学院',6006),
  (6006004,'国际交流学院',6006),
  (6006005,'外国语学院',6006),
@@ -7657,7 +7657,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (6007006,'外国语学院',6007),
  (6007007,'成人教育学院',6007),
  (6007008,'机电工程学院',6007);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (6007009,'环境与生物工程学院',6007),
  (6007010,'理学院',6007),
  (6007011,'经济管理学院',6007),
@@ -7683,7 +7683,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (6009005,'机电工程学院',6009),
  (6009006,'水利与环境工程学院',6009),
  (6009007,'理学院',6009);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (6009008,'电气与信息工程学院',6009),
  (6009009,'管理学院',6009),
  (6009010,'继续教育学院',6009),
@@ -7712,7 +7712,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (6011004,'工商管理学院',6011),
  (6011005,'机电工程学院',6011),
  (6011006,'生物与食品工程学院',6011);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (6011007,'社会科学部',6011),
  (6011008,'经济技术学院',6011),
  (6011009,'继续教育学院',6011),
@@ -7744,7 +7744,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (6013009,'干部培训部',6013),
  (6013010,'成人教育学院',6013),
  (6013011,'数学系',6013);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (6013012,'新闻系',6013),
  (6013013,'法学系',6013),
  (6013014,'研究生部',6013),
@@ -7775,7 +7775,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (6015009,'音乐学院',6015),
  (6015010,'高职学院',6015),
  (6016001,'人文学院',6016);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (6016002,'体育教研部',6016),
  (6016003,'信息传播工程学院',6016),
  (6016004,'信息管理系',6016),
@@ -7802,7 +7802,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (6016025,'证券投资与管理',6016),
  (6016026,'软件学院',6016),
  (6016027,'软件职业技术学院',6016);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (6016028,'轻纺工程系',6016),
  (6016029,'马克思主义理论与思想品德教研部',6016),
  (6016030,'高等教育研究所',6016),
@@ -7829,7 +7829,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (6018002,'体育学院',6018),
  (6018003,'农学院',6018),
  (6018004,'医学部',6018);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (6018005,'外国语学院',6018),
  (6018006,'工学院',6018),
  (6018007,'师范学院',6018),
@@ -7858,7 +7858,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (6019012,'师范分院',6019),
  (6019013,'成人与继续教育学院',6019),
  (6019014,'护理学院',6019);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (6019015,'政法学院',6019),
  (6019016,'教育技术中心',6019),
  (6019017,'教育科学学院',6019),
@@ -7887,7 +7887,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (6020009,'机械系',6020),
  (6020010,'植物科学系',6020),
  (6020011,'生物工程系',6020);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (6020012,'社会科学部',6020),
  (6020013,'经济管理系',6020),
  (6020014,'食品科学系',6020),
@@ -7917,7 +7917,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (6022012,'文学院',6022),
  (6022013,'旅游与地理科学学院',6022),
  (6022014,'物理学院',6022);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (6022015,'环境工程学院',6022),
  (6022016,'生命科学学院',6022),
  (6022017,'研究生院',6022),
@@ -7948,7 +7948,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (6023018,'经济管理系',6023),
  (6023019,'美术系',6023),
  (6023020,'计算机系',6023);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (6023021,'音乐系',6023),
  (6024001,'中文系',6024),
  (6024002,'体育系',6024),
@@ -7981,7 +7981,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (6027005,'社会科学教研部',6027),
  (6027006,'经济管理系',6027),
  (6027007,'计算机系',6027);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (6027008,'金融系',6027),
  (6028001,'产业后勤部',6028),
  (6028002,'信息管理工程系',6028),
@@ -8012,7 +8012,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (6030012,'生物工程',6030),
  (6030013,'生物技术及应用',6030),
  (6030014,'药学系',6030);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (6030015,'药物制剂技术',6030),
  (6030016,'针炙推拿学',6030),
  (6030017,'预防医学',6030),
@@ -8040,7 +8040,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (6031022,'旅游英语',6031),
  (6031023,'机电一体化技术专业',6031),
  (6031024,'机电应用技术专业',6031);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (6031025,'汽车学院',6031),
  (6031026,'消防工程专业',6031),
  (6031027,'温士顿学院',6031),
@@ -8067,7 +8067,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (6032004,'国际汉语学院',6032),
  (6032005,'城市学院',6032),
  (6032006,'学前教育系',6032);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (6032007,'广播电视系',6032),
  (6032008,'应用日语系',6032),
  (6032009,'数学教育系',6032),
@@ -8099,7 +8099,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (6034004,'通信工程',6034),
  (6034005,'酒店与旅游管理',6034),
  (6035001,'工商管理系',6035);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (6035002,'旅游系',6035),
  (6035003,'机械及自动化工程系',6035),
  (6035004,'材料工程系',6035),
@@ -8131,7 +8131,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (6039004,'电子工程',6039),
  (6039005,'管理工程系',6039),
  (6039006,'道路与桥梁工程系',6039);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (6040001,'会计系',6040),
  (6040002,'基础部',6040),
  (6040003,'成教部',6040),
@@ -8163,7 +8163,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (6044003,'建筑工程系',6044),
  (6044004,'机电工程系',6044),
  (6044005,'经济管理系',6044);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (6044006,'资源工程系',6044),
  (6045001,'吉林师范大学应用工程学院',6045),
  (6045002,'外语系',6045),
@@ -8193,7 +8193,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (6050001,'外语系',6050),
  (6050002,'旅游系',6050),
  (6050003,'经管系',6050);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (6050004,'艺术系',6050),
  (6051001,'信息管理系',6051),
  (6051002,'制药工程',6051),
@@ -8223,7 +8223,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (6054004,'法学外语系',6054),
  (6054005,'管理系',6054),
  (6054006,'金融系',6054);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (6055001,'传媒艺术学院',6055),
  (6055002,'外国语学院',6055),
  (6055003,'工商管理学院',6055),
@@ -8253,7 +8253,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (6058002,'工业工程系',6058),
  (6058003,'经济管理系',6058),
  (6058004,'网络信息工程系',6058);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (6059001,'土木工程系',6059),
  (6059002,'城建系',6059),
  (6059003,'基础科学系',6059),
@@ -8281,7 +8281,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (7001012,'城市学院',7001),
  (7001013,'外国语学院',7001),
  (7001014,'工程力学系',7001);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (7001015,'工程管理',7001),
  (7001016,'广播电视新闻',7001),
  (7001017,'应用数学系',7001),
@@ -8309,7 +8309,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (7001039,'网络工程',7001),
  (7001040,'网络教育学院',7001),
  (7001041,'能源与动力学院',7001);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (7001042,'自动化',7001),
  (7001043,'船舶工程学院',7001),
  (7001044,'英双',7001),
@@ -8337,7 +8337,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (7002018,'成人教育学院',7002),
  (7002019,'文法学院',7002),
  (7002020,'机械学院',7002);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (7002021,'材料与冶金学院',7002),
  (7002022,'理学院',7002),
  (7002023,'研究生院',7002),
@@ -8366,7 +8366,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (7003010,'历史系',7003),
  (7003011,'哲学与公共管理学院',7003),
  (7003012,'国际关系学院',7003);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (7003013,'外国留学生院',7003),
  (7003014,'外国语学院',7003),
  (7003015,'工商管理学院',7003),
@@ -8395,7 +8395,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (7004002,'人文社会科学学院',7004),
  (7004003,'信息工程学院',7004),
  (7004004,'其他',7004);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (7004005,'其他学院',7004),
  (7004006,'外国语学院',7004),
  (7004007,'数学系',7004),
@@ -8424,7 +8424,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (7005007,'人文学院',7005),
  (7005008,'会计',7005),
  (7005009,'会计学院',7005);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (7005010,'信息工程学院',7005),
  (7005011,'公共管理学院',7005),
  (7005012,'公司管理',7005),
@@ -8452,7 +8452,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (7005034,'统计学院',7005),
  (7005035,'统计系',7005),
  (7005036,'网络教育学院',7005);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (7005037,'职业技术学院',7005),
  (7005038,'自学考试学院',7005),
  (7005039,'自考学院',7005),
@@ -8481,7 +8481,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (7006020,'生物工程学院',7006),
  (7006021,'研究生部',7006),
  (7006022,'经济管理学院',7006);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (7006023,'美术学院',7006),
  (7006024,'艺术研究院',7006),
  (7006025,'英语学院',7006),
@@ -8509,7 +8509,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (7007020,'计算机网络',7007),
  (7007021,'轨道交通技术学院',7007),
  (7007022,'软件学院',7007);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (7007023,'高等职业技术学院',7007),
  (7008001,'七年制',7008),
  (7008002,'中山学院',7008),
@@ -8536,7 +8536,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (7008023,'微生态教研室',7008),
  (7008024,'微生物学教研室',7008),
  (7008025,'成人教育学院',7008);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (7008026,'护理系',7008),
  (7008027,'机能实验室',7008),
  (7008028,'检验医学院',7008),
@@ -8563,7 +8563,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (7009002,'化学化工学院',7009),
  (7009003,'历史文化旅游学院',7009),
  (7009004,'国际商学院',7009);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (7009005,'国际职业学院',7009),
  (7009006,'城市与环境学院',7009),
  (7009007,'外国语学院',7009),
@@ -8591,7 +8591,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (7009029,'职业中专',7009),
  (7009030,'计算机与信息技术学院',7009),
  (7009031,'附属中学',7009);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (7009032,'音乐学院',7009),
  (7010001,'东北少数民族研究院',7010),
  (7010002,'体育教学部',7010),
@@ -8618,7 +8618,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (7011006,'外国语学院',7011),
  (7011007,'大连职业技术学院',7011),
  (7011008,'工艺美术系',7011);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (7011009,'成人教育学院',7011),
  (7011010,'服装学院',7011),
  (7011011,'机械工程与自动化学院',7011),
@@ -8644,7 +8644,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (7012008,'大连水产学院职业技术学院',7012),
  (7012009,'建筑工程系',7012),
  (7012010,'成人教育学院',7012);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (7012011,'机械工程学院',7012),
  (7012012,'机电工程系',7012),
  (7012013,'水产养殖',7012),
@@ -8672,7 +8672,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (7013012,'日本语学院',7013),
  (7013013,'日语',7013),
  (7013014,'汉学院',7013);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (7013015,'法语系',7013),
  (7013016,'研究生部',7013),
  (7013017,'社会科学部',7013),
@@ -8703,7 +8703,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (7015014,'政法学院',7015),
  (7015015,'教育学院',7015),
  (7015016,'文化传媒学院',7015);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (7015017,'新民师范学院',7015),
  (7015018,'旅游与地理科学学院',7015),
  (7015019,'旅游管理',7015),
@@ -8733,7 +8733,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (7016005,'化工学院',7016),
  (7016006,'国防教育学院',7016),
  (7016007,'外国语学院',7016);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (7016008,'工商管理',7016),
  (7016009,'应用技术学院',7016),
  (7016010,'成人教育学院',7016),
@@ -8761,7 +8761,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (7017007,'文法学院',7017),
  (7017008,'机械工程学院',7017),
  (7017009,'机械设计制造及其自动化',7017);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (7017010,'材料科学与工程学院',7017),
  (7017011,'理学院',7017),
  (7017012,'电气工程学院',7017),
@@ -8789,7 +8789,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (7018016,'管理学院',7018),
  (7018017,'经济管理系',7018),
  (7018018,'继续教育学院',7018);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (7018019,'职业技术学院',7018),
  (7018020,'艺术学院',7018),
  (7019001,'信息与电气工程学院',7019),
@@ -8818,7 +8818,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (7020003,'卫校',7020),
  (7020004,'国际教育学院',7020),
  (7020005,'基础医学院',7020);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (7020006,'大连校区',7020),
  (7020007,'护理学院',7020),
  (7020008,'护理系',7020),
@@ -8847,7 +8847,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (7022002,'体育科学学院',7022),
  (7022003,'信息技术学院',7022),
  (7022004,'化学与生命科学学院',7022);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (7022005,'国际商学院',7022),
  (7022006,'国际教育学院',7022),
  (7022007,'外国语学院',7022),
@@ -8876,7 +8876,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (7022030,'软件学院',7022),
  (7022031,'音乐学院',7022),
  (7022032,'马克思主义学院',7022);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (7022033,'高职院',7022),
  (7023001,'交通事故处理',7023),
  (7023002,'侦察',7023),
@@ -8906,7 +8906,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (7023026,'行动技术',7023),
  (7023027,'警体教研部',7023),
  (7023028,'警犬技术系',7023);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (7023029,'计算机犯罪侦查系',7023),
  (7024001,'体育部',7024),
  (7024002,'信息工程学院',7024),
@@ -8934,7 +8934,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (7025009,'民航学院',7025),
  (7025010,'沈航成人教育学院',7025),
  (7025011,'沈阳航空工业学院',7025);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (7025012,'沈阳航空职业技术学院',7025),
  (7025013,'理学系',7025),
  (7025014,'电子工程系',7025),
@@ -8962,7 +8962,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (7026012,'管理工程系',7026),
  (7026013,'自动控制工程系',7026),
  (7026014,'英语系',7026);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (7027001,'临床',7027),
  (7027002,'临床医学系',7027),
  (7027003,'临床英文',7027),
@@ -8993,7 +8993,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (7028007,'社会体育专业',7028),
  (7028008,'竞技体校、附属体校',7028),
  (7028009,'管理系',7028);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (7028010,'运动人体科学系',7028),
  (7028011,'运动训练系',7028),
  (7029001,'国画系',7029),
@@ -9022,7 +9022,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (7030007,'声乐系',7030),
  (7030008,'戏剧影视表演系',7030),
  (7030009,'民乐系',7030);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (7030010,'民族声乐系',7030),
  (7030011,'流行音乐系',7030),
  (7030012,'电子琴系',7030),
@@ -9051,7 +9051,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (7031010,'医学美容',7031),
  (7031011,'口腔医学院',7031),
  (7031012,'基础医学院',7031);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (7031013,'护理学院',7031),
  (7031014,'沈阳炮兵学院',7031),
  (7031015,'法医学院',7031),
@@ -9080,7 +9080,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (7032010,'成人教育学院',7032),
  (7032011,'技术经济学院',7032),
  (7032012,'政法系',7032);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (7032013,'新闻与传播系',7032),
  (7032014,'机械工程学院',7032),
  (7032015,'材料科学与工程系',7032),
@@ -9107,7 +9107,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (7033008,'机械工程学院',7033),
  (7033009,'环境与生物工程学院',7033),
  (7033010,'理学院',7033);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (7033011,'石油化工学院',7033),
  (7033012,'研究生院',7033),
  (7033013,'经济管理学院',7033),
@@ -9134,7 +9134,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (7034015,'理学院',7034),
  (7034016,'电子与信息工程学院',7034),
  (7034017,'经济与法律学院',7034);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (7034018,'自动化',7034),
  (7034019,'艺术系',7034),
  (7034020,'计算机科学与工程学院',7034),
@@ -9165,7 +9165,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (7035021,'音乐系',7035),
  (7035022,'马列教研室',7035),
  (7035023,'高等职业技术学院',7035);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (7036001,'中文系',7036),
  (7036002,'会计学院',7036),
  (7036003,'体育系',7036),
@@ -9195,7 +9195,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (7036027,'物理系',7036),
  (7036028,'生物与食品科学学院',7036),
  (7036029,'电子商务',7036);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (7036030,'管理学院',7036),
  (7036031,'管理系',7036),
  (7036032,'艺术学院',7036),
@@ -9223,7 +9223,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (7037016,'艺术设计与建筑学院',7037),
  (7037017,'艺术设计与建筑系',7037),
  (7037018,'计算机科学与工程学院',7037);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (7037019,'软件学院',7037),
  (7037020,'辽宁工学院',7037),
  (7038001,'人文社科学院',7038),
@@ -9253,7 +9253,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (7039007,'外语系',7039),
  (7039008,'师范教育系',7039),
  (7039009,'机械工程系',7039);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (7039010,'材料学院',7039),
  (7039011,'生物与化学工程系',7039),
  (7039012,'社会科学系',7039),
@@ -9282,7 +9282,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (7040016,'机电学院',7040),
  (7040017,'机电工程学院',7040),
  (7040018,'材料科学与化学工程学院',7040);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (7040019,'现代教育中心',7040),
  (7040020,'社科部',7040),
  (7040021,'经济学院',7040),
@@ -9312,7 +9312,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (7043001,'体育系',7043),
  (7043002,'信息技术系',7043),
  (7043003,'商学院',7043);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (7043004,'培训学院',7043),
  (7043005,'文法系',7043),
  (7043006,'文理学院',7043),
@@ -9343,7 +9343,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (7045001,'东北大学东软信息学院',7045),
  (7045002,'信息技术与商务管理',7045),
  (7045003,'信管系',7045);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (7045004,'嵌入式系统工程',7045),
  (7045005,'数字艺术系',7045),
  (7045006,'日语',7045),
@@ -9375,7 +9375,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (7048011,'计算机',7048),
  (7048012,'计算机信息管理',7048),
  (7048013,'软件工程',7048);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (7049001,'口岸通关',7049),
  (7049002,'国际交流系',7049),
  (7049003,'国际学院',7049),
@@ -9403,7 +9403,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (7051005,'机电工程分院',7051),
  (7051006,'汽车工程技术系',7051),
  (7051007,'法律系',7051);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (7051008,'电气与电子工程技术系',7051),
  (7051009,'社会事业系',7051),
  (7051010,'管理工程系',7051),
@@ -9434,7 +9434,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (7055003,'旅游管理',7055),
  (7055004,'物流管理',7055),
  (7055005,'电子商务',7055);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (7055006,'计算机',7055),
  (7055007,'连锁经营管理',7055),
  (7056001,'中体',7056),
@@ -9467,7 +9467,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (7058002,'制作',7058),
  (7058003,'工艺设计系',7058),
  (7058004,'广告策划',7058);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (7058005,'广告经营与传媒系',7058),
  (7058006,'广告设计与制作',7058),
  (7058007,'省考',7058),
@@ -9498,7 +9498,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (7063002,'信息管理系',7063),
  (7063003,'信息系',7063),
  (7063004,'商务流通管理系',7063);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (7063005,'外语系',7063),
  (7063006,'工商管理系',7063),
  (7063007,'工程技术管理系',7063),
@@ -9529,7 +9529,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (7064016,'行政管理',7064),
  (7064017,'警察指挥与战术',7064),
  (7064018,'警察训练系',7064);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (7064019,'计算机',7064),
  (7064020,'计算机保安系',7064),
  (7064021,'软件',7064),
@@ -9557,7 +9557,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (7065021,'资源与土木工程学院',7065),
  (7065022,'软件学院',7065),
  (7065023,'辽宁科技学院',7065);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (7065024,'高等职业技术学院',7065),
  (7066001,'园林',7066),
  (7066002,'建筑工程',7066),
@@ -9587,7 +9587,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (7070006,'职业技术学院',7070),
  (7070007,'自动化系',7070),
  (7070008,'计算机系',7070);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (7070009,'高职院',7070),
  (7073001,'商贸管理系',7073),
  (7073002,'国际教育学院',7073),
@@ -9618,7 +9618,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (7075005,'经管系',7075),
  (7075006,'财贸系',7075),
  (7076001,'数控',7076);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (7076002,'机械工程系',7076),
  (7076003,'机电工程系',7076),
  (7076004,'电子工程系',7076),
@@ -9649,7 +9649,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (7079001,'人文',7079),
  (7079002,'外语系',7079),
  (7079003,'师范学院',7079);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (7079004,'本科部',7079),
  (7079005,'理工',7079),
  (7079006,'艺体系',7079),
@@ -9681,7 +9681,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (8001001,'MBA',8001),
  (8001002,'中文系',8001),
  (8001003,'交流学院',8001);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (8001004,'交流生',8001),
  (8001005,'交通学院',8001),
  (8001006,'体育学院',8001),
@@ -9708,7 +9708,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (8001027,'威海分校',8001),
  (8001028,'威海分校信息工程学院',8001),
  (8001029,'威海分校商学院',8001);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (8001030,'威海分校新闻传播学院',8001),
  (8001031,'威海分校法学院',8001),
  (8001032,'威海分校海洋学院',8001),
@@ -9734,7 +9734,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (8001052,'新闻传播学院',8001),
  (8001053,'晶体材料研究所',8001),
  (8001054,'机械工程学院',8001);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (8001055,'机械工程学院工业设计系',8001),
  (8001056,'机电学院',8001),
  (8001057,'材料科学与工程学院',8001),
@@ -9761,7 +9761,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (8001078,'能源与动力工程学院',8001),
  (8001079,'航运学院',8001),
  (8001080,'艺术学院',8001);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (8001081,'艺术学院景观设计系',8001),
  (8001082,'药学院',8001),
  (8001083,'计算机科学与技术学院',8001),
@@ -9790,7 +9790,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (8002015,'旅游管理',8002),
  (8002016,'材料科学与工程研究院',8002),
  (8002017,'水产学院',8002);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (8002018,'法学院',8002),
  (8002019,'法政学院',8002),
  (8002020,'海洋地球科学学院',8002),
@@ -9818,7 +9818,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (8003007,'学前教育',8003),
  (8003008,'建筑系',8003),
  (8003009,'成教学院',8003);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (8003010,'控制科学与工程学院',8003),
  (8003011,'政治与公共管理学院',8003),
  (8003012,'政管学院',8003),
@@ -9847,7 +9847,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (8004006,'工程力学研究所',8004),
  (8004007,'市政与环境工程学院',8004),
  (8004008,'建筑城规学院',8004);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (8004009,'成人教育学院',8004),
  (8004010,'景观设计',8004),
  (8004011,'机电工程学院',8004),
@@ -9874,7 +9874,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (8005012,'历山计算机',8005),
  (8005013,'历数',8005),
  (8005014,'国际交流学院',8005);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (8005015,'地理研究所',8005),
  (8005016,'外国语学院',8005),
  (8005017,'大学外语教育学院',8005),
@@ -9903,7 +9903,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (8006002,'体育部',8006),
  (8006003,'信息管理学院',8006),
  (8006004,'公共管理学院',8006);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (8006005,'国际贸易学院',8006),
  (8006006,'外国语学院',8006),
  (8006007,'山东人民武装学院',8006),
@@ -9932,7 +9932,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (8007011,'继续教育学院',8007),
  (8007012,'药学院',8007),
  (8007013,'药学院',8007);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (8007014,'针灸推拿学院',8007),
  (8007015,'高等职业学院',8007),
  (8008001,'体育教学部',8008),
@@ -9958,7 +9958,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (8008021,'高等职业技术学院',8008),
  (8009001,'交通与物流工程系',8009),
  (8009002,'人文科学系',8009);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (8009003,'体育教学部',8009),
  (8009004,'信息工程系',8009),
  (8009005,'北方国际学院',8009),
@@ -9988,7 +9988,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (8011004,'公共事业管理',8011),
  (8011005,'基础理论系',8011),
  (8011006,'大专部',8011);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (8011007,'成人教育部',8011),
  (8011008,'政治理论课部',8011),
  (8011009,'民族传统体育系',8011),
@@ -10018,7 +10018,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (8013001,'人文艺术学院',8013),
  (8013002,'工业设计系',8013),
  (8013003,'工艺美术系',8013);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (8013004,'应用设计学院',8013),
  (8013005,'建筑与景观设计学院',8013),
  (8013006,'数字艺术系',8013),
@@ -10046,7 +10046,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (8014013,'孔子文化学院',8014),
  (8014014,'应用英语系',8014),
  (8014015,'心理系',8014);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (8014016,'政治与社会发展学院',8014),
  (8014017,'教育科学学院',8014),
  (8014018,'数学科学学院',8014),
@@ -10074,7 +10074,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (8015003,'体育教学部',8015),
  (8015004,'光电信息科学技术学院',8015),
  (8015005,'光电学院',8015);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (8015006,'化学生物理工学院',8015),
  (8015007,'国际教育交流学院',8015),
  (8015008,'土木工程学院',8015),
@@ -10103,7 +10103,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (8016002,'体育学院',8016),
  (8016003,'化学与材料科学学院',8016),
  (8016004,'历史与社会学院',8016);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (8016005,'国际交流学院',8016),
  (8016006,'土木工程学院',8016),
  (8016007,'地理与规划学院',8016),
@@ -10130,7 +10130,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (8016028,'音乐学院',8016),
  (8016029,'马列主义教学部',8016),
  (8017001,'中加学院',8017);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (8017002,'中加高等应用技术学院',8017),
  (8017003,'会计学院',8017),
  (8017004,'体育部',8017),
@@ -10157,7 +10157,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (8018005,'国际贸易学院',8018),
  (8018006,'基础教学部',8018),
  (8018007,'外国语言文学学院',8018);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (8018008,'宣传部',8018),
  (8018009,'工商管理学院',8018),
  (8018010,'应用技术学院',8018),
@@ -10185,7 +10185,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (8019009,'学员系',8019),
  (8019010,'工业设计',8019),
  (8019011,'师范学院',8019);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (8019012,'应用技术学院',8019),
  (8019013,'成人教育学院',8019),
  (8019014,'数学科学学院',8019),
@@ -10213,7 +10213,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (8020002,'信息科学与工程学院',8020),
  (8020003,'化学与环境工程学院',8020),
  (8020004,'土木建筑学院',8020);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (8020005,'地球信息科学与工程学院',8020),
  (8020006,'地科学院',8020),
  (8020007,'外国语学院',8020),
@@ -10242,7 +10242,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (8020030,'资源与土木工程系',8020),
  (8020031,'资源与环境工程学院',8020),
  (8020032,'音乐系',8020);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (8021001,'不知道',8021),
  (8021002,'中德科技学院',8021),
  (8021003,'中法班',8021),
@@ -10270,7 +10270,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (8021025,'艺术学院',8021),
  (8021026,'计算机系',8021),
  (8021027,'高分子科学与工程学院',8021);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (8022001,'人文与社会科学学院',8022),
  (8022002,'体育教学部',8022),
  (8022003,'商学院',8022),
@@ -10298,7 +10298,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (8023002,'传播学院',8023),
  (8023003,'体育教学部',8023),
  (8023004,'信息科学与工程学院',8023);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (8023005,'动物科技学院',8023),
  (8023006,'园艺学院',8023),
  (8023007,'外国语学院',8023),
@@ -10327,7 +10327,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (8024006,'国际合作学院',8024),
  (8024007,'基础文科部',8024),
  (8024008,'基础理科部',8024);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (8024009,'外语系',8024),
  (8024010,'学历信工部',8024),
  (8024011,'学历外语部',8024),
@@ -10356,7 +10356,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (8025014,'电气',8025),
  (8025015,'石油工程',8025),
  (8025016,'石油工程学院',8025);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (8025017,'研究生院',8025),
  (8025018,'经济管理学院',8025),
  (8025019,'网络学院',8025),
@@ -10385,7 +10385,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (8026019,'数学科学学院',8026),
  (8026020,'文学院广播电视新闻系',8026),
  (8026021,'材料科学与工程学院',8026);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (8026022,'汽车与交通工程学院',8026),
  (8026023,'物理科学与信息工程学院',8026),
  (8026024,'物理系',8026),
@@ -10413,7 +10413,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (8027010,'数学与信息科学学院',8027),
  (8027011,'文学与新闻传播学院',8027),
  (8027012,'文学院',8027);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (8027013,'机械工程学院',8027),
  (8027014,'材料科学与工程学院',8027),
  (8027015,'法学院',8027),
@@ -10441,7 +10441,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (8028008,'成教学院',8028),
  (8028009,'护理',8028),
  (8028010,'护理学院',8028);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (8028011,'生物技术',8028),
  (8028012,'研究生部',8028),
  (8028013,'社科部',8028),
@@ -10469,7 +10469,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (8029019,'法学院',8029),
  (8029020,'物理与电子科学系',8029),
  (8029021,'生物工程学院',8029);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (8029022,'经济管理学院',8029),
  (8029023,'美术学院',8029),
  (8029024,'英华国际学院',8029),
@@ -10497,7 +10497,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (8030017,'管理学院',8030),
  (8030018,'药学院',8030),
  (8030019,'运动人体科学系',8030);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (8031001,'东方学院',8031),
  (8031002,'人文艺术学院',8031),
  (8031003,'会计学院',8031),
@@ -10526,7 +10526,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (8032008,'外语系',8032),
  (8032009,'大学外语教学部',8032),
  (8032010,'应用科学技术系',8032);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (8032011,'政法系',8032),
  (8032012,'教育系',8032),
  (8032013,'数学与系统科学系',8032),
@@ -10554,7 +10554,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (8033009,'园艺科学与工程学院',8033),
  (8033010,'国际交流学院',8033),
  (8033011,'外国语学院',8033);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (8033012,'成人教育学院',8033),
  (8033013,'文法学院',8033),
  (8033014,'景观艺术设计',8033),
@@ -10583,7 +10583,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (8034012,'影像',8034),
  (8034013,'成教学院',8034),
  (8034014,'护理系',8034);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (8034015,'麻醉',8034),
  (8035001,'中文系',8035),
  (8035002,'临床',8035),
@@ -10613,7 +10613,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (8035026,'音乐系',8035),
  (8035027,'飞行学院',8035),
  (8036001,'中西医',8036);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (8036002,'临床学院',8036),
  (8036003,'信息科学系',8036),
  (8036004,'信息系',8036),
@@ -10643,7 +10643,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (8037014,'教育与管理科学系',8037),
  (8037015,'教育科学学院',8037),
  (8037016,'数学系',8037);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (8037017,'文学院',8037),
  (8037018,'新闻系',8037),
  (8037019,'法学院',8037),
@@ -10675,7 +10675,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (8038017,'汽车工程系',8038),
  (8038018,'物理系',8038),
  (8038019,'生物系',8038);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (8038020,'社会学系',8038),
  (8038021,'社科部',8038),
  (8038022,'纺织工程系',8038),
@@ -10705,7 +10705,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (8040004,'动物医学系',8040),
  (8040005,'化学化工系',8040),
  (8040006,'园林工程系',8040);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (8040007,'外国语系',8040),
  (8040008,'学前教育系',8040),
  (8040009,'小学教育系',8040),
@@ -10735,7 +10735,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (8041009,'艺术系',8041),
  (8041010,'计算机系',8041),
  (8043001,'信息学院',8043);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (8043002,'机电学院',8043),
  (8043003,'汽车学院',8043),
  (8043004,'汽车工程学院',8043),
@@ -10765,7 +10765,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (8045009,'材料科学与工程学院',8045),
  (8045010,'汽车工程学院',8045),
  (8045011,'海洋学院',8045);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (8045012,'计算机科学与技术学院',8045),
  (8045013,'软件学院',8045),
  (8046001,'中西医',8046),
@@ -10797,7 +10797,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (8049008,'旅游管理系',8049),
  (8049009,'机械系',8049),
  (8049010,'济南职业学院',8049);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (8049011,'电子信息工程系',8049),
  (8049012,'经贸系',8049),
  (8049013,'计算机',8049),
@@ -10831,7 +10831,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (8051003,'外语系',8051),
  (8051004,'建筑工程系',8051),
  (8051005,'文法系',8051);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (8051006,'机电工程系',8051),
  (8051007,'汽车工程系',8051),
  (8051008,'生物与化学工程系',8051),
@@ -10861,7 +10861,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (8053016,'旅游外语系',8053),
  (8053017,'机电工程系',8053),
  (8053018,'材料学院',8053);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (8053019,'汽车学院',8053),
  (8053020,'环境与规划学院',8053),
  (8053021,'理工学院',8053),
@@ -10889,7 +10889,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (8054007,'旅游与酒店管理',8054),
  (8054008,'日语学院',8054),
  (8054009,'机电数控学院',8054);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (8054010,'汽车工程',8054),
  (8054011,'自动化',8054),
  (8054012,'艺术学院',8054),
@@ -10920,7 +10920,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (8056012,'艺术学院',8056),
  (8056013,'计算机信息学院',8056),
  (8056014,'计算机学院',8056);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (8057001,'五年一贯',8057),
  (8057002,'商学一系',8057),
  (8057003,'商学二系',8057),
@@ -10950,7 +10950,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (8059002,'信息工程学院',8059),
  (8059003,'商学院',8059),
  (8059004,'外国语学院',8059);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (8059005,'建筑工程学院',8059),
  (8059006,'旅游学院',8059),
  (8059007,'机电工程学院',8059),
@@ -10978,7 +10978,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (8060019,'轮机工程专业',8060),
  (8060020,'轮机管理',8060),
  (8060021,'轮机管理专业',8060);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (8061001,'中国海洋大学青岛学院',8061),
  (8061002,'信息学院',8061),
  (8061003,'信息技术学院',8061),
@@ -11007,7 +11007,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (8061026,'青岛酒店管理学院',8061),
  (8063001,'中文系',8063),
  (8063002,'五年制大专部',8063);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (8063003,'信息科学与工程学院',8063),
  (8063004,'商贸系',8063),
  (8063005,'基础部',8063),
@@ -11036,7 +11036,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (8065004,'大学外语教学部',8065),
  (8065005,'威海分校商学院',8065),
  (8065006,'应用数学系',8065);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (8065007,'新闻传播学院',8065),
  (8065008,'法学院',8065),
  (8065009,'海洋学院',8065),
@@ -11067,7 +11067,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (8069003,'国贸系',8069),
  (8069004,'服装工程系',8069),
  (8069005,'服装设计',8069);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (8069006,'艺术系',8069),
  (8069007,'艺术设计',8069),
  (8069008,'装潢艺术设计',8069),
@@ -11097,7 +11097,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (8073001,'交通与物流工程系',8073),
  (8073002,'人文科学系',8073),
  (8073003,'信息工程系',8073);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (8073004,'公路系',8073),
  (8073005,'土木工程系',8073),
  (8073006,'基础部',8073),
@@ -11128,7 +11128,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (8076003,'建筑工程',8076),
  (8076004,'机械系',8076),
  (8076005,'电子系',8076);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (8076006,'计算机系',8076),
  (8077001,'中专部',8077),
  (8077002,'五年基础部',8077),
@@ -11158,7 +11158,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (8079003,'临床医学系',8079),
  (8079004,'信息工程与管理系',8079),
  (8079005,'口腔系',8079);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (8079006,'护理系',8079),
  (8079007,'机械工程系',8079),
  (8079008,'经管系',8079),
@@ -11189,7 +11189,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (8082011,'计算机系',8082),
  (8083001,'中国石油大学胜利学院',8083),
  (8083002,'中文系',8083);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (8083003,'交通工程',8083),
  (8083004,'交通工程分院',8083),
  (8083005,'信息与计算科学系',8083),
@@ -11218,7 +11218,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (8084004,'旅游与酒店管理学院',8084),
  (8084005,'烹饪学院',8084),
  (8084006,'艺术学院',8084);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (8084007,'计算机技术学院',8084),
  (8084008,'酒店工程学院',8084),
  (8085001,'��Ϣ���̼���ϵ',8085),
@@ -11244,7 +11244,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (8086005,'戏剧创作',8086),
  (8086006,'文物修复',8086),
  (8086007,'歌舞表演',8086);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (8086008,'电脑音乐制作',8086),
  (8086009,'群文音乐',8086),
  (8086010,'艺术设计',8086),
@@ -11274,7 +11274,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (8091004,'经济管理系',8091),
  (8091005,'计算机',8091),
  (8091006,'计算机系',8091);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (8092001,'信息管理系',8092),
  (8092002,'公共外语部',8092),
  (8092003,'商务外语系',8092),
@@ -11304,7 +11304,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (8093021,'物业管理',8093),
  (8093022,'物流管理',8093),
  (8093023,'电子商务',8093);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (8093024,'计算机信息管理',8093),
  (8093025,'计算机应用技术',8093),
  (8094001,'外国语学院',8094),
@@ -11336,7 +11336,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (8098011,'计算机',8098),
  (8099001,'医学系',8099),
  (8099002,'护理系',8099);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (8099003,'计算机系',8099),
  (8100001,'信息工程系',8100),
  (8100002,'基础部',8100),
@@ -11366,7 +11366,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (8102005,'建筑工程学院',8102),
  (8102006,'护理学院',8102),
  (8102007,'艺术学院',8102);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (8103001,'中专部',8103),
  (8103002,'中专部',8103),
  (8103003,'兽医系',8103),
@@ -11394,7 +11394,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (8104015,'药物制剂工艺',8104),
  (8104016,'药物制剂技术',8104),
  (8104017,'食品营养与检测',8104);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (8105001,'临床医学',8105),
  (8105002,'医学影像',8105),
  (8105003,'医学检验',8105),
@@ -11426,7 +11426,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (8107005,'国际经贸法学院',8107),
  (8107006,'外语系',8107),
  (8107007,'干部进修部',8107);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (8107008,'民商法学院',8107),
  (8107009,'法学院',8107),
  (8107010,'法律一系',8107),
@@ -11458,7 +11458,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (8113003,'外语系',8113),
  (8113004,'工业技术系',8113),
  (8113005,'应用外语系',8113);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (8113006,'建筑工程系',8113),
  (8113007,'成教部',8113),
  (8113008,'技工部',8113),
@@ -11488,7 +11488,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (8117005,'外国语学院',8117),
  (8117006,'寿光市教师进修学校',8117),
  (8117007,'成人教育学院',8117);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (8117008,'文法系',8117),
  (8117009,'机械工程学院',8117),
  (8117010,'机电工程学院',8117),
@@ -11513,7 +11513,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (8118016,'应用外语系',8118),
  (8118017,'机电一体化技术',8118),
  (8118018,'机电工程系',8118);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (8118019,'机电工程系',8118),
  (8118020,'汽车制造与装配',8118),
  (8118021,'汽车工程系',8118),
@@ -11540,7 +11540,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (8120012,'成人教育学院',8120),
  (8120013,'数学与信息学院',8120),
  (8120014,'文史政治系',8120);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (8120015,'旅游管理学院',8120),
  (8120016,'机制工艺系',8120),
  (8120017,'机械工程系',8120),
@@ -11568,7 +11568,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (8122001,'人文',8122),
  (8122002,'人文社会科学学院',8122),
  (8122003,'体育教学部',8122);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (8122004,'信息与控制工程学院',8122),
  (8122005,'信控学院',8122),
  (8122006,'储建学院',8122),
@@ -11596,7 +11596,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (8123008,'法学系',8123),
  (8123009,'英语系',8123),
  (8123010,'行政管理系',8123);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (8123011,'计算机科学与技术系',8123),
  (8123012,'远程教育学院',8123),
  (8123013,'金融系',8123),
@@ -11625,7 +11625,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (8127011,'生物工程系',8127),
  (8127012,'电子电气工程系',8127),
  (8127013,'艺术设计系',8127);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (8127014,'音乐表演系',8127),
  (8128001,'中文系',8128),
  (8128002,'体育系',8128),
@@ -11655,7 +11655,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (8130002,'商贸系',8130),
  (8130003,'基础部',8130),
  (8130004,'外语系',8130);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (8130005,'文法系',8130),
  (8130006,'职业技术系',8130),
  (8130007,'财经系',8130),
@@ -11687,7 +11687,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (8134006,'电子商务',8134),
  (8134007,'经济管理系',8134),
  (8134008,'艺术设计系',8134);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (8134009,'食品工程系',8134),
  (8135001,'数控技术',8135),
  (8135002,'机械制造与自动化',8135),
@@ -11716,7 +11716,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (8137006,'国际贸易系',8137),
  (8137007,'培训部',8137),
  (8137008,'外语系',8137);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (8137009,'工艺美术',8137),
  (8137010,'政法系',8137),
  (8137011,'文化传播系',8137),
@@ -11748,7 +11748,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (8140009,'艺术',8140),
  (8140010,'计算机系',8140),
  (8141001,'中文系							中文系',8141);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (8141002,'信息与计算科学',8141),
  (8141003,'储运与建筑工程系',8141),
  (8141004,'化学化工',8141),
@@ -11779,7 +11779,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (8144006,'经管系',8144),
  (8144007,'资源与土木工程系',8144),
  (8145001,'信息工程系',8145);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (8145002,'商务系',8145),
  (8145003,'外语系',8145),
  (8145004,'机电与土木工程系',8145),
@@ -11811,7 +11811,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (8151009,'英语系',8151),
  (8151010,'韩语系',8151),
  (8153001,'人文学院',8153);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (8153002,'商学院',8153),
  (8153003,'理工学院',8153),
  (8153004,'职业学院',8153),
@@ -11840,7 +11840,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (9001009,'山西大学商务学院',9001),
  (9001010,'山西大学工程学院',9001),
  (9001011,'山西大学职业技术学院',9001);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (9001012,'工程学院',9001),
  (9001013,'成人教育学院',9001),
  (9001014,'政治与公共管理学院',9001),
@@ -11868,7 +11868,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (9002005,'化学化工',9002),
  (9002006,'化学化工学院',9002),
  (9002007,'化工学院',9002);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (9002008,'华北广电',9002),
  (9002009,'国际教育交流学院',9002),
  (9002010,'土木工程',9002),
@@ -11896,7 +11896,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (9002032,'计算机与软件工程学院',9002),
  (9002033,'财经学院',9002),
  (9002034,'资源环境与城乡规划',9002);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (9002035,'资源环境与城乡规划管理',9002),
  (9002036,'软件学院',9002),
  (9002037,'轻纺工程与美术学院',9002),
@@ -11922,7 +11922,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (9003016,'材料科学与工程学院',9003),
  (9003017,'武器装备技术学院',9003),
  (9003018,'法学系',9003);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (9003019,'环境工程',9003),
  (9003020,'环境工程系',9003),
  (9003021,'理学院',9003),
@@ -11952,7 +11952,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (9004015,'法医学院',9004),
  (9004016,'研究生部',9004),
  (9004017,'社会科学教育部',9004);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (9004018,'第一临床医学院',9004),
  (9004019,'第三临床医学院',9004),
  (9004020,'第二临床医学院',9004),
@@ -11982,7 +11982,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (9006005,'地理系',9006),
  (9006006,'城市与旅游学院',9006),
  (9006007,'基础部',9006);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (9006008,'外国语专科部',9006),
  (9006009,'外语系',9006),
  (9006010,'应用心理学',9006),
@@ -12014,7 +12014,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (9007011,'机电学院',9007),
  (9007012,'材料学院',9007),
  (9007013,'法学系',9007);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (9007014,'电子信息工程学院',9007),
  (9007015,'经管学院',9007),
  (9007016,'艺术系',9007),
@@ -12043,7 +12043,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (9008021,'经贸外语学院',9008),
  (9008022,'统计学院',9008),
  (9008023,'继续教育学院',9008);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (9008024,'职业技术学院',9008),
  (9008025,'财政金融学院',9008),
  (9008026,'财税学院',9008),
@@ -12071,7 +12071,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (9009020,'教师教育学院',9009),
  (9009021,'教育技术与传媒学院',9009),
  (9009022,'数学与计算机科学学院',9009);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (9009023,'文学院',9009),
  (9009024,'文理学院',9009),
  (9009025,'材料化学研究所',9009),
@@ -12099,7 +12099,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (9010013,'工程技术学院',9010),
  (9010014,'平遥机电学院',9010),
  (9010015,'成人教育学院',9010);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (9010016,'文理学院',9010),
  (9010017,'朔州职业技术学院',9010),
  (9010018,'林学院',9010),
@@ -12127,7 +12127,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (9011014,'教育科学与技术学院',9011),
  (9011015,'数学与应用数学',9011),
  (9011016,'数学与计算机科学学院',9011);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (9011017,'文史学院',9011),
  (9011018,'新闻系',9011),
  (9011019,'物理与电子科学学院',9011),
@@ -12158,7 +12158,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (9013001,'中文系',9013),
  (9013002,'体育系',9013),
  (9013003,'政史系',9013);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (9013004,'政法系',9013),
  (9013005,'数学系',9013),
  (9013006,'生化系',9013),
@@ -12188,7 +12188,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (9014018,'音乐系',9014),
  (9015001,'体育学院',9015),
  (9015002,'化学化工学院',9015);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (9015003,'外国语学院',9015),
  (9015004,'政法学院',9015),
  (9015005,'教育科学与技术学院',9015),
@@ -12218,7 +12218,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (9016012,'数学系',9016),
  (9016013,'法律系',9016),
  (9016014,'物理电子系',9016);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (9016015,'电大部',9016),
  (9016016,'电教中心',9016),
  (9016017,'经管系',9016),
@@ -12251,7 +12251,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (9023012,'生命科学系',9023),
  (9023013,'经济系',9023),
  (9023014,'艺术系',9023);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (9023015,'计算机系',9023),
  (9025001,'中专部',9025),
  (9025002,'会计系',9025),
@@ -12284,7 +12284,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (9032003,'机械工程系',9032),
  (9032004,'汽车工程系',9032),
  (9032005,'电子电气工程系',9032);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (9033001,'土木工程系',9033),
  (9033002,'建筑装饰系',9033),
  (9033003,'机电系',9033),
@@ -12316,7 +12316,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (9037001,'交通管理',9037),
  (9037002,'侦查',9037),
  (9037003,'信息网络安全监察',9037);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (9037004,'公安管理',9037),
  (9037005,'应用法律系',9037),
  (9037006,'治安管理',9037),
@@ -12348,7 +12348,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (9046001,'信息工程系',9046),
  (9046002,'软件系',9046),
  (9047001,'信息系',9047);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (9047002,'管理系',9047),
  (9047003,'美术系',9047),
  (9047004,'财经系',9047),
@@ -12379,7 +12379,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (9051003,'山西综职院',9051),
  (9051004,'建筑工程系',9051),
  (9051005,'数控系',9051);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (9051006,'材料工程系',9051),
  (9051007,'电子信息工程系',9051),
  (9051008,'电气工程与自动化系',9051),
@@ -12411,7 +12411,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (9054003,'工程学院',9054),
  (9054004,'建管系',9054),
  (9054005,'电力系',9054);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (9055001,'信息系',9055),
  (9055002,'外语系',9055),
  (9055003,'旅游管理',9055),
@@ -12443,7 +12443,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (9071004,'基础部',9071),
  (9071005,'成教部',9071),
  (9071006,'护理系',9071);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (9071007,'检验系',9071),
  (9078001,'会计系',9078),
  (9078002,'信息工程系',9078),
@@ -12471,7 +12471,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (10001007,'医学院第二附属医院',10001),
  (10001008,'医学院附属口腔学院',10001),
  (10001009,'城市学院',10001);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (10001010,'外国语学院',10001),
  (10001011,'工业设计系',10001),
  (10001012,'康桥苑',10001),
@@ -12497,7 +12497,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (10001032,'继续教育学院',10001),
  (10001033,'网络教育学院',10001),
  (10001034,'职业技术学院',10001);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (10001035,'职业技术暨继续教育学院',10001),
  (10001036,'能动学院',10001),
  (10001037,'能源与动力工程学院',10001),
@@ -12525,7 +12525,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (10002012,'工程机械学院',10002),
  (10002013,'应用技术学院',10002),
  (10002014,'建工学院',10002);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (10002015,'建筑学院',10002),
  (10002016,'材料学院',10002),
  (10002017,'汽车学院',10002),
@@ -12553,7 +12553,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (10003014,'电子信息学院',10003),
  (10003015,'电子商务',10003),
  (10003016,'研究生院',10003);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (10003017,'管理学院',10003),
  (10003018,'经济管理学院',10003),
  (10003019,'继续教育学院',10003),
@@ -12580,7 +12580,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (10004010,'应用社会科学系',10004),
  (10004011,'成人教育学院',10004),
  (10004012,'数学系',10004);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (10004013,'文博学院',10004),
  (10004014,'文学院',10004),
  (10004015,'新闻传播学院',10004),
@@ -12608,7 +12608,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (10005009,'政治经济学院',10005),
  (10005010,'教育技术系',10005),
  (10005011,'教育科学学院',10005);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (10005012,'数学与信息科学学院',10005),
  (10005013,'数学教育',10005),
  (10005014,'文学院',10005),
@@ -12635,7 +12635,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (10006006,'技术物理学院',10006),
  (10006007,'机电工程学院',10006),
  (10006008,'理学院',10006);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (10006009,'电子商务',10006),
  (10006010,'电子工程学院',10006),
  (10006011,'电子科学与技术',10006),
@@ -12661,7 +12661,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (10007009,'机械与精密仪器工程学院',10007),
  (10007010,'材料科学与工程学院',10007),
  (10007011,'水利水电学院',10007);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (10007012,'理学院',10007),
  (10007013,'空军工程大学',10007),
  (10007014,'继续教育学院',10007),
@@ -12688,7 +12688,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (10008015,'环化学院',10008),
  (10008016,'电子信息学院',10008),
  (10008017,'电气与控制工程学院',10008);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (10008018,'研究生部',10008),
  (10008019,'社会科学系',10008),
  (10008020,'管理学院',10008),
@@ -12716,7 +12716,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (10009014,'服装学院',10009),
  (10009015,'机电工程学院',10009),
  (10009016,'材料与化工学院',10009);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (10009017,'模具设计与制造',10009),
  (10009018,'环境与化学工程学院',10009),
  (10009019,'理学院',10009),
@@ -12742,7 +12742,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (10010008,'信息工程学院',10010),
  (10010009,'出国留学人员培训部新西北培训学院',10010),
  (10010010,'商学院',10010);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (10010011,'国际关系学院',10010),
  (10010012,'大学外语教学部',10010),
  (10010013,'应用英语',10010),
@@ -12771,7 +12771,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (10011001,'体育部',10011),
  (10011002,'信息与控制系',10011),
  (10011003,'信息与管理工程系',10011);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (10011004,'信息中心',10011),
  (10011005,'外语系',10011),
  (10011006,'应用数学与物理系',10011),
@@ -12800,7 +12800,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (10013003,'信息学院',10013),
  (10013004,'公共外语教学部',10013),
  (10013005,'华美商学院',10013);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (10013006,'华美学院',10013),
  (10013007,'商学院',10013),
  (10013008,'国际教育学院',10013),
@@ -12827,7 +12827,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (10014013,'法学',10014),
  (10014014,'法律事务',10014),
  (10014015,'法律外语系',10014);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (10014016,'经济法学院',10014),
  (10014017,'经济管理学院',10014),
  (10014018,'经济管理学院金融系',10014),
@@ -12855,7 +12855,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (10016009,'美术教育系',10016),
  (10016010,'装饰艺术系',10016),
  (10016011,'设计系',10016);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (10016012,'附属中等专科学校',10016),
  (10016013,'陶瓷艺术系',10016),
  (10016014,'雕塑系',10016),
@@ -12886,7 +12886,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (10018017,'资源环境与旅游系',10018),
  (10018018,'音乐表演系',10018),
  (10019001,'交通运输系',10019);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (10019002,'人文科学系',10019),
  (10019003,'信息工程学院',10019),
  (10019004,'信息工程系',10019),
@@ -12915,7 +12915,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (10020010,'研修学院',10020),
  (10020011,'经济管理',10020),
  (10020012,'经济管理学院',10020);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (10020013,'艺术系',10020),
  (10020014,'西安翻译学院',10020),
  (10021001,'信息工程学院',10021),
@@ -12944,7 +12944,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (10023002,'信息工程学院',10023),
  (10023003,'医学院',10023),
  (10023004,'国际合作学院',10023);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (10023005,'外国语学院',10023),
  (10023006,'成人与网络教育学院',10023),
  (10023007,'经济管理学院',10023),
@@ -12971,7 +12971,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (10025001,'人文学院',10025),
  (10025002,'会计',10025),
  (10025003,'体育系',10025);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (10025004,'信息与控制工程学院',10025),
  (10025005,'冶金工程学院',10025),
  (10025006,'华清学院',10025),
@@ -12998,7 +12998,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (10031003,'信息学院',10031),
  (10031004,'信息工程学院',10031),
  (10031005,'化学与化工学院',10031);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (10031006,'医学院',10031),
  (10031007,'国际商务系',10031),
  (10031008,'外语学院',10031),
@@ -13025,7 +13025,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (10032005,'体育部',10032),
  (10032006,'公共卫生系',10032),
  (10032007,'医学技术系',10032);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (10032008,'国际教育学院',10032),
  (10032009,'基础课部',10032),
  (10032010,'护理系',10032),
@@ -13055,7 +13055,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (10034004,'外国语与传播学院',10034),
  (10034005,'外语系',10034),
  (10034006,'应用电子系',10034);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (10034007,'机电工程学院',10034),
  (10034008,'材料学院',10034),
  (10034009,'理学院',10034),
@@ -13082,7 +13082,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (10035004,'历史系',10035),
  (10035005,'哲学系（社科部、教干中心）',10035),
  (10035006,'地理科学与环境工程系',10035);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (10035007,'外国语言文学系',10035),
  (10035008,'外语系',10035),
  (10035009,'宝鸡文理学院',10035),
@@ -13110,7 +13110,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (10036011,'物理系',10036),
  (10036012,'管理科学系',10036),
  (10036013,'职业技术学院',10036);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (10036014,'艺术系',10036),
  (10036015,'计算机科学系',10036),
  (10037001,'仪器系',10037),
@@ -13138,7 +13138,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (10037023,'艺术学院',10037),
  (10037024,'计算机科学与技术系',10037),
  (10038001,'体育系',10038);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (10038002,'信息技术系',10038),
  (10038003,'化学与化学工程学院',10038),
  (10038004,'土木工程系',10038),
@@ -13165,7 +13165,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (10040008,'数学系',10040),
  (10040009,'物理与计算机科学系',10040),
  (10040010,'社会科学部',10040);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (10040011,'经济与管理系',10040),
  (10040012,'艺术系',10040),
  (10040013,'英语系',10040),
@@ -13192,7 +13192,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (10041021,'葡萄酒学院',10041),
  (10041022,'资源环境学院',10041),
  (10041023,'预科',10041);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (10041024,'食品科学与工程学院',10041),
  (10043001,'历史系',10043),
  (10043002,'地理科学与环境工程系',10043),
@@ -13219,7 +13219,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (10050001,'人文科学系',10050),
  (10050002,'信息工程系',10050),
  (10050003,'土木工程系',10050);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (10050004,'工商管理系',10050),
  (10050005,'数控工程系',10050),
  (10050006,'机械工程系',10050),
@@ -13249,7 +13249,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (10052012,'财贸系',10052),
  (10053001,'机械工程系',10053),
  (10053002,'机电工程系',10053);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (10053003,'电子工程系',10053),
  (10053004,'电气工程系',10053),
  (10053005,'管理工程系',10053),
@@ -13280,7 +13280,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (10058003,'医技系',10058),
  (10058004,'地质测量系',10058),
  (10058005,'基础部',10058);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (10058006,'护理系',10058),
  (10058007,'机电工程系',10058),
  (10058008,'电子工程系',10058),
@@ -13308,7 +13308,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (10062006,'数控工程系',10062),
  (10062007,'旅游系',10062),
  (10062008,'机械工程系',10062);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (10062009,'材料工程系',10062),
  (10062010,'物流管理',10062),
  (10062011,'电气系',10062),
@@ -13336,7 +13336,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (10065014,'艺术系',10065),
  (10065015,'计算机科学系',10065),
  (10065016,'高护',10065);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (10066001,'动力系',10066),
  (10066002,'电力系',10066),
  (10066003,'管理系',10066),
@@ -13364,7 +13364,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (10069012,'理学院',10069),
  (10069013,'电子信息学院',10069),
  (10069014,'福州服装学院',10069);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (10069015,'福州服装学院',10069),
  (10069016,'空军工程大学',10069),
  (10069017,'管理学院',10069),
@@ -13392,7 +13392,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (10072003,'基础课部',10072),
  (10072004,'外国语言系',10072),
  (10072005,'机械工程系',10072);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (10072006,'机电工程系',10072),
  (10072007,'清华大学远程教学中心',10072),
  (10072008,'电子商务',10072),
@@ -13419,7 +13419,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (10075002,'工业技术系',10075),
  (10075003,'机械工程系',10075),
  (10075004,'经济管理系',10075);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (10075005,'西安三资学院',10075),
  (10075006,'计算机信息管理',10075),
  (10075007,'计算机网络技术',10075),
@@ -13446,7 +13446,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (10077004,'物流管理',10077),
  (10077005,'电信运输系',10077),
  (10077006,'电子信息系',10077);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (10077007,'铁道工程',10077),
  (10077008,'铁道工程',10077),
  (10081001,'交通与测绘工程系',10081),
@@ -13473,7 +13473,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (10084001,'中文系',10084),
  (10084002,'人力资源管理',10084),
  (10084003,'人文环境系',10084);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (10084004,'体育系',10084),
  (10084005,'公共事务管理',10084),
  (10084006,'化学系',10084),
@@ -13501,7 +13501,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (10086007,'市政工程技术',10086),
  (10086008,'应用英语',10086),
  (10086009,'建筑工程技术',10086);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (10086010,'护理',10086),
  (10086011,'物业管理',10086),
  (10086012,'道路桥梁工程技术',10086),
@@ -13529,7 +13529,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (10088002,'机电工程系',10088),
  (10088003,'计算机系',10088),
  (10097001,'经管',10097);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (11001001,'人文学院',11001),
  (11001002,'人民武装学院',11001),
  (11001003,'化学与环境科学学院',11001),
@@ -13556,7 +13556,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (11001024,'电子信息工程学院',11001),
  (11001025,'研究生学院',11001),
  (11001026,'管理学院',11001);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (11001027,'经济学院',11001),
  (11001028,'艺术学院',11001),
  (11001029,'药学院',11001),
@@ -13584,7 +13584,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (11002021,'现代科技学院',11002),
  (11002022,'现科院',11002),
  (11002023,'理学院',11002);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (11002024,'生命科学学院',11002),
  (11002025,'研究生部',11002),
  (11002026,'经济贸易学院',11002),
@@ -13612,7 +13612,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (11004005,'四方学院',11004),
  (11004006,'四方学院',11004),
  (11004007,'土木工程分院',11004);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (11004008,'土木工程系',11004),
  (11004009,'外语系',11004),
  (11004010,'工程力学系',11004),
@@ -13639,7 +13639,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (11005004,'体育部',11005),
  (11005005,'信息工程学院',11005),
  (11005006,'公共管理学院',11005);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (11005007,'勘查技术学院',11005),
  (11005008,'北校区',11005),
  (11005009,'华信学院',11005),
@@ -13666,7 +13666,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (11005030,'职业技术学院',11005),
  (11005031,'育才校区',11005),
  (11005032,'西校区',11005);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (11005033,'资源学院',11005),
  (11006001,'中文系',11006),
  (11006002,'体育学院',11006),
@@ -13694,7 +13694,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (11006024,'职业技术学院',11006),
  (11006025,'职业技术学院',11006),
  (11006026,'艺术系',11006);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (11006027,'艺术设计学院',11006),
  (11006028,'计算机',11006),
  (11006029,'资源与环境科学学院',11006),
@@ -13721,7 +13721,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (11007020,'河北科技大学',11007),
  (11007021,'河北科技师范学院',11007),
  (11007022,'环境科学与工程学院',11007);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (11007023,'理学院',11007),
  (11007024,'理工学院',11007),
  (11007025,'生工学院',11007),
@@ -13749,7 +13749,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (11008011,'护理学院',11008),
  (11008012,'新华校区',11008),
  (11008013,'研究生学院',11008);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (11008014,'第一临床医学院',11008),
  (11008015,'第三临床医学院',11008),
  (11008016,'第二临床医学院',11008),
@@ -13776,7 +13776,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (11009019,'生物科学与工程学院',11009),
  (11009020,'电子工程',11009),
  (11009021,'经济管理学院',11009);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (11009022,'经济管理学院',11009),
  (11009023,'继续教育学院',11009),
  (11009024,'艺术学院',11009),
@@ -13803,7 +13803,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (11010017,'电气信息学院',11010),
  (11010018,'研究生学院',11010),
  (11010019,'社会体育系',11010);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (11010020,'纺织服装学院',11010),
  (11010021,'经济管理学院',11010),
  (11010022,'继续教育学院',11010),
@@ -13832,7 +13832,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (11011019,'经济管理分院',11011),
  (11011020,'经济管理学院',11011),
  (11011021,'经济管理系',11011);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (11011022,'继续教育中心',11011),
  (11011023,'美术系',11011),
  (11011024,'计算机系',11011),
@@ -13859,7 +13859,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (11012018,'继续教育学院',11012),
  (11012019,'职业技术学院',11012),
  (11012020,'艺术学院',11012);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (11012021,'车辆与能源学院',11012),
  (11012022,'里仁学院',11012),
  (11012023,'里仁学院',11012),
@@ -13889,7 +13889,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (11013024,'继续教育学院',11013),
  (11013025,'艺术系',11013),
  (11013026,'计算机系',11013);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (11013027,'食品工程系',11013),
  (11014001,'丰南基础部',11014),
  (11014002,'交通与测会学院',11014),
@@ -13915,7 +13915,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (11014022,'轻工分院',11014),
  (11014023,'轻工学院',11014),
  (11015001,'中医系',11015);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (11015002,'临床医学系',11015),
  (11015003,'体育教研部',11015),
  (11015004,'冀唐学院',11015),
@@ -13944,7 +13944,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (11016008,'机电工程系',11016),
  (11016009,'环境与化学工程系',11016),
  (11016010,'社会科学系',11016);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (11016011,'管理工程系',11016),
  (11016012,'管理系',11016),
  (11016013,'经济管理系',11016),
@@ -13975,7 +13975,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (11018006,'文法系',11018),
  (11018007,'机械工程系',11018),
  (11018008,'材料工程系',11018);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (11018009,'电子工程系',11018),
  (11018010,'经济管理系',11018),
  (11018011,'计算机科学与工程系',11018),
@@ -14002,7 +14002,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (11020004,'外语系',11020),
  (11020005,'经济管理系',11020),
  (11020006,'自动化系',11020);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (11020007,'防灾技术系',11020),
  (11021001,'土木工程系',11021),
  (11021002,'土木工程系',11021),
@@ -14032,7 +14032,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (11022011,'管理系',11022),
  (11022012,'计算机系',11022),
  (11023001,'临床医学',11023);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (11023002,'人文学院',11023),
  (11023003,'信息学院',11023),
  (11023004,'农林科技学院',11023),
@@ -14060,7 +14060,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (11023026,'美术系',11023),
  (11023027,'计算机',11023),
  (11023028,'通信工程',11023);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (11023029,'音乐系',11023),
  (11023030,'麻醉系',11023),
  (11024001,'中医学系概况',11024),
@@ -14089,7 +14089,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (11025009,'小教外语系',11025),
  (11025010,'工商管理系',11025),
  (11025011,'教育科学教学部',11025);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (11025012,'数学系',11025),
  (11025013,'法政历史系',11025),
  (11025014,'物理系',11025),
@@ -14118,7 +14118,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (11026017,'水电学院',11026),
  (11026018,'理学院',11026),
  (11026019,'社会科学部',11026);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (11026020,'科信学院',11026),
  (11026021,'科信学院',11026),
  (11026022,'经济管理学院',11026),
@@ -14148,7 +14148,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (11028002,'体育系',11028),
  (11028003,'外国语言文学系',11028),
  (11028004,'应用化学系',11028);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (11028005,'数学与计算机科学系',11028),
  (11028006,'法律与政治教育系',11028),
  (11028007,'物理与电子信息系',11028),
@@ -14176,7 +14176,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (11031005,'国际金融保险系',11031),
  (11031006,'基础部',11031),
  (11031007,'外语教学部',11031);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (11031008,'外贸英语系',11031),
  (11031009,'成人教育部',11031),
  (11031010,'法学系',11031),
@@ -14206,7 +14206,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (11032019,'音乐系',11032),
  (11033001,'中文系',11033),
  (11033002,'人文系',11033);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (11033003,'传播技术系',11033),
  (11033004,'体育教学部',11033),
  (11033005,'农林与生物工程系',11033),
@@ -14235,7 +14235,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (11034008,'机电系',11034),
  (11034009,'石油',11034),
  (11034010,'经济管理系',11034);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (11035001,'中文系',11035),
  (11035002,'体育系',11035),
  (11035003,'化学系',11035),
@@ -14266,7 +14266,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (11038003,'旅游管理系',11038),
  (11038004,'旅游系',11038),
  (11038005,'机电系',11038);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (11038006,'牧医系',11038),
  (11038007,'生物工程系',11038),
  (11038008,'管理',11038),
@@ -14297,7 +14297,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (11040010,'电气与电子系',11040),
  (11040011,'石油工程系',11040),
  (11040012,'管理工程系',11040);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (11040013,'计算机',11040),
  (11040014,'计算机与信息工程系',11040),
  (11041001,'基础部',11041),
@@ -14326,7 +14326,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (11043002,'外语系',11043),
  (11043003,'建工系',11043),
  (11043004,'文法系',11043);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (11043005,'机电系',11043),
  (11043006,'管理系',11043),
  (11043007,'经济系',11043),
@@ -14356,7 +14356,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (11046009,'机电系',11046),
  (11046010,'材料系',11046),
  (11046011,'河北工业职业技术学院',11046);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (11046012,'法经系',11046),
  (11046013,'环化系',11046),
  (11046014,'理学院',11046),
@@ -14385,7 +14385,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (11050001,'信息机电系',11050),
  (11050002,'建筑工程系',11050),
  (11050003,'建筑材料系',11050);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (11050004,'建筑装饰',11050),
  (11050005,'旅游系',11050),
  (11050006,'财经系',11050),
@@ -14413,7 +14413,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (11053014,'林学院',11053),
  (11053015,'植物保护学院',11053),
  (11053016,'海洋学院',11053);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (11053017,'现代科技学院',11053),
  (11053018,'理学院',11053),
  (11053019,'生命科学学院',11053),
@@ -14441,7 +14441,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (11058002,'机械系',11058),
  (11058003,'焊接工程系',11058),
  (11058004,'电子工程系',11058);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (11058005,'管道工程系',11058),
  (11058006,'管道运输系',11058),
  (11058007,'经济管理系',11058),
@@ -14469,7 +14469,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (11065001,'人文与社会科学学院',11065),
  (11065002,'信息工程系',11065),
  (11065003,'动力系',11065);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (11065004,'外国语学院',11065),
  (11065005,'工商管理学院',11065),
  (11065006,'建筑工程系',11065),
@@ -14495,7 +14495,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (11069003,'信息工程学院',11069),
  (11069004,'外语学院',11069),
  (11069005,'文法艺术学院',11069);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (11069006,'物流学院',11069),
  (11069007,'经济管理学院',11069),
  (11070001,'信息部',11070),
@@ -14526,7 +14526,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (11077007,'文学院',11077),
  (11077008,'机械工程系',11077),
  (11077009,'植物科学系',11077);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (11077010,'汽车工程系',11077),
  (11077011,'物电学院',11077),
  (11077012,'电气工程系',11077),
@@ -14556,7 +14556,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (11080004,'机电工程系',11080),
  (11080005,'秦皇岛职业技术学院',11080),
  (11080006,'管理工程系',11080);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (11080007,'经济系',11080),
  (11081001,'动漫系',11081),
  (11081002,'环艺',11081),
@@ -14587,7 +14587,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (11085001,'信息科学系',11085),
  (11085002,'医药工程系',11085),
  (11085003,'生物技术及应用',11085);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (11085004,'经管系',11085),
  (11086001,'体育保健',11086),
  (11086002,'体育系',11086),
@@ -14617,7 +14617,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (11088003,'应用英语系',11088),
  (11088004,'经贸英语',11088),
  (11088005,'计算机',11088);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (11089001,'商贸系',11089),
  (11089002,'工程系',11089),
  (11089003,'管理系',11089),
@@ -14649,7 +14649,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (11092003,'冀联医学院',11092),
  (11092004,'医疗美容',11092),
  (11092005,'口腔',11092);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (11092006,'护理系',11092),
  (11092007,'新华医学院',11092),
  (11092008,'白求恩眼视光',11092),
@@ -14680,7 +14680,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (11095004,'工体部',11095),
  (11095005,'建筑工程系',11095),
  (11095006,'文学与传媒学院',11095);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (11095007,'新龙软件学院',11095),
  (11095008,'机电工程系',11095),
  (11095009,'法律与公共管理系',11095),
@@ -14709,7 +14709,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (11099005,'文法系',11099),
  (11099006,'机电工程系',11099),
  (11099007,'环境工程系',11099);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (11099008,'经济管理系',11099),
  (11099009,'计算机',11099),
  (11100001,'中西医',11100),
@@ -14737,7 +14737,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (11103003,'地球科学与资源系',11103),
  (11103004,'外语系',11103),
  (11103005,'工程技术系',11103);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (11103006,'管理科学与工程系',11103),
  (11103007,'经济系',11103),
  (11103008,'经济系',11103),
@@ -14766,7 +14766,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (11106010,'��ѧϵ',11106),
  (11106011,'����ϵ',11106),
  (11106012,'����ϵ',11106);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (11106013,'������Ϣ��ѧ�뼼��ϵ',11106),
  (11106014,'������У',11106),
  (11106015,'�����ϵ',11106),
@@ -14793,7 +14793,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (12001010,'公共管理学院',12001),
  (12001011,'化学工程学院',12001),
  (12001012,'化学系',12001);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (12001013,'化工学院',12001),
  (12001014,'医学检验系',12001),
  (12001015,'升达经济贸易管理学院',12001),
@@ -14821,7 +14821,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (12001037,'机械工程学院',12001),
  (12001038,'材料科学与工程学院',12001),
  (12001039,'法学院',12001);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (12001040,'物理工程学院',12001),
  (12001041,'环境与水利学院',12001),
  (12001042,'理学院',12001),
@@ -14846,7 +14846,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (12001061,'远程教育学院',12001),
  (12001062,'郑州大学西亚斯国际学院',12001),
  (12001063,'音乐系',12001);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (12002001,'体育教学部',12002),
  (12002002,'信息科学与工程学院',12002),
  (12002003,'化学化工学院',12002),
@@ -14873,7 +14873,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (12003004,'华豫学院',12003),
  (12003005,'国际教育学院',12003),
  (12003006,'国际贸易',12003);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (12003007,'外国语学院',12003),
  (12003008,'文法学院',12003),
  (12003009,'机电工程学院',12003),
@@ -14899,7 +14899,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (12004009,'建筑学院',12004),
  (12004010,'数学与信息科学学院',12004),
  (12004011,'机械学院',12004);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (12004012,'水利学院',12004),
  (12004013,'水利职业学院',12004),
  (12004014,'法学系',12004),
@@ -14925,7 +14925,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (12005013,'环境艺术设计',12005),
  (12005014,'电气信息工程学院',12005),
  (12005015,'纺化工程系',12005);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (12005016,'经济与管理学院',12005),
  (12005017,'继续教育学院',12005),
  (12005018,'艺术设计学院',12005),
@@ -14952,7 +14952,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (12006013,'机电工程系',12006),
  (12006014,'法律系',12006),
  (12006015,'物资经贸系',12006);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (12006016,'经贸系',12006),
  (12006017,'计算机科学与应用系',12006),
  (12006018,'预科',12006),
@@ -14980,7 +14980,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (12008005,'信息商务学院',12008),
  (12008006,'信息商务学院',12008),
  (12008007,'信息工程系',12008);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (12008008,'国际教育学院',12008),
  (12008009,'土木建筑工程系',12008),
  (12008010,'外语系',12008),
@@ -15007,7 +15007,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (12009003,'基础医学院',12009),
  (12009004,'外语学院',12009),
  (12009005,'成人教育学院',12009);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (12009006,'护理学院',12009),
  (12009007,'海外教育学院',12009),
  (12009008,'研究生院',12009),
@@ -15035,7 +15035,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (12010014,'文化传播系',12010),
  (12010015,'旅游系',12010),
  (12010016,'法学院',12010);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (12010017,'经济学系',12010),
  (12010018,'经贸外语系',12010),
  (12010019,'统计学系',12010),
@@ -15062,7 +15062,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (12011016,'播音主持艺术',12011),
  (12011017,'教育科学学院',12011),
  (12011018,'数学与信息科学学院',12011);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (12011019,'文学院',12011),
  (12011020,'文理实验班',12011),
  (12011021,'文理实验班',12011),
@@ -15089,7 +15089,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (12011042,'通信工程',12011),
  (12012001,'体育教学部',12012),
  (12012002,'农学院',12012);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (12012003,'动物科技学院',12012),
  (12012004,'化工与制药学院',12012),
  (12012005,'医学技术与工程学院',12012),
@@ -15116,7 +15116,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (12012026,'自动化',12012),
  (12012027,'艺术设计系',12012),
  (12012028,'车辆与动力工程学院',12012);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (12012029,'食品与生物工程学院',12012),
  (12013001,'体育学院',12013),
  (12013002,'信息技术学院',12013),
@@ -15143,7 +15143,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (12013023,'美术学院',12013),
  (12013024,'计算机科学系',12013),
  (12013025,'音乐学院',12013);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (12013026,'马列理论教研部',12013),
  (12014001,'人文社会科学系',12014),
  (12014002,'体育教学部',12014),
@@ -15168,7 +15168,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (12015008,'历史学与社会学系',12015),
  (12015009,'土木建筑工程系',12015),
  (12015010,'外国语学院',12015);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (12015011,'外国语言文学系',12015),
  (12015012,'安阳师院',12015),
  (12015013,'工商管理系',12015),
@@ -15194,7 +15194,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (12016001,'体育教学部',12016),
  (12016002,'北校区-工业学校',12016),
  (12016003,'商学系',12016);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (12016004,'商学系',12016),
  (12016005,'国医国药系',12016),
  (12016006,'国际教育学院',12016),
@@ -15221,7 +15221,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (12017006,'外语学院',12017),
  (12017007,'德育教研室',12017),
  (12017008,'技能部',12017);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (12017009,'政治与公共管理学院',12017),
  (12017010,'教育科学学院',12017),
  (12017011,'数学与统计学院',12017),
@@ -15247,7 +15247,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (12018011,'环境工程',12018),
  (12018012,'环境工程系',12018),
  (12018013,'生物工程系',12018);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (12018014,'电气与电子工程系',12018),
  (12018015,'管理工程系',12018),
  (12018016,'继续教育学院',12018),
@@ -15273,7 +15273,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (12019018,'测量与国土信息系',12019),
  (12019019,'环境与地理科学系',12019),
  (12019020,'电气信息工程学院',12019);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (12019021,'经济与管理学院',12019),
  (12019022,'美术系',12019),
  (12019023,'规划建筑系',12019),
@@ -15301,7 +15301,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (12020018,'管理学院',12020),
  (12020019,'药学院',12020),
  (12021001,'人文学院',12021);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (12021002,'体育系',12021),
  (12021003,'信息工程学院',12021),
  (12021004,'农学院',12021),
@@ -15325,7 +15325,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (12021022,'新科学院 生物工程',12021),
  (12021023,'新科学院 电子信息工程',12021),
  (12021024,'新科学院 社会体育',12021);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (12021025,'新科学院 艺术设计',12021),
  (12021026,'新科学院 英语',12021),
  (12021027,'新科学院 装潢设计与工艺教育',12021),
@@ -15350,7 +15350,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (12022005,'外国语学院',12022),
  (12022006,'外语部',12022),
  (12022007,'心理学系',12022);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (12022008,'政治与管理科学学院',12022),
  (12022009,'教育科学学院',12022),
  (12022010,'教育系',12022),
@@ -15377,7 +15377,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (12023005,'华锐学院',12023),
  (12023006,'华锐学院外语系',12023),
  (12023007,'历史文化系',12023);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (12023008,'国际教育学院',12023),
  (12023009,'土木工程',12023),
  (12023010,'城市与环境科学系',12023),
@@ -15405,7 +15405,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (12024002,'体育系',12024),
  (12024003,'公共体育教研究室',12024),
  (12024004,'化学系',12024);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (12024005,'历史系',12024),
  (12024006,'地理系',12024),
  (12024007,'外语学院',12024),
@@ -15435,7 +15435,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (12025006,'政法系',12025),
  (12025007,'教育科学系',12025),
  (12025008,'数学与信息科学',12025);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (12025009,'新闻',12025),
  (12025010,'新闻学',12025),
  (12025011,'新闻系',12025),
@@ -15464,7 +15464,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (12026013,'数学科学系',12026),
  (12026014,'电子科学与工程系',12026),
  (12026015,'社会科学系',12026);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (12026016,'经济管理系',12026),
  (12026017,'艺术系',12026),
  (12026018,'计算机科学系',12026),
@@ -15491,7 +15491,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (12027020,'经济与管理学院',12027),
  (12027021,'继续教育学院',12027),
  (12027022,'美术学院',12027);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (12027023,'计算机科学与技术学院',12027),
  (12027024,'许昌职业技术学院',12027),
  (12027025,'音乐系',12027),
@@ -15515,7 +15515,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (12028018,'经济管理学院',12028),
  (12028019,'能源科学与工程学院',12028),
  (12028020,'艺术设计系',12028);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (12028021,'计算机科学与技术学院',12028),
  (12028022,'资源环境学院',12028),
  (12028023,'软件学院',12028),
@@ -15543,7 +15543,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (12030011,'社会科学系',12030),
  (12030012,'管理工程系',12030),
  (12030013,'纺化工程系',12030);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (12030014,'纺化系',12030),
  (12030015,'纺织工程系',12030),
  (12030016,'经济贸易系',12030),
@@ -15571,7 +15571,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (12032008,'成人教育学院',12032),
  (12032009,'机械工程系',12032),
  (12032010,'电气工程系',12032);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (12032011,'粮油食品学院',12032),
  (12032012,'经济管理系',12032),
  (12032013,'计算机工程系',12032),
@@ -15600,7 +15600,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (12036001,'侦查系',12036),
  (12036002,'司法管理系',12036),
  (12036003,'检察系',12036);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (12036004,'河南职工医学院',12036),
  (12036005,'法律系',12036),
  (12037001,'人文社科系',12037),
@@ -15631,7 +15631,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (12039004,'工艺美术系',12039),
  (12039005,'技术科学系',12039),
  (12039006,'电子工程系',12039);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (12039007,'经贸系',12039),
  (12039008,'计算机系',12039),
  (12039009,'财经系',12039),
@@ -15660,7 +15660,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (12043007,'成人教育部',12043),
  (12043008,'民商法学系',12043),
  (12043009,'经济法学系',12043);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (12043010,'行政法学系',12043),
  (12043011,'计算机系',12043),
  (12046001,'信息工程系',12046),
@@ -15689,7 +15689,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (12047004,'法政系',12047),
  (12047005,'经管系',12047),
  (12047006,'食品化工系',12047);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (12048001,'医学院',12048),
  (12048002,'外语系',12048),
  (12048003,'建筑与艺术系',12048),
@@ -15718,7 +15718,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (12050002,'机电系',12050),
  (12050003,'澳洲国际教育学院',12050),
  (12050004,'经管系',12050);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (12050005,'艺术系',12050),
  (12050006,'计算机系',12050),
  (12051001,'中文系',12051),
@@ -15747,7 +15747,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (12053002,'人文学院',12053),
  (12053003,'信息工程学院',12053),
  (12053004,'化学工程学院',12053);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (12053005,'国际教育部',12053),
  (12053006,'土木建筑工程学院',12053),
  (12053007,'外国语学院',12053),
@@ -15774,7 +15774,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (12056004,'外语系等',12056),
  (12056005,'工商管理学院',12056),
  (12056006,'师范学院',12056);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (12056007,'建筑工程系',12056),
  (12056008,'成人教育学院',12056),
  (12056009,'数理部',12056),
@@ -15802,7 +15802,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (12058010,'轻工系',12058),
  (12058011,'音乐系',12058),
  (12059001,'中西医结合系',12059);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (12059002,'临床医学',12059),
  (12059003,'医学技术系',12059),
  (12059004,'国医国药系',12059),
@@ -15831,7 +15831,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (12062009,'成人教育学院',12062),
  (12062010,'机电工程学院',12062),
  (12062011,'法律系',12062);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (12062012,'社会科学部',12062),
  (12062013,'经济管理学院',12062),
  (12062014,'艺术设计学院',12062),
@@ -15859,7 +15859,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (12065004,'经贸系',12065),
  (12065005,'计算机系',12065),
  (12066001,'临床医学',12066);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (12066002,'助产系',12066),
  (12066003,'医学影像技术系',12066),
  (12066004,'医学检验系',12066),
@@ -15889,7 +15889,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (12069003,'信息网络安全监察',12069),
  (12069004,'刑事技术',12069),
  (12069005,'安全保卫',12069);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (12069006,'治安管理',12069),
  (12069007,'法律',12069),
  (12069008,'经济犯罪侦察',12069),
@@ -15920,7 +15920,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (12072009,'计科系',12072),
  (12074001,'人文艺术教育系',12074),
  (12074002,'信息工程系',12074);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (12074003,'园林园艺系',12074),
  (12074004,'外语系',12074),
  (12074005,'机电工程系',12074),
@@ -15949,7 +15949,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (12077005,'电子信息系',12077),
  (12077006,'经济贸易系',12077),
  (12079001,'信息工程系',12079);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (12079002,'安全工程系',12079),
  (12079003,'机电工程系',12079),
  (12079004,'资源环境系',12079),
@@ -15979,7 +15979,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (12082007,'计算机',12082),
  (12083001,'工商管理系',12083),
  (12083002,'成教部',12083);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (12083003,'机械工程系',12083),
  (12083004,'电子工程系',12083),
  (12083005,'经贸系',12083),
@@ -16010,7 +16010,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (12086011,'政治系',12086),
  (12086012,'教育系',12086),
  (12086013,'数学系',12086);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (12086014,'物理系',12086),
  (12086015,'生命科学系',12086),
  (12086016,'美术系',12086),
@@ -16041,7 +16041,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (12091003,'化工食品学院',12091),
  (12091004,'基础科学学院',12091),
  (12091005,'外国语学院',12091);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (12091006,'工程技术学院',12091),
  (12091007,'文化与传播学院',12091),
  (12091008,'旅游',12091),
@@ -16070,7 +16070,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (12093006,'外语系',12093),
  (12093007,'文法系',12093),
  (12093008,'艺术系',12093);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (12093009,'营销系',12093),
  (12093010,'资讯系',12093),
  (12095001,'������',12095),
@@ -16097,7 +16097,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (13001006,'信息管理学院',13001),
  (13001007,'公共卫生学院',13001),
  (13001008,'动力与机械学院',13001);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (13001009,'化学与分子科学学院',13001),
  (13001010,'医学院',13001),
  (13001011,'印刷与包装系',13001),
@@ -16123,7 +16123,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (13001031,'测绘学院',13001),
  (13001032,'测绘遥感信息工程国家重点实验室',13001),
  (13001033,'物理科学与技术学院',13001);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (13001034,'珞珈学院',13001),
  (13001035,'生命科学学院',13001),
  (13001036,'电子信息学院',13001),
@@ -16150,7 +16150,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (13002006,'光电子工程系',13002),
  (13002007,'光电子科学与工程学院',13002),
  (13002008,'公共管理学院',13002);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (13002009,'化学系',13002),
  (13002010,'医药卫生管理学院',13002),
  (13002011,'华中科技大学文华学院',13002),
@@ -16174,7 +16174,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (13002029,'大学生艺术团',13002),
  (13002030,'工程管理',13002),
  (13002031,'建筑与城市规划学院',13002);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (13002032,'控制科学与工程系',13002),
  (13002033,'政治教育系',13002),
  (13002034,'教育科学研究院',13002),
@@ -16199,7 +16199,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (13002053,'现代教育技术中心',13002),
  (13002054,'生命科学与技术学院',13002),
  (13002055,'电子与信息工程系',13002);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (13002056,'电子科学与技术系',13002),
  (13002057,'电气与电子工程学院',13002),
  (13002058,'研究生院',13002),
@@ -16225,7 +16225,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (13003008,'植物科学技术学院',13003),
  (13003009,'楚天学院',13003),
  (13003010,'水产学院',13003);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (13003011,'理学院',13003),
  (13003012,'生命科学技术学院',13003),
  (13003013,'经济管理与土地管理学院',13003),
@@ -16252,7 +16252,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (13004015,'政治与行政学院',13004),
  (13004016,'文法学院',13004),
  (13004017,'机电学院',13004);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (13004018,'材料学院',13004),
  (13004019,'材料科学与工程学院',13004),
  (13004020,'汽车学院',13004),
@@ -16280,7 +16280,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (13005004,'国际教育学院',13005),
  (13005005,'地球物理与空间信息学院',13005),
  (13005006,'地球科学学院',13005);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (13005007,'地空学院',13005),
  (13005008,'外语学院',13005),
  (13005009,'工程学院',13005),
@@ -16308,7 +16308,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (13006002,'会计学院',13006),
  (13006003,'信息学院',13006),
  (13006004,'公共管理学院',13006);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (13006005,'公安学院',13006),
  (13006006,'军事经济学院',13006),
  (13006007,'农行武院',13006),
@@ -16335,7 +16335,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (13007010,'法学院',13007),
  (13007011,'生命科学学院',13007),
  (13007012,'电子信息工程学院',13007);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (13007013,'社会科学部',13007),
  (13007014,'管理学院',13007),
  (13007015,'经济学院',13007),
@@ -16363,7 +16363,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (13008018,'文学院',13008),
  (13008019,'文学院研究生院',13008),
  (13008020,'文教中心',13008);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (13008021,'武汉传媒学院',13008),
  (13008022,'武汉影视工程学院',13008),
  (13008023,'汉口分校',13008),
@@ -16390,7 +16390,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (13009005,'医学院',13009),
  (13009006,'土木工程系',13009),
  (13009007,'外国语言文学系',13009);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (13009008,'工商学院',13009),
  (13009009,'建筑学',13009),
  (13009010,'成人教育学院',13009),
@@ -16418,7 +16418,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (13010013,'服装学院',13010),
  (13010014,'机电工程学院',13010),
  (13010015,'武汉科技学院',13010);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (13010016,'环境与城建学院',13010),
  (13010017,'理学院',13010),
  (13010018,'生命科学学院',13010),
@@ -16445,7 +16445,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (13011012,'药学院',13011),
  (13011013,'针灸骨伤系',13011),
  (13012001,'会计学院',13012);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (13012002,'体育教学部',13012),
  (13012003,'信息管理学院',13012),
  (13012004,'国际教育学院',13012),
@@ -16472,7 +16472,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (13013005,'实战训练基地',13013),
  (13013006,'思想理论教育课教学部',13013),
  (13013007,'成人教育处',13013);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (13013008,'治安学',13013),
  (13013009,'治安管理系',13013),
  (13013010,'法律系',13013),
@@ -16499,7 +16499,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (13014018,'运动人体科学与心理学系',13014),
  (13014019,'运动系',13014),
  (13015001,'中国画系',13015);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (13015002,'动画学院',13015),
  (13015003,'壁画系',13015),
  (13015004,'工业设计系',13015),
@@ -16530,7 +16530,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (13017005,'园林系',13017),
  (13017006,'外语系',13017),
  (13017007,'实验设备管理处',13017);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (13017008,'应用化学系',13017),
  (13017009,'机电工程系',13017),
  (13017010,'环境工程系',13017),
@@ -16557,7 +16557,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (13018015,'经济与政法学院',13018),
  (13018016,'职业与成人教育学院',13018),
  (13018017,'艺术设计学院',13018);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (13018018,'计算机学院',13018),
  (13019001,'人民武装学院',13019),
  (13019002,'体育学院',13019),
@@ -16584,7 +16584,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (13019023,'继续教育学院',13019),
  (13019024,'职业技术学院',13019),
  (13019025,'艺术学院',13019);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (13019026,'计算机',13019),
  (13019027,'资源环境学院',13019),
  (13020001,'人文学院',13020),
@@ -16611,7 +16611,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (13021002,'信息工程学院',13021),
  (13021003,'化工与制药学院',13021),
  (13021004,'国际学院',13021);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (13021005,'土建学院',13021),
  (13021006,'土木工程',13021),
  (13021007,'外语学院',13021),
@@ -16638,7 +16638,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (13022003,'体育课部',13022),
  (13022004,'信息工程学院',13022),
  (13022005,'信息科学与工程学院',13022);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (13022006,'化学工程与技术学院',13022),
  (13022007,'医学院',13022),
  (13022008,'商学院',13022),
@@ -16667,7 +16667,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (13022031,'管理学院',13022),
  (13022032,'职业技术学院',13022),
  (13022033,'艺术与设计学院',13022);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (13022034,'艺术学院',13022),
  (13022035,'计算机科学与技术学院',13022),
  (13022036,'资源与环境工程学院',13022),
@@ -16694,7 +16694,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (13023021,'教育科学系',13023),
  (13023022,'文学院',13023),
  (13023023,'文理学院',13023);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (13023024,'机械工程学院',13023),
  (13023025,'物理实验中心',13023),
  (13023026,'物理科学与技术学院',13023),
@@ -16721,7 +16721,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (13024011,'文学院',13024),
  (13024012,'机械与材料学院',13024),
  (13024013,'理学院',13024);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (13024014,'电力学院',13024),
  (13024015,'电气信息学院',13024),
  (13024016,'电气系',13024),
@@ -16750,7 +16750,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (13026001,'公共管理学院',13026),
  (13026002,'医学影象学院',13026),
  (13026003,'国际学院涉外护理',13026);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (13026004,'基础医学院',13026),
  (13026005,'护理学院',13026),
  (13026006,'第一临床学院',13026),
@@ -16777,7 +16777,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (13027015,'生命科学技术学院',13027),
  (13027016,'经济与管理学院',13027),
  (13027017,'美术系',13027);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (13027018,'计算机科学系',13027),
  (13027019,'音乐系',13027),
  (13028001,'中文系',13028),
@@ -16806,7 +16806,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (13029006,'土木建筑工程学院',13029),
  (13029007,'外语学院',13029),
  (13029008,'师范学院',13029);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (13029009,'数理学院',13029),
  (13029010,'机电工程学院',13029),
  (13029011,'环境科学与工程学院',13029),
@@ -16832,7 +16832,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (13030011,'生命科学与工程学院',13030),
  (13030012,'生物示范中心',13030),
  (13030013,'继教职教学院',13030);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (13030014,'艺术学院',13030),
  (13030015,'计算机科学与技术学院',13030),
  (13031001,'体育学院',13031),
@@ -16860,7 +16860,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (13032008,'外语系',13032),
  (13032009,'成教学院',13032),
  (13032010,'政法系',13032);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (13032011,'教科系',13032),
  (13032012,'数学系',13032),
  (13032013,'机械系',13032),
@@ -16889,7 +16889,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (13033015,'管理学院',13033),
  (13033016,'艺术学院',13033),
  (13033017,'药学院',13033);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (13033018,'资源与环境科学学院',13033),
  (13034001,'信息系',13034),
  (13034002,'勘测系',13034),
@@ -16918,7 +16918,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (13037009,'护理系',13037),
  (13037010,'机械系',13037),
  (13037011,'电子电气系',13037);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (13037012,'管理系',13037),
  (13037013,'艺术系',13037),
  (13037014,'计算机',13037),
@@ -16948,7 +16948,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (13045003,'港口与海运系',13045),
  (13045004,'管理工程系',13045),
  (13045005,'艺术设计系',13045);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (13045006,'计算机与信息工程系',13045),
  (13045007,'道桥系',13045),
  (13046001,'中文系',13046),
@@ -16979,7 +16979,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (13047007,'计科系',13047),
  (13047008,'计算机信息工程系',13047),
  (13047009,'财金管理系',13047);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (13050001,'信息工程系',13050),
  (13050002,'啤酒工程系',13050),
  (13050003,'机电工程系',13050),
@@ -17008,7 +17008,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (13054003,'建筑工程系',13054),
  (13054004,'有水利工程系',13054),
  (13054005,'机电工程系',13054);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (13054006,'水利工程系',13054),
  (13054007,'电子信息工程系',13054),
  (13054008,'继续教育部等系部',13054),
@@ -17038,7 +17038,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (13060004,'机电工程系',13060),
  (13060005,'水利交通系',13060),
  (13060006,'生物工程系',13060);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (13060007,'经济贸易系',13060),
  (13060008,'计算机科学与技术系',13060),
  (13061001,'信息技术系',13061),
@@ -17067,7 +17067,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (13062016,'经济与管理学院',13062),
  (13062017,'继续教育学院',13062),
  (13062018,'艺体系',13062);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (13062019,'艺术学院',13062),
  (13062020,'英语系',13062),
  (13062021,'药学院',13062),
@@ -17097,7 +17097,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (13065005,'英语系',13065),
  (13065006,'计科系',13065),
  (13066001,'公共课部',13066);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (13066002,'成人教育培训中心',13066),
  (13066003,'旅游与涉外事务系',13066),
  (13066004,'机电工程系',13066),
@@ -17124,7 +17124,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (13069001,'信息工程',13069),
  (13069002,'动力工程',13069),
  (13069003,'建设工程',13069);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (13069004,'机电系',13069),
  (13069005,'电力工程',13069),
  (13069006,'经济管理',13069),
@@ -17153,7 +17153,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (13071008,'生物与制药工程系',13071),
  (13071009,'电气系',13071),
  (13071010,'空乘学院',13071);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (13071011,'管理工程系',13071),
  (13071012,'经济与管理学院',13071),
  (13071013,'经贸系',13071),
@@ -17181,7 +17181,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (13074003,'司法管理系',13074),
  (13074004,'法律系',13074),
  (13074005,'警察管理系',13074);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (13076001,'人文与艺术系',13076),
  (13076002,'信息工程系',13076),
  (13076003,'制药工程系',13076),
@@ -17209,7 +17209,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (13079003,'保险学院',13079),
  (13079004,'信息工程学院',13079),
  (13079005,'国际学院',13079);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (13079006,'外国语学院',13079),
  (13079007,'演艺学院',13079),
  (13079008,'物流学院',13079),
@@ -17238,7 +17238,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (13082004,'机电工程系',13082),
  (13082005,'电子技术系',13082),
  (13082006,'经济与管理工程系',13082);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (13082007,'轨运系',13082),
  (13082008,'轨道交通学院',13082),
  (13082009,'轨道运输系',13082),
@@ -17266,7 +17266,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (13084007,'网络电子系',13084),
  (13084008,'艺术系',13084),
  (13085001,'人文社科',13085);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (13085002,'医学院',13085),
  (13085003,'商学院',13085),
  (13085004,'国际学院',13085),
@@ -17294,7 +17294,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (13086008,'政法系',13086),
  (13086009,'机械电子工程学院',13086),
  (13086010,'法律与经济管理系',13086);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (13086011,'电子信息系',13086),
  (13086012,'美术系',13086),
  (13086013,'英语系',13086),
@@ -17324,7 +17324,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (13090002,'体育系',13090),
  (13090003,'化学系',13090),
  (13090004,'政史系',13090);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (13090005,'教育信息技术',13090),
  (13090006,'数学系',13090),
  (13090007,'日语系',13090),
@@ -17353,7 +17353,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (13093008,'经管学部',13093),
  (13093009,'英语学部',13093),
  (13097001,'信息工程学院',13097);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (13097002,'外语学院',13097),
  (13097003,'艺术学院',13097),
  (13108001,'商学院',13108),
@@ -17382,7 +17382,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (14001014,'新闻与传播学院',14001),
  (14001015,'旅游学院',14001),
  (14001016,'树达学院',14001);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (14001017,'法学院',14001),
  (14001018,'物理与信息科学学院',14001),
  (14001019,'生命科学学院',14001),
@@ -17407,7 +17407,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (14002012,'土木建筑学院',14002),
  (14002013,'地学与环境工程学院',14002),
  (14002014,'基础医学院',14002);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (14002015,'基础教育学院',14002),
  (14002016,'外国语学院',14002),
  (14002017,'外贸英语',14002),
@@ -17433,7 +17433,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (14002037,'艺术学院',14002),
  (14002038,'药学院',14002),
  (14002039,'计算机辅助设计与制造',14002);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (14002040,'资源与安全工程学院',14002),
  (14002041,'资源加工与生物工程学院',14002),
  (14002042,'软件学院',14002),
@@ -17458,7 +17458,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (14003018,'法学院',14003),
  (14003019,'湖南艺术学院',14003),
  (14003020,'物理与微电子科学学院',14003);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (14003021,'环境科学与工程学院',14003),
  (14003022,'生命科学与技术研究院',14003),
  (14003023,'电气与信息工程学院',14003),
@@ -17484,7 +17484,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (14004011,'子弟学校',14004),
  (14004012,'建筑与城市规划学院',14004),
  (14004013,'数学与计算科学学院',14004);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (14004014,'文学院',14004),
  (14004015,'材料科学与工程学院',14004),
  (14004016,'桥梁与结构工程学院',14004),
@@ -17509,7 +17509,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (14005004,'信息科学技术学院',14005),
  (14005005,'农学院',14005),
  (14005006,'动物医学院',14005);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (14005007,'动物科学技术学院',14005),
  (14005008,'商学院',14005),
  (14005009,'园艺园林学院',14005),
@@ -17536,7 +17536,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (14006010,'社会科学部',14006),
  (14006011,'第一临床医学院',14006),
  (14006012,'第二临床医学院',14006);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (14006013,'药学院',14006),
  (14006014,'针灸推拿学院',14006),
  (14006015,'高等职业技术学院',14006),
@@ -17563,7 +17563,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (14007021,'法学院',14007),
  (14007022,'测绘科学与技术学院',14007),
  (14007023,'涉外学院',14007);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (14007024,'环境艺术设计学院',14007),
  (14007025,'理学院',14007),
  (14007026,'生命科学与技术学院',14007),
@@ -17590,7 +17590,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (14008011,'机电工程系',14008),
  (14008012,'法学与公共管理系',14008),
  (14008013,'生物工程与环境科学系',14008);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (14008014,'电子与通信工程系',14008),
  (14008015,'继续教育学院',14008),
  (14008016,'艺术系',14008),
@@ -17617,7 +17617,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (14010008,'法学部',14010),
  (14010009,'电气与信息工程学部',14010),
  (14010010,'管理学部',14010);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (14010011,'管理系',14010),
  (14010012,'经济系',14010),
  (14010013,'继续教育学部',14010),
@@ -17646,7 +17646,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (14012002,'体育科学系',14012),
  (14012003,'化学与材料科学系',14012),
  (14012004,'外语系',14012);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (14012005,'成人教育部',14012),
  (14012006,'政治与法律系',14012),
  (14012007,'教育科学系',14012),
@@ -17672,7 +17672,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (14013013,'成人教育学院',14013),
  (14013014,'数学与计算科学学院',14013),
  (14013015,'文学与新闻学院',14013);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (14013016,'机械工程学院',14013),
  (14013017,'材料与光电物理学院',14013),
  (14013018,'法学院',14013),
@@ -17699,7 +17699,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (14014015,'物理学院',14014),
  (14014016,'生命科学学院',14014),
  (14014017,'管理学院',14014);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (14014018,'职业技术学院',14014),
  (14014019,'能源与安全工程学院',14014),
  (14014020,'艺术学院',14014),
@@ -17726,7 +17726,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (14016001,'会计',14016),
  (14016002,'体育教学研究部',14016),
  (14016003,'公共卫生学院',14016);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (14016004,'化学化工学院',14016),
  (14016005,'医学专科部',14016),
  (14016006,'医学院',14016),
@@ -17752,7 +17752,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (14016026,'马克思主义教学部',14016),
  (14017001,'体育教学部',14017),
  (14017002,'体育科学学院',14017);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (14017003,'信息管理与工程学院',14017),
  (14017004,'公共外语部',14017),
  (14017005,'化学化工学院',14017),
@@ -17778,7 +17778,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (14017025,'预科学院',14017),
  (14017026,'马克思主义学院',14017),
  (14018001,'中山包装学院',14018);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (14018002,'中文系',14018),
  (14018003,'传播系',14018),
  (14018004,'体育部',14018),
@@ -17806,7 +17806,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (14018026,'研究生院',14018),
  (14018027,'社会科学部',14018),
  (14018028,'科技学院',14018);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (14018029,'科技学院',14018),
  (14018030,'策划与现代管理系',14018),
  (14018031,'经济管理学院',14018),
@@ -17833,7 +17833,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (14019013,'数学与计算科学系',14019),
  (14019014,'物理与电信工程系',14019),
  (14019015,'美术与艺术设计系',14019);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (14019016,'计算机科学系',14019),
  (14019017,'音乐系',14019),
  (14020001,'中文系',14020),
@@ -17862,7 +17862,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (14021002,'临床医学系',14021),
  (14021003,'体育系',14021),
  (14021004,'公共事业管理系',14021);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (14021005,'公共课部',14021),
  (14021006,'化学与生命科学系',14021),
  (14021007,'医学检验系',14021),
@@ -17892,7 +17892,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (14022012,'物电系',14022),
  (14022013,'生命科学系',14022),
  (14022014,'经济与法律系',14022);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (14022015,'继续教育学院',14022),
  (14022016,'美术系',14022),
  (14022017,'计算机系',14022),
@@ -17920,7 +17920,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (14023020,'经济与资源环境系',14023),
  (14023021,'美术系',14023),
  (14023022,'芙蓉学院',14023);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (14023023,'计算机基础教学部',14023),
  (14023024,'计算机科学与技术系',14023),
  (14023025,'音乐系',14023),
@@ -17947,7 +17947,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (14025003,'体育系',14025),
  (14025004,'信息工程学院',14025),
  (14025005,'化学与生物工程学院',14025);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (14025006,'商学院',14025),
  (14025007,'土木工程学院',14025),
  (14025008,'外国语学院',14025),
@@ -17973,7 +17973,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (14025028,'能源与安全工程学院',14025),
  (14025029,'艺术学院美术系',14025),
  (14025030,'艺术学院音乐系',14025);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (14025031,'计算机',14025),
  (14025032,'计算机科学与工程学院',14025),
  (14025033,'软件系',14025),
@@ -18000,7 +18000,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (14027007,'商业保险系',14027),
  (14027008,'商学院',14027),
  (14027009,'国际保险系',14027);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (14027010,'外国语学院',14027),
  (14027011,'教育学院',14027),
  (14027012,'文学院',14027),
@@ -18028,7 +18028,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (14030003,'环境检测系',14030),
  (14030004,'环境科学系',14030),
  (14030005,'环境艺术系',14030);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (14030006,'监督系',14030),
  (14030007,'计算机系',14030),
  (14031001,'北京校区',14031),
@@ -18057,7 +18057,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (14032010,'管理学院',14032),
  (14032011,'继续教育学院',14032),
  (14034001,'信息工程系',14034);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (14034002,'外语系',14034),
  (14034003,'教育系',14034),
  (14034004,'美术动画系',14034),
@@ -18086,7 +18086,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (14038013,'计算机',14038),
  (14042001,'会计系',14042),
  (14042002,'信息管理系',14042);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (14042003,'外语系',14042),
  (14042004,'工程管理系',14042),
  (14042005,'法律系',14042),
@@ -18115,7 +18115,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (14045003,'外语系',14045),
  (14045004,'政治与管理系',14045),
  (14045005,'教育科学系',14045);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (14045006,'数理系',14045),
  (14045007,'文史系',14045),
  (14045008,'新闻系',14045),
@@ -18144,7 +18144,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (14047016,'计算机科学与技术',14047),
  (14047017,'资源工程系',14047),
  (14048001,'化学化工系',14048);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (14048002,'安全与环境工程系',14048),
  (14048003,'建筑工程系',14048),
  (14048004,'机械工程系',14048),
@@ -18173,7 +18173,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (14054002,'信息系',14054),
  (14054003,'医学系',14054),
  (14054004,'园林系',14054);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (14054005,'工商管理系',14054),
  (14054006,'护理系',14054),
  (14054007,'旅游系',14054),
@@ -18201,7 +18201,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (14058002,'基础科学系',14058),
  (14058003,'工程经济系',14058),
  (14058004,'机电工程系',14058);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (14058005,'汽车工程系',14058),
  (14058006,'计算机系',14058),
  (14058007,'路桥工程系',14058),
@@ -18230,7 +18230,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (14063012,'机电系',14063),
  (14063013,'湖南理工学院外语系',14063),
  (14063014,'物电系',14063);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (14063015,'经管系',14063),
  (14063016,'经贸社科系',14063),
  (14063017,'美术系',14063),
@@ -18261,7 +18261,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (14070002,'园林系',14070),
  (14070003,'基础课部',14070),
  (14070004,'护理系',14070);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (14070005,'旅游系',14070),
  (14070006,'湖南环境生物学院',14070),
  (14070007,'环境科学系',14070),
@@ -18291,7 +18291,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (14077005,'经贸系',14077),
  (14079001,'外国语系',14079),
  (14079002,'技术工程系',14079);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (14079003,'经济社会系',14079),
  (14079004,'艺术系',14079),
  (14079005,'计算机系',14079),
@@ -18319,7 +18319,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (14087001,'临床系',14087),
  (14087002,'康保系',14087),
  (14087003,'护理系',14087);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (14087004,'药学系',14087),
  (14088001,'临床医学系',14088),
  (14088002,'护理系',14088),
@@ -18349,7 +18349,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (14094004,'财经贸易系',14094),
  (14095001,'信息工程学院',14095),
  (14095002,'应用外语系',14095);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (14095003,'护理系',14095),
  (14095004,'机电工程系',14095),
  (14095005,'经贸与管理系',14095),
@@ -18378,7 +18378,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (14101001,'信息工程系',14101),
  (14101002,'机械工程系',14101),
  (14101003,'电气系',14101);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (14101004,'管理系',14101),
  (14102001,'中文系',14102),
  (14102002,'人文系',14102),
@@ -18406,7 +18406,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (15001010,'旅游学院',15001),
  (15001011,'法学院',15001),
  (15001012,'海洋学院',15001);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (15001013,'理工学院',15001),
  (15001014,'生命科学与农学院',15001),
  (15001015,'社会发展学院',15001),
@@ -18434,7 +18434,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (15003006,'外语系',15003),
  (15003007,'对外汉语教学中心',15003),
  (15003008,'政治法律系',15003);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (15003009,'教育系',15003),
  (15003010,'数学系',15003),
  (15003011,'物理系',15003),
@@ -18462,7 +18462,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (15005003,'化学系',15005),
  (15005004,'政史系',15005),
  (15005005,'教育系',15005);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (15005006,'数学系',15005),
  (15005007,'旅游系',15005),
  (15005008,'物理系',15005),
@@ -18493,7 +18493,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (15008003,'文科部',15008),
  (15008004,'理科部',15008),
  (15008005,'网络工程系',15008);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (15008006,'艺术系',15008),
  (15008007,'软件工程系',15008),
  (15011001,'信息技术系',15011),
@@ -18522,7 +18522,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (15014011,'航空机电设备维修',15014),
  (15014012,'航空电子设备维修',15014),
  (15014013,'酒店管理',15014);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (15016001,'人文传播分院',15016),
  (15016002,'外语分院',15016),
  (15016003,'旅游分院',15016),
@@ -18550,7 +18550,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (16001017,'商学院',16001),
  (16001018,'国际商务系',16001),
  (16001019,'国际应用文科强化班',16001);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (16001020,'国际经济法学系',16001),
  (16001021,'国际经济贸易系',16001),
  (16001022,'地球科学系',16001),
@@ -18577,7 +18577,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (16001043,'数学系',16001),
  (16001044,'文化艺术教育中心',16001),
  (16001045,'新闻学系',16001);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (16001046,'日语系',16001),
  (16001047,'材料科学与工程系',16001),
  (16001048,'水科学系',16001),
@@ -18604,7 +18604,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (16001069,'西班牙语系',16001),
  (16001070,'计算机科学与技术系',16001),
  (16001071,'软件学院',16001);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (16001072,'软件工程系',16001),
  (16001073,'金融学系',16001),
  (16001074,'金陵学院',16001),
@@ -18631,7 +18631,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (16002019,'气象学院',16002),
  (16002020,'水利水电工程学院',16002),
  (16002021,'水务工程',16002);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (16002022,'水文与水资源工程',16002),
  (16002023,'水环院地信系',16002),
  (16002024,'水资源环境学院',16002),
@@ -18658,7 +18658,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (16003001,'中北学院',16003),
  (16003002,'人民武装学院',16003),
  (16003003,'会计与财务管理系',16003);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (16003004,'体育科学学院',16003),
  (16003005,'公共管理学院',16003),
  (16003006,'动力工程学院',16003),
@@ -18684,7 +18684,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (16003026,'生命科学学院',16003),
  (16003027,'电气与自动化工程学院',16003),
  (16003028,'社会发展学院',16003);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (16003029,'美术学院',16003),
  (16003030,'退教协',16003),
  (16003031,'金陵女子学院',16003),
@@ -18711,7 +18711,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (16004020,'紫金学院经管系',16004),
  (16004021,'经济管理学院',16004),
  (16004022,'继续教育学院',16004);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (16004023,'自动化学院',16004),
  (16004024,'英语系',16004),
  (16004025,'解放军理工大学',16004),
@@ -18738,7 +18738,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (16005016,'建筑学院',16005),
  (16005017,'成贤学院',16005),
  (16005018,'数学系',16005);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (16005019,'机械工程学院',16005),
  (16005020,'材料科学与工程学院',16005),
  (16005021,'法学院',16005),
@@ -18764,7 +18764,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (16006006,'机电学院',16006),
  (16006007,'材料科学与技术学院',16006),
  (16006008,'民航（飞行）学院',16006);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (16006009,'理学院',16006),
  (16006010,'电气工程与自动化',16006),
  (16006011,'研究生院',16006),
@@ -18792,7 +18792,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (16007012,'广告策划与管理',16007),
  (16007013,'广告系',16007),
  (16007014,'应用数学系',16007);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (16007015,'成人教育学院',16007),
  (16007016,'新闻学系',16007),
  (16007017,'法学院',16007),
@@ -18819,7 +18819,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (16008008,'国际教育学院',16008),
  (16008009,'基础医学院',16008),
  (16008010,'外国语学院',16008);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (16008011,'康达学院',16008),
  (16008012,'急诊医学系',16008),
  (16008013,'护理学院',16008),
@@ -18844,7 +18844,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (16009011,'建筑与城市规划学院',16009),
  (16009012,'德语系',16009),
  (16009013,'技术学院',16009);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (16009014,'机械与工程动力学院',16009),
  (16009015,'机械工程及自动化',16009),
  (16009016,'材料科学与工程学院',16009),
@@ -18869,7 +18869,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (16010008,'农业机械化系',16010),
  (16010009,'农学院',16010),
  (16010010,'动物医学院',16010);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (16010011,'动物科技学院',16010),
  (16010012,'园艺学院',16010),
  (16010013,'国际教育学院',16010),
@@ -18896,7 +18896,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (16011007,'南方摄影学院',16011),
  (16011008,'国际教育学院',16011),
  (16011009,'土木工程学院',16011);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (16011010,'应用技术学院',16011),
  (16011011,'摄影系',16011),
  (16011012,'木材工业学院',16011),
@@ -18923,7 +18923,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (16012013,'继续教育学院',16012),
  (16012014,'自动化学院',16012),
  (16012015,'计算机学院',16012);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (16012016,'软件工程',16012),
  (16012017,'通信与信息工程学院',16012),
  (16012018,'通信工程',16012),
@@ -18951,7 +18951,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (16013020,'物理系',16013),
  (16013021,'环境科学与工程学院',16013),
  (16013022,'电子与信息工程学院',16013);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (16013023,'研究生部',16013),
  (16013024,'空间信息科学系',16013),
  (16013025,'经济管理学院',16013),
@@ -18978,7 +18978,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (16014013,'第二临床医学院',16014),
  (16014014,'经贸管理学院',16014),
  (16014015,'翰林学院',16014);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (16014016,'药学院',16014),
  (16014017,'高等职业技术学院',16014),
  (16015001,'人文与社会科学系',16015),
@@ -19006,7 +19006,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (16015023,'经济管理学院',16015),
  (16015024,'经济管理系',16015),
  (16015025,'能源与动力工程学院',16015);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (16015026,'自动化学院',16015),
  (16015027,'自动化系',16015),
  (16015028,'艺术与设计学院',16015),
@@ -19033,7 +19033,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (16016014,'艺术学院',16016),
  (16016015,'视光学技术学院',16016),
  (16016016,'视光珠宝学院',16016);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (16016017,'龙蟠学院',16016),
  (16017001,'东方文化国际交流学院',16017),
  (16017002,'中文系',16017),
@@ -19062,7 +19062,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (16018004,'公共管理学院',16018),
  (16018005,'商学院',16018),
  (16018006,'团委',16018);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (16018007,'国际审计学院',16018),
  (16018008,'外语系',16018),
  (16018009,'审计系',16018),
@@ -19091,7 +19091,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (16021002,'传媒学院',16021),
  (16021003,'其他',16021),
  (16021004,'南艺附中',16021);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (16021005,'尚美学院',16021),
  (16021006,'成人教育学院',16021),
  (16021007,'流行音乐学院',16021),
@@ -19120,7 +19120,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (16022015,'机械工程系',16022),
  (16022016,'法律系',16022),
  (16022017,'物理实验室',16022);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (16022018,'电子工程系',16022),
  (16022019,'电工电子实验中心',16022),
  (16022020,'电气与自动化工程学院',16022),
@@ -19148,7 +19148,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (16023015,'高职学院',16023),
  (16024001,'体育学院',16024),
  (16024002,'化学化工学院',16024);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (16024003,'医学院',16024),
  (16024004,'商学院',16024),
  (16024005,'城市科学学院',16024),
@@ -19175,7 +19175,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (16024026,'艺术学院',16024),
  (16024027,'药学院',16024),
  (16024028,'计算机科学与技术学院',16024);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (16025001,'体育学院',16025),
  (16025002,'体育系',16025),
  (16025003,'信息学院',16025),
@@ -19204,7 +19204,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (16025026,'纺服学院',16025),
  (16025027,'经管系',16025),
  (16025028,'继续教育学院',16025);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (16025029,'艺术学院',16025),
  (16025030,'艺术系',16025),
  (16025031,'莱姆顿',16025),
@@ -19232,7 +19232,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (16026020,'理学院',16026),
  (16026021,'管理学院',16026),
  (16026022,'能源与安全工程学院',16026);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (16026023,'艺术设计学院',16026),
  (16026024,'计算机科学与技术学院',16026),
  (16026025,'资源与地球科学学院',16026),
@@ -19258,7 +19258,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (16027019,'生命科学学院',16027),
  (16027020,'电气工程及自动化学院',16027),
  (16027021,'社区学院',16027);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (16027022,'科文学院',16027),
  (16027023,'管理学院',16027),
  (16027024,'经济学院',16027),
@@ -19286,7 +19286,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (16028016,'职工教育部',16028),
  (16028017,'艺术与设计学院',16028),
  (16028018,'计算科学系',16028);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (16028019,'财务会计系',16028),
  (16028020,'食品工程学院',16028),
  (16029001,'临床医学二系',16029),
@@ -19314,7 +19314,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (16030009,'园艺与植物保护学院',16030),
  (16030010,'外国语学院',16030),
  (16030011,'广陵学院',16030);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (16030012,'建筑科学与工程学院',16030),
  (16030013,'教育科学学院',16030),
  (16030014,'数学科学学院',16030),
@@ -19339,7 +19339,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (16031004,'信息管理与信息系统',16031),
  (16031005,'化学化工学院',16031),
  (16031006,'医学技术学院',16031);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (16031007,'医学院',16031),
  (16031008,'国际教育交流学院',16031),
  (16031009,'土木工程',16031),
@@ -19366,7 +19366,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (16031030,'能源与动力工程学院',16031),
  (16031031,'艺术学院',16031),
  (16031032,'药学院',16031);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (16031033,'计算机科学与技术学院',16031),
  (16031034,'计算机科学与通信工程学院',16031),
  (16031035,'财经学院',16031),
@@ -19391,7 +19391,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (16033001,'临床医学院',16033),
  (16033002,'体育科学学院',16033),
  (16033003,'公共卫生学院',16033);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (16033004,'公共管理学院',16033),
  (16033005,'化学化工学院',16033),
  (16033006,'医学院',16033),
@@ -19419,7 +19419,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (16033028,'继续教育学院',16033),
  (16033029,'美术与设计学院',16033),
  (16033030,'航海系',16033);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (16033031,'药学院',16033),
  (16033032,'计算机科学与技术学院',16033),
  (16033033,'计算机科学院',16033),
@@ -19448,7 +19448,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (16035005,'外国语学院',16035),
  (16035006,'工商管理学院',16035),
  (16035007,'应用技术学院',16035);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (16035008,'延陵学院',16035),
  (16035009,'成人教育学院',16035),
  (16035010,'教育学院',16035),
@@ -19474,7 +19474,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (16036011,'艺术设计学院',16036),
  (16036012,'计算机科学与工程学院',16036),
  (16036013,'财经学院',16036);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (16036014,'财经职业技术学院',16036),
  (16037001,'交通工程系',16037),
  (16037002,'人文与社会科学系',16037),
@@ -19501,7 +19501,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (16038008,'地理系',16038),
  (16038009,'外国语言文学系',16038),
  (16038010,'大学英语教学研究部',16038);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (16038011,'广播电视新闻',16038),
  (16038012,'广播电视新闻学',16038),
  (16038013,'政治与公共管理系',16038),
@@ -19529,7 +19529,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (16039009,'工业设计',16039),
  (16039010,'数理科学系',16039),
  (16039011,'机械工程系',16039);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (16039012,'法学系',16039),
  (16039013,'海洋学院',16039),
  (16039014,'电子工程系',16039),
@@ -19557,7 +19557,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (16040015,'社会科学部',16040),
  (16040016,'纺织服装学院',16040),
  (16040017,'经济与管理学院',16040);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (16040018,'艺术教育中心',16040),
  (16040019,'设计艺术学院',16040),
  (16040020,'轻化工程',16040),
@@ -19584,7 +19584,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (16041019,'社会学院',16041),
  (16041020,'经济法政学院',16041),
  (16041021,'继续教育学院',16041);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (16041022,'美术学院',16041),
  (16041023,'计算机系',16041),
  (16041024,'音乐学院',16041),
@@ -19612,7 +19612,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (16043005,'纺化系',16043),
  (16043006,'纺织化学工程系',16043),
  (16043007,'经贸系',16043);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (16043008,'艺术系',16043),
  (16044001,'化学工程系',16044),
  (16044002,'常州工学院',16044),
@@ -19639,7 +19639,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (16045006,'电气工程系',16045),
  (16046001,'信息工程系',16046),
  (16046002,'旅游系',16046);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (16046003,'机械工程系',16046),
  (16046004,'模具系',16046),
  (16046005,'电子电气工程系',16046),
@@ -19668,7 +19668,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (16048007,'艺术设计系',16048),
  (16049001,'6号宿舍楼',16049),
  (16049002,'交通学院',16049);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (16049003,'体育系',16049),
  (16049004,'公共管理学院',16049),
  (16049005,'商学院',16049),
@@ -19695,7 +19695,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (16050007,'电气工程系',16050),
  (16050008,'计算机工程系',16050),
  (16050009,'通信工程系',16050);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (16051001,'外语系',16051),
  (16051002,'媒体与艺术设计系',16051),
  (16051003,'机电工程',16051),
@@ -19724,7 +19724,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (16054005,'表演系',16054),
  (16054006,'设计系',16054),
  (16055001,'会计系',16055);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (16055002,'基础部',16055),
  (16055003,'政法系',16055),
  (16055004,'机电系',16055),
@@ -19753,7 +19753,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (16057012,'艺术系',16057),
  (16057013,'贸易经济系',16057),
  (16057014,'轻纺系',16057);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (16059001,'信息工程系',16059),
  (16059002,'农艺系',16059),
  (16059003,'机电工程系',16059),
@@ -19782,7 +19782,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (16061006,'艺术系',16061),
  (16061007,'艺术系',16061),
  (16061008,'艺术设计系',16061);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (16061009,'计算机',16061),
  (16061010,'软件学院',16061),
  (16062001,'信息工程系',16062),
@@ -19811,7 +19811,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (16064007,'计算机与通信工程系',16064),
  (16065001,'外语系',16065),
  (16065002,'机电',16065);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (16065003,'管理系',16065),
  (16065004,'计算机系',16065),
  (16066001,'外语系',16066),
@@ -19841,7 +19841,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (16068011,'音乐系',16068),
  (16069001,'中文系',16069),
  (16069002,'信息工程学院',16069);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (16069003,'公共管理系',16069),
  (16069004,'化学工程系',16069),
  (16069005,'商学院',16069),
@@ -19871,7 +19871,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (16073006,'经济管理系',16073),
  (16073007,'自动控制系',16073),
  (16074001,'人文社科系',16074);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (16074002,'信息工程系',16074),
  (16074003,'公路工程系',16074),
  (16074004,'建筑工程系',16074),
@@ -19900,7 +19900,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (16078002,'公共事务管理',16078),
  (16078003,'公管系',16078),
  (16078004,'外语系',16078);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (16078005,'学前系',16078),
  (16078006,'康复系',16078),
  (16078007,'特教系',16078),
@@ -19929,7 +19929,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (16081001,'信息系',16081),
  (16081002,'应用外语系',16081),
  (16081003,'服装工程系',16081);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (16081004,'机电工程系',16081),
  (16081005,'染化系',16081),
  (16081006,'纺染',16081),
@@ -19959,7 +19959,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (16084004,'建工系',16084),
  (16084005,'技师部',16084),
  (16084006,'机械系',16084);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (16084007,'电子工程系',16084),
  (16084008,'纺织工程系',16084),
  (16084009,'经济管理系',16084),
@@ -19987,7 +19987,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (16087003,'物流管理',16087),
  (16088001,'信息工程系',16088),
  (16088002,'外语系',16088);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (16088003,'工商管理系',16088),
  (16088004,'工商系国际物流管理',16088),
  (16088005,'建筑工程系',16088),
@@ -20014,7 +20014,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (16090008,'视觉传达系',16090),
  (16091001,'信息系',16091),
  (16091002,'商经系',16091);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (16091003,'工商系',16091),
  (16091004,'旅游系',16091),
  (16091005,'机电系',16091),
@@ -20042,7 +20042,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (16092018,'建筑系',16092),
  (16092019,'政治与公共管理系',16092),
  (16092020,'教育技术系',16092);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (16092021,'教育系',16092),
  (16092022,'机电系',16092),
  (16092023,'环境科学与工程系',16092),
@@ -20070,7 +20070,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (16095002,'基础部',16095),
  (16095003,'外语系',16095),
  (16095004,'建设一系',16095);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (16095005,'护理',16095),
  (16095006,'教师教育系',16095),
  (16095007,'机电工程系',16095),
@@ -20099,7 +20099,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (16097008,'音乐系',16097),
  (16098001,'医学系',16098),
  (16098002,'南京师范大学泰州学院',16098);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (16098003,'南京理工大学泰州科技学院',16098),
  (16098004,'商务英语',16098),
  (16098005,'建工系',16098),
@@ -20128,7 +20128,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (16100005,'艺术设计系',16100),
  (16100006,'陶服系',16100),
  (16101001,'信息工程系',16101);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (16101002,'基础部',16101),
  (16101003,'外语系',16101),
  (16101004,'机电工程系',16101),
@@ -20158,7 +20158,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (16105002,'工商管理',16105),
  (16105003,'机械技术学院',16105),
  (16105004,'机械系',16105);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (16105005,'机电工程系',16105),
  (16105006,'机电技术学院',16105),
  (16105007,'汽车工程系',16105),
@@ -20186,7 +20186,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (16108003,'外语系',16108),
  (16108004,'建筑与艺术系',16108),
  (16108005,'建筑管理工程系',16108);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (16108006,'建筑设备与环境工程系',16108),
  (16108007,'机电工程系',16108),
  (16108008,'电子信息工程系',16108),
@@ -20215,7 +20215,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (16110001,'中文系',16110),
  (16110002,'人文学院',16110),
  (16110003,'信电工程',16110);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (16110004,'信电工程学院',16110),
  (16110005,'化学系',16110),
  (16110006,'土木工程学院',16110),
@@ -20244,7 +20244,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (16112002,'机电系',16112),
  (16112003,'纺工系',16112),
  (16112004,'经贸系',16112);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (16112005,'艺术设计系',16112),
  (16113001,'信息工程学院',16113),
  (16113002,'化学工程系',16113),
@@ -20272,7 +20272,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (16115004,'外语系',16115),
  (16115005,'环境科学与工程系',16115),
  (16115006,'经贸系',16115);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (16115007,'计算机系',16115),
  (16115008,'资源系',16115),
  (16117001,'中法',16117),
@@ -20303,7 +20303,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (16119007,'数理化工系',16119),
  (16119008,'旅游系',16119),
  (16119009,'机械系',16119);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (16119010,'法政系',16119),
  (16119011,'电子与信息系',16119),
  (16119012,'电子信息系',16119),
@@ -20332,7 +20332,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (16121012,'语言文学系',16121),
  (16122001,'信工系',16122),
  (16122002,'信息工程系',16122);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (16122003,'外语系',16122),
  (16122004,'新闻系',16122),
  (16122005,'机电与汽车工程系',16122),
@@ -20361,7 +20361,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (16124006,'古平岗校区',16124),
  (16124007,'城东分院',16124),
  (16124008,'城东分院',16124);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (16124009,'城市科学系',16124),
  (16124010,'外国语学院',16124),
  (16124011,'外语系',16124),
@@ -20391,7 +20391,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (16125002,'信息技术系',16125),
  (16125003,'初教系',16125),
  (16125004,'化学系',16125);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (16125005,'历史教育系',16125),
  (16125006,'地理系',16125),
  (16125007,'外语教育系',16125),
@@ -20421,7 +20421,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (16129002,'基础部',16129),
  (16129003,'护理',16129),
  (16129004,'护理系',16129);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (16129005,'检验药学系',16129),
  (16130001,'医学技术系',16130),
  (16130002,'影技系',16130),
@@ -20450,7 +20450,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (17001007,'其他院系',17001),
  (17001008,'国际学院',17001),
  (17001009,'国际经贸学院',17001);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (17001010,'外国语学院',17001),
  (17001011,'工商管理学院',17001),
  (17001012,'成人教育学院',17001),
@@ -20478,7 +20478,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (17002005,'信息工程学院',17002),
  (17002006,'公共卫生学院',17002),
  (17002007,'共青学院',17002);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (17002008,'医学院',17002),
  (17002009,'南昌大学抚州医学分院',17002),
  (17002010,'南昌大学科学技术学院',17002),
@@ -20505,7 +20505,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (17002031,'翻译学院',17002),
  (17002032,'艺术与设计学院',17002),
  (17002033,'药学系',17002);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (17002034,'计算机系',17002),
  (17002035,'软件学院',17002),
  (17002036,'鄱阳湖校区',17002),
@@ -20532,7 +20532,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (17003021,'软件学院',17003),
  (17003022,'预科部',17003),
  (17003023,'黄家湖校区理工学院',17003);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (17004001,'体育学院',17004),
  (17004002,'体育系',17004),
  (17004003,'国际教育学院',17004),
@@ -20558,7 +20558,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (17004023,'自动化学院',17004),
  (17004024,'航空与机械工程学院',17004),
  (17004025,'艺术与设计学院',17004);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (17004026,'计算机学院',17004),
  (17004027,'软件学院',17004),
  (17004028,'高职学院',17004),
@@ -20586,7 +20586,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (17006006,'国际交流学院',17006),
  (17006007,'外语系',17006),
  (17006008,'工程系',17006);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (17006009,'建筑工程系',17006),
  (17006010,'心理学系',17006),
  (17006011,'樟树校区',17006),
@@ -20614,7 +20614,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (17007011,'宣传部',17007),
  (17007012,'成人教育学院',17007),
  (17007013,'护理系',17007);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (17007014,'校报编辑部',17007),
  (17007015,'江西中医学院科技学院',17007),
  (17007016,'现代教育技术中心',17007),
@@ -20642,7 +20642,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (17008013,'建筑工程学院',17008),
  (17008014,'成人教育学院',17008),
  (17008015,'政法系',17008);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (17008016,'数学与计算机科学系',17008),
  (17008017,'文学院',17008),
  (17008018,'有机功能分子研究所',17008),
@@ -20669,7 +20669,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (17009002,'京东校区商贸系',17009),
  (17009003,'京东校区国家统招中专',17009),
  (17009004,'京东校区外语系',17009);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (17009005,'京东校区建工系',17009),
  (17009006,'京东校区服装设计系',17009),
  (17009007,'京东校区机电系',17009),
@@ -20694,7 +20694,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (17009026,'瑶湖校区艺术系',17009),
  (17009027,'瑶湖校区计算机系',17009),
  (17009028,'瑶湖校区音乐系',17009);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (17009029,'电子与制造系',17009),
  (17009030,'电子系',17009),
  (17009031,'经管系',17009),
@@ -20723,7 +20723,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (17011002,'体育学院',17011),
  (17011003,'化学化工学院',17011),
  (17011004,'历史文化与旅游学院',17011);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (17011005,'商学院',17011),
  (17011006,'国际教育学院',17011),
  (17011007,'地理与环境学院',17011),
@@ -20751,7 +20751,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (17012001,'体育系',17012),
  (17012002,'信息工程学院',17012),
  (17012003,'化学生物与材料科学学院',17012);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (17012004,'土木与环境工程学院',17012),
  (17012005,'地球科学与测绘工程学院',17012),
  (17012006,'外国语学院',17012),
@@ -20777,7 +20777,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (17013003,'外语系',17013),
  (17013004,'工商学院',17013),
  (17013005,'工程系',17013);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (17013006,'成教学院',17013),
  (17013007,'机电学院',17013),
  (17013008,'材料',17013),
@@ -20804,7 +20804,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (17015009,'文学与新闻传播学院',17015),
  (17015010,'物理与电子信息学院',17015),
  (17015011,'科技学院',17015);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (17015012,'科技学院(独立学院)',17015),
  (17015013,'继续教育学院',17015),
  (17015014,'美术学院',17015),
@@ -20830,7 +20830,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (17017005,'外语系',17017),
  (17017006,'大学体育教学部',17017),
  (17017007,'大学外语教学部',17017);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (17017008,'大学计算机教学部',17017),
  (17017009,'成教分院',17017),
  (17017010,'政法系',17017),
@@ -20858,7 +20858,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (17018014,'继续教育学院',17018),
  (17018015,'艺术学院',17018),
  (17019001,'人文与新闻传播学院',17019);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (17019002,'体育学院',17019),
  (17019003,'化学与生物工程学院',17019),
  (17019004,'医学院',17019),
@@ -20884,7 +20884,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (17020008,'外国语学院',17020),
  (17020009,'护理学院',17020),
  (17020010,'政治与公共管理学院',17020);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (17020011,'文化传播学院',17020),
  (17020012,'旅游学院',17020),
  (17020013,'机械工程学院',17020),
@@ -20913,7 +20913,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (17023004,'机械工程系（本科）',17023),
  (17023005,'电子工程系(本科)',17023),
  (17023006,'电子工程系（大专）',17023);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (17023007,'经济管理系(本科)',17023),
  (17023008,'经济管理系（大专）',17023),
  (17023009,'艺术系（大专）',17023),
@@ -20940,7 +20940,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (17025011,'计算机科学技术学院',17025),
  (17026001,'中专部',17026),
  (17026002,'人文学院',17026);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (17026003,'医学系',17026),
  (17026004,'外国语学院',17026),
  (17026005,'工程学院',17026),
@@ -20968,7 +20968,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (17028009,'艺术院',17028),
  (17028010,'计算机与经贸系',17028),
  (17029001,'人文系',17029);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (17029002,'信息学院',17029),
  (17029003,'商务系',17029),
  (17029004,'商学院',17029),
@@ -20997,7 +20997,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (17032001,'信息科学系',17032),
  (17032002,'应用工程系',17032),
  (17032003,'旅游商务系',17032);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (17032004,'机电技术系',17032),
  (17032005,'经济贸易系',17032),
  (17033001,'基础教学部',17033),
@@ -21026,7 +21026,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (17036008,'口腔医学技术',17036),
  (17036009,'口腔工艺技术',17036),
  (17036010,'康复治疗技术',17036);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (17036011,'护理系',17036),
  (17036012,'护理（含涉外护理）',17036),
  (17036013,'眼视光技术',17036),
@@ -21053,7 +21053,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (17044001,'信息与自动化工程系',17044),
  (17044002,'信息与自动化系',17044),
  (17044003,'外语外贸系',17044);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (17044004,'建筑工程系',17044),
  (17044005,'机械工程系',17044),
  (17044006,'机电工程系',17044),
@@ -21082,7 +21082,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (17046008,'外语系',17046),
  (17046009,'学前教育',17046),
  (17046010,'工商管理',17046);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (17046011,'市场营销',17046),
  (17046012,'应用电子技术',17046),
  (17046013,'文秘',17046),
@@ -21110,7 +21110,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (17054002,'信息管理系',17054),
  (17054003,'国际商务系',17054),
  (17054004,'外语系',17054);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (17054005,'工商管理系',17054),
  (17054006,'英语系',17054),
  (17055001,'中专分院',17055),
@@ -21140,7 +21140,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (17058004,'工商管理一系',17058),
  (17058005,'工商管理二系',17058),
  (17058006,'法学系',17058);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (17058007,'计算机系',17058),
  (17060001,'人文管理系',17060),
  (17060002,'信息工程系',17060),
@@ -21167,7 +21167,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (17061011,'机电工程学院',17061),
  (17061012,'模具设计与制造',17061),
  (17061013,'汽车工程学院',17061);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (17061014,'法学院',17061),
  (17061015,'电子信息学院',17061),
  (17061016,'电子商务',17061),
@@ -21196,7 +21196,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (17065005,'师范学院',17065),
  (17065006,'经管系',17065),
  (17065007,'综合教学系',17065);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (17065008,'计算机系',17065),
  (17066001,'机械工程系',17066),
  (17066002,'机电设备系',17066),
@@ -21226,7 +21226,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (17068019,'计算机系',17068),
  (17068020,'贸易系',17068),
  (17068021,'音乐部',17068);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (17071001,'中文系',17071),
  (17071002,'体育系',17071),
  (17071003,'初等教育系',17071),
@@ -21255,7 +21255,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (17078006,'财会系',17078),
  (17079001,'中文系',17079),
  (17079002,'传播系',17079);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (17079003,'体育系',17079),
  (17079004,'国贸系',17079),
  (17079005,'地理系',17079),
@@ -21284,7 +21284,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (17084003,'护理学部',17084),
  (17084004,'经济管理部',17084),
  (17084005,'药学部',17084);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (17087001,'外语系',17087),
  (17087002,'工程系',17087),
  (17087003,'法商系',17087),
@@ -21312,7 +21312,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (18001014,'数学科学学院',18001),
  (18001015,'新闻与传播学院',18001),
  (18001016,'旅游与酒店管理学院',18001);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (18001017,'机械工程学院',18001),
  (18001018,'材料科学与工程学院',18001),
  (18001019,'汽车工程学院',18001),
@@ -21336,7 +21336,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (18001037,'轻工与食品学院',18001),
  (18002001,'中国语言文学系',18002),
  (18002002,'中山医学院',18002);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (18002003,'临床医学一系',18002),
  (18002004,'临床医学二系',18002),
  (18002005,'人类学系',18002),
@@ -21362,7 +21362,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (18002025,'地球科学系',18002),
  (18002026,'地理科学与规划学院',18002),
  (18002027,'城市与区域规划系',18002);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (18002028,'大学外语教育研究所',18002),
  (18002029,'大学英语教学部',18002),
  (18002030,'大气科学系',18002),
@@ -21389,7 +21389,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (18002051,'新媒体与影视制作学系',18002),
  (18002052,'新闻传播学系',18002),
  (18002053,'旅游发展与规划研究中心',18002);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (18002054,'旅游学院',18002),
  (18002055,'旅游酒店管理系',18002),
  (18002056,'日语系',18002),
@@ -21416,7 +21416,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (18002077,'社会工作系',18002),
  (18002078,'社会科学教育系',18002),
  (18002079,'科学计算与计算机应用系',18002);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (18002080,'管理学院',18002),
  (18002081,'管理科学系',18002),
  (18002082,'经济学系',18002),
@@ -21444,7 +21444,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (18002104,'遥感与地理信息工程系',18002),
  (18002105,'金融系',18002),
  (18002106,'风险管理与保险学系',18002);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (18002107,'高分子与材料科学系',18002),
  (18002108,'高等继续教育学院（网络教育学院）',18002),
  (18002109,'麻醉学系',18002),
@@ -21471,7 +21471,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (18004001,'体育科学学院',18004),
  (18004002,'信息光电子学院',18004),
  (18004003,'公共管理学院',18004);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (18004004,'化学与环境学院',18004),
  (18004005,'历史文化学院',18004),
  (18004006,'地理科学学院',18004),
@@ -21498,7 +21498,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (18005001,'信息工程学院',18005),
  (18005002,'华立学院',18005),
  (18005003,'商学院',18005);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (18005004,'外国语学院',18005),
  (18005005,'应用数学学院',18005),
  (18005006,'建设学院',18005),
@@ -21526,7 +21526,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (18006012,'林学院',18006),
  (18006013,'水利与土木工程',18006),
  (18006014,'法学院',18006);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (18006015,'理学院',18006),
  (18006016,'生命科学学院',18006),
  (18006017,'经济管理学院',18006),
@@ -21553,7 +21553,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (18007016,'旅游学院',18007),
  (18007017,'松田学院',18007),
  (18007018,'法学院',18007);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (18007019,'物理与电子工程学院',18007),
  (18007020,'环境科学与工程学院',18007),
  (18007021,'生命科学学院',18007),
@@ -21579,7 +21579,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (18008012,'国际经济贸易学院',18008),
  (18008013,'外交系',18008),
  (18008014,'外国留学生部',18008);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (18008015,'政治与公共管理学院',18008),
  (18008016,'新闻与传播学院',18008),
  (18008017,'法学院',18008),
@@ -21604,7 +21604,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (18010013,'护理学院',18010),
  (18010014,'江都医院',18010),
  (18010015,'珠江医院',18010);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (18010016,'生物医学工程学院',18010),
  (18010017,'生物技术学院',18010),
  (18010018,'研究生学院',18010),
@@ -21630,7 +21630,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (18011016,'轻工食品学院',18011),
  (18015001,'人文与传播学院',18015),
  (18015002,'会计学院',18015);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (18015003,'信息学院',18015),
  (18015004,'外国语学院',18015),
  (18015005,'工商管理学院',18015),
@@ -21659,7 +21659,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (18016015,'计算机系',18016),
  (18016016,'马列部',18016),
  (18017001,'休闲体育与管理系',18017);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (18017002,'体育教育学系',18017),
  (18017003,'体育新闻与传播系',18017),
  (18017004,'体育艺术系',18017),
@@ -21686,7 +21686,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (18018017,'装饰艺术设计系',18018),
  (18018018,'设计艺术学系',18018),
  (18018019,'附属中专学校',18018);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (18018020,'雕塑系',18018),
  (18019001,'作曲系',18019),
  (18019002,'声乐系',18019),
@@ -21716,7 +21716,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (18020016,'艺术设计系',18020),
  (18020017,'计算机科学系',18020),
  (18020018,'财务管理系',18020);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (18020019,'财税与金融系',18020),
  (18020020,'财经系',18020),
  (18022001,'国际合作教育',18022),
@@ -21743,7 +21743,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (18023013,'机电与控制工程学院',18023),
  (18023014,'材料学院',18023),
  (18023015,'法学院',18023);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (18023016,'物理科学学院',18023),
  (18023017,'理学院',18023),
  (18023018,'生命科学学院',18023),
@@ -21771,7 +21771,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (18026003,'外语系',18026),
  (18026004,'成人教育学院',18026),
  (18026005,'政法系',18026);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (18026006,'教育学系',18026),
  (18026007,'数学系',18026),
  (18026008,'物理学系',18026),
@@ -21799,7 +21799,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (18027013,'经济管理学院',18027),
  (18027014,'艺术系',18027),
  (18027015,'计算机与电子信息学院',18027);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (18028001,'东莞理工学院城市学院',18028),
  (18028002,'中国语言文学系',18028),
  (18028003,'体育系',18028),
@@ -21827,7 +21827,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (18029010,'药学院',18029),
  (18030001,'人文学院',18030),
  (18030002,'体育科学学院',18030);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (18030003,'信息科技学院',18030),
  (18030004,'商学院',18030),
  (18030005,'基础教育学院',18030),
@@ -21855,7 +21855,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (18031013,'经济管理学院',18031),
  (18031014,'继续教育学院',18031),
  (18031015,'职业技术学院',18031);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (18031016,'航海学院',18031),
  (18031017,'软件学院',18031),
  (18031018,'食品科技学院',18031),
@@ -21884,7 +21884,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (18034004,'化学系',18034),
  (18034005,'医学院',18034),
  (18034006,'嘉应学院医学院',18034);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (18034007,'嘉应学院梅州师范分院',18034),
  (18034008,'土木工程系',18034),
  (18034009,'地理系',18034),
@@ -21912,7 +21912,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (18036011,'生命科学学院',18036),
  (18036012,'经济管理学院',18036),
  (18036013,'继续教育学院',18036);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (18037001,'信息科学与技术系',18037),
  (18037002,'外语系',18037),
  (18037003,'文学系',18037),
@@ -21938,7 +21938,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (18040007,'计算机科学技术学院',18040),
  (18040008,'设计与艺术学院',18040),
  (18041001,'UIC',18041);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (18041002,'不动产学院',18041),
  (18041003,'信息技术与软件工程学院',18041),
  (18041004,'商学院',18041),
@@ -21965,7 +21965,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (18042008,'艺术设计系',18042),
  (18042009,'计算机工程系',18042),
  (18044001,'应用英语系',18044);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (18044002,'机电工程系',18044),
  (18044003,'经济管理系',18044),
  (18044004,'艺术系',18044),
@@ -21995,7 +21995,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (18061004,'外语系',18061),
  (18061005,'政法系',18061),
  (18061006,'教育系',18061);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (18061007,'数学系',18061),
  (18061008,'物理系',18061),
  (18061009,'生物系',18061),
@@ -22022,7 +22022,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (18069005,'���ù���ϵ',18069),
  (18069006,'�������Ϣ����ϵ',18069),
  (18074001,'中文系',18074);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (18074002,'信息技术系',18074),
  (18074003,'外语系',18074),
  (18074004,'学前教育系',18074),
@@ -22052,7 +22052,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (18086003,'经管系',18086),
  (18086004,'艺术系',18086),
  (18086005,'计算机工程系',18086);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (18093001,'机务工程系',18093),
  (18093002,'机电维修',18093),
  (18093003,'民航运输',18093),
@@ -22082,7 +22082,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (18104002,'国际贸易与金融系',18104),
  (18104003,'工商管理',18104),
  (18104004,'旅游管理',18104);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (18104005,'机电工程系',18104),
  (18104006,'物流与信息管理系',18104),
  (18104007,'电子信息',18104),
@@ -22110,7 +22110,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (18118007,'法律系',18118),
  (18118008,'电子信息工程系',18118),
  (18118009,'电视传媒系',18118);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (18118010,'科学与技术系',18118),
  (18118011,'管弦乐教育系',18118),
  (18118012,'美容与造型艺术系',18118),
@@ -22137,7 +22137,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (18129001,'临床医学',18129),
  (18129002,'口腔系',18129),
  (18129003,'外语系',18129);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (18129004,'生物工程',18129),
  (18129005,'高级护理系',18129),
  (18135001,'会计系',18135),
@@ -22165,7 +22165,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (19001019,'物理科学与工程技术学院',19001),
  (19001020,'生命科学与技术学院',19001),
  (19001021,'电气工程学院',19001);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (19001022,'研究生院',19001),
  (19001023,'经济管理学院',19001),
  (19001024,'继续教育学院',19001),
@@ -22191,7 +22191,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (19003004,'商学院',19003),
  (19003005,'国际教育学院',19003),
  (19003006,'外国语学院',19003);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (19003007,'政法学院',19003),
  (19003008,'数学与计算机科学学院',19003),
  (19003009,'文学院',19003),
@@ -22217,7 +22217,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (19005002,'中文系',19005),
  (19005003,'体育学院',19005),
  (19005004,'体育系',19005);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (19005005,'信息技术系',19005),
  (19005006,'初等教育学院',19005),
  (19005007,'化学系',19005),
@@ -22244,7 +22244,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (19006003,'国际教育中心',19006),
  (19006004,'国际经济与贸易系',19006),
  (19006005,'外语系',19006);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (19006006,'工商管理系',19006),
  (19006007,'思想政治理论课教学部',19006),
  (19006008,'数学与统计系',19006),
@@ -22271,7 +22271,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (19008005,'应用科技学院',19008),
  (19008006,'成人教育学院',19008),
  (19008007,'教学实践部',19008);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (19008008,'数学与计算科学学院',19008),
  (19008009,'机电工程学院',19008),
  (19008010,'机电工程系',19008),
@@ -22297,7 +22297,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (19009014,'物理与电子工程学院',19009),
  (19009015,'环境与资源学院',19009),
  (19009016,'生命科学学院',19009);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (19009017,'研究生学院',19009),
  (19009018,'经济管理学院',19009),
  (19009019,'继续教育学院',19009),
@@ -22324,7 +22324,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (19011001,'临床医学院',19011),
  (19011002,'基础医学院',19011),
  (19011003,'护理学院',19011);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (19011004,'生物技术学院',19011),
  (19011005,'继续教育学院',19011),
  (19011006,'药学院',19011),
@@ -22350,7 +22350,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (19013001,'临床医学系',19013),
  (19013002,'人文科学部',19013),
  (19013003,'体育教研室',19013);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (19013004,'儿科教研室',19013),
  (19013005,'公共事业管理',19013),
  (19013006,'医学影像系',19013),
@@ -22377,7 +22377,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (19014012,'计算机与信息科学系',19014),
  (19015001,'中国语言文学系',19015),
  (19015002,'体育系',19015);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (19015003,'初等教育系',19015),
  (19015004,'化学与生命科学系',19015),
  (19015005,'外国语言文学系',19015),
@@ -22404,7 +22404,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (19016013,'职业技术学院',19016),
  (19016014,'艺术系',19016),
  (19017001,'中文系',19017);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (19017002,'体育系',19017),
  (19017003,'初等教育系',19017),
  (19017004,'外语系',19017),
@@ -22432,7 +22432,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (19037001,'公共教学部',19037),
  (19037002,'工商管理系',19037),
  (19037003,'建筑工程系',19037);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (19037004,'机械工程系',19037),
  (19037005,'电气工程系',19037),
  (19037006,'计算机系',19037),
@@ -22462,7 +22462,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (19043001,'动科系',19043),
  (19043002,'商贸系',19043),
  (19043003,'园艺系',19043);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (19043004,'外语系',19043),
  (19043005,'机电系',19043),
  (19043006,'生物系',19043),
@@ -22490,7 +22490,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (19054001,'人文与社会科学系',19054),
  (19054002,'动力工程系',19054),
  (19054003,'外语系',19054);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (19054004,'工商管理系',19054),
  (19054005,'机械工程系',19054),
  (19054006,'汽车工程系',19054),
@@ -22519,7 +22519,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (19062005,'经济管理系',19062),
  (19062006,'艺术设计系',19062),
  (19064001,'外传系',19064);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (19064002,'建筑工程系',19064),
  (19064003,'旅游与服务系',19064),
  (19064004,'机电工程系',19064),
@@ -22545,7 +22545,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (20001017,'津桥学院',20001),
  (20001018,'津桥学院',20001),
  (20001019,'环境科学与工程学院',20001);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (20001020,'现代农业工程学院',20001),
  (20001021,'现代教育技术中心',20001),
  (20001022,'理学院',20001),
@@ -22570,7 +22570,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (20002014,'经济贸易学院',20002),
  (20002015,'职业技术学院',20002),
  (20002016,'资源与环境学院',20002);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (20002017,'食品科学技术学院',20002),
  (20002018,'龙润普洱茶学院',20002),
  (20003001,'东南亚国际学院',20003),
@@ -22595,7 +22595,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (20003020,'经济学院',20003),
  (20003021,'经济政法学院',20003),
  (20003022,'职业技术教育学院',20003);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (20003023,'艺术学院',20003),
  (20003024,'计算机科学与信息技术学院',20003),
  (20003025,'金融财政学院',20003),
@@ -22622,7 +22622,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (20004021,'财政与经济学院',20004),
  (20004022,'财政金融学院',20004),
  (20004023,'金融学院',20004);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (20004024,'马列课教学部',20004),
  (20004025,'高等职业技术学院',20004),
  (20005001,'东南亚语言文化学院',20005),
@@ -22647,7 +22647,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (20005020,'预科教育学院',20005),
  (20005021,'马列主义教研部',20005),
  (20006001,'交通机械与土木工程学院',20006);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (20006002,'人文社会科学系',20006),
  (20006003,'保护生物学学院',20006),
  (20006004,'园林学院',20006),
@@ -22674,7 +22674,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (20007010,'海源学院',20007),
  (20007011,'研究生部',20007),
  (20007012,'社会科学部',20007);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (20007013,'第一临床学院',20007),
  (20007014,'第二临床学院',20007),
  (20007015,'药学院',20007),
@@ -22705,7 +22705,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (20010012,'计算机系',20010),
  (20010013,'马列部',20010),
  (20012001,'人文学院',20012);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (20012002,'体育教学部',20012),
  (20012003,'信息学院',20012),
  (20012004,'公共管理学院',20012),
@@ -22730,7 +22730,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (20012023,'软件学院',20012),
  (20012024,'马列主义教学研究部',20012),
  (20013001,'中文系',20013);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (20013002,'体育系',20013),
  (20013003,'信息与计算机科学系',20013),
  (20013004,'初等教育学院',20013),
@@ -22759,7 +22759,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (20014002,'体育系',20014),
  (20014003,'化学与环境科学系',20014),
  (20014004,'地理系',20014);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (20014005,'外语学院',20014),
  (20014006,'成教院（玉溪电大）',20014),
  (20014007,'政法系',20014),
@@ -22786,7 +22786,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (20015014,'艺术系',20015),
  (20015015,'计算机科学系',20015),
  (20016001,'临床医学院（附属医院）',20016);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (20016002,'体育科学学院',20016),
  (20016003,'公共卫生学院',20016),
  (20016004,'基础医学院',20016),
@@ -22814,7 +22814,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (20017009,'英语系',20017),
  (20017010,'计科系',20017),
  (20020001,'中文',20020);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (20020002,'外语系',20020),
  (20020003,'数学系',20020),
  (20020004,'法政系',20020),
@@ -22842,7 +22842,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (20021015,'资源环境与地球科学学院',20021),
  (20021016,'马列主义教学研究部',20021),
  (20022001,'体育系',20022);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (20022002,'成人教育系',20022),
  (20022003,'旅游系',20022),
  (20022004,'电子信息与机械工程系',20022),
@@ -22868,7 +22868,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (20026012,'材料与机械学院',20026),
  (20026013,'测量与计算机学院',20026),
  (20026014,'物流与交通学院',20026);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (20026015,'环境与化工学院',20026),
  (20026016,'社会科学与公共学院',20026),
  (20026017,'经济与管理学院',20026),
@@ -22897,7 +22897,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (20036003,'现代教育技术学院',20036),
  (20036004,'理工学院',20036),
  (20036005,'直属学院',20036);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (20036006,'经济管理学院',20036),
  (20036007,'职业技术学院',20036),
  (20038001,'信息工程系',20038),
@@ -22924,7 +22924,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (20040004,'机械工程系',20040),
  (20040005,'水运工程系',20040),
  (20040006,'汽车系',20040);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (20040007,'经管分院',20040),
  (20040008,'运输管理系',20040),
  (20041001,'中专部',20041),
@@ -22955,7 +22955,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (20054009,'物理系',20054),
  (20054010,'现在教育技术中心',20054),
  (20054011,'电大分校',20054);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (20054012,'艺术系',20054),
  (20054013,'计科系',20054),
  (20058001,'园林园艺系',20058),
@@ -22987,7 +22987,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (20061004,'经济系',20061),
  (20061005,'艺术系',20061),
  (20061006,'计电系',20061);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (20062001,'中文系',20062),
  (20062002,'信技系',20062),
  (20062003,'外语系',20062),
@@ -23015,7 +23015,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (21001019,'生命科学学院',21001),
  (21001020,'电子科学与信息技术学院',21001),
  (21001021,'电气工程学院',21001);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (21001022,'矿业学院',21001),
  (21001023,'科技学院',21001),
  (21001024,'管理学院',21001),
@@ -23043,7 +23043,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (21002014,'药学院',21002),
  (21003001,'临床医学一部',21003),
  (21003002,'临床医学二部',21003);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (21003003,'医学人文系',21003),
  (21003004,'基础部',21003),
  (21003005,'成人教育部',21003),
@@ -23071,7 +23071,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (21005002,'体育与健康学院',21005),
  (21005003,'公共管理学院',21005),
  (21005004,'化学与环境科学学院',21005);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (21005005,'外国语学院',21005),
  (21005006,'建筑工程系',21005),
  (21005007,'成人教育学院',21005),
@@ -23099,7 +23099,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (21006008,'机电系',21006),
  (21006009,'法律系',21006),
  (21006010,'物电系',21006);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (21006011,'生物与环境工程系',21006),
  (21006012,'经管系',21006),
  (21006013,'美术系',21006),
@@ -23126,7 +23126,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (21007018,'生物技术与工程学院',21007),
  (21007019,'经济管理学院',21007),
  (21007020,'继续教育学院',21007);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (21007021,'美术学院',21007),
  (21007022,'职业技术学院',21007),
  (21007023,'英语',21007),
@@ -23156,7 +23156,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (21009012,'生物工程',21009),
  (21009013,'社会科学部',21009),
  (21009014,'美容医学系',21009);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (21009015,'药学系',21009),
  (21009016,'麻醉学系',21009),
  (21010001,'中文系',21010),
@@ -23186,7 +23186,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (21012010,'物理与电子科学系',21012),
  (21012011,'生命科学系',21012),
  (21012012,'管理科学系',21012);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (21012013,'美术系',21012),
  (21012014,'计算机科学系',21012),
  (21012015,'音乐系',21012),
@@ -23216,7 +23216,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (21014014,'美术系',21014),
  (21014015,'老师职业教育教研部',21014),
  (21014016,'音乐系',21014);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (21014017,'马列主义教研部',21014),
  (21015001,'信息与电子科学系',21015),
  (21015002,'农业工程系',21015),
@@ -23246,7 +23246,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (21022001,'化学工程系',21022),
  (21022002,'机电系',21022),
  (21022003,'电气系',21022);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (21022004,'管理系',21022),
  (21022005,'计算机与信息工程系',21022),
  (21024001,'信息工程系',21024),
@@ -23276,7 +23276,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (22001006,'华西临床医学院',22001),
  (22001007,'华西公共卫生学院',22001),
  (22001008,'华西口腔医学院',22001);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (22001009,'华西基础医学与法医学院',22001),
  (22001010,'华西药学院',22001),
  (22001011,'历史文化（旅游学院）',22001),
@@ -23302,7 +23302,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (22001031,'电气信息学院',22001),
  (22001032,'研究生院',22001),
  (22001033,'经济学院',22001);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (22001034,'艺术学院',22001),
  (22001035,'计算机学院',22001),
  (22001036,'软件学院',22001),
@@ -23329,7 +23329,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (22002018,'网络教育学院',22002),
  (22002019,'职业技术师范学院',22002),
  (22002020,'资源环境学院',22002);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (22002021,'都江堰分校',22002),
  (22003001,'中山学院',22003),
  (22003002,'人文社科学院',22003),
@@ -23355,7 +23355,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (22003022,'自动化工程学院',22003),
  (22003023,'计算机',22003),
  (22003024,'计算机科学与工程学院',22003);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (22003025,'软件学院',22003),
  (22003026,'通信与信息工程学院',22003),
  (22003027,'预科部',22003),
@@ -23381,7 +23381,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (22004020,'材料科学与工程学院',22004),
  (22004021,'物流学院',22004),
  (22004022,'牵引动力国家重点实验室',22004);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (22004023,'环境科学与工程学院',22004),
  (22004024,'理学院',22004),
  (22004025,'生物工程学院',22004),
@@ -23407,7 +23407,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (22005008,'商学院',22005),
  (22005009,'地球科学学院',22005),
  (22005010,'外国语学院',22005);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (22005011,'工程技术学院',22005),
  (22005012,'工程技术学院',22005),
  (22005013,'广播影视学院',22005),
@@ -23433,7 +23433,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (22006006,'历史旅游学院',22006),
  (22006007,'国际商学院',22006),
  (22006008,'地理与资源科学学院',22006);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (22006009,'外事学院',22006),
  (22006010,'外国语学院',22006),
  (22006011,'家政学院',22006),
@@ -23460,7 +23460,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (22006032,'艺术学院',22006),
  (22006033,'英华美学院',22006),
  (22006034,'草堂校区',22006);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (22006035,'视觉艺术学院',22006),
  (22006036,'计算机科学学院',22006),
  (22006037,'设计艺术学院',22006),
@@ -23487,7 +23487,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (22007021,'西南民族研究院',22007),
  (22007022,'计算机科学与技术学院',22007),
  (22007023,'预科教育学院',22007);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (22008001,'中外文化交流中心',22008),
  (22008002,'体育部',22008),
  (22008003,'信息科学与技术学院',22008),
@@ -23513,7 +23513,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (22008023,'财税金融系',22008),
  (22009001,'MBA教育中心',22009),
  (22009002,'中国金融研究中心',22009);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (22009003,'人文学院',22009),
  (22009004,'会计学院',22009),
  (22009005,'体育教学研究部',22009),
@@ -23540,7 +23540,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (22010001,'交通与汽车工程学院',22010),
  (22010002,'人文学院',22010),
  (22010003,'体育系',22010);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (22010004,'动画学院',22010),
  (22010005,'后备军官学院',22010),
  (22010006,'国土资源学院',22010),
@@ -23566,7 +23566,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (22010026,'能源与环境学院',22010),
  (22010027,'艺术学院',22010),
  (22011001,'临床医学院',22011);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (22011002,'人南校区',22011),
  (22011003,'人文社科学院',22011),
  (22011004,'体育部',22011),
@@ -23594,7 +23594,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (22012009,'数学学院',22012),
  (22012010,'环境工程系',22012),
  (22012011,'电子商务学院',22012);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (22012012,'电子商务系',22012),
  (22012013,'电子基础教学实验中心',22012),
  (22012014,'电子工程系',22012),
@@ -23621,7 +23621,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (22013005,'基础医学院',22013),
  (22013006,'应用心理学院研究中心',22013),
  (22013007,'护理系',22013);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (22013008,'旧女生公寓',22013),
  (22013009,'药学系',22013),
  (22014001,'中文系',22014),
@@ -23651,7 +23651,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (22015007,'竞技体校',22015),
  (22015008,'竞技体育处',22015),
  (22015009,'篮球学校',22015);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (22015010,'经管系',22015),
  (22015011,'运动医学系',22015),
  (22015012,'运动系',22015),
@@ -23679,7 +23679,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (22016022,'音乐教育系',22016),
  (22016023,'音国际演艺学院',22016),
  (22017001,'人文社会科学学院',22017);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (22017002,'体育系',22017),
  (22017003,'化学化工学院',22017),
  (22017004,'基础实验教学部',22017),
@@ -23707,7 +23707,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (22018002,'外国语学院',22018),
  (22018003,'德阳校区',22018),
  (22018004,'空中乘务学院',22018);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (22018005,'空中交通管理学院',22018),
  (22018006,'航空工程学院',22018),
  (22018007,'航空运输管理学院',22018),
@@ -23736,7 +23736,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (22019020,'美术系',22019),
  (22019021,'计算机科学系',22019),
  (22019022,'音乐系',22019);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (22020001,'中西医结合学院',22020),
  (22020002,'临床医学院',22020),
  (22020003,'人文社科学院',22020),
@@ -23764,7 +23764,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (22020025,'麻醉系',22020),
  (22021001,'交通管理工程',22021),
  (22021002,'侦查系',22021);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (22021003,'刑技系',22021),
  (22021004,'基础部',22021),
  (22021005,'成教部',22021),
@@ -23793,7 +23793,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (22023004,'历史文化学院',22023),
  (22023005,'商学院',22023),
  (22023006,'国土资源学院',22023);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (22023007,'外国语学院',22023),
  (22023008,'思想政治教育教研部',22023),
  (22023009,'政治与行政学院',22023),
@@ -23820,7 +23820,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (22024007,'政法与历史系',22024),
  (22024008,'教育心理系',22024),
  (22024009,'数学系',22024);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (22024010,'物理学与电子信息工程系',22024),
  (22024011,'管理与资源环境系',22024),
  (22024012,'美术系',22024),
@@ -23846,7 +23846,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (22026004,'历史与旅游管理系',22026),
  (22026005,'外国语学院',22026),
  (22026006,'心理学系',22026);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (22026007,'政治法律系',22026),
  (22026008,'教育系',22026),
  (22026009,'数学与信息科学系',22026),
@@ -23871,7 +23871,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (22027009,'成人教育学院',22027),
  (22027010,'文学与艺术学院',22027),
  (22027011,'材料科学与工程学院',22027);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (22027012,'法学院',22027),
  (22027013,'环境与资源学院',22027),
  (22027014,'理学院',22027),
@@ -23900,7 +23900,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (22028017,'艺术系',22028),
  (22028018,'预科系',22028),
  (22028019,'食品系',22028);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (22029001,'中文系',22029),
  (22029002,'体育系',22029),
  (22029003,'初教院',22029),
@@ -23928,7 +23928,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (22030007,'机电工程学院',22030),
  (22030008,'材料工程系',22030),
  (22030009,'生物与化学工程学院',22030);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (22030010,'电气信息工程学院',22030),
  (22030011,'经济与管理学院',22030),
  (22030012,'继续教育学院',22030),
@@ -23956,7 +23956,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (22032007,'计算机工程系',22032),
  (22032008,'通信工程系',22032),
  (22033001,'信息技术与商务管理系',22033);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (22033002,'计算机科学与技术系',22033),
  (22034001,'服美系',22034),
  (22034002,'机械系',22034),
@@ -23983,7 +23983,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (22037011,'艺术设计与动画学院',22037),
  (22037012,'表演艺术学院',22037),
  (22037013,'计算机科学与技术学院',22037);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (22038001,'中职教育部',22038),
  (22038002,'农学园艺系',22038),
  (22038003,'土木建筑系',22038),
@@ -24011,7 +24011,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (22046002,'泸州医学院',22046),
  (22046003,'泸州职业技术学院',22046),
  (22046004,'电信系',22046);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (22048001,'信息工程系',22048),
  (22048002,'基础科学系',22048),
  (22048003,'建筑工程系',22048),
@@ -24040,7 +24040,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (22051006,'����ϵ',22051),
  (22051007,'�������ѧϵ',22051),
  (22054001,'信息工程系',22054);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (22054002,'化学化工与生命科学系',22054),
  (22054003,'外语系',22054),
  (22054004,'建筑系',22054),
@@ -24067,7 +24067,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (22057005,'文秘专业',22057),
  (22057006,'旅游英语专业',22057),
  (22057007,'服装设计专业',22057);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (22057008,'机械制造与自动化专业',22057),
  (22057009,'汉语专业',22057),
  (22057010,'汽车检测与维修技术专业',22057),
@@ -24093,7 +24093,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (22062004,'电子电气系',22062),
  (22062005,'管理工程系',22062),
  (22063001,'交通系',22063);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (22063002,'人文社会科学系',22063),
  (22063003,'土木系',22063),
  (22063004,'市政工程系',22063),
@@ -24122,7 +24122,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (22065010,'国际贸易系',22065),
  (22065011,'土木与交通工程学院',22065),
  (22065012,'城市学院',22065);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (22065013,'外事学院',22065),
  (22065014,'外语系',22065),
  (22065015,'家政系',22065),
@@ -24152,7 +24152,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (22067003,'文化与艺术系',22067),
  (22067004,'旅游管理系',22067),
  (22067005,'烹饪技术系',22067);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (22067006,'经济管理系',22067),
  (22067007,'运动与休闲系',22067),
  (22067008,'酒店管理系',22067),
@@ -24181,7 +24181,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (22073009,'英语经贸系',22073),
  (22073010,'英语翻译系',22073),
  (22073011,'西班牙语系',22073);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (22073012,'计算机教研室',22073),
  (22076001,'经济管理系',22076),
  (22076002,'计算机科学系',22076),
@@ -24211,7 +24211,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (22080002,'基础部',22080),
  (22080003,'建筑化工系',22080),
  (22080004,'建筑系',22080);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (22080005,'机电技术系',22080),
  (22080006,'生物工程系',22080),
  (22080007,'电子',22080),
@@ -24240,7 +24240,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (22086004,'艺术设计系',22086),
  (22086005,'计算机科学与技术',22086),
  (22086006,'通信工程系',22086);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (22089001,'管理系',22089),
  (22089002,'经济系',22089),
  (23001001,'人文学院',23001),
@@ -24268,7 +24268,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (23002004,'信息工程学院',23002),
  (23002005,'化工学院',23002),
  (23002006,'国际商学院',23002);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (23002007,'图书馆',23002),
  (23002008,'外国语学院',23002),
  (23002009,'工程技术专修学院',23002),
@@ -24293,7 +24293,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (23003004,'动物科学与医学学院',23003),
  (23003005,'国际教育学院',23003),
  (23003006,'外语学院',23003);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (23003007,'机电工程学院',23003),
  (23003008,'林业工程学院',23003),
  (23003009,'林学院',23003),
@@ -24317,7 +24317,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (23004007,'国际现代设计艺术学院',23004),
  (23004008,'地理科学学院',23004),
  (23004009,'外国语学院',23004);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (23004010,'大专部',23004),
  (23004011,'教育科学学院',23004),
  (23004012,'数学科学学院',23004),
@@ -24344,7 +24344,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (23005002,'中蒙医学院',23005),
  (23005003,'临床医学部',23005),
  (23005004,'公共卫生管理学院',23005);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (23005005,'公共教育学院',23005),
  (23005006,'医药应用技术学院',23005),
  (23005007,'基础医学院',23005),
@@ -24373,7 +24373,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (23006017,'金融系',23006),
  (23006018,'马列部',23006),
  (23007001,'传媒系',23007);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (23007002,'体育教学部',23007),
  (23007003,'信息工程学院',23007),
  (23007004,'信息资源管理系',23007),
@@ -24400,7 +24400,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (23007025,'生物科学与技术学院',23007),
  (23007026,'研究生院',23007),
  (23007027,'稀土学院',23007);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (23007028,'经济管理学院',23007),
  (23007029,'继续教育学院',23007),
  (23007030,'美术学院',23007),
@@ -24427,7 +24427,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (23008015,'文学院',23008),
  (23008016,'机械工程学院',23008),
  (23008017,'物理与机电学院',23008);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (23008018,'物理与电子信息学院',23008),
  (23008019,'生命科学学院',23008),
  (23008020,'经济管理学院',23008),
@@ -24455,7 +24455,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (23009017,'美术系',23009),
  (23009018,'职教部',23009),
  (23009019,'蒙古语言文学系',23009);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (23009020,'计算机科学与技术系',23009),
  (23009021,'赤峰学院轻纺职业技术学院',23009),
  (23009022,'赤峰学院附属中学',23009),
@@ -24484,7 +24484,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (23010021,'马列部',23010),
  (23012001,'乳品工程系',23012),
  (23012002,'机电工程系',23012);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (23012003,'生物工程系',23012),
  (23012004,'经济管理系',23012),
  (23012005,'艺术设计系',23012),
@@ -24513,7 +24513,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (23014010,'机械与电子工程系',23014),
  (23014011,'水建系',23014),
  (23014012,'汉语言文学系',23014);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (23014013,'生化系',23014),
  (23014014,'电大部',23014),
  (23014015,'继续教育学院',23014),
@@ -24543,7 +24543,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (23015021,'铁道学院',23015),
  (23015022,'音乐系',23015),
  (23016001,'中文系',23016);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (23016002,'体育系',23016),
  (23016003,'化学系',23016),
  (23016004,'外语系',23016),
@@ -24572,7 +24572,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (23022005,'机电工程系',23022),
  (23022006,'机电工程系',23022),
  (23022007,'水利与土木建筑工程系',23022);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (23022008,'水利职工大学',23022),
  (23022009,'电器工程系',23022),
  (23022010,'电气工程系',23022),
@@ -24602,7 +24602,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (24001003,'体育学院',24001),
  (24001004,'体育系',24001),
  (24001005,'农学院',24001);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (24001006,'化学化工学院',24001),
  (24001007,'土木与水利学院',24001),
  (24001008,'外国语学院',24001),
@@ -24629,7 +24629,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (24002001,'中国语言文学系',24002),
  (24002002,'信息与计算科学学院',24002),
  (24002003,'信息与计算科学系',24002);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (24002004,'创新中心',24002),
  (24002005,'化学工程系',24002),
  (24002006,'商学院',24002),
@@ -24657,7 +24657,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (24003003,'人文社科部',24003),
  (24003004,'公共卫生学院',24003),
  (24003005,'公共课与体育教学部',24003);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (24003006,'口腔系',24003),
  (24003007,'基础学院',24003),
  (24003008,'成人教育学院',24003),
@@ -24687,7 +24687,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (24005011,'教育科学系',24005),
  (24005012,'数学与计算机科学系',24005),
  (24005013,'物理与信息技术系',24005);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (24005014,'艺术系',24005),
  (24005015,'计算机中心',24005),
  (24007001,'信息工程系',24007),
@@ -24714,7 +24714,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (25001012,'基础医学院',25001),
  (25001013,'基础医学院 犯罪心理学',25001),
  (25001014,'外国语学院',25001);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (25001015,'大气科学学院',25001),
  (25001016,'我的生ke院',25001),
  (25001017,'政治与行政学院',25001),
@@ -24741,7 +24741,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (25002003,'体育学院',25002),
  (25002004,'化工学院',25002),
  (25002005,'医学院',25002);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (25002006,'历史学',25002),
  (25002007,'历史文化学院',25002),
  (25002008,'土木工程学院',25002),
@@ -24766,7 +24766,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (25002027,'音乐舞蹈学院',25002),
  (25002028,'预科部',25002),
  (25003001,'体育学院',25003);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (25003002,'化工学院',25003),
  (25003003,'地理与环境科学学院',25003),
  (25003004,'外国语学院',25003),
@@ -24794,7 +24794,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (25004005,'护理系',25004),
  (25004006,'社科部',25004),
  (25004007,'经贸与管理系',25004);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (25004008,'继续教育学院',25004),
  (25004009,'药学系',25004),
  (25004010,'藏医学院',25004),
@@ -24822,7 +24822,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (25005021,'长青学院',25005),
  (25005022,'陇桥学院',25005),
  (25006001,'东方现代管理学院',25006);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (25006002,'人文学院',25006),
  (25006003,'人民武装分院',25006),
  (25006004,'公安分院',25006),
@@ -24850,7 +24850,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (25007016,'计算机科学教育系',25007),
  (25007017,'音乐学院',25007),
  (25008001,'人文学院',25008);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (25008002,'体育教学部',25008),
  (25008003,'信息科学技术学院',25008),
  (25008004,'农学院',25008),
@@ -24877,7 +24877,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (25009007,'技术工程学院',25009),
  (25009008,'机电工程学院',25009),
  (25009009,'材料科学与工程学院',25009);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (25009010,'流体动力与控制学院',25009),
  (25009011,'现代网络教育学院',25009),
  (25009012,'理学院',25009),
@@ -24902,7 +24902,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (25010012,'环境与市政工程学院',25010),
  (25010013,'电子与信息工程学院',25010),
  (25010014,'经济管理学院',25010);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (25010015,'继续教育学院',25010),
  (25010016,'自动化与电气工程学院',25010),
  (25010017,'艺术设计学院',25010),
@@ -24931,7 +24931,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (25012008,'园林系',25012),
  (25012009,'建筑工程系',25012),
  (25012010,'政治理论教学部',25012);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (25012011,'政法经管系',25012),
  (25012012,'教育学院',25012),
  (25012013,'教育技术系',25012),
@@ -24960,7 +24960,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (25013014,'河西学院',25013),
  (25013015,'物理系',25013),
  (25013016,'生物系',25013);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (25013017,'管理系',25013),
  (25013018,'继续教育学院',25013),
  (25013019,'美术系',25013),
@@ -24988,7 +24988,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (25015010,'资源勘察工程系',25015),
  (25016001,'交通管理系',25016),
  (25016002,'刑事侦察',25016);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (25016003,'治安管理',25016),
  (25017001,'土木工程',25017),
  (25017002,'技术工程学院',25017),
@@ -25018,7 +25018,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (25022008,'计算机系',25022),
  (25022009,'音乐系',25022),
  (25023001,'历史文化系',25023);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (25023002,'历史文化系',25023),
  (25023003,'合作民族师专',25023),
  (25023004,'外语系',25023),
@@ -25048,7 +25048,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (25030005,'经济管理系',25030),
  (25032001,'信息管理系',25032),
  (25032002,'土木工程系',25032);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (25032003,'外语系',25032),
  (25032004,'机电工程系',25032),
  (25032005,'电信工程系',25032),
@@ -25078,7 +25078,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (26001013,'水电系',26001),
  (26001014,'生科系',26001),
  (26001015,'盐湖系',26001);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (26001016,'社科系',26001),
  (26001017,'经济系',26001),
  (26001018,'职业技术学院',26001),
@@ -25107,7 +25107,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (26002021,'音乐系',26002),
  (26003001,'交通与工程系',26003),
  (26003002,'体育部',26003);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (26003003,'化生学院',26003),
  (26003004,'外语系',26003),
  (26003005,'成教学院',26003),
@@ -25138,7 +25138,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (26009001,'侦查系',26009),
  (26009002,'治安系',26009),
  (26009003,'法律',26009);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (26010001,'土木工程系',26010),
  (26010002,'汽车工程系',26010),
  (26010003,'管理工程系',26010),
@@ -25167,7 +25167,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (27001018,'财经',27001),
  (27001019,'资源与环境科学系',27001),
  (27001020,'资源与环境科学系',27001);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (27001021,'高职学院',27001),
  (27002001,'医学系',27002),
  (27002002,'外语系',27002),
@@ -25196,7 +25196,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (28001005,'建筑工程学院',28001),
  (28001006,'政治与公共管理学院',28001),
  (28001007,'数学与系统科学学院',28001);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (28001008,'数学与系统科学院',28001),
  (28001009,'新闻与传播学院',28001),
  (28001010,'旅游学院',28001),
@@ -25223,7 +25223,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (28002005,'动物科学学院',28002),
  (28002006,'化工学院',28002),
  (28002007,'园艺学院',28002);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (28002008,'国际教育学院',28002),
  (28002009,'外国语学院',28002),
  (28002010,'成人教育学院',28002),
@@ -25250,7 +25250,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (28003008,'厚博学院',28003),
  (28003009,'口腔系',28003),
  (28003010,'国际教育学院',28003);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (28003011,'基础医学院',28003),
  (28003012,'工程技术学院',28003),
  (28003013,'成人教育学院',28003),
@@ -25277,7 +25277,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (28004008,'数理信息学院',28004),
  (28004009,'汉语教育学院',28004),
  (28004010,'法经学院',28004);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (28004011,'生命与环境科学学院',28004),
  (28004012,'生命科学与化学学院',28004),
  (28004013,'美术学院',28004),
@@ -25306,7 +25306,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (28006004,'文化管理系',28006),
  (28006005,'美术学院',28006),
  (28006006,'舞蹈学院',28006);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (28006007,'音乐学院',28006),
  (28006008,'预科部',28006),
  (28007001,'体育学院',28007),
@@ -25334,7 +25334,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (28008002,'农业工程学院',28008),
  (28008003,'动物科技学院',28008),
  (28008004,'成人教育学院',28008);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (28008005,'文理学院',28008),
  (28008006,'植物科技学院',28008),
  (28008007,'经济与管理学院',28008),
@@ -25363,7 +25363,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (28010012,'法经系',28010),
  (28010013,'物理与电子信息学院',28010),
  (28010014,'生命与资源环境系',28010);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (28010015,'生物化学与环境科学系',28010),
  (28010016,'艺术中专部',28010),
  (28010017,'艺术学院',28010),
@@ -25392,7 +25392,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (28016002,'机械工程系',28016),
  (28016003,'汽车工程系',28016),
  (28016004,'电子与电气工程系',28016);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (28016005,'石油化学工程系',28016),
  (28016006,'石油工程',28016),
  (28016007,'经济管理',28016),
@@ -25420,7 +25420,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (28020002,'电气工程系',28020),
  (28020003,'管理工程系',28020),
  (28020004,'计算机工程系',28020);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (28021001,'土木工程',28021),
  (28021002,'城建系',28021),
  (28021003,'建材系',28021),
@@ -25450,7 +25450,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (28025005,'生物科技学院',28025),
  (28025006,'科技学院',28025),
  (28025007,'经济贸易学院',28025);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (28025008,'软件技术学院',28025),
  (28026001,'工商管理系',28026),
  (28026002,'新闻系',28026),
@@ -25480,7 +25480,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (28033005,'Ժϵ����',28033),
  (28033006,'Ժϵ����',28033),
  (29001001,'人文素质教学研究部106',29001);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (29001002,'体育教学部103',29001),
  (29001003,'信息学院',29001),
  (29001004,'信息安全210',29001),
@@ -25504,7 +25504,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (29001022,'机电工程系029',29001),
  (29001023,'材料科学与工程系014',29001),
  (29001024,'炮兵学院',29001);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (29001025,'烟草科学系027',29001),
  (29001026,'热科学和能源工程系013',29001),
  (29001027,'物理系002',29001),
@@ -25528,7 +25528,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (29001045,'自动化系010',29001),
  (29001046,'苏州研究院',29001),
  (29001047,'计算机科学技术系011',29001);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (29001048,'软件学院',29001),
  (29001049,'近代物理系004',29001),
  (29001050,'陶瓷艺术中心112',29001),
@@ -25554,7 +25554,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (29002016,'物理与材料科学学院',29002),
  (29002017,'生命科学学院',29002),
  (29002018,'电子科学与技术学院',29002);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (29002019,'社会学系',29002),
  (29002020,'管理学院',29002),
  (29002021,'经济学院',29002),
@@ -25579,7 +25579,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (29003015,'计算机与信息学院',29003),
  (29003016,'资源与环境工程学院',29003),
  (29003017,'高等职业技术学院',29003);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (29004001,'06临床药理',29004),
  (29004002,'临床医学院',29004),
  (29004003,'临床医学院',29004),
@@ -25605,7 +25605,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (29005007,'建筑节能检测中心',29005),
  (29005008,'建筑设备节能研究所',29005),
  (29005009,'数理系',29005);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (29005010,'机电系',29005),
  (29005011,'材料与化学工程学院',29005),
  (29005012,'材料科学与工程系',29005),
@@ -25630,7 +25630,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (29006008,'药学院',29006),
  (29006009,'针灸骨伤临床学院',29006),
  (29007001,'中国语言文学系',29007);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (29007002,'化学与材料工程系',29007),
  (29007003,'合肥学院',29007),
  (29007004,'基础教学部',29007),
@@ -25657,7 +25657,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (29008008,'工学院',29008),
  (29008009,'成人教育学院',29008),
  (29008010,'林学与园林学院',29008);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (29008011,'植保保护学院',29008),
  (29008012,'涉外经济学院',29008),
  (29008013,'涉外经济学院',29008),
@@ -25683,7 +25683,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (29009007,'工商学院',29009),
  (29009008,'工商学院',29009),
  (29009009,'建筑工程学院',29009);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (29009010,'数理学院',29009),
  (29009011,'文法学院',29009),
  (29009012,'机械工程学院',29009),
@@ -25711,7 +25711,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (29011002,'信息管理与信息系统',29011),
  (29011003,'医技系',29011),
  (29011004,'口腔系',29011);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (29011005,'心理系',29011),
  (29011006,'成教院',29011),
  (29011007,'护理系',29011),
@@ -25739,7 +25739,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (29012017,'继续教育学院',29012),
  (29012018,'美术学院',29012),
  (29012019,'音乐学院',29012);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (29013001,'人文社科',29013),
  (29013002,'其他',29013),
  (29013003,'外语',29013),
@@ -25769,7 +25769,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (29014014,'药学系',29014),
  (29014015,'预防医学系',29014),
  (29015001,'会计学院',29015);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (29015002,'体育教学部',29015),
  (29015003,'信息工程学院',29015),
  (29015004,'其他',29015),
@@ -25796,7 +25796,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (29016003,'信息工程学院',29016),
  (29016004,'信息工程学院',29016),
  (29016005,'化学系',29016);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (29016006,'历史系',29016),
  (29016007,'外语系',29016),
  (29016008,'成人教育学院',29016),
@@ -25827,7 +25827,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (29018002,'化学工程学院',29018),
  (29018003,'医学院',29018),
  (29018004,'土木建筑学院',29018);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (29018005,'地球与环境学院',29018),
  (29018006,'外国语学院',29018),
  (29018007,'建筑学院',29018),
@@ -25853,7 +25853,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (29019006,'历史系',29019),
  (29019007,'外语系',29019),
  (29019008,'成人教育学院',29019);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (29019009,'政法系',29019),
  (29019010,'教育系',29019),
  (29019011,'数学系',29019),
@@ -25882,7 +25882,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (29020017,'继续教育学院',29020),
  (29020018,'职业技术学院',29020),
  (29020019,'艺术学院',29020);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (29020020,'计算机与信息学院',29020),
  (29020021,'资源环境学院',29020),
  (29022001,'中文系',29022),
@@ -25913,7 +25913,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (29023010,'管理系',29023),
  (29023011,'经法系',29023),
  (29023012,'美术系',29023);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (29023013,'艺术系',29023),
  (29023014,'英语系',29023),
  (29023015,'计算机系',29023),
@@ -25938,7 +25938,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (29025005,'地理与环境科学系',29025),
  (29025006,'外语系',29025),
  (29025007,'数学系',29025);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (29025008,'物理与电子工程系',29025),
  (29025009,'社会科学系',29025),
  (29025010,'经济管理系',29025),
@@ -25966,7 +25966,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (29026018,'资源与环境系',29026),
  (29027001,'中文系',29027),
  (29027002,'信息工程学院',29027);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (29027003,'公共外语部',29027),
  (29027004,'公共课程部',29027),
  (29027005,'其他',29027),
@@ -25995,7 +25995,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (29028010,'艺术设计教研室',29028),
  (29028011,'艺术设计系',29028),
  (29028012,'计算机科学技术系',29028);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (29028013,'音乐系',29028),
  (29028014,'食品与生物工程系',29028),
  (29030001,'基础教育部',29030),
@@ -26024,7 +26024,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (29034002,'公共课教学部',29034),
  (29034003,'工商管理系',29034),
  (29034004,'旅游管理系',29034);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (29034005,'电子信息系',29034),
  (29034006,'艺术设计系',29034),
  (29035001,'商贸系',29035),
@@ -26052,7 +26052,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (29038002,'机械工程系',29038),
  (29038003,'机电工程系',29038),
  (29038004,'管理工程系',29038);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (29040001,'人文管理系',29040),
  (29040002,'信息工程系',29040),
  (29040003,'数控工程系',29040),
@@ -26081,7 +26081,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (29044002,'刑事执行',29044),
  (29044003,'刑事执行',29044),
  (29044004,'刑侦',29044);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (29044005,'司法会计',29044),
  (29044006,'司法执行',29044),
  (29044007,'国际贸易',29044),
@@ -26109,7 +26109,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (29047005,'文秘(公共关系文秘)',29047),
  (29047006,'文秘(商务文秘)',29047),
  (29047007,'旅游管理',29047);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (29047008,'法律事务(经济法律事务)',29047),
  (29047009,'物流管理',29047),
  (29047010,'电子信息工程技术',29047),
@@ -26135,7 +26135,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (29049009,'英语系',29049),
  (29049010,'计算机科学与技术系',29049),
  (29050001,'市政工程系',29050);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (29050002,'建筑工程系',29050),
  (29050003,'机电工程系',29050),
  (29050004,'水利工程系',29050),
@@ -26162,7 +26162,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (29055002,'医学工程技术系',29055),
  (29055003,'医学技术系和国际护理学院',29055),
  (29055004,'卫生管理系',29055);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (29055005,'口腔医学系',29055),
  (29055006,'护理系',29055),
  (29055007,'药学系',29055),
@@ -26192,7 +26192,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (29059007,'应用英语',29059),
  (29059008,'旅游日语',29059),
  (29059009,'旅游管理',29059);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (29059010,'汽车技术服务与营销',29059),
  (29059011,'物流管理',29059),
  (29059012,'生物技术及应用',29059),
@@ -26221,7 +26221,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (29067010,'经贸系',29067),
  (29068001,'中文系',29068),
  (29068002,'信息系',29068);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (29068003,'历史与社会学系',29068),
  (29068004,'外语系',29068),
  (29068005,'建筑与艺术系',29068),
@@ -26249,7 +26249,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (29073003,'管理工程系',29073),
  (29074001,'人文社科系',29074),
  (29074002,'医学系',29074);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (29074003,'建筑工程系',29074),
  (29074004,'教育系',29074),
  (29074005,'机电系',29074),
@@ -26279,7 +26279,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (29078006,'计算机系',29078),
  (29079001,'东方语言系',29079),
  (29079002,'东语系',29079);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (29079003,'国商系',29079),
  (29079004,'国旅系',29079),
  (29079005,'西方语言系',29079),
@@ -26308,7 +26308,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (29084008,'电气工程系',29084),
  (29084009,'经济管理系',29084),
  (29084010,'轻化工程系',29084);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (29086001,'商贸日语',29086),
  (29086002,'广告学',29086),
  (29086003,'应用英语',29086),
@@ -26335,7 +26335,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (30001014,'城市学院商学院',30001),
  (30001015,'外国语言文化国际交流学院',30001),
  (30001016,'宁波理工学院',30001);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (30001017,'工业设计系',30001),
  (30001018,'工科实验班',30001),
  (30001019,'建筑工程学院',30001),
@@ -26360,7 +26360,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (30001038,'药学院',30001),
  (30001039,'计算机科学与工程系',30001),
  (30001040,'计算机科学与技术',30001);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (30001041,'软件学院',30001),
  (30001042,'远程学院',30001),
  (30002001,'体育教研部',30002),
@@ -26387,7 +26387,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (30003004,'信息工程学院',30003),
  (30003005,'健行学院',30003),
  (30003006,'化材学院',30003);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (30003007,'国际学院',30003),
  (30003008,'外国语学院',30003),
  (30003009,'建筑工程学院',30003),
@@ -26416,7 +26416,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (30004007,'工业设计',30004),
  (30004008,'成人教育学院',30004),
  (30004009,'新闻出版学院',30004);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (30004010,'机械工程学院',30004),
  (30004011,'机电学院',30004),
  (30004012,'理学院',30004),
@@ -26443,7 +26443,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (30005012,'第三临床医学院',30005),
  (30005013,'第二临床医学院',30005),
  (30005014,'管理学院',30005);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (30005015,'药学院',30005),
  (30006001,'人文学院',30006),
  (30006002,'人民武装学院',30006),
@@ -26469,7 +26469,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (30007002,'体育军事部',30007),
  (30007003,'信息工程学院',30007),
  (30007004,'光学与电子科技学院',30007);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (30007005,'光电工程学院',30007),
  (30007006,'外国语学院',30007),
  (30007007,'工程训练中心',30007),
@@ -26496,7 +26496,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (30008006,'建工学院',30008),
  (30008007,'成教学院',30008),
  (30008008,'服装学院',30008);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (30008009,'机械与汽车工程学院',30008),
  (30008010,'机械学院',30008),
  (30008011,'理学院',30008),
@@ -26524,7 +26524,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (30009016,'经济管理学院',30009),
  (30009017,'继续教育学院',30009),
  (30009018,'艺术设计学院',30009);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (30009019,'茶文化学院',30009),
  (30009020,'食品与药学学院',30009),
  (30010001,'临床医学院',30010),
@@ -26551,7 +26551,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (30011001,'动画学院',30011),
  (30011002,'国际文化传播学院',30011),
  (30011003,'影视艺术学院',30011);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (30011004,'播音主持艺术学院',30011),
  (30011005,'新闻与文化传播学院',30011),
  (30011006,'电子信息学院',30011),
@@ -26578,7 +26578,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (30013003,'传媒动画学院',30013),
  (30013004,'共同课教学部',30013),
  (30013005,'国画系',30013);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (30013006,'国际教育学院',30013),
  (30013007,'建筑学院',30013),
  (30013008,'成人教育学院',30013),
@@ -26606,7 +26606,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (30015003,'信息科学与工程学院',30015),
  (30015004,'医学院',30015),
  (30015005,'商学院',30015);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (30015006,'国际交流学院',30015),
  (30015007,'基础教育学院',30015),
  (30015008,'外语学院',30015),
@@ -26634,7 +26634,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (30016006,'基础教学部',30016),
  (30016007,'外国语学院',30016),
  (30016008,'外国语部',30016);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (30016009,'建筑工程学院',30016),
  (30016010,'成人教育学院',30016),
  (30016011,'机械工程学院',30016),
@@ -26660,7 +26660,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (30018001,'中国事务研究硕士学位',30018),
  (30018002,'商务经济学学士学位',30018),
  (30018003,'国际事务研究学士学位',30018);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (30018004,'国际传播与德语硕士学位',30018),
  (30018005,'国际传播与汉语硕士学位',30018),
  (30018006,'国际传播与法语硕士学位',30018),
@@ -26679,7 +26679,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (30018019,'国际商务与法语学士学位',30018),
  (30018020,'国际商务与西班牙语学士学位',30018),
  (30018021,'国际商务理学硕士学位',30018);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (30018022,'国际学与德语学士学位',30018),
  (30018023,'国际学与日语学士学位',30018),
  (30018024,'国际学与法语学士学位',30018),
@@ -26703,7 +26703,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (30019009,'商学院',30019),
  (30019010,'嘉兴学院',30019),
  (30019011,'外国语学院',30019);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (30019012,'平湖校区',30019),
  (30019013,'建筑工程学院',30019),
  (30019014,'成人教育学院',30019),
@@ -26730,7 +26730,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (30020014,'渔业学院',30020),
  (30020015,'石油化工学院',30020),
  (30020016,'社会科学部',30020);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (30020017,'管理学院',30020),
  (30020018,'经济管理学院',30020),
  (30020019,'船舶与建筑工程学院',30020),
@@ -26756,7 +26756,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (30021018,'瓯江学院',30021),
  (30021019,'生命与环境科学学院',30021),
  (30021020,'管理学院',30021);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (30021021,'美术与艺术设计学院',30021),
  (30021022,'计算机科学与工程学院',30021),
  (30021023,'音乐学院',30021),
@@ -26782,7 +26782,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (30022020,'运动人体科学系',30022),
  (30023001,'人文学院',30023),
  (30023002,'体育学院',30023);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (30023003,'信息工程学院',30023),
  (30023004,'医学院',30023),
  (30023005,'外国语学院',30023),
@@ -26809,7 +26809,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (30024011,'机电与建筑工程学院',30024),
  (30024012,'物理与电子工程学院',30024),
  (30024013,'生命科学学院',30024);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (30024014,'经贸管理学院',30024),
  (30024015,'艺术学院',30024),
  (30025001,'上虞分院',30025),
@@ -26838,7 +26838,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (30026005,'外语学院',30026),
  (30026006,'教育学院',30026),
  (30026007,'数理学院',30026);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (30026008,'机电建工学院',30026),
  (30026009,'经管学院',30026),
  (30026010,'艺术学院',30026),
@@ -26868,7 +26868,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (30028001,'人文学院',30028),
  (30028002,'信息学院',30028),
  (30028003,'商务系',30028);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (30028004,'成人教育学院',30028),
  (30028005,'管理学院',30028),
  (30028006,'经济学院',30028),
@@ -26898,7 +26898,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (30032006,'工商管理分院',30032),
  (30032007,'建筑与艺术分院',30032),
  (30032008,'教科院',30032);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (30032009,'教育科学与技术学院',30032),
  (30032010,'机电工程分院',30032),
  (30032011,'求真',30032),
@@ -26925,7 +26925,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (30034007,'教育学院',30034),
  (30034008,'旅游学院',30034),
  (30034009,'机电工程学院',30034);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (30034010,'生物工程学院',30034),
  (30034011,'经管学院',30034),
  (30034012,'美术学院',30034),
@@ -26954,7 +26954,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (30039008,'科技学院',30039),
  (30039009,'艺术分院',30039),
  (30040001,'医学技术系',30040);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (30040002,'护理系',30040),
  (30041001,'华丰学院',30041),
  (30041002,'华建信息学院',30041),
@@ -26983,7 +26983,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (30042017,'浙西分校',30042),
  (30042018,'经管系',30042),
  (30042019,'艺术系',30042);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (30043001,'外语系',30043),
  (30043002,'数字艺术设计系',30043),
  (30043003,'经济管理系',30043),
@@ -27011,7 +27011,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (30045011,'艺术学院',30045),
  (30045012,'计算机系',30045),
  (30046001,'人文系',30046);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (30046002,'城市学院',30046),
  (30046003,'工商系',30046),
  (30046004,'建筑工程系',30046),
@@ -27040,7 +27040,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (30048004,'信电学院',30048),
  (30048005,'商学院',30048),
  (30048006,'外国语学院',30048);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (30048007,'工程学院',30048),
  (30048008,'法学系',30048),
  (30048009,'生科学院',30048),
@@ -27070,7 +27070,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (30051008,'纺织学院',30051),
  (30051009,'艺术与设计',30051),
  (30052001,'信息系',30052);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (30052002,'汽车与机电工程系',30052),
  (30052003,'电子工程系',30052),
  (30052004,'管理系',30052),
@@ -27098,7 +27098,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (30054007,'计算机系',30054),
  (30055001,'交通管理',30055),
  (30055002,'侦查预审',30055);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (30055003,'公共安全危机管理',30055),
  (30055004,'公安大类',30055),
  (30055005,'公安大类',30055),
@@ -27126,7 +27126,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (30057005,'电气工程系',30057),
  (30057006,'经贸管理系',30057),
  (30057007,'计算机应用工程系',30057);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (30057008,'设计艺术系',30057),
  (30058001,'城建系',30058),
  (30058002,'建工系',30058),
@@ -27156,7 +27156,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (30061004,'国际商务系',30061),
  (30061005,'国际商务系',30061),
  (30061006,'经营管理系',30061);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (30061007,'金融系',30061),
  (30062001,'人文部',30062),
  (30062002,'基础部',30062),
@@ -27185,7 +27185,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (30064009,'浙江警官学院',30064),
  (30064010,'浙江警官职业学院',30064),
  (30064011,'浙江警察学院',30064);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (30065001,'外语系',30065),
  (30065002,'旅行社管理系',30065),
  (30065003,'艺术系',30065),
@@ -27215,7 +27215,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (30068009,'护理',30068),
  (30068010,'管理系',30068),
  (30068011,'药学',30068);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (30069001,'中药系',30069),
  (30069002,'中药系',30069),
  (30069003,'应用生物系',30069),
@@ -27244,7 +27244,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (30072007,'计算机应用技术',30072),
  (30072008,'高压输配电线路施工运行与维护',30072),
  (30074001,'海洋旅游',30074);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (30074002,'港口管理',30074),
  (30074003,'航海工程',30074),
  (30074004,'船舶工程',30074),
@@ -27272,7 +27272,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (31001018,'历史系',31001),
  (31001019,'厦门国际法高等研究院',31001),
  (31001020,'台湾研究院',31001);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (31001021,'哲学系',31001),
  (31001022,'国贸系',31001),
  (31001023,'国际经济与贸易系',31001),
@@ -27299,7 +27299,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (31001044,'生物化学与生物技术系',31001),
  (31001045,'生物医学工程系',31001),
  (31001046,'生物医学科学系',31001);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (31001047,'生物学系',31001),
  (31001048,'电子信息科学与技术系',31001),
  (31001049,'电子商务',31001),
@@ -27328,7 +27328,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (31001072,'软件学院',31001),
  (31001073,'通信工程系',31001),
  (31001074,'金融系',31001);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (31001075,'音乐系',31001),
  (31001076,'预防医学系',31001),
  (31002001,'中文系',31002),
@@ -27356,7 +27356,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (31002023,'航海学院',31002),
  (31002024,'航海职业教育学院',31002),
  (31002025,'船舶与海洋工程学院',31002);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (31002026,'艺术学院',31002),
  (31002027,'艺术教育学院',31002),
  (31002028,'英语',31002),
@@ -27384,7 +27384,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (31004004,'共管理学院',31004),
  (31004005,'化学化工学院',31004),
  (31004006,'土建学院',31004);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (31004007,'土木工程学院',31004),
  (31004008,'外国语学院',31004),
  (31004009,'工程技术学院',31004),
@@ -27409,7 +27409,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (31005005,'公共管理学院',31005),
  (31005006,'化学与材料学院',31005),
  (31005007,'协和学院',31005);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (31005008,'协和音乐表演',31005),
  (31005009,'地理科学学院',31005),
  (31005010,'外国语学院',31005),
@@ -27435,7 +27435,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (31005030,'软件人才培养基地',31005),
  (31005031,'软件学院',31005),
  (31005032,'音乐学院',31005);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (31006001,'交通学院',31006),
  (31006002,'人文社会科学学院',31006),
  (31006003,'作物科学学院',31006),
@@ -27462,7 +27462,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (31007001,'临床',31007),
  (31007002,'临床医学',31007),
  (31007003,'人文学院',31007);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (31007004,'体育教研部',31007),
  (31007005,'公共卫生学院',31007),
  (31007006,'医学技术与工程学院',31007),
@@ -27489,7 +27489,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (31008014,'电子信息与电气工程系',31008),
  (31008015,'经济管理系',31008),
  (31008016,'计算机与信息科学系',31008);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (31008017,'软件基地',31008),
  (31008018,'软件系',31008),
  (31008019,'马列主义理论教研部',31008),
@@ -27518,7 +27518,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (31010011,'服装与艺术工程系',31010),
  (31010012,'汽车系',31010),
  (31010013,'法律系',31010);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (31010014,'爱恩实达学院',31010),
  (31010015,'物理学与电子信息工程系',31010),
  (31010016,'电子系',31010),
@@ -27546,7 +27546,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (31011015,'旅游学院',31011),
  (31011016,'机电及自动化学院',31011),
  (31011017,'材料科学与工程学院',31011);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (31011018,'法学院',31011),
  (31011019,'美术学院',31011),
  (31011020,'艺术学院',31011),
@@ -27574,7 +27574,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (31013002,'体育学院',31013),
  (31013003,'化学与生命科学学院',31013),
  (31013004,'外语学院',31013);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (31013005,'市场营销',31013),
  (31013006,'应用科技学院',31013),
  (31013007,'教育科学学院',31013),
@@ -27601,7 +27601,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (31014015,'管理科学系',31014),
  (31014016,'经济学系',31014),
  (31014017,'艺术系',31014);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (31014018,'计算机科学系',31014),
  (31015001,'体育系',31015),
  (31015002,'医学院',31015),
@@ -27628,7 +27628,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (31016010,'经济管理系',31016),
  (31016011,'艺术系',31016),
  (31017001,'人文与教育学院',31017);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (31017002,'体育系',31017),
  (31017003,'化学与材料工程系',31017),
  (31017004,'外国语学院',31017),
@@ -27655,7 +27655,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (31019007,'经济系',31019),
  (31020001,'人文社科系',31020),
  (31020002,'商学系',31020);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (31020003,'外语系',31020),
  (31020004,'工商管理系',31020),
  (31020005,'法律系',31020),
@@ -27681,7 +27681,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (31022004,'市场营销',31022),
  (31022005,'广告学',31022),
  (31022006,'广播电视新闻学',31022);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (31022007,'日语',31022),
  (31022008,'汉语言文学（高级文秘）',31022),
  (31022009,'法学',31022),
@@ -27708,7 +27708,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (31024008,'工商管理',31024),
  (31024009,'工商管理（电子商务方向）',31024),
  (31024010,'广告学',31024);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (31024011,'旅游管理（国际旅游方向）',31024),
  (31024012,'法学',31024),
  (31024013,'电子信息工程',31024),
@@ -27735,7 +27735,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (31031002,'商务英语专业',31031),
  (31031003,'国际经济与贸易专业',31031),
  (31031004,'学前教育专业',31031);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (31031005,'应用英语专业',31031),
  (31031006,'服装鞋类设计专业',31031),
  (31031007,'涉外旅游专业',31031),
@@ -27764,7 +27764,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (31037003,'园艺园林系',31037),
  (31037004,'生物技术系',31037),
  (31037005,'生物系',31037);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (31037006,'福建农业职业技术学院',31037),
  (31037007,'经济管理系',31037),
  (31038001,'人文社科系',31038),
@@ -27793,7 +27793,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (31043003,'基础教育部',31043),
  (31043004,'政治法律系',31043),
  (31043005,'物流管理系',31043);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (31043006,'经济管理系',31043),
  (31043007,'财会金融系',31043),
  (31045001,'建筑工程系',31045),
@@ -27823,7 +27823,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (31055001,'化学工程系',31055),
  (31055002,'土建系',31055),
  (31055003,'外语系',31055);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (31055004,'文化传播系',31055),
  (31055005,'旅游系',31055),
  (31055006,'机械工程系',31055),
@@ -27854,7 +27854,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (31057010,'计算机系',31057),
  (31058001,'外语系',31058),
  (31058002,'服装系',31058);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (31058003,'纺织系',31058),
  (31058004,'经管系',31058),
  (31058005,'计算机系',31058),
@@ -27884,7 +27884,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (31067002,'机电系',31067),
  (31067003,'管理系',31067),
  (31067004,'经贸系',31067);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (31067005,'计算机',31067),
  (31068001,'商务英语',31068),
  (31068002,'计算机',31068),
@@ -27914,7 +27914,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (31070001,'经管系',31070),
  (31070002,'计算机系',31070),
  (31072001,'人文社科与艺术系',31072);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (31072002,'信息技术系',31072),
  (31072003,'外语系',31072),
  (31072004,'建筑工程系',31072),
@@ -27944,7 +27944,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (32001008,'生物资源及农学院',32001),
  (32001009,'电机资讯学院',32001),
  (32001010,'社会科学院',32001);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (32001011,'管理学院',32001),
  (32003001,'人文学院',32003),
  (32003002,'传播学院',32003),
@@ -27971,7 +27971,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (33002003,'Faculty of Medicine',33002),
  (33002004,'Faculty of Science',33002),
  (33002005,'college of Law',33002);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (33002006,'工商管理学院',33002),
  (33002007,'工程学院',33002),
  (33002008,'社会科学学院',33002),
@@ -27996,7 +27996,7 @@ INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES
  (34001006,'Faculty of Science and Technology',34001),
  (34001007,'Faculty of Social Sciences and Humanities',34001),
  (34003001,'BITM',34003);
-INSERT INTO `college` (`college_code`,`name`,`university_code`) VALUES 
+INSERT INTO `colleges` (`college_code`,`name`,`university_code`) VALUES 
  (34003002,'中医药学院',34003),
  (34003003,'旅游高等学校',34003),
  (34003004,'法学院',34003),

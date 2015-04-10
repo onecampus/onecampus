@@ -60,13 +60,19 @@ Picture:  # twitter picture
   status: 状态(1: ok, 0:deleted)
 
 University:  # 大学
-  name: 大学/校区名称
+  university_code: 大学码
+  name: 大学名称
   intro: 大学简介
-  parent_id: 大学
+  province_id: 省
   english_name: 英文简称 sysu
   longitude: 经度
   latitude: 纬度
 
+College:  # 学院
+  college_code: 学院码
+  name: 学院名称
+  intro: 学院简介
+  university_code: 大学码
 
 Collection:  # 收藏, 针对twitter
   twitter_id: twitter id(外键)
