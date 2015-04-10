@@ -3,7 +3,7 @@ class CreateChinaCities < ActiveRecord::Migration
     create_table :china_cities do |t|
       t.integer :area_code
       t.string :area
-      t.integer :parent_id
+      t.integer :parent_code
       t.integer :level
 
       t.timestamps null: false

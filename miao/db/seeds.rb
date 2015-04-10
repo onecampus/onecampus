@@ -74,7 +74,7 @@ File.open(Rails.root.to_s + '/scripts/china_city_han.txt', 'r') do |file|
         cc = ChinaCity.new(
           area_code: tmp_arr[0].to_i,
           area: tmp_arr[1],
-          parent_id: tmp_arr[2].to_i,
+          parent_code: tmp_arr[2].to_i,
           level: tmp_arr[3].to_i
         )
         cc.save!

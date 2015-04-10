@@ -126,5 +126,5 @@ Friendship:  # no, 放redis 好友关系(https://github.com/railscasts/406-publi
 ChinaCity:  # http://www.stats.gov.cn/tjsj/tjbz/xzqhdm/201401/t20140116_501070.html
   area_code: 地区码
   area: 地区名称
-  parent_id: 区->市->省->国家
+  parent_code: 区->市->省->国家
   level: 层级

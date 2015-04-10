@@ -15,7 +15,7 @@ zh-CN:
       china_city:
         area_code: 地区码
         area: 地区名称
-        parent_id: 区->市->省->国家
+        parent_code: 区->市->省->国家
         level: 层级
       picture:
         url: 图片地址

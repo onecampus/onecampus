@@ -22,12 +22,12 @@ ActiveRecord::Schema.define(version: 20150410064247) do
   end
 
   create_table "china_cities", force: :cascade do |t|
-    t.integer  "area_code",  limit: 4
-    t.string   "area",       limit: 255
-    t.integer  "parent_id",  limit: 4
-    t.integer  "level",      limit: 4
-    t.datetime "created_at",             null: false
-    t.datetime "updated_at",             null: false
+    t.integer  "area_code",   limit: 4
+    t.string   "area",        limit: 255
+    t.integer  "parent_code", limit: 4
+    t.integer  "level",       limit: 4
+    t.datetime "created_at",              null: false
+    t.datetime "updated_at",              null: false
   end
 
   create_table "follows", force: :cascade do |t|

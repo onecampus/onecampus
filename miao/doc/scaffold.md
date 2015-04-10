@@ -9,5 +9,5 @@ rails g model Twitter user_id:integer content:text source url parent_id:integer 
 
 rails g model Picture user_id:integer twitter_id:integer url status:integer
 
-rails g model ChinaCity area_code:integer area parent_id:integer level:integer
+rails g model ChinaCity area_code:integer area parent_code:integer level:integer
 ```
