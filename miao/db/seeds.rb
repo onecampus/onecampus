@@ -83,6 +83,10 @@ File.open(Rails.root.to_s + '/scripts/china_city_han.txt', 'r') do |file|
   end
 end
 
+# university college
+# SOURCE /home/yang/dev/ruby/rails/onecampus/miao/scripts/china_university.sql
+# SHOW WARNINGS;
+
 time_end = Time.now
 time = time_end - time_start
 puts time.to_s
