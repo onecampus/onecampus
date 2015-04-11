@@ -54,6 +54,7 @@
 * [whenever](https://github.com/javan/whenever)
 * [god](http://godrb.com/)
 * [redis-objects](https://github.com/nateware/redis-objects)
+* [rabl](https://github.com/nesquena/rabl)
 
 
 ###### Gem list for test
