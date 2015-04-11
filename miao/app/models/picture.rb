@@ -1,5 +1,6 @@
 class Picture < ActiveRecord::Base
-  validates :url, :twitter_id, :user_id, :status, presence: true
+
+  validates :url, :user_id, :status, presence: true
   validates :url, uniqueness: true
   validates :url, :url => { allow_blank: true }
 

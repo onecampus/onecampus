@@ -31,7 +31,7 @@ class Api::V1::UsersController < ApplicationController
 		if @user.save
       render_success_json('User create success.', :created, { user: @user })
 		else
-      render_fail_json('User create fail.', :unprocessable_entity, { errors: @user.errors})
+      render_fail_json('User create fail.', :unprocessable_entity, { errors: @user.errors })
 		end
 	end
 
