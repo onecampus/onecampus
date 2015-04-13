@@ -11,12 +11,14 @@ class Api::V1::TwittersControllerTest < ActionController::TestCase
     @request.headers['Authorization'] = ''
   end
 
+=begin
   test 'should test the index of twitter controller to get pagination twitter' do
     get :index
     assert_response :success
     json = JSON.parse response.body
     assert_equal json['code'], 200
   end
+=end
 
   test 'should get user own twitters' do
     get :user_twitters

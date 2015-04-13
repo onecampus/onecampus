@@ -7,7 +7,8 @@ class Api::V1::TwittersController < ApplicationController
 
   before_action :set_twitter, only: [:show, :update, :destroy]
 
-  # 返回所有twitters
+  # 返回所有twitters, 禁用
+=begin
   def index
     page = params[:page]
     per_page = params[:per_page]
@@ -16,6 +17,7 @@ class Api::V1::TwittersController < ApplicationController
     data = { twitters: @twitters, total_count: Twitter.all.count }
     render_success_json 'Twitter list.', :ok, data
   end
+=end
 
   # 返回用户的twitters
   def user_twitters
@@ -34,13 +36,13 @@ class Api::V1::TwittersController < ApplicationController
     offset = params[:offset]
     # 包含关注者, 树洞
     follower_ids = @current_user.following_by_type('User').ids
-    # @user_relation_twitters = Twitter.find_by_sql('SELECT * FROM twitters WHERE user_id IN (?) ORDER BY id DESC', follower_ids)
+    follower_ids.push @current_user.id  # 包括当前用户的twitter
     @user_relation_twitters = Twitter.where('user_id IN (?)', follower_ids).page(page).per(per_page).padding(offset).order('id DESC')
     data = { user_relation_twitters: @user_relation_twitters }
     render_success_json 'User relation twitters.', :ok, data
   end
 
-  def create,
+  def create
     # picture_ids 图片ids
     twitter_params[:user_id] ||= @current_user.id
     twitter_params[:status] = 1

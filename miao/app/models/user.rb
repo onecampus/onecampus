@@ -7,6 +7,7 @@ class EmailValidator < ActiveModel::EachValidator
 end
 
 class User < ActiveRecord::Base
+  rolify
 
   validates :pass, :mobile, presence: true  # test ok
   validates :pass, length: { in: 4..128 }  # test ok
