@@ -22,6 +22,16 @@ class Api::V1::UsersController < ApplicationController
     render_success_json('One user.', :ok, { user: @user })
 	end
 
+  def user_by_uid
+    @user = User.where(uid: params[:uid])
+    render_success_json('One user.', :ok, { user: @user })
+  end
+
+  def user_by_mobile
+    @user = User.where(mobile: params[:mobile])
+    render_success_json('One user.', :ok, { user: @user })
+  end
+
   # 创建用户
 	def create
 		@user = User.new(user_params)

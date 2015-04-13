@@ -6,5 +6,6 @@
 class Api::V1::UniversitiesController < ApplicationController
   def index
     @universities = University.all
+    render_success_json 'Universities all.', :ok, { universities: @universities }
   end
 end

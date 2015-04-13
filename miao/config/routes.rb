@@ -18,6 +18,8 @@ Rails.application.routes.draw do
       get 'twitters' => 'twitters#index', as: :index_twitters_api
       get 'user/twitters' => 'twitters#user_twitters'
       get 'user/relation/twitters' => 'twitters#user_relation_twitters'
+
+      get 'universities' => 'universities#index'
     end
   end
 end
