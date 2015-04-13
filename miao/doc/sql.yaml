@@ -50,6 +50,7 @@ Twitter:  # 发推
   longitude: 经度
   latitude: 纬度
   status: 状态(1: ok, 0:deleted) # http://zhaowen.me/blog/2014/04/09/whats-new-in-rails-4-dot-1/
+  to_user_id: 从哪里发的, 比如树洞
 
   picture_count: 图片数量(放redis)
   forward_count: 转推数量(放redis)

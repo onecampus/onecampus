@@ -16,4 +16,5 @@ rails g model College college_code:integer name intro:text university_code:integ
 
 rails g migration AddCreateByToUsers create_by:integer
 
+rails g migration AddToUserIdToTwitters to_user_id:integer
 ```

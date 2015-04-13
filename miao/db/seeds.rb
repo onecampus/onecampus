@@ -29,7 +29,8 @@ user = User.new(
   province: '广东',
   city: '广州',
   region: '番禺',
-  postcode: '510000'
+  postcode: '510000',
+  create_by: 0
 )
 user.save!
 user.add_role :miao
@@ -62,7 +63,8 @@ user2 = User.new(
   province: '广东',
   city: '广州',
   region: '番禺',
-  postcode: '510000'
+  postcode: '510000',
+  create_by: 0
 )
 user2.save!
 user2.add_role :miao
