@@ -19,6 +19,8 @@ gem 'validate_url'
 
 gem 'rolify'
 
+gem 'markable'  # 实现收藏
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'

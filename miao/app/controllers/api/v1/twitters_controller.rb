@@ -96,7 +96,8 @@ class Api::V1::TwittersController < ApplicationController
       :parent_id,
       :anonymous,
       :longitude,
-      :latitude
+      :latitude,
+      :to_user_id
     )
   end
 end

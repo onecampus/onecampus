@@ -84,10 +84,11 @@ College:  # 学院
   intro: 学院简介
   university_code: 大学码
 
-Collection:  # 收藏, 针对twitter
+Collection:  # 收藏, 针对twitter gem 'markable'
   twitter_id: twitter id(外键)
   user_id: 用户id(users表外键, 非uid)
   collection_model: Twitter
+  collection_id: 收藏id
   status: 状态(1: ok, 0:deleted)
 
 # 收藏, 关注
