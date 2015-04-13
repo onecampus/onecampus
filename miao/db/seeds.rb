@@ -32,6 +32,7 @@ user = User.new(
   postcode: '510000'
 )
 user.save!
+user.add_role :miao
 
 user2 = User.new(
   last_name: '杨',
@@ -64,6 +65,7 @@ user2 = User.new(
   postcode: '510000'
 )
 user2.save!
+user2.add_role :miao
 
 # ChinaCity import
 File.open(Rails.root.to_s + '/scripts/china_city_han.txt', 'r') do |file|

@@ -30,6 +30,7 @@ User:
   city: 市
   region: 区
   postcode: 邮编
+  created_by: 创建者 :user_id
 
 Addr:  # one to many
   user_id: 用户id(users表外键, 非uid)
@@ -125,7 +126,7 @@ Comment:  # 评论，是否需要
   twitter_id: twitter id(twitter表外键)
   status: 状态(1: ok, 0:deleted)
 
-TreeHole:  # 树洞，是否合并到user
+TreeHole:  # 树洞，合并到user
   name: 树洞名称
   intro: 树洞简介
   created_by: 树洞创建者
