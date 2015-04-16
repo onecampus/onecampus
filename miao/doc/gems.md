@@ -55,6 +55,9 @@
 * [god](http://godrb.com/)
 * [redis-objects](https://github.com/nateware/redis-objects)
 * [rabl](https://github.com/nesquena/rabl)
+* [puma](https://github.com/puma/puma)
+* [foreman](https://github.com/ddollar/foreman)
+* [god](http://godrb.com/)
 
 
 ###### Gem list for test

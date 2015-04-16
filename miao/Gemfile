@@ -21,6 +21,11 @@ gem 'rolify'
 
 gem 'markable'  # 实现收藏
 
+gem 'puma'
+
+# javascript runtime
+gem 'therubyracer', platforms: :ruby
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
@@ -32,6 +37,9 @@ group :development, :test do
   gem 'rails_best_practices', require: false
   gem 'rubocop', require: false
   gem 'simplecov', :require => false
+
+  # deploy
+  # gem 'capistrano3-puma'
 end
 
 group :doc do
