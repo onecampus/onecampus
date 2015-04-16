@@ -19,8 +19,6 @@ gem 'validate_url'
 
 gem 'rolify'
 
-gem 'markable'  # 实现收藏
-
 gem 'puma'
 
 # javascript runtime
