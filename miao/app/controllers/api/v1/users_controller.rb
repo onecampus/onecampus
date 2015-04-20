@@ -206,14 +206,6 @@ class Api::V1::UsersController < ApplicationController
 
 	private
 
-  def current_user_required(user, &block)
-    if user.id != @current_user.id
-      render_fail_json('Not current user.', :forbidden)
-    else
-      block.call if block_given?
-    end
-  end
-
   def already_exist_user?(mobile)
     User.where(mobile: mobile).first.blank? ? false : true
   end

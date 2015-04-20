@@ -36,6 +36,14 @@ module ApplicationHelper
     @current_user ||= User.where(access_token: http_access_content).first unless http_access_content.blank?
   end
 
+  def current_user_required(user, &block)
+    if user.id != @current_user.id
+      render_fail_json('Not current user.', :forbidden)
+    else
+      block.call if block_given?
+    end
+  end
+
   def self.code_status
     {
       ok: 200,

@@ -20,24 +20,26 @@ class Api::V1::TwittersController < ApplicationController
 =end
 
   # 返回用户的twitters
-  def user_twitters
+  def user_twitters  # FIXME: test pagination and last_twitter_id
     page = params[:page]
     per_page = params[:per_page]
     offset = params[:offset]
-    @user_twitters = @current_user.twitters.where(status: 1).page(page).per(per_page).padding(offset).order('id DESC')
+    last_twitter_id = params[:last_twitter_id] || 0
+    @user_twitters = @current_user.twitters.where('status = 1 AND id > ?', last_twitter_id).page(page).per(per_page).padding(offset).order('id DESC')
     data = { user_twitters: @user_twitters, total_count: @current_user.twitters.count }
     render_success_json 'User twitters list.', :ok, data
   end
 
   # 返回用户相关的twitters
-  def user_relation_twitters
+  def user_relation_twitters # FIXME: test pagination and last_twitter_id
     page = params[:page]
     per_page = params[:per_page]
     offset = params[:offset]
+    last_twitter_id = params[:last_twitter_id] || 0
     # 包含关注者, 树洞
     follower_ids = @current_user.following_by_type('User').ids
     follower_ids.push @current_user.id  # 包括当前用户的twitter
-    @user_relation_twitters = Twitter.where('user_id IN (?)', follower_ids).page(page).per(per_page).padding(offset).order('id DESC')
+    @user_relation_twitters = Twitter.where('user_id IN (?) AND id > ?', follower_ids, last_twitter_id).page(page).per(per_page).padding(offset).order('id DESC')
     data = { user_relation_twitters: @user_relation_twitters }
     render_success_json 'User relation twitters.', :ok, data
   end
