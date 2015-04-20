@@ -3,6 +3,9 @@ class ApplicationController < ActionController::Base
 	# For APIs, you may want to use :null_session instead.
 	protect_from_forgery with: :null_session
 
+  check_authorization  # ensure authorization happens on every action in your application
+  # skip_authorization_check
+
   layout false
 
 	include ApplicationHelper
@@ -10,6 +13,11 @@ class ApplicationController < ActionController::Base
 	before_action :set_locale
 	before_action :set_current_user
 	before_action :authenticate_request
+
+  # 授权错误, for cancancan
+  rescue_from CanCan::AccessDenied do |exception|
+    render_fail_json(exception.message)
+  end
 
   # 401 未授权
 	rescue_from NotAuthenticatedError do

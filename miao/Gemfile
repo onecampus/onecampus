@@ -18,6 +18,7 @@ gem 'acts_as_follower'
 gem 'validate_url'
 
 gem 'rolify'
+gem 'cancancan', '~> 1.10'
 
 gem 'puma'
 

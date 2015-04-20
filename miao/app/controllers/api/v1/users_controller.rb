@@ -8,7 +8,7 @@ class Api::V1::UsersController < ApplicationController
 	before_action :set_user, only: [:show, :update_avatar, :update_pass, :destroy]
 
   # 用户列表
-	def index
+	def index  # FIXME: need test the pagination
 		page = params[:page]
 		per_page = params[:per_page]
 		offset = params[:offset]
@@ -19,15 +19,15 @@ class Api::V1::UsersController < ApplicationController
 
   # 获取用户资料
 	def show
-    render_success_json('One user.', :ok, { user: @user })
+    render_success_json('User info.', :ok, { user: @user })
 	end
 
-  def user_by_uid
+  def user_by_uid  # FIXME: test
     @user = User.where(uid: params[:uid])
     render_success_json('One user.', :ok, { user: @user })
   end
 
-  def user_by_mobile
+  def user_by_mobile  # FIXME: test
     @user = User.where(mobile: params[:mobile])
     render_success_json('One user.', :ok, { user: @user })
   end
@@ -45,8 +45,8 @@ class Api::V1::UsersController < ApplicationController
 		end
 	end
 
-  # 上传用户头像, no test
-	def avatar_uploader
+  # 上传用户头像
+	def avatar_uploader  # FIXME: test
 		image = AvatarUploader.new
 		image.store!(params[:avatar])
 		data = {
@@ -57,8 +57,8 @@ class Api::V1::UsersController < ApplicationController
     render_success_json('User avatar create success.', :created, data)
 	end
 
-  # 更新用户头像, no test
-	def update_avatar
+  # 更新用户头像
+	def update_avatar  # FIXME: test
 		if @current_user.id != @user.id
       render_fail_json('Not current user.', :forbidden)
 		else

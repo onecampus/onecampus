@@ -6,13 +6,13 @@ Rails.application.routes.draw do
       match 'users/login', to: 'access#login', via: :post
       match 'users/logout', to: 'access#logout', via: :delete
 
-      get 'users' => 'users#index', as: :index_users_api
+      # get 'users' => 'users#index', as: :index_users_api
       get 'users/:id' => 'users#show'
-      match 'users/create', to: 'users#create', via: :post
+      # match 'users/create', to: 'users#create', via: :post
       match 'users/avatar/uploader', to: 'users#avatar_uploader', via: :post
       match 'users/:id/avatar/update', to: 'users#update_avatar', via: :post
       match 'users/:id/password/update', to: 'users#update_pass', via: :put
-      match 'users/:id/destroy', to: 'users#destroy', via: :delete
+      # match 'users/:id/destroy', to: 'users#destroy', via: :delete
 
       # twitter routes
       get 'twitters' => 'twitters#index', as: :index_twitters_api

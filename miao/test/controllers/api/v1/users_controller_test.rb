@@ -11,6 +11,7 @@ class Api::V1::UsersControllerTest < ActionController::TestCase
     @request.headers['Authorization'] = ''
   end
 
+=begin
   test 'should get users index' do
     get :index
     assert_response :success
@@ -19,6 +20,19 @@ class Api::V1::UsersControllerTest < ActionController::TestCase
     assert_not_nil assigns(:users)
   end
 
+  test 'should get users with pagination' do
+
+  end
+=end
+  test 'should get user info' do
+    get :show, id: @flowerwrong.to_param
+    assert_response :success
+    json = JSON.parse(response.body)
+    assert_equal(json['code'], 200)
+    assert_not_nil assigns(:user)
+  end
+
+=begin
   test 'should create a user via post' do
     assert_difference('User.count') do
       post :create, user: {  last_name: '杨',
@@ -56,7 +70,7 @@ class Api::V1::UsersControllerTest < ActionController::TestCase
     assert_equal(json['code'], 201)
     assert_not_nil User.where(mobile: '13560474457').first
   end
-
+=end
   test 'should update a user pass failed with not current user' do
     put :update_pass, id: @one.to_param, user: { pass: '12345678' }
     assert_response :forbidden
@@ -71,6 +85,7 @@ class Api::V1::UsersControllerTest < ActionController::TestCase
     assert_equal(json['code'], 200)
   end
 
+=begin
   test 'should delete a user' do
     delete :destroy, id: @flowerwrong.to_param
     assert_response :success
@@ -78,5 +93,5 @@ class Api::V1::UsersControllerTest < ActionController::TestCase
     assert_equal(json['code'], 200)
     assert_nil User.where(uid: 'flowerwrong').first
   end
-
+=end
 end
