@@ -34,7 +34,6 @@ class Api::V1::AccessController < ApplicationController
       u.expiration_time = DateTime.now + 10.days
       u.salt = 'flowerwrong'
       if u.save
-        u.add_role :miao
         render_success_json('User registered success.', :created, { user: u })
       else
         render_fail_json('User registered fail.', :unprocessable_entity, { errors: u.errors})

@@ -9,6 +9,13 @@ end
 class User < ActiveRecord::Base
   rolify
 
+  # after_create vs after_save
+  after_create :add_miao_role  # work once when first create
+
+  def add_miao_role
+    self.add_role :miao
+  end
+
   validates :pass, :mobile, presence: true  # test ok
   validates :pass, length: { in: 4..128 }  # test ok
   validates :uid, length: { in: 4..20, allow_blank: true },  # test ok
