@@ -8,7 +8,8 @@ class Ability
     if user.has_role? :admin
       can :manage, :all
     elsif user.has_role? :miao
-      can :manage, Twitter, :active => true, :user_id => user.id
+      can :manage, Twitter, :user_id => user.id
+      can :manage, User
     else
       can :read, :all
     end

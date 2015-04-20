@@ -2,9 +2,9 @@ Rails.application.routes.draw do
   root 'application#method_missing'
   namespace :api do
     namespace :v1 do
-      match 'users/register', to: 'access#register', via: :post
-      match 'users/login', to: 'access#login', via: :post
-      match 'users/logout', to: 'access#logout', via: :delete
+      match 'users/register', to: 'users#register', via: :post
+      match 'users/login', to: 'users#login', via: :post
+      match 'users/logout', to: 'users#logout', via: :delete
 
       # get 'users' => 'users#index', as: :index_users_api
       get 'users/:id' => 'users#show'
