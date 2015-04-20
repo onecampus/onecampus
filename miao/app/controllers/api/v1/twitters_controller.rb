@@ -50,12 +50,7 @@ class Api::V1::TwittersController < ApplicationController
     twitter_params[:status] = 1
     t = Twitter.new(twitter_params)
     if t.save
-      picture_ids = params[:picture_ids]
-      picture_ids.each do |pid|
-        p = Picture.find pid
-        p.twitter_id = t.id
-        p.save!
-      end unless picture_ids.blank?
+      save_prictures(params[:picture_ids])
       render_success_json 'Twitter create success.', :created, { twitter: t }
     else
       render_fail_json 'Twitter create fail.', :unprocessable_entity, { errors: t.errors }
@@ -84,6 +79,14 @@ class Api::V1::TwittersController < ApplicationController
   end
 
   private
+
+  def save_prictures(picture_ids)
+    picture_ids.each do |pid|
+      p = Picture.find pid
+      p.twitter_id = t.id
+      p.save!
+    end unless picture_ids.blank?
+  end
 
   def set_twitter
     @twitter = Twitter.find(params[id])
