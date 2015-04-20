@@ -30,8 +30,7 @@ class Api::V1::UsersControllerTest < ActionController::TestCase
   end
 
   test 'should logout via delete' do
-    @request.headers['Authorization'] = "Basic O4K4EGheju926VhH67KXOQ"
-    delete :logout
+    delete :logout, id: @flowerwrong.to_param
     json = JSON.parse(response.body)
     assert_equal(200, json['code'])
   end

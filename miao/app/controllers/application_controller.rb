@@ -3,15 +3,19 @@ class ApplicationController < ActionController::Base
 	# For APIs, you may want to use :null_session instead.
 	protect_from_forgery with: :null_session
 
-  check_authorization  # ensure authorization happens on every action in your application
+  # check_authorization  # ensure authorization happens on every action in your application
   # skip_authorization_check
 
   layout false
 
+  def welcome
+    render josn: { msg: 'welcome to my world.' }
+  end
+
 	include ApplicationHelper
 
 	before_action :set_locale
-	before_action :set_current_user
+	before_action :current_user
 	before_action :authenticate_request
 
   # 授权错误, for cancancan
@@ -39,23 +43,11 @@ class ApplicationController < ActionController::Base
     render_fail_json('Record not found.', :not_found)
 	end
 
-	def method_missing
-    render_fail_json('Not found.', :not_found)
-	end
-
 	private
-
-  # 设置当前用户
-	def set_current_user
-	  @access_token = http_access_content
-	  unless @access_token.blank?
-	    @current_user ||= User.where(access_token: @access_token).first
-	  end
-	end
 
   # 判断用户是否登录，token是否过期
 	def authenticate_request
-	  if !@current_user
+	  if @current_user.blank?
 	    fail NotAuthenticatedError
 	  elsif access_token_expired?
 		  fail AuthenticationTimeoutError

@@ -4,8 +4,10 @@
 # License:: Distributes under the same terms as Ruby
 # Api of users
 class Api::V1::UsersController < ApplicationController
-  skip_before_action :authenticate_request, only: [:login, :register]
-	before_action :set_user, only: [:show, :update_avatar, :update_pass, :destroy]
+  skip_before_action :authenticate_request, only: [:login, :register, :avatar_uploader]
+	before_action :set_user, only: [:show, :update_avatar, :update_pass, :destroy, :logout]
+
+  # check_authorization(http://stackoverflow.com/questions/13539458/applying-cancan-to-custom-actions)
 
   # 用户登录
   def login
@@ -44,17 +46,21 @@ class Api::V1::UsersController < ApplicationController
 
   # 用户退出
   def logout
-    @current_user.access_token = User.generate_access_token
-    if @current_user.save!
-      render_success_json('Logout success.')
-    else
-      render_error_json('Logout fail.')
+    current_user_required @user do
+      @current_user.access_token = User.generate_access_token
+      if @current_user.save!
+        render_success_json('Logout success.')
+      else
+        render_error_json('Logout fail.')
+      end
     end
   end
 
   # 获取用户资料
 	def show
-    render_success_json('User info.', :ok, { user: @user })
+    current_user_required @user do
+      render_success_json('User info.', :ok, { user: @user })
+    end
 	end
 
   # 上传用户头像
@@ -71,22 +77,18 @@ class Api::V1::UsersController < ApplicationController
 
   # 更新用户头像
 	def update_avatar  # FIXME: test
-		if @current_user.id != @user.id
-      render_fail_json('Not current user.', :forbidden)
-		else
-			if @user.update user_params
+    current_user_required @user do
+      if @user.update user_params
         render_success_json('User avatar success.', :ok)
-			else
+      else
         render_fail_json('User avatar update fail.', :unprocessable_entity, { errors: @user.errors})
-			end
-		end
+      end
+    end
 	end
 
   # 更新用户密码
 	def update_pass
-		if @current_user.id != @user.id
-      render_fail_json('Not current user.', :forbidden)
-		else
+    current_user_required @user do
 			@user.pass = User.hash_password user_params[:pass]
 			if @user.save
         render_success_json('User pass update success.')
@@ -203,6 +205,14 @@ class Api::V1::UsersController < ApplicationController
   end
 
 	private
+
+  def current_user_required(user, &block)
+    if user.id != @current_user.id
+      render_fail_json('Not current user.', :forbidden)
+    else
+      block.call if block_given?
+    end
+  end
 
   def already_exist_user?(mobile)
     User.where(mobile: mobile).first.blank? ? false : true

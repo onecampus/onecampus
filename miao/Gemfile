@@ -36,6 +36,7 @@ group :development, :test do
   gem 'rails_best_practices', require: false
   gem 'rubocop', require: false
   gem 'simplecov', :require => false
+  gem 'awesome_print', require: false
 
   # deploy
   # gem 'capistrano3-puma'

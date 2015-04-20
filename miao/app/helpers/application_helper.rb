@@ -1,7 +1,7 @@
 # All app helper
 #
 module ApplicationHelper
-  # 活取用户发送的access_token
+  # 获取用户发送的access_token
   def http_access_content
     return @http_access_token if defined? @http_access_token
     @http_access_token = begin
@@ -29,6 +29,11 @@ module ApplicationHelper
     else
       fail NotAuthenticatedError
     end
+  end
+
+  # 当前用户
+  def current_user
+    @current_user ||= User.where(access_token: http_access_content).first unless http_access_content.blank?
   end
 
   def self.code_status

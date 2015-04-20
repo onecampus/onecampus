@@ -8,10 +8,11 @@ class Ability
     if user.has_role? :admin
       can :manage, :all
     elsif user.has_role? :miao
-      can :manage, Twitter, :user_id => user.id
-      can :manage, User
+      can [:logout, :show, :update_pass, :update_avatar], User, :user_id => user.id
     else
-      can :read, :all
+      can :login, User
+      can :register, User
+      can :avatar_uploader, User
     end
 
     # can :manage, Article  # user can perform any action on the article
