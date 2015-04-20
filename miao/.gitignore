@@ -39,3 +39,4 @@ bower.json
 
 
 /.idea
+/config/secrets.yml
