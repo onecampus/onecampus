@@ -20,7 +20,7 @@ gem 'validate_url'
 gem 'rolify'
 gem 'cancancan', '~> 1.10'
 
-gem 'puma'
+gem 'thin'
 
 # javascript runtime
 gem 'therubyracer', platforms: :ruby
@@ -39,7 +39,6 @@ group :development, :test do
   gem 'awesome_print', require: false
 
   # deploy
-  # gem 'capistrano3-puma'
 end
 
 group :test do

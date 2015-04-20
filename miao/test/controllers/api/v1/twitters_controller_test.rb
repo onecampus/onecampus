@@ -22,7 +22,7 @@ class Api::V1::TwittersControllerTest < ActionController::TestCase
 =end
 
   test 'should get user own twitters' do
-    get :user_twitters
+    get :user_twitters, id: @flowerwrong.to_param
     assert_response :success
     json = JSON.parse response.body
     assert_equal json['code'], 200
@@ -30,7 +30,7 @@ class Api::V1::TwittersControllerTest < ActionController::TestCase
   end
 
   test 'should get user own twitters with last twitter id' do
-    get :user_twitters, last_twitter_id: 4
+    get :user_twitters, id: @flowerwrong.to_param, last_twitter_id: 4
     assert_response :success
     json = JSON.parse response.body
     assert_equal json['code'], 200
@@ -38,7 +38,7 @@ class Api::V1::TwittersControllerTest < ActionController::TestCase
   end
 
   test 'should get user relation twitters' do
-    get :user_relation_twitters
+    get :user_relation_twitters, id: @flowerwrong.to_param
     assert_response :success
     json = JSON.parse response.body
     assert_equal json['code'], 200
