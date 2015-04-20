@@ -56,6 +56,13 @@ class Api::V1::UsersControllerTest < ActionController::TestCase
     assert_not_nil assigns(:user)
   end
 
+  test 'should not get user info not current_user' do
+    get :show, id: @one.id
+    assert_response :forbidden
+    json = JSON.parse response.body
+    assert_equal json['code'], 403
+  end
+
 =begin
   test 'should create a user via post' do
     assert_difference('User.count') do
