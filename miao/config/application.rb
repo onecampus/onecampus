@@ -21,10 +21,6 @@ module Miao
     config.middleware.delete ActionDispatch::Cookies
     config.middleware.delete ActionDispatch::Session::CookieStore
 
-    config.before_initialize do
-      ENV['SECRET_KEY_BASE'] = 'ea90abc1a9903eb258afedd97bf35b7f2fa399187a1ca5aa6208e499522513316c36e4d49d889e16467028c2d66b53b483d00a80ce32b8ba87cec13925e8f0ab'
-    end
-
     config.generators do |g|
       g.orm             :active_record
       g.template_engine :erb
