@@ -39,6 +39,10 @@ group :development, :test do
   gem 'awesome_print', require: false
 
   # deploy
+  gem 'capistrano', '~> 3.4.0'
+  gem 'capistrano-rvm'
+  gem 'capistrano-rails'
+  gem 'capistrano-bundler'
 end
 
 group :test do

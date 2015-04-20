@@ -1,0 +1,18 @@
+#thin config
+#user: www #指定项目运行用户
+#group: www #指定项目运行用户组
+pid: tmp/pids/thin.pid
+port: 3000
+timeout: 30
+wait: 30
+log: log/thin.log
+max_conns: 1024
+require: []
+environment: production
+max_persistent_conns: 512
+servers: 3  # 指定服务数，比如指定8000端口，那么会起8000-8002端口服务
+threaded: false
+daemonize: true  # 是否后台运行
+#socket: tmp/sockets/thin.sock
+chdir: /home/yang/dev/ruby/rails/onecampus/miao
+tag: thin-server  # ps命令搜索标签名称
